@@ -23,9 +23,10 @@
 
 
 ## 1.FIRST STEP 
+## Fork Lucky Md V5 Repo
 
 
-<a href="https://github.com/Fred1e/LUCKY_MD/fork"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/FORK THIS REPO-h?color=darkgreen&style=for-the-badge&logo=msi" width="200" height="38.45"/></a></p>
+<a href="https://github.com/Fred1e/LUCKY_MD/fork"><img src="https://i.ibb.co/Yj3tZdZ/fork-zusyco-btn.png" alt="NIMA" border="2" width="200" height="46" ></a>
 
 star✨ my repo if you like this bot🤖
 
