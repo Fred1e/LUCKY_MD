@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const { zokou } = require("../framework/zokou");
 
 zokou({ nomCom: "repo", catégorie:"Général", reaction: "✨", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
-  const githubRepo = 'https://api.github.com/repos/joeljamestech/JOEL-MD';
+  const githubRepo = 'https://api.github.com/repos/Fred1e/LUCKY_MD';
   const img = 'https://telegra.ph/file/d65e03cbad4fb1fe35228.jpg';
 
   try {
@@ -22,16 +22,16 @@ zokou({ nomCom: "repo", catégorie:"Général", reaction: "✨", nomFichier: __f
       const lastUpdateDate = new Date(data.updated_at).toLocaleDateString('en-GB');
 
       const gitdata = `*hellow whatsaap user
-this is* *joel-md.*\n get session id *by*, *pairing code*  https://pairmodeli-6b8e7f4910f8.herokuapp.com/pair/
+this is* *Luck_md V5.*\n get session id *by*, *pairing code*  https://lucky-md-v5-by-fredie-603474bf471d.herokuapp.com//
 
 🗼 *REPOSITORY:* ${data.html_url}
 ✨ *STARS:* ${repoInfo.stars}
 🧧 *FORKS:* ${repoInfo.forks}
 📅 *RELEASE DATE:* ${releaseDate}
 🕐 *UPDATE ON:* ${repoInfo.lastUpdate}
-👨‍💻 *OWNER:* *joel tech*
+👨‍💻 *OWNER:* *Fredie tech*
 __________________________________
-            *Made With joel kang'oma*`;
+            *Made With Fredi Ezra*`;
 
       await zk.sendMessage(dest, { image: { url: img }, caption: gitdata });
     } else {
