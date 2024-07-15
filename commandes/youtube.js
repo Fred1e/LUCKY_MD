@@ -30,7 +30,7 @@ zokou({
        
       let infoMess = {
   image: { url: videos[0].thumbnail },
-  caption: `╭━━joel md downloader menu━━╮
+  caption: `╭━━lucky md v5 downloader menu━━╮
 *Song Name:* ${videos[0].title}
 
 *Uploaded:* ${videos[0].ago}
@@ -179,7 +179,7 @@ zokou({
 
       let InfoMess = {
   image: { url: Element.thumbnail },
-  caption: `╭━━joel md download menu━━╮
+  caption: `╭━━lucky md v5 download menu━━╮
 *Video Name:* ${Element.title}
 *Uploaded:* ${Element.ago}
 *Author:* ${Element.author.name}
