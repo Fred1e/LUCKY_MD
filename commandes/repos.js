@@ -4,7 +4,7 @@ const { zokou } = require("../framework/zokou");
 
 zokou({ nomCom: "repo", catégorie:"Général", reaction: "✨", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
   const githubRepo = 'https://api.github.com/repos/Fred1e/LUCKY_MD';
-  const img = 'https://telegra.ph/file/d65e03cbad4fb1fe35228.jpg';
+  const img = 'https://telegra.ph/file/59ead3c2b58ca1b07734d.jpg';
 
   try {
     const response = await fetch(githubRepo);
@@ -31,7 +31,7 @@ this is* *Luck_md V5.*\n get session id *by*, *pairing code*  https://lucky-md-v
 🕐 *UPDATE ON:* ${repoInfo.lastUpdate}
 👨‍💻 *OWNER:* *Fredie tech*
 __________________________________
-            *Made With Fredi Ezra*`;
+            *Made With Fredie Tech*`;
 
       await zk.sendMessage(dest, { image: { url: img }, caption: gitdata });
     } else {
