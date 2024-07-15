@@ -1,15 +1,15 @@
 {
-  "name":"JOEL-MD NEW VISION",
-  "description":"bot whatsapp développé par joel any problem wa.me 255714595078",
+  "name":"LUCKY_MD V5",
+  "description":"Hi there, I am LUCKY MD V5 Whatsapp Chuddy Buddy built in NodeJs to make experience better. Incase of Any Problem Whatsapp me on:255686745716,255764182801,255620814108",
   "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://telegra.ph/file/4e959c8114dbc13470c5f.jpg",
+  "logo":"https://telegra.ph/file/953fe6ab20e38dcc8cc2e.jpg",
   "repository":"https://github.com/HACKING995/HACKING956",
   "succes_url":"/",
   "stack":"container",
   "env":{
     "PREFIX":
     {
-      "description":"choose your prefix of bot set all if you want your bot to run in multiple prefix 🕷️",
+      "description":"choose your prefix of bot set all if you want your bot to run in multiple prefix 🤞",
       "value":".",
       "required":true
     },
@@ -35,14 +35,14 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"JOEL-MD",
+      "value":"LUCKY_MD V5☄️",
       "required":false
 
     } ,
      "BOT_MENU_LINKS" : {
     
       "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://telegra.ph/file/1774326c63cc0b0e87680.jpg,https://telegra.ph/file/2e5cb1ec0619781c9fa41.jpg,https://telegra.ph/file/91e4fd1e8ce0",
+      "value":"https://telegra.ph/file/953fe6ab20e38dcc8cc2e.jpg,https://telegra.ph/file/60cd0a18bda777a41ffe3.jpg,https://telegra.ph/file/59ead3c2b58ca1b07734d.jpg",
       "required":false
        
      },
@@ -66,31 +66,31 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "joel tech"
+    "value": "FREDIE_TECH 🫶"
   },
     "NUMERO_OWNER":
   {
     
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
     "required":false,
-    "value": "255714595078"
+    "value": "255686745716,255764182801,255620814108"
   },
     "WARN_COUNT":
   {
     "desc": "this is the limit of warn for warning commandes",
     "required": false,
-    "value": "3"
+    "value": "5"
 
   },
   "PRESENCE":{
     "description":"Mark your presence: 1 to indicate that you are online even if you are not. 2 to indicate that you are currently typing a message. 3 to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
-    "value":"2",
+    "value":"1",
     "required": false
   },
   "ANTI_DELETE_MESSAGE" : {
     "description": "if you want to enable anti delete message put yes else put no",
-    "value": "yes",
-    "required": false
+    "value": "false",
+    "required": true
   }
   },
 
