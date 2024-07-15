@@ -6,6 +6,10 @@
 </h1> 
 <p align="center">l introduce <b>LUCKY_MD</b>, a powerful simple WhatsApp bot </p>
 
+</p>
+<p align="center"><img src="https://profile-counter.glitch.me/{Fred1e}/count.svg" alt="Lucky_md :: Visitor's Count" /></p>
+
+
 
     
  
