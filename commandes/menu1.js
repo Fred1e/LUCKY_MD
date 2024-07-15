@@ -34,7 +34,7 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-*JOEL MD AVAILABLE MENUS* 
+*LUCKY MD V5 AVAILABLE MENUS* 
 
 
     ▸ *commander* : ${cm.length} 
@@ -42,8 +42,8 @@ const date = moment().format('DD/MM/YYYY');
     ▸ *uptime* : ${os.platform()}
     ▸ *theme* : *joel tech*
 
-> JOEL MD WA BOT
-> POWERED BY JOEL TECH \n${readmore}`;
+> LUCKY MD V5 WA BOT
+> POWERED BY FREDIE TECH 💎\n${readmore}`;
     
 let menuMsg = `
 > Hello ${nomAuteurMessage},,, Type menu2 to access a list of commands. 
