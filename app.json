@@ -1,0 +1,109 @@
+{
+  "name":"JOEL-MD NEW VISION",
+  "description":"bot whatsapp développé par joel any problem wa.me 255714595078",
+  "keywords":["bot","node","baileys","whatsapp"],
+  "logo":"https://telegra.ph/file/4e959c8114dbc13470c5f.jpg",
+  "repository":"https://github.com/HACKING995/HACKING956",
+  "succes_url":"/",
+  "stack":"container",
+  "env":{
+    "PREFIX":
+    {
+      "description":"choose your prefix of bot set all if you want your bot to run in multiple prefix 🕷️",
+      "value":".",
+      "required":true
+    },
+    "AUTO_READ_STATUS":
+    {
+      "description":"Your contact status will be read automatically(type yes to active or no to deactive  ; don't write in capital letter)",
+      "value":"yes",
+      "required":false
+    }, "AUTO_DOWNLOAD_STATUS":
+    {
+      "description":"Your contact status will be download automatically and send to you(type yes to active or no to deactive ; don't write in capital letter)",
+      "value":"bo",
+      "required":false
+    }
+    ,
+     "PM_PERMIT" :
+     {
+      "description":"Other user can't use your bot in pm (type yes to active or no to deactive ; don't write in capital letter)",
+      "value":"no",
+      "required":false
+    }
+    ,
+    "BOT_NAME" : {
+       
+      "description":"put A name for your bot",
+      "value":"JOEL-MD",
+      "required":false
+
+    } ,
+     "BOT_MENU_LINKS" : {
+    
+      "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
+      "value":"https://telegra.ph/file/1774326c63cc0b0e87680.jpg,https://telegra.ph/file/2e5cb1ec0619781c9fa41.jpg,https://telegra.ph/file/91e4fd1e8ce0",
+      "required":false
+       
+     },
+    "PUBLIC_MODE":
+    {
+      "description":"type yes to put your bot on public mode or no to put it on private mod",
+      "value":"no",
+      "required":false
+    
+    }  
+	  ,
+    "SESSION_ID":
+    {
+      "description":"put your session ID , the code you receive after scanning Qr code",   
+      "value":"",
+      "required":true
+      
+    },
+    "OWNER_NAME":
+    {
+    
+    "desc": "Your Name",
+    "required": false,
+    "value": "joel tech"
+  },
+    "NUMERO_OWNER":
+  {
+    
+    "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
+    "required":false,
+    "value": "255714595078"
+  },
+    "WARN_COUNT":
+  {
+    "desc": "this is the limit of warn for warning commandes",
+    "required": false,
+    "value": "3"
+
+  },
+  "PRESENCE":{
+    "description":"Mark your presence: 1 to indicate that you are online even if you are not. 2 to indicate that you are currently typing a message. 3 to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
+    "value":"2",
+    "required": false
+  },
+  "ANTI_DELETE_MESSAGE" : {
+    "description": "if you want to enable anti delete message put yes else put no",
+    "value": "yes",
+    "required": false
+  }
+  },
+
+  "formation": {
+		"worker": {
+			"quantity": 1,
+			"size": "basic"
+		}
+	},
+
+  "addons":[
+    {
+      "plan":"heroku-postgresql"
+    }
+  ]
+}
