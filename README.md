@@ -36,11 +36,11 @@ star✨ my repo if you like this bot🤖
  GET SESSION ID BY
  
 
-<a href="https://joelpaircode-4469d56eeb3e.herokuapp.com/qr"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/QR CODE-h?color=darkblue&style=for-the-badge&logo=msi" width="200" height="38.45"/></a></p>
+<a href="https://lucky-md-v5-by-fredie-603474bf471d.herokuapp.com/qr"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/QR CODE-h?color=darkblue&style=for-the-badge&logo=msi" width="200" height="38.45"/></a></p>
 
  
 
-<a href="https://pairmodeli-6b8e7f4910f8.herokuapp.com/pair"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/PAIRING CODE-h?color=darkblue&style=for-the-badge&logo=msi" width="200" height="38.45"/></a></p>
+<a href="https://lucky-md-v5-by-fredie-603474bf471d.herokuapp.com/"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/PAIRING CODE-h?color=darkblue&style=for-the-badge&logo=msi" width="200" height="38.45"/></a></p>
 
 
 ## 3.THIRD STEP 
