@@ -100,6 +100,26 @@ CONTACT DEVELOPER ON WHATSAPP
     <img alt="whatsapp Group" src="https://img.shields.io/badge/ FREDIE_TECH  CHANNEL -25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
  
 
+## License
+
+The WhatsApp Bot LUCKY🍀_MD is released under the [MIT License](https://opensource.org/licenses/MIT).
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+
+🌟 THANK YOU FOR CHOOSING LUCKY🍀_MD 🌟
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+
+## DEVELOPERS :
+
+- [**FREDIE TECH**](https://github.com/Fred1e)
+- [**IBRAHIM ADAMS**](https://github.com/ibrahimaetech)
+- [**BELTAH TECH**](https://github.com/BELTAHMD)
+- [**JOEL TECH**](https://github.com/joeljamestech)
+- [**BONIPHACE TECH**](https://github.com/bonimale) 
+- [**Developers YT**](https://www.youtube.com/@freeonlinetvT1)
+ <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+ 
+★THANK YOU GOD FOR THAT MOMENT🙏. ©
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
      
 
