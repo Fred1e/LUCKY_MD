@@ -16,6 +16,18 @@
 </p>
 <p align="center"><img src="https://profile-counter.glitch.me/{Fred1e}/count.svg" alt="Lucky_md :: Visitor's Count" /></p>
 
+---
+
+<p align="center">
+  <a href="https://github.com/Fred1e/Lucky_md"><b>Lucky_md</b></a> Support Deploy On...
+</p>
+
+<p align="center">
+  <a href="https://github.com/Fred1e/Lucky_Md-/blob/main/temp/deploy-on-vps.md"><img src="https://img.shields.io/badge/self hosting-3d1513?style=for-the-badge&logo=serverless&logoColor=FD5750"></a>
+  <a href="https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2Fred1e%2Lucky_md-"><img src="https://img.shields.io/badge/heroku-9d7acc?style=for-the-badge&logo=heroku&logoColor=430098"></a>
+  <a href="https://youtu.be/3NdJb6_1cJM"><img src="https://img.shields.io/badge/CodeSpace-green?colorA=%23ff000&colorB=%23017e40&style=for-the-badge&logo=git&logoColor=white"></a>
+</p>
+
 
 
     
