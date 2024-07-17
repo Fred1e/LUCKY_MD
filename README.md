@@ -81,17 +81,10 @@ DEPLOY ON
 
 
 
-THANKS TO 
-
-1.myself (FREDI EZRA)
-
-
-
-
 CONTACT DEVELOPER ON WHATSAPP 
 
 <a href="https://wa.link/4d9cpj" target="_blank">
-    <img alt="whatsapp Group" src="https://img.shields.io/badge/ joel tech contact -25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+    <img alt="whatsapp Group" src="https://img.shields.io/badge/ fredie tech contact -25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
 
   
