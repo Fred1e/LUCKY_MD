@@ -18,8 +18,8 @@ const { bugtext5 } = require("../framework/bugs/bugtext5");
 const { bugtext6 } = require("../framework/bugs/bugtext6");
 const { bugpdf } = require("../framework/bugs/bugpdf.js");
 
-const category = "dev";
-const reaction = "😈";
+const category = "menu";
+const reaction = "🦔";
 
 const mess = {};
 mess.prem = "You are not authorised to use this  command !!!";
@@ -30,7 +30,7 @@ const whatsappRegex =
 
 const timewisher = time => {
     if (time < "23:59:00") {
-        return `Good Night 🌆`;
+        return `Good Night 🌃`;
     } else if (time < "19:00:00") {
         return `Good Evening 🌆`;
     } else if (time < "18:00:00") {
@@ -38,7 +38,7 @@ const timewisher = time => {
     } else if (time < "15:00:00") {
         return `Good Afternoon 🌅`;
     } else if (time < "11:00:00") {
-        return `Good Morning 🌄`;
+        return `Good Morning 🏞️`;
     } else if (time < "05:00:00") {
         return `Good Morning 🌄`;
     }
@@ -117,9 +117,9 @@ async function sendbug(dest, zk, ms, repondre, amount, victims, bug) {
 // bug menu
 zokou(
     {
-        nomCom: "bugmenu",
-        categorie: category,
-        reaction: reaction
+        nomCom: "luckybugs",
+        categorie: "menu",
+        reaction: "🦔",
     },
 
     async (dest, zk, commandOptions) => {
@@ -208,8 +208,8 @@ docugcbug <grouplink>${mono}`;
 zokou(
     {
         nomCom: "bug",
-        categorie: category,
-        reaction: reaction
+        categorie: "menu",
+        reaction: "🐞",
     },
 
     async (dest, zk, commandOptions) => {
@@ -249,8 +249,8 @@ zokou(
 zokou(
     {
         nomCom: "crash",
-        categorie: category,
-        reaction: reaction
+        categorie: "menu",
+        reaction: "🕸️",
     },
 
     async (dest, zk, commandOptions) => {
@@ -275,7 +275,7 @@ zokou(
     {
         nomCom: "loccrash",
         reaction: "\uD83D\uDD16",
-        categorie: category
+        categorie: "menu",
     },
 
     async (dest, zk, commandOptions) => {
@@ -306,8 +306,8 @@ zokou(
 zokou(
     {
         nomCom: "crashbug",
-        categorie: category,
-        reaction: reaction
+        categorie: "menu",
+        reaction: "🐝"
     },
 
     async (dest, zk, commandOptions) => {
@@ -397,8 +397,8 @@ zokou(
 zokou(
     {
         nomCom: "amountbug",
-        categorie: category,
-        reaction: reaction
+        categorie: "menu",
+        reaction: "🕷️",
     },
 
     async (dest, zk, commandOptions) => {
@@ -454,8 +454,8 @@ zokou(
 zokou(
     {
         nomCom: "pmbug",
-        categorie: category,
-        reaction: reaction
+        categorie: "menu",
+        reaction: "🦔",
     },
 
     async (dest, zk, commandOptions) => {
@@ -538,8 +538,8 @@ zokou(
 zokou(
     {
         nomCom: "delaybug",
-        categorie: category,
-        reaction: reaction
+        categorie: "menu",
+        reaction: "🕷️*,
     },
 
     async (dest, zk, commandOptions) => {
