@@ -49,7 +49,7 @@
 ## Fork Lucky Md V5 Repo
 
 
-<a href="https://github.com/Fred1e/LUCKY_MD/fork"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/FORK THIS REPO-h?color=darkgreen&style=for-the-badge&logo=msi" width="200" height="38.45"/></a></p>
+<a href="https://github.com/Fred1e/LUCKY_MD/fork"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/FORK THIS REPO-h?color=darkgreen&style=for-the-badge&logo=msi" width="220" height="38.45"/></a></p>
 
 star✨ my repo if you like this bot🤖
 
@@ -60,11 +60,11 @@ star✨ my repo if you like this bot🤖
  GET SESSION ID BY
  
 
-<a href="https://lucky-md-pair-589d03cade12.herokuapp.com/qr"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/QR CODE-h?color=darkblue&style=for-the-badge&logo=msi" width="200" height="38.45"/></a></p>
+<a href="https://lucky-md-pair-589d03cade12.herokuapp.com/qr"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/QR CODE-h?color=darkblue&style=for-the-badge&logo=msi" width="220" height="38.45"/></a></p>
 
 
  
-<a href="https://lucky-md-pair-589d03cade12.herokuapp.com/"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/PAIRING CODE-h?color=darkblue&style=for-the-badge&logo=msi" width="200" height="38.45"/></a></p>
+<a href="https://lucky-md-pair-589d03cade12.herokuapp.com/"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/PAIRING CODE-h?color=darkblue&style=for-the-badge&logo=msi" width="220" height="38.45"/></a></p>
 
 
 ## 3.THIRD STEP 
@@ -107,7 +107,6 @@ The WhatsApp Bot LUCKY🍀_MD is released under the [MIT License](https://openso
 - [**IBRAHIM ADAMS**](https://github.com/ibrahimaetech)
 - [**BELTAH TECH**](https://github.com/BELTAHMD)
 - [**JOEL TECH**](https://github.com/joeljamestech)
-- [**BONIPHACE TECH**](https://github.com/bonimale) 
 - [**Developers YT**](https://www.youtube.com/@freeonlinetvT1)
  <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
  
