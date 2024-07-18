@@ -1,15 +1,15 @@
 {
-  "name":"LUCKY_MD V5",
-  "description":"Hi there, I am LUCKY MD V5 Whatsapp Chuddy Buddy built in NodeJs to make experience better. Incase of Any Problem Whatsapp me on:255686745716,255764182801,255620814108",
+  "name":"LUCKY🍀 MD UPDATE V6",
+  "description":"Best WhatsApp Bot Developed By Fredie Contact Us 255686745716,255620814108,255764182801 Thank you for choose Lucky🍀 MD",
   "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://telegra.ph/file/953fe6ab20e38dcc8cc2e.jpg",
+  "logo":"https://telegra.ph/file/f6c60977ceb194e05e616.jpg",
   "repository":"https://github.com/HACKING995/HACKING956",
   "succes_url":"/",
   "stack":"container",
   "env":{
     "PREFIX":
     {
-      "description":"choose your prefix of bot set all if you want your bot to run in multiple prefix 🤞",
+      "description":"choose your prefix of bot",
       "value":".",
       "required":true
     },
@@ -29,20 +29,20 @@
      {
       "description":"Other user can't use your bot in pm (type yes to active or no to deactive ; don't write in capital letter)",
       "value":"no",
-      "required":false
+      "required":true
     }
     ,
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"LUCKY_MD V5☄️",
+      "value":"LUCKY🍀_MD V5",
       "required":false
 
     } ,
      "BOT_MENU_LINKS" : {
     
       "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://telegra.ph/file/953fe6ab20e38dcc8cc2e.jpg,https://telegra.ph/file/60cd0a18bda777a41ffe3.jpg,https://telegra.ph/file/59ead3c2b58ca1b07734d.jpg",
+      "value":"https://telegra.ph/file/60cd0a18bda777a41ffe3.jpg,https://telegra.ph/file/f6c60977ceb194e05e616.jpg,https://telegra.ph/file/bc9bf76f258c98877d993.jpg,https://telegra.ph/file/d04abf5e17b331ab46871.jpg",
       "required":false
        
      },
@@ -50,8 +50,16 @@
     {
       "description":"type yes to put your bot on public mode or no to put it on private mod",
       "value":"no",
-      "required":false
-    
+      "required": true 
+    }
+	,
+    "HEROKU_APY_KEY": {
+    "description": "insert your heroku api-key (this is optionnal)",
+     "required" :true
+    },
+  "HEROKU_APP_NAME": {
+    "description": "insert your heroku APP NAME (this is optionnal)",
+     "required" :true
     }  
 	  ,
     "SESSION_ID":
@@ -66,31 +74,37 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "FREDIE_TECH 🫶"
+    "value": "FREDIE_TECH🤞"
   },
     "NUMERO_OWNER":
   {
     
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
     "required":false,
-    "value": "255686745716,255764182801,255620814108"
+    "value": "255686745716,255620814108,255764182801"
+	  
   },
     "WARN_COUNT":
   {
     "desc": "this is the limit of warn for warning commandes",
     "required": false,
-    "value": "5"
-
+    "value": "3"
+  },
+  "STARTING_BOT_MESSAGE":
+  {
+    "description": "if you don't want startting-bot-message put no else put yes",
+    "required": true,
+    "value": "yes"
   },
   "PRESENCE":{
     "description":"Mark your presence: 1 to indicate that you are online even if you are not. 2 to indicate that you are currently typing a message. 3 to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
     "value":"1",
-    "required": false
+    "required": true 
   },
   "ANTI_DELETE_MESSAGE" : {
     "description": "if you want to enable anti delete message put yes else put no",
-    "value": "false",
-    "required": true
+    "value": "yes",
+    "required": true 
   }
   },
 
@@ -106,4 +120,4 @@
       "plan":"heroku-postgresql"
     }
   ]
-}
+  }
