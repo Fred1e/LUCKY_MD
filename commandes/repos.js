@@ -22,7 +22,7 @@ zokou({ nomCom: "repo", catégorie:"Général", reaction: "✨", nomFichier: __f
       const lastUpdateDate = new Date(data.updated_at).toLocaleDateString('en-GB');
 
       const gitdata = `*hellow whatsaap user
-this is* *Luck_md V5.*\n get session id *by*, *pairing code*  https://lucky-md-v5-by-fredie-603474bf471d.herokuapp.com//
+this is* *Luck_md V5.*\n get session id *by*, *pairing code*  https://lucky-md-pair-589d03cade12.herokuapp.com//
 
 🗼 *REPOSITORY:* ${data.html_url}
 ✨ *STARS:* ${repoInfo.stars}
@@ -30,6 +30,7 @@ this is* *Luck_md V5.*\n get session id *by*, *pairing code*  https://lucky-md-v
 📅 *RELEASE DATE:* ${releaseDate}
 🕐 *UPDATE ON:* ${repoInfo.lastUpdate}
 👨‍💻 *OWNER:* *Fredie tech*
+🍀 *THEME:* *FREDI*
 __________________________________
             *Made With Fredie Tech*`;
 
