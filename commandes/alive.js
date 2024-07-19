@@ -88,7 +88,7 @@ else {
     
 await addOrUpdateDataInAlive(texte , tlien)
 
-repondre(' Hello👋 , *LUCKY_MD BOT* is alive just like you gee And Help My Owner To Get a Girl Friend Please🙏Because He Is Single Now😉😉. ')
+repondre(' Hello👋 , *LUCKY_MD BOT* is alive just like you gee😜. ')
 
 }
     });
