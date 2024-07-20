@@ -25,12 +25,12 @@ zokou({ nomCom: "repo", catégorie:"Général", reaction: "✨", nomFichier: __f
 this is* *Luck_md V5.*\n get session id *by*, *pairing code*  https://lucky-md-v5session-f9e3e8635f8b.herokuapp.com/
 
 🗼 *REPOSITORY:* ${data.html_url}
-✨ *STARS:* ${repoInfo.stars}
+🌟 *STARS:* ${repoInfo.stars}
 🧧 *FORKS:* ${repoInfo.forks}
 📅 *RELEASE DATE:* ${releaseDate}
 🕐 *UPDATE ON:* ${repoInfo.lastUpdate}
 👨‍💻 *OWNER:* *Fredie tech*
-🍀 *THEME:* *FREDI*
+💞 *THEME:* *FREDI*
 🥰*Fredi Is Like All Guys🤞*
 __________________________________
             *Made With Fredie Tech*`;
