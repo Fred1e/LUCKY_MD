@@ -1,9 +1,9 @@
 {
-  "name":"LUCKY🍀 MD UPDATE V6",
+  "name":"LUCKY🍀 MD UPDATE V5",
   "description":"Best WhatsApp Bot Developed By Fredie Contact Us 255686745716,255620814108,255764182801 Thank you for choose Lucky🍀 MD",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://telegra.ph/file/f6c60977ceb194e05e616.jpg",
-  "repository":"https://github.com/HACKING995/HACKING956",
+  "repository":"https://github.com/Fred1e/LUCKY_MD",
   "succes_url":"/",
   "stack":"container",
   "env":{
@@ -16,7 +16,7 @@
     "AUTO_READ_STATUS":
     {
       "description":"Your contact status will be read automatically(type yes to active or no to deactive  ; don't write in capital letter)",
-      "value":"yes",
+      "value":"true",
       "required":false
     }, "AUTO_DOWNLOAD_STATUS":
     {
@@ -48,8 +48,8 @@
      },
     "PUBLIC_MODE":
     {
-      "description":"type yes to put your bot on public mode or no to put it on private mod",
-      "value":"no",
+      "description":"type true to put your bot on public mode or false to put it on private mod",
+      "value":"false",
       "required": true 
     }
 	,
@@ -88,22 +88,22 @@
   {
     "desc": "this is the limit of warn for warning commandes",
     "required": false,
-    "value": "3"
+    "value": "5"
   },
   "STARTING_BOT_MESSAGE":
   {
-    "description": "if you don't want startting-bot-message put no else put yes",
-    "required": true,
-    "value": "yes"
+    "description": "if you don't want startting-bot-message put false else put true",
+    "required": "false"
+    "value": "true"
   },
   "PRESENCE":{
-    "description":"Mark your presence: 1 to indicate that you are online even if you are not. 2 to indicate that you are currently typing a message. 3 to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
-    "value":"1",
+    "description":"Mark your presence: available to indicate that you are online even if you are not. composing to indicate that you are currently typing a message. recording to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
+    "value":"available",
     "required": true 
   },
   "ANTI_DELETE_MESSAGE" : {
-    "description": "if you want to enable anti delete message put yes else put no",
-    "value": "yes",
+    "description": "if you want to enable anti delete message put true else put false",
+    "value": "true",
     "required": true 
   }
   },
