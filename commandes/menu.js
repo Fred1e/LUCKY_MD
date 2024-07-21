@@ -1,4 +1,4 @@
-conist util = requuire(til');
+const util = require('util');
 
 const fs = require('fs-extra');
 
@@ -66,20 +66,20 @@ const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
 
-┏━━Lucky🍀 MD V5 2024 ━━┓
+┏━━𒈒JOEL MD 2024 ━━┓
 ┃   Mode: ${mode}
 ┃   User : ${s.OWNER_NAME}
 ┃
-┣━𒈒Lucky Md new vision 𒈒━➠
-┗━━━𒈒by Fredie Tech 𒈒━━┛\n\n`;
+┣━𒈒joel md new vision 𒈒━➠
+┗━━━𒈒by joel tech 𒈒━━┛\n\n`;
 
 
     
 
 let menuMsg = `
 ┏━━━━━━━━━━━━━━┓
-┣❏Lucky🍀 Md V5 
-┣❏©FredieTech🍃
+┣❏joel md bot 
+┣❏©joel _it🕷️
 ┗━━━━━━━━━━━━━━┛\n
 
 
@@ -113,12 +113,12 @@ let menuMsg = `
 
 ︎┏━━━━━━━━━━━━━━┓
 ️┣❏joel md bot 
-┣❏© by Fredie Tech 
+┣❏© by joel tech 
 ┗━━━━━━━━━━━━━━┛\n
 
 
 ┏━━━━━━━━━━━━━━┓
-┃powered by FREDIE TECH
+┃powered by joeltech
 ┗━━━━━━━━━━━━━━┛\n
 
 
@@ -134,7 +134,7 @@ let menuMsg = `
 
     try {
 
-        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *LUCKY_MD V5*, déveloper Fredie Ezra" , gifPlayback : true }, { quoted: ms });
+        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *JOEL-BOT*, déveloper joel james" , gifPlayback : true }, { quoted: ms });
 
     }
 
@@ -181,3 +181,4 @@ else {
 
 
 });
+          
