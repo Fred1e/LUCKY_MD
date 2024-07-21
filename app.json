@@ -1,6 +1,6 @@
 {
-  "name":"LUCKY🍀 MD UPDATE V5",
-  "description":"Best WhatsApp Bot Developed By Fredie Contact Us 255686745716,255620814108,255764182801 Thank you for choose Lucky🍀 MD",
+  "name":"LUCKY🍀 MD V5 UPDATE BY ME",
+  "description":"Best WhatsApp Bot Developed By Fredie Ezra Contact Us 255686745716,255764182801,255620814108 Thank you for choose Lucky🍀 MD V5",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://telegra.ph/file/f6c60977ceb194e05e616.jpg",
   "repository":"https://github.com/Fred1e/LUCKY_MD",
@@ -42,7 +42,7 @@
      "BOT_MENU_LINKS" : {
     
       "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://telegra.ph/file/60cd0a18bda777a41ffe3.jpg,https://telegra.ph/file/f6c60977ceb194e05e616.jpg,https://telegra.ph/file/bc9bf76f258c98877d993.jpg,https://telegra.ph/file/d04abf5e17b331ab46871.jpg",
+      "value":"https://telegra.ph/file/D04ABF5E17B331AB46871.JPG,https://telegra.ph/file/2AB35F2759D081657D286.JPG,https://telegra.ph/file/74D7F0176B4E779DEA4FD.JPG,https://telegra.ph/file/BC9BF76F258C98877D993.JPG,https://telegra.ph/file/60CD0A18BDA777A41FFE3.JPG,https://telegra.ph/file/f6c60977ceb194e05e616.jpg",
       "required":false
        
      },
@@ -74,14 +74,14 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "FREDIE_TECH🤞"
+    "value": "FREDIE TECH🤞"
   },
     "NUMERO_OWNER":
   {
     
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
     "required":false,
-    "value": "255686745716,255620814108,255764182801"
+    "value": "255686745716,255764182801,255620814108"
 	  
   },
     "WARN_COUNT":
@@ -93,8 +93,8 @@
   "STARTING_BOT_MESSAGE":
   {
     "description": "if you don't want startting-bot-message put no else put yes",
-    "required": "no"
-    "value": "true"
+    "required": true,
+    "value": "yes"
   },
   "PRESENCE":{
     "description":"Mark your presence: 1 to indicate that you are online even if you are not. 2 to indicate that you are currently typing a message. 3 to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
