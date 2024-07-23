@@ -14,7 +14,7 @@ const s = require(__dirname + "/../set");
 
 
 
-zokou({ nomCom: "menu", categorie: "Menu" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "2024", categorie: "Menu" }, async (dest, zk, commandeOptions) => {
 
     let { ms, repondre ,prefixe,nomAuteurMessage,mybotpic} = commandeOptions;
 
@@ -66,43 +66,44 @@ const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
 
-┏━━𒈒Lucky MD 2024 ━━┓
-┃   Mode: ${mode}
-┃   User : ${s.OWNER_NAME}
-┃
-┣━𒈒lucky md new vision 𒈒━➠
-┗━━━𒈒by Fredie tech 𒈒━━┛\n\n`;
+┏❏ ⌜  𝕃𝕌ℂ𝕂𝕐 𝕄𝔻 𝕍𝟝 ⌟ ❐
+┃ ⿻𝕄𝕠𝕕𝕖: ${mode}
+┃ ⿻𝕌𝕤𝕖𝕣 : ${s.OWNER_NAME}
+┃ ⿻𝕃𝕚𝕓𝕣𝕒𝕣𝕪 : Baileys
+️┃ ⿻ℙ𝕣𝕖𝕗𝕚𝕩 : ${s.PREFIXE}
+️┃ ⿻𝔻𝕒𝕥𝕖 : ${date}
+┃ ⿻𝕋𝕚𝕞𝕖 : ${temps}
+┃ ⿻𝕋𝕠𝕠𝕝𝕤 : ${cm.length}
+┃ ⿻ℝ𝕒𝕞 : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+┃ ⿻ℍ𝕠𝕤𝕥 : ${os.platform()}
+┗❏\n\n`;
 
 
     
 
 let menuMsg = `
-┏━━━━━━━━━━━━━━┓
-┣❏lucky md v5 
-┣❏©Fredie 🫶
-┗━━━━━━━━━━━━━━┛\n
+┏━━━━━━━━━┓
+┣💫Lucky cmds
+┗━━━━━━━━━┛\n
 
 
-
-
-𒈒lucky md V5 cmds𒈒
 `;
 
 
 
     for (const cat in coms) {
 
-        menuMsg += `┏━━━━━⚼ ${cat}`;
+        menuMsg += `┏❏ *${cat}*`;
 
         for (const cmd of coms[cat]) {
 
             menuMsg += `
-┃➠ ${cmd}`;
+┃ 🍃 ${cmd}`;
 
         }
 
         menuMsg += `
-┗━━━━━━━━━━━━━━┛\n`
+┗❏\n`
 
     }
 
@@ -112,13 +113,11 @@ let menuMsg = `
 
 
 ︎┏━━━━━━━━━━━━━━┓
-️┣❏luky md v5 
-┣❏© by frede tech 
-┗━━━━━━━━━━━━━━┛\n
-
-
-┏━━━━━━━━━━━━━━┓
-┃powered by freditech
+️┣❏Lucky md V5 2024
+┣❏Enjoy life  
+┗┳━━━━━━━━━━━━┳┛
+┏┻━━━━━━━━━━━━┻┓
+┃powered by Fredie Tech
 ┗━━━━━━━━━━━━━━┛\n
 
 
@@ -134,7 +133,7 @@ let menuMsg = `
 
     try {
 
-        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *LUCKY MD V5*, déveloper Fredie Ezra" , gifPlayback : true }, { quoted: ms });
+        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *TKM-BOT*, déveloper Cod3uchiha" , gifPlayback : true }, { quoted: ms });
 
     }
 
@@ -181,4 +180,3 @@ else {
 
 
 });
-          
