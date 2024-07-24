@@ -39,7 +39,7 @@ zokou({ nomCom: "dragonball", categorie: "Logo", reaction: "🐉" }, async (dest
         await zk.sendMessage(dest, { text: " *\t Traitement en cours ...*" }, { quoted: ms });
        // var idImg = Object.values(imgInfo)[3];
        
-        await zk.sendMessage(dest, { image: { url: imgInfo.image }, caption: "* \t Logo by Hanking-Md*" }, { quoted: ms });
+        await zk.sendMessage(dest, { image: { url: imgInfo.image }, caption: "* \t Logo by Lucky_Md v5*" }, { quoted: ms });
     }
     catch (e) {
         repondre("🥵🥵 " + e);
@@ -50,7 +50,7 @@ zokou({ nomCom: "naruto", categorie: "Logo", reaction: "⛩" }, async (dest, zk,
     let { ms, arg, repondre, prefixe } = commandeOptions;
     try {
         if (!arg || arg == '') {
-            repondre("*_Exemple : * " + prefixe + "naruto hacking");
+            repondre("*_Exemple : * " + prefixe + "naruto lucky");
             return;
         }
         var nar = "https://en.ephoto360.com/naruto-shippuden-logo-style-text-effect-online-808.html";
@@ -91,7 +91,7 @@ zokou({ nomCom: "naruto", categorie: "Logo", reaction: "⛩" }, async (dest, zk,
 zokou({ nomCom: "didong", categorie: "Logo", reaction: "📱" }, async (dest, zk, commandeOptions) => {
     let { arg, repondre, prefixe, ms } = commandeOptions;
    try {
-     var titre = "\t* logo by hacking-Md*";
+     var titre = "\t* logo by lucky_Md v5*";
       var lien = "https://ephoto360.com/tao-anh-che-vui-tu-choi-cuoc-goi-voi-ten-cua-ban-930.html";
         if (!arg || arg == "") {
            repondre(`*exemple :* ${prefixe}didong Zokou`)
@@ -242,7 +242,7 @@ var lien="https://en.ephoto360.com/boom-text-comic-style-text-effect-675.html";
          
 
 repondre("  processing ...")
-         await zk.sendMessage(dest,{image:{url:img.image},caption:"\t *Logo by Hacking-Md*"})
+         await zk.sendMessage(dest,{image:{url:img.image},caption:"\t *Logo by Lucky_Md v5*"})
          
         // await zk.sendMessage(dest,{image:{url:lienImage},caption:"\t *Logo by Zokou-Md*"})
          
@@ -266,7 +266,7 @@ var {ms,repondre,arg,prefixe}=commandeOptions;
     var lien ="https://en.ephoto360.com/create-water-effect-text-online-295.html";
     var img =await mumaker.ephoto(lien,arg);
     repondre(" processing ...")
-    await zk.sendMessage(dest,{image:{url:img.image},caption:"  *Logo by Hacking-Md*"})
+    await zk.sendMessage(dest,{image:{url:img.image},caption:"  *Logo by Lucky_Md v5*"})
   }catch(e){repondre(`🥵🥵 ${e}`)}
 
 });
@@ -438,7 +438,7 @@ zokou({nomCom:"purple",categorie:"Logo",reaction:"🧳"},async(dest,zk,commandeO
       const lien="https://en.ephoto360.com/purple-text-effect-online-100.html"
       var img = await mumaker.ephoto(lien,arg);
       repondre(" processing ...")
-      await zk.sendMessage(dest,{image:{url:img.image},caption:"      *Logo by Hacking-MD*"});
+      await zk.sendMessage(dest,{image:{url:img.image},caption:"      *Logo by Lucky_MD v5*"});
     }catch(e){repondre(e)}
   
 })
@@ -457,7 +457,7 @@ zokou({nomCom:"gold",categorie:"Logo",reaction:"🧚🏿‍♀️"},async(dest,z
 
     var img = await mumaker.ephoto(lien,arg);
    repondre("processing ...")
-    await zk.sendMessage(dest,{image:{url:img.image},caption:" *Logo by Hacking-Md*"},{quoted:ms})
+    await zk.sendMessage(dest,{image:{url:img.image},caption:" *Logo by Lucky_Md v5*"},{quoted:ms})
   }catch(e){repondre(e)}
 })
 
@@ -476,7 +476,7 @@ zokou({nomCom:"arena",categorie:"Logo",reaction:"🥵"},async(dest,zk,commandeOp
 
     var img = await mumaker.ephoto(lien,arg.join(' '));
    repondre("processing ...")
-    await zk.sendMessage(dest,{image:{url:img.image},caption:" *Logo by Hacking-Md*"},{quoted:ms})
+    await zk.sendMessage(dest,{image:{url:img.image},caption:" *Logo by Lucky_Md v5*"},{quoted:ms})
   }catch(e){repondre(e)}
 })
 
@@ -494,7 +494,7 @@ zokou({nomCom:"incandescent",categorie:"Logo",reaction:"😋"},async(dest,zk,com
 
     var img = await mumaker.ephoto(lien,arg.join(' '));
    repondre("processing ...")
-    await zk.sendMessage(dest,{image:{url:img.image},caption:" *Logo by Hacking-Md*"},{quoted:ms})
+    await zk.sendMessage(dest,{image:{url:img.image},caption:" *Logo by Lucky_Md v5*"},{quoted:ms})
   } catch(e){repondre(e)}
 })
 
