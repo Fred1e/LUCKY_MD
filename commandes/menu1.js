@@ -40,9 +40,9 @@ const date = moment().format('DD/MM/YYYY');
     ▸ *commander* : ${cm.length} 
     ▸ *rom* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
     ▸ *uptime* : ${os.platform()}
-    ▸ *theme* : *fredie tech*
+    ▸ *theme* : *FREDI TECH*
 
-> LUCKY MD V5 WA BOT
+> LUCKY🍀 MD V5 WA BOT
 > POWERED BY FREDIE TECH 💎\n${readmore}`;
     
 let menuMsg = `
@@ -64,7 +64,7 @@ let menuMsg = `
 // Vérification pour .jpeg ou .png
 else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
     try {
-        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Luckymdv5*, déveloper Fredie Tech" }, { quoted: ms });
+        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *LUCKY MD V5👌*, déveloper FREDIE TECH" }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
