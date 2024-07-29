@@ -1,115 +1,123 @@
 {
-  "name": "𝕃𝕌ℂ𝕂𝕐🍀 𝕄𝔻 𝕍𝟝.𝟘.𝟘 𝕌ℙ𝔻𝔸𝕋𝔼",
-  "description": "Best WhatsApp Bot Developed By Fredie Ezra Contact Us 255686745716,255764182801,255620814108 Thank you for choose 𝕃𝕌ℂ𝕂𝕐🍀 𝕄𝔻 𝕍𝟝.𝟘.𝟘",
-  "keywords": [
-    "bot",
-    "node",
-    "baileys",
-    "whatsapp"
-  ],
-  "logo": "https://raw.gthubusercontent.com/djalega8000/Zokou-2.0/main/Zokou.jpg",
-  "repository": "https://github.com/djalega8000/Zokou-2.0",
-  "succes_url": "/",
-  "stack": "container",
-  "env": {
-    "PREFIX": {
-      "description": "choose your prefix of bot",
-      "value": ".",
-      "required": true
-    },
-    "AUTO_READ_STATUS": {
-      "description": "Your contact status will be read automatically(type yes to active or no to deactive  ; don't write in capital letter)",
-      "value": "yes",
-      "required": false
-    },
-    "AUTO_DOWNLOAD_STATUS": {
-      "description": "Your contact status will be download automatically and send to you(type yes to active or no to deactive ; don't write in capital letter)",
-      "value": "yes",
-      "required": false
-    },
-    "PM_PERMIT": {
-      "description": "Other user can't use your bot in pm (type yes to active or no to deactive ; don't write in capital letter)",
-      "value": "no",
-      "required": false
-    },
-    "BOT_NAME": {
-      "description": "put A name for your bot",
-      "value": "𝕃𝕌ℂ𝕂𝕐🍀 𝕄𝔻 𝕍𝟝.𝟘.𝟘",
-      "required": false
-    },
-    "BOT_MENU_LINKS": {
-      "description": "add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value": "https://i.pinimg.com/736x/0a/70/6f/0a706f90d6a1fb39919aedfbb7fdd8d3.jpg",
-      "required": false
-    },
-    "PUBLIC_MODE": {
-      "description": "type yes to put your bot on public mode or no to put it on private mod",
-      "value": "yes",
-      "required": false
-    },
-    "HEROKU_APY_KEY": {
-      "description": "insert your heroku api-key (this is optionnal)",
-      "required": false
-    },
-    "HEROKU_APP_NAME": {
-      "description": "insert your heroku APP NAME (this is optionnal)",
-      "required": false
-    },
-    "SESSION_ID": {
-      "description": "put your session ID , the code you receive after scanning Qr code",
-      "value": "",
-      "required": true
-    },
-    "OWNER_NAME": {
-      "desc": "Your Name",
-      "required": false,
-      "value": "ғʀᴇᴅɪᴇ ᴛᴇᴄʜ"
-    },
-    "NUMERO_OWNER": {
-      "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
-      "required": false,
-      "value": "255686745716,255764182801,255620814108"
-    },
-    "WARN_COUNT": {
-      "desc": "this is the limit of warn for warning commandes",
-      "required": false,
-      "value": "5"
-    },
-    "STARTING_BOT_MESSAGE": {
-      "description": "if you don't want startting-bot-message put no else put yes",
-      "required": true,
-      "value": "yes"
-    },
-    "PRESENCE": {
-      "description": "Mark your presence: 1 to indicate that you are online even if you are not. 2 to indicate that you are currently typing a message. 3 to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
-      "value": "",
-      "required": false
-    },
-    "PM_CHATBOT": {
-      "description": "Put yes if you want the bot to automatically respond to messages in private",
-      "required": false,
-      "value": "no"
-    },
-    "ANTI_VIEW_ONCE": {
-      "description": "Put yes if you want to receive in pm all view once content",
-      "required": false,
-      "value": "no"
-    },
-      "ANTI_COMMAND_SPAM" : {
-        "description":"active a cooldown of 10sec to every-user after a command to avoid spamming unless owner and mods",
-        "required":false,
-        "value" :"no"
-      }
-  },
-  "formation": {
-    "worker": {
-      "quantity": 1,
-      "size": "standard-2x"
-    }
-  },
-  "addons": [
+  "name":"LUCKY🍀 MD V5 UPDATE BY ME",
+  "description":"Best WhatsApp Bot Developed By Fredie Ezra Contact Us 255686745716,255764182801,255620814108 Thank you for choose Lucky🍀 MD V5",
+  "keywords":["bot","node","baileys","whatsapp"],
+  "logo":"https://telegra.ph/file/f6c60977ceb194e05e616.jpg",
+  "repository":"https://github.com/Fred1e/LUCKY_MD",
+  "succes_url":"/",
+  "stack":"container",
+  "env":{
+    "PREFIX":
     {
-      "plan": "heroku-postgresql:essential-0"
+      "description":"choose your prefix of bot",
+      "value":".",
+      "required":true
+    },
+    "AUTO_READ_STATUS":
+    {
+      "description":"Your contact status will be read automatically(type yes to active or no to deactive  ; don't write in capital letter)",
+      "value":"yes",
+      "required":false
+    }, "AUTO_DOWNLOAD_STATUS":
+    {
+      "description":"Your contact status will be download automatically and send to you(type yes to active or no to deactive ; don't write in capital letter)",
+      "value":"no",
+      "required":false
+    }
+    ,
+     "PM_PERMIT" :
+     {
+      "description":"Other user can't use your bot in pm (type yes to active or no to deactive ; don't write in capital letter)",
+      "value":"no",
+      "required":true
+    }
+    ,
+    "BOT_NAME" : {
+       
+      "description":"put A name for your bot",
+      "value":"LUCKY🍀_MD V5",
+      "required":false
+
+    } ,
+     "BOT_MENU_LINKS" : {
+    
+      "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
+      "value":"https://telegra.ph/file/D04ABF5E17B331AB46871.JPG,https://telegra.ph/file/2AB35F2759D081657D286.JPG,https://telegra.ph/file/74D7F0176B4E779DEA4FD.JPG,https://telegra.ph/file/BC9BF76F258C98877D993.JPG,https://telegra.ph/file/60CD0A18BDA777A41FFE3.JPG,https://telegra.ph/file/f6c60977ceb194e05e616.jpg",
+      "required":false
+       
+     },
+    "PUBLIC_MODE":
+    {
+      "description":"type yes to put your bot on public mode or no to put it on private mod",
+      "value":"no",
+      "required": true 
+    }
+	,
+    "HEROKU_APY_KEY": {
+    "description": "insert your heroku api-key (this is optionnal)",
+     "required" :true
+    },
+  "HEROKU_APP_NAME": {
+    "description": "insert your heroku APP NAME (this is optionnal)",
+     "required" :true
+    }  
+	  ,
+    "SESSION_ID":
+    {
+      "description":"put your session ID , the code you receive after scanning Qr code",   
+      "value":"",
+      "required":true
+      
+    },
+    "OWNER_NAME":
+    {
+    
+    "desc": "Your Name",
+    "required": false,
+    "value": "FREDIE TECH🤞"
+  },
+    "NUMERO_OWNER":
+  {
+    
+    "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
+    "required":false,
+    "value": "255686745716,255764182801,255620814108"
+	  
+  },
+    "WARN_COUNT":
+  {
+    "desc": "this is the limit of warn for warning commandes",
+    "required": false,
+    "value": "5"
+  },
+  "STARTING_BOT_MESSAGE":
+  {
+    "description": "if you don't want startting-bot-message put no else put yes",
+    "required": true,
+    "value": "yes"
+  },
+  "PRESENCE":{
+    "description":"Mark your presence: 1 to indicate that you are online even if you are not. 2 to indicate that you are currently typing a message. 3 to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
+    "value":"1",
+    "required": true 
+  },
+  "ANTI_DELETE_MESSAGE" : {
+    "description": "if you want to enable anti delete message put yes else put no",
+    "value": "yes",
+    "required": true 
+  }
+  },
+
+  "formation": {
+		"worker": {
+			"quantity": 1,
+			"size": "basic"
+		}
+	},
+
+  "addons":[
+    {
+      "plan":"heroku-postgresql"
     }
   ]
-    }
+  }
