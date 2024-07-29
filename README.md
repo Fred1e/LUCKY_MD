@@ -103,7 +103,7 @@ The WhatsApp Bot LUCKY🍀_MD is released under the [MIT License](https://openso
 ## DEVELOPERS :
 
 - [**FREDIE TECH**](https://github.com/Fred1e)
-- [**IBRAHIM ADAMS**](https://github.com/ibrahimaetech)
+- [**ғʀᴇᴄʏʙᴇʀ ᴍᴅ**](https://github.com/Frecyber)
 - [**BELTAH TECH**](https://github.com/BELTAHMD)
 - [**JOEL TECH**](https://github.com/joeljamestech)
 - [**Developers YT**](https://www.youtube.com/@freeonlinetvT1)
