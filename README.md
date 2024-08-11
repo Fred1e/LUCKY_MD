@@ -1,5 +1,6 @@
-## LUCKY MD V5
- <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=red&size=25&center=true&vCenter=true&width=600&height=100&lines=I'm+Lucky+md+Created+by+Fredie.&heart;++;Self-taught+Back-Created+By,;Ibrahim+Adams+Am+The,;Best+Is+Bot+For+You+To,;Deploy..<3"></a>
+## 𝐋𝐔𝐂𝐊𝐘 𝚳𝐃 𝛁5
+
+ <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=red&size=25&center=true&vCenter=true&width=600&height=100&lines=I'm+Lucky+md+Created+by+Fredie.&heart;++;Self-taught+Back-Created+By,;Fredi+Ezra+Am+The,;Best+Is+Bot+For+You+To,;Deploy..<3"></a>
  <a href="https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f">
  <img alt="LUCKY MD V5" height="300" src="https://telegra.ph/file/60cd0a18bda777a41ffe3.jpg">
   
@@ -42,7 +43,7 @@
 
 
 
-## HOW TO DEPLOY LUCKY MD
+## HOW TO DEPLOY 𝐋𝐔𝐂𝐊𝐘 𝚳𝐃 𝛁5
 
 
 ## 1.FIRST STEP 
@@ -82,7 +83,7 @@ star✨ my repo if you like this bot🤖
 
 CONTACT DEVELOPER ON WHATSAPP 
 
-<a href="https://wa.link/4d9cpj" target="_blank">
+<a href="https://wa.me/255620814108" target="_blank">
     <img alt="whatsapp Group" src="https://img.shields.io/badge/ fredie tech contact -25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
 
@@ -105,7 +106,7 @@ The WhatsApp Bot LUCKY🍀_MD is released under the [MIT License](https://openso
 - [**FREDIE TECH**](https://github.com/Fred1e)
 - [**ғʀᴇᴄʏʙᴇʀ ᴍᴅ**](https://github.com/Frecyber)
 - [**BELTAH TECH**](https://github.com/BELTAHMD)
-- [**JOEL TECH**](https://github.com/joeljamestech)
+- [**TELEGRAM**](t.me/freditech)
 - [**Developers YT**](https://www.youtube.com/@freeonlinetvT1)
  <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
  
