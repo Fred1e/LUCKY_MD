@@ -75,7 +75,8 @@ star✨ my repo if you like this bot🤖
  <img src="https://img.shields.io/badge/Create%20Account%20Now-black?style=for-the-badge&logo=heroku" width="200" height="38.45"/></a></p>
 
 **2. If You Have Account On Heroku**       
-   ***[![Deploy on heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/Fred1e/Lucky_Md/tree/main)***
+<a href="https://dashboard.heroku.com/new?template=https://github.com/Fred1e/Lucky_Md/tree/main">
+ <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="200" height="38.45"/></a></p>
 
 ##
 
