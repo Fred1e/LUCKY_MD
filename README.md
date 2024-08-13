@@ -70,8 +70,9 @@ star✨ my repo if you like this bot🤖
 
 ## 3.THIRD STEP 
 **1. If You Don't Have An Account On Heroku**
+
 <a href="https://signup.heroku.com">
- <img src="https://img.shields.io/badge/Create%20Account%20Now-purple?style=for-the-badge&logo=heroku" width="150" height="38.45"/></a></p>
+ <img src="https://img.shields.io/badge/Create%20Account%20Now-black?style=for-the-badge&logo=heroku" width="200" height="38.45"/></a></p>
 
 **2. If You Have Account On Heroku**       
    ***[![Deploy on heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/Fred1e/Lucky_Md/tree/main)***
