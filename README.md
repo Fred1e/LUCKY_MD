@@ -17,6 +17,11 @@
 </p>
 <p align="center"><img src="https://profile-counter.glitch.me/{Fred1e}/count.svg" alt="Lucky_md :: Visitor's Count"/></p>
 
+</a>
+  <div align="center">
+  <img src="https://spogit.vercel.app/api?theme=black&rainbow=true&scan=true" alt="Widget with the current Spotify song"  />
+</div>
+
 ---
 
 <p align="center">
