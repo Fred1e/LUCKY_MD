@@ -82,8 +82,7 @@ star✨ my repo if you like this bot🤖
 ### 4. DEPLOY ANY BOT YOU LIKE HERE
 
 <br>
-<a href='https://dashboard.heroku.com/new?org=team-beltah&templatehttps://github.com/Fred1e/LUCKY_MD/tree/main' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku&logoColor=white'/></a>
-
+<a href="https://github.com/Frecyber/BOTS-SITE/tree/main"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/BOTS-SITE -h?color=black&style=for-the-badge&logo=msi" width="220" height="38.45"/></a></p>
 
 ##
 
