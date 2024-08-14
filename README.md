@@ -76,7 +76,7 @@ star✨ my repo if you like this bot🤖
 
 **2. If You Have Account On Heroku**       
 <br>
-<a href='https://dashboard.heroku.com/new?org=team-beltah&template=https%3A%2F%2Fgithub.com%2FFred1e2%2FLUCKY_MD' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku&logoColor=white'/></a>
+<a href='https://dashboard.heroku.com/new?org=team-beltah&template=https://github.com/Fred1e/LUCKY_MD' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku&logoColor=white'/></a>
 
 
 ### 4. DEPLOY ANY BOT YOU LIKE HERE
