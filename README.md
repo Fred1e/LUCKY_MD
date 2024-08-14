@@ -19,7 +19,7 @@
 
 </a>
   <div align="center">
-  <img src="https://spogit.vercel.app/api?theme=black&rainbow=true&scan=true" alt="Widget with the current Spotify song"  />
+  <img src="https://spogit.vercel.app/api?theme=dark&black=true&scan=true" alt="Widget with the current Spotify song"  />
 </div>
 
 ---
