@@ -81,7 +81,7 @@ star✨ my repo if you like this bot🤖
 
 ### 4. DEPLOY ANY BOT YOU LIKE HERE
 
-<a href="https://github.com/Frecyber/BOTS-SITE/tree/main"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/SESSION-SITE -h?color=black&style=for-the-badge&logo=msi" width="220" height="38.45"/></a></p>
+<a href="https://github.com/Frecyber/BOTS-SITE/tree/main"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/BOTS-SITE -h?color=black&style=for-the-badge&logo=msi" width="220" height="38.45"/></a></p>
 
 
 ##
