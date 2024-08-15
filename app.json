@@ -74,7 +74,7 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "FREDIE TECH🤞"
+    "value": "ғʀᴇᴅɪᴇ ᴛᴇᴄʜ"
   },
     "NUMERO_OWNER":
   {
@@ -94,7 +94,7 @@
   {
     "description": "if you don't want startting-bot-message put no else put yes",
     "required": true,
-    "value": "yes"
+    "value": "no"
   },
   "PRESENCE":{
     "description":"Mark your presence: 1 to indicate that you are online even if you are not. 2 to indicate that you are currently typing a message. 3 to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
