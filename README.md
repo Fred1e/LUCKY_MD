@@ -48,10 +48,10 @@
 
 
 
-## HOW TO DEPLOY 𝐋𝐔𝐂𝐊𝐘 𝚳𝐃 𝛁5
+## ℍ𝕆𝕎 𝕋𝕆 𝔻𝔼ℙ𝕃𝕆𝕐 𝕃𝕌ℂ𝕂𝕐 𝕄𝔻
 
 
-## 1.FIRST STEP 
+## 𝟙.𝔽𝕀ℝ𝕊𝕋 𝕊𝕋𝔼ℙ 
 ## Fork Lucky Md V5 Repo
 
 
@@ -60,10 +60,10 @@
 star✨ my repo if you like this bot🤖
 
 
-## 2.SECOND STEP 
+## 𝟚.𝕊𝔼ℂ𝕆ℕ𝔻 𝕊𝕋𝔼ℙ 
 
 
- GET SESSION ID BY
+ 𝔾𝔼𝕋 𝕊𝔼𝕊𝕊𝕀𝕆ℕ 𝕀𝔻 𝔹𝕐
  
 
 <a href="https://lucky-site-59b16cd2d3d0.herokuapp.com/qr"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/QR CODE-h?color=black&style=for-the-badge&logo=msi" width="220" height="38.45"/></a></p>
@@ -73,7 +73,7 @@ star✨ my repo if you like this bot🤖
 <a href="https://lucky-site-59b16cd2d3d0.herokuapp.com/"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/PAIRING CODE-h?color=black&style=for-the-badge&logo=msi" width="220" height="38.45"/></a></p>
 
 
-## 3.THIRD STEP 
+## 𝟛.𝕋ℍ𝕀ℝ𝔻 𝕊𝕋𝔼ℙ 
 **1. If You Don't Have An Account On Heroku**
 
 <a href="https://signup.heroku.com">
@@ -85,7 +85,7 @@ star✨ my repo if you like this bot🤖
  <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="200" height="38.45"/></a></p>
 
 
-### 4. DEPLOY ANY BOT YOU LIKE HERE
+### 𝟜. 𝔻𝔼ℙ𝕃𝕆𝕐 𝔸ℕ𝕐 𝔹𝕆𝕋 𝕐𝕆𝕌 𝕃𝕀𝕂𝔼 ℍ𝔼ℝ𝔼
 
 <br>
 <a href="https://github.com/Frecyber/BOTS-SITE/tree/main"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/BOTS-SITE -h?color=black&style=for-the-badge&logo=msi" width="220" height="38.45"/></a></p>
@@ -94,7 +94,7 @@ star✨ my repo if you like this bot🤖
 
 
 
-CONTACT DEVELOPER ON WHATSAPP 
+ℂ𝕆ℕ𝕋𝔸ℂ𝕋 𝔻𝔼𝕍𝔼𝕃𝕆ℙ𝔼ℝ 𝕆ℕ 𝕎ℍ𝔸𝕋𝕊𝔸ℙℙ 
 
 <a href="http://wa.me/255620814108" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/whatsapp.svg" alt="255620814108" height="30" width="40" /></a>
 
@@ -110,10 +110,10 @@ CONTACT DEVELOPER ON WHATSAPP
 The WhatsApp Bot LUCKY🍀_MD is released under the [MIT License](https://opensource.org/licenses/MIT).
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
-🌟 THANK YOU FOR CHOOSING LUCKY🍀_MD 🌟
+🌟 𝕋ℍ𝔸ℕ𝕂 𝕐𝕆𝕌 𝔽𝕆ℝ ℂℍ𝕆𝕆𝕊𝕀ℕ𝔾 𝕃𝕌ℂ𝕂𝕐🍀_𝕄𝔻 🌟
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
-## DEVELOPERS :
+## 𝔻𝔼𝕍𝔼𝕃𝕆ℙ𝔼ℝ𝕊 :
 
 - [**FREDIE TECH**](https://github.com/Fred1e)
 - [**ғʀᴇᴄʏʙᴇʀ ᴍᴅ**](https://github.com/Frecyber)
