@@ -45,8 +45,28 @@ const date = moment().format('DD/MM/YYYY');
 > LUCKY🍀 MD V5 WA BOT
 > POWERED BY FREDIE TECH 💎\n${readmore}`;
     
-let menuMsg = `
-> Hello ${nomAuteurMessage},,, Type menu2 to access a list of commands. 
+`;
+
+
+
+    for (const cat in coms) {
+
+        menuMsg += `┏❏ *${cat}*`;
+
+        for (const cmd of coms[cat]) {
+
+            menuMsg += `
+ > ┃ ༆ ${cmd}`;
+
+        }
+
+        menuMsg += `
+┗❏\n`
+
+    }
+
+
+ 
   
 ╰───────────────────⏣`;
 
