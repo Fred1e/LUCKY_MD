@@ -101,3 +101,13 @@ generateReactionCommand("wink", "😉");
 generateReactionCommand("poke", "👉");
 generateReactionCommand("dance", "💃");
 generateReactionCommand("cringe", "😬");
+generateReactionCommand("love", "😻");
+generateReactionCommand("virus", "🦠");
+generateReactionCommand("cellebrate", "🎇");
+generateReactionCommand("fuck", "🖕");
+generateReactionCommand("fresh", "👊");
+generateReactionCommand("booms", "💥💥");
+generateReactionCommand("nakubali", "🤝");
+generateReactionCommand("you", "🫵 ");
+generateReactionCommand("comasava", "🎶");
+
