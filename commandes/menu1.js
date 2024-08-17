@@ -34,13 +34,13 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-*LUCKY MD V5 AVAILABLE MENUS* 
+> *LUCKY MD V5 AVAILABLE MENUS* 
 
 
-    ▸ *commander* : ${cm.length} 
-    ▸ *rom* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-    ▸ *uptime* : ${os.platform()}
-    ▸ *theme* : *FREDI TECH*
+   > ▸ *commander* : ${cm.length} 
+   > ▸ *rom* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+   > ▸ *uptime* : ${os.platform()}
+   > ▸ *theme* : *FREDI TECH*
 
 > LUCKY🍀 MD V5 WA BOT
 > POWERED BY FREDIE TECH 💎\n${readmore}`;
@@ -65,8 +65,21 @@ const date = moment().format('DD/MM/YYYY');
 
     }
 
+    menuMsg += `
 
- 
+
+  ┏━━━━━━━━━━━━━━┓
+>️ ┣𖣘Lucky md V5 2024
+> ┣𖣘Enjoy life  
+  ┗┳━━━━━━━━━━━━┳┛
+  ┏┻━━━━━━━━━━━━┻┓
+> ┃ powered by ғʀᴇᴅɪᴇ ᴛᴇᴄʜ
+  ┗━━━━━━━━━━━━━━┛\n
+
+
+`;
+
+
   
 ╰───────────────────⏣`;
 
