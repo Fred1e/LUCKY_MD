@@ -70,8 +70,8 @@ const date = moment().format('DD/MM/YYYY');
 > 𖣘𝕄𝕠𝕕𝕖: ${mode}
 > 𖣘𝕌𝕤𝕖𝕣 : ${s.OWNER_NAME}
 > 𖣘𝕃𝕚𝕓𝕣𝕒𝕣𝕪 : Baileys
-️> 𖣘ℙ𝕣𝕖𝕗𝕚𝕩 : ${s.PREFIXE}
->️ 𖣘𝔻𝕒𝕥𝕖 : ${date}
+> 𖣘ℙ𝕣𝕖𝕗𝕚𝕩 : ${s.PREFIXE}
+> 𖣘𝔻𝕒𝕥𝕖 : ${date}
 > 𖣘𝕋𝕚𝕞𝕖 : ${temps}
 > 𖣘𝕋𝕠𝕠𝕝𝕤 : ${cm.length}
 > 𖣘ℝ𝕒𝕞 : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
@@ -98,7 +98,9 @@ let menuMsg = `
         for (const cmd of coms[cat]) {
 
             menuMsg += `
- > ༆ ${cmd}` ;
+    
+    
+    > ✯ ${cmd}` ;
 
         }
 
