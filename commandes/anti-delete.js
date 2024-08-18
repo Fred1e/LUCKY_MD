@@ -2,38 +2,38 @@ const { zokou } = require("../framework/zokou");
 const fs = require('fs');
 
 
-let antiDeleteActive = false; // Variable pour stocker l'état de la commande anti-delete
+let antiDeleteActive = false; // Variable to store the state of the anti-delete command
 
 zokou({
   nomCom: "anti-delete",
   categorie: "General",
-  reaction: "🥺"
+  reaction: "⚒️"
 }, async (origineMessage, zk, commandeOptions) => {
   const { ms, arg } = commandeOptions;
 
-  // Vérifier si un argument est fourni pour activer ou désactiver la commande
+  // Check if an argument is provided to enable or disable the command
   if (arg[0]) {
     const action = arg[0].toLowerCase();
     if (action === "on") {
       antiDeleteActive = true;
-      await zk.sendMessage(origineMessage, "La commande anti-delete est activée.");
+      await zk.sendMessage(origineMessage, "The anti-delete command is enabled.");
       return;
     } else if (action === "off") {
       antiDeleteActive = false;
-      await zk.sendMessage(origineMessage, "La commande anti-delete est désactivée.");
+      await zk.sendMessage(origineMessage, "The anti-delete command is desabled.");
       return;
     }
   }
 
-  // Vérifier si la commande anti-delete est activée
+  // Check if the anti-delete command is enabled
   if (!antiDeleteActive) {
-    await zk.sendMessage(origineMessage, "La commande anti-delete est actuellement désactivée.");
+    await zk.sendMessage(origineMessage, "The anti-delete command is currently disabled.");
     return;
   }
 
   if (ms.message.protocolMessage && ms.message.protocolMessage.type === 0 && (conf.ADM).toLowerCase() === 'yes') {
     if (ms.key.fromMe || ms.message.protocolMessage.key.fromMe) {
-      console.log('Message supprimé me concernant');
+      console.log('Message deleted about me');
       return;
     }
 
