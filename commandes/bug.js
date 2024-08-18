@@ -45,11 +45,15 @@ const timewisher = (time) => {
 // --cmds--
 
 // bug menu
-zokou(
-  {
-    nomCom: 'bugmenu',
-    categorie: category,
-    reaction: reaction
+zokou({ nomCom: "bugmenu", categorie: "bug" }, async (dest, zk, commandeOptions) => {
+
+    let { ms, repondre ,prefixe,nomAuteurMessage,mybotpic} = commandeOptions;
+
+    let { cm } = require(__dirname + "/../framework//zokou");
+
+    var coms = {};
+
+    var mode = "public";
   },
   
   async (dest, zk, commandOptions) => {
@@ -98,7 +102,7 @@ docugcbug <grouplink>${mono}`;
           {
             showAdAttribution: true,
             title: `${conf.BOT}`,
-            body: `Bot Created By naruto_tech`,
+            body: `Bot Created By fredi_tech`,
             Abhinail: {url: tumbUrl},
             AbhinailUrl: tumbUrl,
             previewType: 'PHOTO',
@@ -116,17 +120,16 @@ docugcbug <grouplink>${mono}`;
 
 
 //docbug 
-zokou(
-    {
-      nomCom: 'docbug',
-      categorie: category,
-      reaction: reaction
+zokou({ nomCom: "docbug", categorie: "bug" }, async (dest, zk, commandeOptions) => {
+
+    let { ms, repondre ,prefixe,nomAuteurMessage,mybotpic} = commandeOptions;
+
+    let { cm } = require(__dirname + "/../framework//zokou");
+
+    var coms = {};
+
+    var mode = "public";
     },
-    
-    async (dest, zk, commandOptions) => {
-      const { ms, arg, repondre, superUser} = commandOptions;
-      if (!superUser)
-        return await repondre(mess.prem);
         
       // send loading message
       await loading(dest, zk);
@@ -151,17 +154,17 @@ zokou(
     );
 
 //loccrash
-zokou(
-    {
-      nomCom: 'loccrash',
-      reaction: '\uD83D\uDD16',
-      categorie: 'dev'
+zokou({ nomCom: "loccrash", categorie: "bug" }, async (dest, zk, commandeOptions) => {
+
+    let { ms, repondre ,prefixe,nomAuteurMessage,mybotpic} = commandeOptions;
+
+    let { cm } = require(__dirname + "/../framework//zokou");
+
+    var coms = {};
+
+    var mode = "public";
     },
     
-    async (dest, zk, commandOptions) => {
-      const { ms, arg, repondre, superUser} = commandOptions;
-      if (!superUser)
-        return await repondre(mess.prem);
       await loading(dest, zk);
       
       for (let i = 0; i < 20; i++){
@@ -180,19 +183,17 @@ zokou(
   );
   
 // amountbug
-zokou(
-  {
-    nomCom: 'amountbug',
-    categorie: category,
-    reaction: reaction
+zokou({ nomCom: "amountbug", categorie: "bug" }, async (dest, zk, commandeOptions) => {
+
+    let { ms, repondre ,prefixe,nomAuteurMessage,mybotpic} = commandeOptions;
+
+    let { cm } = require(__dirname + "/../framework//zokou");
+
+    var coms = {};
+
+    var mode = "public";
   },
-  
-  async (dest, zk, commandOptions) => {
-    const { ms, arg, repondre, superUser, prefixe } = commandOptions;
-    
-    if (!superUser) 
-      return await repondre(mess.prem);
-    if (!arg[0])
+
       return await repondre(`Use ${prefixe}amountbug amount\n> Example ${prefixe}amountbug 5`);
       
     const amount = parseInt(arg[0]);
@@ -214,18 +215,16 @@ zokou(
   );
 
 //pmbug
-zokou(
-  {
-    nomCom: 'pmbug',
-    categorie: category,
-    reaction: reaction
-  },
-  
-  async (dest, zk, commandOptions) => {
-    const { ms, arg, repondre, superUser, prefixe} = commandOptions;
-    if (!superUser)
-      return await repondre(mess.prem);
-    if (!arg[0])
+zokou({ nomCom: "pmbug", categorie: "bug" }, async (dest, zk, commandeOptions) => {
+
+    let { ms, repondre ,prefixe,nomAuteurMessage,mybotpic} = commandeOptions;
+
+    let { cm } = require(__dirname + "/../framework//zokou");
+
+    var coms = {};
+
+    var mode = "public";
+    },
       return await repondre(`Use ${prefixe}pmbug amount\n> Example ${prefixe}pmbug 30|${conf.NUMERO_OWNER} or ${prefixe}pmbug ${conf.NUMERO_OWNER}`);
     await loading(dest, zk);
     if (!arg.join('').includes("|")){
