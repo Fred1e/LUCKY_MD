@@ -60,7 +60,23 @@ zokou({ nomCom: "bugmenu", categorie: "bug" }, async (dest, zk, commandeOptions)
     moment.tz.setDefault(s.TZ);
 };
 
-// --cmds--
+time < "23:59:00"){
+    return `Good Night 🌆`;
+  }
+  else if(time < "19:00:00"){
+    return `Good Evening 🌆`;
+  }
+  else if(time < "18:00:00"){
+    return `Good Evening 🌆`;
+  }
+  else if(time < "15:00:00"){
+    return `Good Afternoon 🌅`;
+  }
+  else if(time < "11:00:00"){
+    return `Good Morning 🌄`;
+  }
+  else if(time < "05:00:00"){
+    return `Good Morning 🌄`;
 
 // bug menu
   
