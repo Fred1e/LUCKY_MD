@@ -1,12 +1,7 @@
-const { zokou } = require('../framework/zokou');
-const { delay, loading, react } = require("../bdd/utils")
-const moment = require('moment-timezone');
-const conf = require('../set.js');
-const fs = require('fs');
-const path = require('path');
-const { generateWAMessageFromContent, proto } = require('@whiskeysockets/baileys');
+const util = require('util');
 
-// bug database
+const fs = require('fs-extra');
+
 const { bugtext1 } = require('../framework/bug/bugtext1');
 const { bugtext2 } = require('../framework/bug/bugtext2');
 const { bugtext3 } = require('../framework/bug/bugtext3');
@@ -16,46 +11,58 @@ const { bugtext5 } = require('../framework/bug/bugtext6');
 const { bugpdf } = require('../framework/bug/bugpdf.js');
 
 
-const category = 'dev';
-const reaction = '👾';
+const os = require("os");
 
-const mess = {};
-mess.prem = "You are not authorised to use this  command !!!";
+const moment = require("moment-timezone");
 
-const timewisher = (time) => {
-  if(time < "23:59:00"){
-    return `Good Night 🌆`;
-  }
-  else if(time < "19:00:00"){
-    return `Good Evening 🌆`;
-  }
-  else if(time < "18:00:00"){
-    return `Good Evening 🌆`;
-  }
-  else if(time < "15:00:00"){
-    return `Good Afternoon 🌅`;
-  }
-  else if(time < "11:00:00"){
-    return `Good Morning 🌄`;
-  }
-  else if(time < "05:00:00"){
-    return `Good Morning 🌄`;
-  } 
+const s = require(__dirname + "/../set");
+
+
+
+zokou({ nomCom: "bugmenu", categorie: "bug" }, async (dest, zk, commandeOptions) => {
+
+    let { ms, repondre ,prefixe,nomAuteurMessage,mybotpic} = commandeOptions;
+
+    let { cm } = require(__dirname + "/../framework//bug");
+
+    var coms = {};
+
+    var mode = "public";
+
+    
+
+    if ((s.MODE).toLocaleLowerCase() != "yes") {
+
+        mode = "private";
+
+    }
+
+
+
+
+
+    
+
+
+
+    cm.map(async (com, index) => {
+
+        if (!coms[com.categorie])
+
+            coms[com.categorie] = [];
+
+        coms[com.categorie].push(com.nomCom);
+
+    });
+
+
+
+    moment.tz.setDefault(s.TZ);
 };
 
 // --cmds--
 
 // bug menu
-zokou({ nomCom: "bugmenu", categorie: "bug" }, async (dest, zk, commandeOptions) => {
-
-    let { ms, repondre ,prefixe,nomAuteurMessage,mybotpic} = commandeOptions;
-
-    let { cm } = require(__dirname + "/../framework//zokou");
-
-    var coms = {};
-
-    var mode = "public";
-  },
   
   async (dest, zk, commandOptions) => {
     const {ms,arg,repondre} = commandOptions;
