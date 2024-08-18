@@ -15,7 +15,7 @@ zokou({ nomCom: 'ping',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
     const { start} = new Date().getTime()
-    return repondre('*𝐋𝐮𝐜𝐤𝐲 🍀 𝐕𝟓 𝐫𝐞𝐬𝐩𝐨𝐧𝐝 𝐬𝐩𝐞𝐞𝐝 𝐢𝐬*\n ```' +10980+ '``` *m/s*') 
+    return repondre('*𝐋𝐮𝐜𝐤𝐲 🍀 𝐕𝟓 𝐫𝐞𝐬𝐩𝐨𝐧𝐝 𝐬𝐩𝐞𝐞𝐝 𝐢𝐬*${runspeed(process.upspeed())}*') 
     const { end } = new Date().getTime()
     await zok.sendMessage('*Pong!*\n ```' + (end - start) + '``` *ms*')
   }
