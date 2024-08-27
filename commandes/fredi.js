@@ -82,9 +82,9 @@ const date = moment().format('DD/MM/YYYY');
     
 
 let menuMsg = `
-┏━━━━━━━━━┓
-┣💫Lucky cmds
-┗━━━━━━━━━┛\n
+> ┏━━━━━━━━━┓
+> ┣➠Lucky cmds
+> ┗━━━━━━━━━┛\n
 
 
 `;
@@ -98,7 +98,7 @@ let menuMsg = `
         for (const cmd of coms[cat]) {
 
             menuMsg += `
-┃ 🍃 ${cmd}`;
+┃  ๛ ${cmd}`;
 
         }
 
@@ -112,13 +112,13 @@ let menuMsg = `
     menuMsg += `
 
 
-︎┏━━━━━━━━━━━━━━┓
-️┣❏Lucky md V5 2024
-┣❏Enjoy life  
-┗┳━━━━━━━━━━━━┳┛
-┏┻━━━━━━━━━━━━┻┓
-┃powered by Fredie Tech
-┗━━━━━━━━━━━━━━┛\n
+> ┏━━━━━━━━━━━━━━┓
+>️ ┣➠Lucky md V5 2024
+> ┣➠Enjoy life  
+> ┗┳━━━━━━━━━━━━┳┛
+> ┏┻━━━━━━━━━━━━┻┓
+> ┃➠powered by Fredie Tech
+> ┗━━━━━━━━━━━━━━┛\n
 
 
 `;
