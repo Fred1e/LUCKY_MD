@@ -26,7 +26,7 @@ zokou(
     } = commandOptions;
     const start = new Date().getTime();
     const msg = await zk.sendMessage(dest, {
-      text: 'Pinging...',
+      text: '*Testing Ping!!!*',
     }, {
       quoted: ms
     });
