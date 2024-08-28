@@ -34,11 +34,11 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-> ────  _*`LUCKY MD`*_ ─────✣
-  > ╭─────────────✣
-    │▸ *my owner* : ${s.OWNER_NAME}
-    │▸ *commander* : ${nomAuteurMessage} 
-> ──────────────⚙️
+────  _*LUCKY MD*_ ─────✣
+│ ╭─────────────✣
+│ │▸ *my owner* : ${s.OWNER_NAME}
+│ │▸ *commander* : ${nomAuteurMessage} 
+──────────────⚙️
     ▸ *date *: ${date}
     ▸ *prefix* : ${s.PREFIXE}
     ▸ *worktype* : ${mode} mode
@@ -47,21 +47,21 @@ const date = moment().format('DD/MM/YYYY');
     ▸ *running on* : ${os.platform()}
     ▸ *theme* : *FREDI*
 
-> LUCKY MD 2024\n${readmore}`;
+> _*LUCKY MD 2024*_ \n${readmore}`;
     
 let menuMsg = `
 
- > *Lucky Md v5 COMMADS*${readmore}
+ > *Lucky Md v5 COMMADS* ${readmore}
 `;
 
     for (const cat in coms) {
-        menuMsg += ` > ╭──────✣ *${cat}* ✣─────☹︎`;
+        menuMsg += ` ╭──────✣ _*${cat}*_ ✣─────☹︎`;
         for (const cmd of coms[cat]) {
             menuMsg += `
 │➠ *${cmd}*`;
         }
         menuMsg += `
-> ╰────────────···▸▸ \n`
+╰────────────···▸▸ \n`
     }
 
     menuMsg += `> powered by Fredie Tech 
