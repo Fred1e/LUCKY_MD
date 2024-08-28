@@ -14,7 +14,7 @@ const s = require(__dirname + "/../set");
 
 
 
-zokou({ nomCom: "menu", categorie: "Menu" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "list", categorie: "Menu" }, async (dest, zk, commandeOptions) => {
 
     let { ms, repondre ,prefixe,nomAuteurMessage,mybotpic} = commandeOptions;
 
@@ -66,25 +66,25 @@ const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
 
-┏𖣘 ⌜  *𝕃𝕌ℂ𝕂𝕐 𝕄𝔻 𝕍𝟝* ⌟ 𖣘
-> 𖣘𝕄𝕠𝕕𝕖: ${mode}
-> 𖣘𝕌𝕤𝕖𝕣 : ${s.OWNER_NAME}
-> 𖣘𝕃𝕚𝕓𝕣𝕒𝕣𝕪 : Baileys
-> 𖣘ℙ𝕣𝕖𝕗𝕚𝕩 : ${s.PREFIXE}
-> 𖣘𝔻𝕒𝕥𝕖 : ${date}
-> 𖣘𝕋𝕚𝕞𝕖 : ${temps}
-> 𖣘𝕋𝕠𝕠𝕝𝕤 : ${cm.length}
-> 𖣘ℝ𝕒𝕞 : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-> 𖣘ℍ𝕠𝕤𝕥 : ${os.platform()}
+┏𖣘 ⌜  𝕃𝕌ℂ𝕂𝕐 𝕄𝔻 ⌟ 𖣘
+> ✯𝕄𝕠𝕕𝕖: ${mode}
+> ✯𝕌𝕤𝕖𝕣 : ${s.OWNER_NAME}
+> ✯𝕃𝕚𝕓𝕣𝕒𝕣𝕪 : Baileys
+️> ✯ℙ𝕣𝕖𝕗𝕚𝕩 : ${s.PREFIXE}
+️> ✯𝔻𝕒𝕥𝕖 : ${date}
+> ✯𝕋𝕚𝕞𝕖 : ${temps}
+> ✯𝕋𝕠𝕠𝕝𝕤 : ${cm.length}
+> ✯ℝ𝕒𝕞 : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+> ✯ℍ𝕠𝕤𝕥 : ${os.platform()}
 ┗𖣘\n\n`;
 
 
     
 
 let menuMsg = `
-┏━━━━━━━━━┓
-> 𖣘 _*ˡᵘᶜᵏʸ ᵐᵈ ᶜᵐᵈˢ*_
-┗━━━━━━━━━┛\n
+  ┏━━━━━━━━━┓
+> ┣𖣘 _*ˡᵘᶜᵏʸ ᵐᵈ ᶜᵐᵈˢ*_
+  ┗━━━━━━━━━┛\n
 
 
 `;
@@ -93,12 +93,12 @@ let menuMsg = `
 
     for (const cat in coms) {
 
-        menuMsg += `┏𖣘 *${cat}*`;
+        menuMsg += `┏𖣘 _*${cat}*_ `;
 
         for (const cmd of coms[cat]) {
 
-            menuMsg += ` 
-> ✯ ${CMD}` ;
+            menuMsg += `
+> ✯ ${cmd}`;
 
         }
 
@@ -112,13 +112,13 @@ let menuMsg = `
     menuMsg += `
 
 
-┏━━━━━━━━━━━━━━┓
-> 𖣘 _*𝕝𝕦𝕔𝕜𝕪 𝕞𝕕 𝟚𝟘𝟚𝟜*_
-> 𖣘 _*𝕖𝕟𝕛𝕠𝕪 𝕝𝕚𝕗𝕖*_  
-┗┳━━━━━━━━━━━━┳┛
-┏┻━━━━━━━━━━━━┻┓
-> 𖣘 _*𝕡𝕠𝕨𝕖𝕣𝕖𝕕 𝕓𝕪 𖣘ғʀᴇᴅɪᴇ ᴛᴇᴄʜ𖣘*_
-┗━━━━━━━━━━━━━━┛\n
+  ┏━━━━━━━━━━━━━━┓
+> ┣𖣘_*𝕝𝕦𝕔𝕜𝕪 𝕞𝕕 𝟚𝟘𝟚𝟜*_
+> ┣𖣘 _*𝕖𝕟𝕛𝕠𝕪 𝕝𝕚𝕗𝕖*_  
+  ┗┳━━━━━━━━━━━━┳┛
+  ┏┻━━━━━━━━━━━━┻┓
+> ┃𖣘 _*𝕡𝕠𝕨𝕖𝕣𝕖𝕕 𝕓𝕪 𖣘ғʀᴇᴅɪᴇ ᴛᴇᴄʜ𖣘*_
+  ┗━━━━━━━━━━━━━━┛\n
 
 
 `;
