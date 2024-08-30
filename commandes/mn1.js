@@ -70,8 +70,8 @@ const date = moment().format('DD/MM/YYYY');
 > ✯𝕄𝕠𝕕𝕖: ${mode}
 > ✯𝕌𝕤𝕖𝕣 : ${s.OWNER_NAME}
 > ✯𝕃𝕚𝕓𝕣𝕒𝕣𝕪 : Baileys
-️> ✯ℙ𝕣𝕖𝕗𝕚𝕩 : ${s.PREFIXE}
-️> ✯𝔻𝕒𝕥𝕖 : ${date}
+> ✯ℙ𝕣𝕖𝕗𝕚𝕩 : ${s.PREFIXE}
+> ✯𝔻𝕒𝕥𝕖 : ${date}
 > ✯𝕋𝕚𝕞𝕖 : ${temps}
 > ✯𝕋𝕠𝕠𝕝𝕤 : ${cm.length}
 > ✯ℝ𝕒𝕞 : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
@@ -114,7 +114,7 @@ let menuMsg = `
 
   ┏━━━━━━━━━━━━━━┓
 > ┣𖣘_*𝕝𝕦𝕔𝕜𝕪 𝕞𝕕 𝟚𝟘𝟚𝟜*_
-> ┣𖣘 _*𝕖𝕟𝕛𝕠𝕪 𝕝𝕚𝕗𝕖*_  
+> ┣𖣘 _*𝕖𝕟𝕛𝕠𝕪 𝕝𝕚𝕗𝕖*_ 
   ┗┳━━━━━━━━━━━━┳┛
   ┏┻━━━━━━━━━━━━┻┓
 > ┃𖣘 _*𝕡𝕠𝕨𝕖𝕣𝕖𝕕 𝕓𝕪 𖣘ғʀᴇᴅɪᴇ ᴛᴇᴄʜ𖣘*_
