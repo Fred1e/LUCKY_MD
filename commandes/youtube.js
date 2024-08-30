@@ -8,7 +8,7 @@ const yts1 = require("youtube-yts");
 //var fs =require("fs-extra")
 
 zokou({
-  nomCom: "play",
+  nomCom: "audio",
   categorie: "Search",
   reaction: "💿"
 }, async (origineMessage, zk, commandeOptions) => {
@@ -41,7 +41,7 @@ zokou({
 
 Views: ${videos[0].views}`,
         
-  whatsapp: "Join my WhatsApp channel: 'https://whatsapp.com/channel/0029Vade9VgD38CPEnxfYF0M'"
+  whatsapp: "Join my WhatsApp channel: 'https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f'"
 };
      
 
@@ -84,7 +84,7 @@ Views: ${videos[0].views}`,
 
 
 zokou({
-  nomCom: "song",
+  nomCom: "music",
   categorie: "Search",
   reaction: "💿"
 }, async (origineMessage, zk, commandeOptions) => {
@@ -158,7 +158,7 @@ _*on downloading...*_\n\n`
   
 
 zokou({
-  nomCom: "video",
+  nomCom: "video2",
   categorie: "Search",
   reaction: "🎥"
 }, async (origineMessage, zk, commandeOptions) => {
@@ -211,7 +211,7 @@ _*Downloading...*_`
 
       fileStream.on('finish', () => {
         // Envoi du fichier vidéo en utilisant l'URL du fichier local
-        zk.sendMessage(origineMessage, { video: { url :"./video.mp4"} , caption: "*joel md", gifPlayback: false }, { quoted: ms });
+        zk.sendMessage(origineMessage, { video: { url :"./video.mp4"} , caption: "*lucky md", gifPlayback: false }, { quoted: ms });
       });
 
       fileStream.on('error', (error) => {
