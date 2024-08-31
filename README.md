@@ -53,7 +53,7 @@
 
 
 ## 𝟙.𝔽𝕀ℝ𝕊𝕋 𝕊𝕋𝔼ℙ 
-## ғᴏʀᴋ ʟᴜᴄᴋʏ ᴍᴅ ᴠ7 ʀᴇᴘᴏ
+ғᴏʀᴋ ʟᴜᴄᴋʏ ᴍᴅ ᴠ7 ʀᴇᴘᴏ
 
 
 <a href="https://github.com/Fred1e/LUCKY_MD/fork"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/𝔽𝕆ℝ𝕂 𝕋ℍ𝕀𝕊 ℝ𝔼ℙ𝕆-h?color=black&style=for-the-badge&logo=msi" width="220" height="38.45"/></a></p>
