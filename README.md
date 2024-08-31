@@ -2,10 +2,10 @@
 
  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=red&size=25&center=true&vCenter=true&width=600&height=100&lines=I'm+Lucky+md+Created+by+Fredie.&heart;++;Self-taught+Back-Created+By,;Fredi+Ezra+Am+The,;Best+Is+Bot+For+You+To,;Deploy..<3"></a>
  <a href="https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f">
- <img alt="LUCKY MD V5" height="300" src="https://telegra.ph/file/c0b1dbeec892876be27a6.jpg">
+ <img alt="𝕃𝕌ℂ𝕂𝕐 𝕄𝔻 𝕍𝟟" height="300" src="https://telegra.ph/file/c0b1dbeec892876be27a6.jpg">
   
 </h1> 
-<p align="center">l introduce <b>𝕃𝕌ℂ𝕂𝕐 𝕄𝔻 𝕍𝟟</b>, a powerful simple WhatsApp bot </p>
+<p align="center">ɪ ɪɴᴛʀᴏᴅᴜᴄᴇ <b>𝕃𝕌ℂ𝕂𝕐 𝕄𝔻 𝕍𝟟</b>, ᴀ ᴘᴏᴡᴇʀғᴜʟ sɪᴍᴘʟᴇ ᴡᴀᴛsᴀᴘᴘ ʙᴏᴛ </p>
 
 </p>
   <p align="center">
@@ -25,7 +25,7 @@
 ---
 
 <p align="center">
-  <a href="https://github.com/Fred1e/Lucky_md"><b>Lucky_md</b></a> Support Deploy On...
+  <a href="https://github.com/Fred1e/Lucky_md"><b>𝕃𝕌ℂ𝕂𝕐 𝕄𝔻 𝕍𝟟</b></a> 𝙎𝙪𝙥𝙥𝙤𝙧𝙩 𝘿𝙚𝙥𝙡𝙤𝙮 𝙊𝙣...
 </p>
 
 <p align="center">
@@ -52,12 +52,12 @@
 
 
 ## 𝟙.𝔽𝕀ℝ𝕊𝕋 𝕊𝕋𝔼ℙ 
-## Fork Lucky Md Repo
+## ғᴏʀᴋ ʟᴜᴄᴋʏ ᴍᴅ ᴠ7 ʀᴇᴘᴏ
 
 
-<a href="https://github.com/Fred1e/LUCKY_MD/fork"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/FORK THIS REPO-h?color=black&style=for-the-badge&logo=msi" width="220" height="38.45"/></a></p>
+<a href="https://github.com/Fred1e/LUCKY_MD/fork"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/𝔽𝕆ℝ𝕂 𝕋ℍ𝕀𝕊 ℝ𝔼ℙ𝕆-h?color=black&style=for-the-badge&logo=msi" width="220" height="38.45"/></a></p>
 
-star✨ my repo if you like this bot🤖
+sᴛᴀʀ 🌟 ᴍʏ ʀᴇᴘᴏ ɪғ ʏᴏᴜ ʟɪᴋᴇ ᴛʜɪs ʙᴏᴛ ®️
 
 
 ## 𝟚.𝕊𝔼ℂ𝕆ℕ𝔻 𝕊𝕋𝔼ℙ 
@@ -66,29 +66,24 @@ star✨ my repo if you like this bot🤖
  𝔾𝔼𝕋 𝕊𝔼𝕊𝕊𝕀𝕆ℕ 𝕀𝔻 𝔹𝕐
  
 
-<a href="https://lucky-md-a6c74c89c308.herokuapp.com/qr"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/QR CODE-h?color=black&style=for-the-badge&logo=msi" width="220" height="38.45"/></a></p>
+<a href="https://lucky-md-a6c74c89c308.herokuapp.com/qr"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/ℚℝ ℂ𝕆𝔻𝔼-h?color=black&style=for-the-badge&logo=msi" width="220" height="38.45"/></a></p>
 
 
  
-<a href="https://lucky-md-a6c74c89c308.herokuapp.com/"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/PAIRING CODE-h?color=black&style=for-the-badge&logo=msi" width="220" height="38.45"/></a></p>
+<a href="https://lucky-md-a6c74c89c308.herokuapp.com/"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/𝕊𝕀𝕋𝔼 𝔽𝕆ℝ ℙ𝔸𝕀ℝ-h?color=black&style=for-the-badge&logo=msi" width="220" height="38.45"/></a></p>
 
 
 ## 𝟛.𝕋ℍ𝕀ℝ𝔻 𝕊𝕋𝔼ℙ 
-**1. If You Don't Have An Account On Heroku**
+**1. ɪғ ʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴀᴄᴄᴏᴜɴᴛ ᴏɴ ʜᴇʀᴏᴋᴜ**
 
 <a href="https://signup.heroku.com">
- <img src="https://img.shields.io/badge/Create%20Account%20Now-black?style=for-the-badge&logo=heroku" width="200" height="38.45"/></a></p>
+ <img src="https://img.shields.io/badge/ℂℝ𝔼𝔸𝕋𝔼%20𝔸ℂℂ𝕆𝕌ℕ𝕋%20ℕ𝕆𝕎-black?style=for-the-badge&logo=heroku" width="200" height="38.45"/></a></p>
 
-**2. If You Have Account On Heroku**       
+**2. ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀᴄᴄᴏᴜɴᴛ ᴏɴ ʜᴇʀᴏᴋᴜ**       
 <br>
 <a href="https://dashboard.heroku.com/new?template=https://github.com/Fred1e/Lucky_Md/tree/main">
- <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="200" height="38.45"/></a></p>
+ <img src="https://img.shields.io/badge/𝔻𝔼ℙ𝕃𝕆𝕐%20𝕋𝕆%20ℍ𝔼ℝ𝕆𝕂𝕌-black?style=for-the-badge&logo=heroku" width="200" height="38.45"/></a></p>
 
-
-### 𝟜. 𝔻𝔼ℙ𝕃𝕆𝕐 𝔸ℕ𝕐 𝔹𝕆𝕋 𝕐𝕆𝕌 𝕃𝕀𝕂𝔼 ℍ𝔼ℝ𝔼
-
-<br>
-<a href="https://github.com/Frecyber/BOTS-SITE/tree/main"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/BOTS-SITE -h?color=black&style=for-the-badge&logo=msi" width="220" height="38.45"/></a></p>
 
 ##
 
@@ -96,13 +91,13 @@ star✨ my repo if you like this bot🤖
 
 ℂ𝕆ℕ𝕋𝔸ℂ𝕋 𝔻𝔼𝕍𝔼𝕃𝕆ℙ𝔼ℝ 𝕆ℕ 𝕎ℍ𝔸𝕋𝕊𝔸ℙℙ 
 
-<a href="http://wa.me/255620814108" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/whatsapp.svg" alt="255620814108" height="30" width="40" /></a>
+<a href="http://wa.me/255620814108" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/whatsapp.svg" alt="255620814108" height="40" width="50" /></a>
 
 
-<a href="https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/whatsapp.svg" alt="fredietech" height="30" width="40" /></a>
+<a href="https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/whatsapp.svg" alt="fredietech" height="40" width="50" /></a>
 
 
-<a href="https://www.youtube.com/@freeonlinetvT1" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="freditech" height="30" width="40" /></a>
+<a href="https://www.youtube.com/@freeonlinetvT1" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="freditech" height="40" width="50" /></a>
 
 
 ## License
