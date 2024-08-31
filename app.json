@@ -1,5 +1,5 @@
 {
-  "name":"LUCKY🍀 MD V5 UPDATE BY ME",
+  "name":"𝗟𝗨𝗖𝗞𝗬 𝗠𝗗 𝗩𝟳 𝗨𝗣𝗗𝗔𝗧𝗘 𝗕𝗬 𝗠𝗘",
   "description":"Best WhatsApp Bot Developed By Fredie Ezra Contact Us 255686745716,255764182801,255620814108,255752593977 Thank you for choose Lucky🍀 MD V5",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://telegra.ph/file/f6c60977ceb194e05e616.jpg",
@@ -35,7 +35,7 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"LUCKY🍀_MD V5",
+      "value":"𝗟𝗨𝗖𝗞𝗬 𝗠𝗗 𝗩𝟳",
       "required":false
 
     } ,
