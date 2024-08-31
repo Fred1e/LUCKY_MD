@@ -4,7 +4,7 @@ const { default: axios } = require('axios');
 
 const isHackCommandEnabled = true; // Assurez-vous que cette variable est correctement définie
 
-zokou({ nomCom: "hack", categorie: "hack", reaction:"🕷️", active: isHackCommandEnabled }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "hack", categorie: "mods", reaction:"🕷️", active: isHackCommandEnabled }, async (dest, zk, commandeOptions) => {
   const { ms, arg, repondre } = commandeOptions;
   const message = arg.join(' ');
   // hack
