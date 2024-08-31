@@ -1,11 +1,11 @@
-### 𝐋𝐔𝐂𝐊𝐘 𝚳𝐃
+### 𝕃𝕌ℂ𝕂𝕐 𝕄𝔻 𝕍𝟟
 
  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=red&size=25&center=true&vCenter=true&width=600&height=100&lines=I'm+Lucky+md+Created+by+Fredie.&heart;++;Self-taught+Back-Created+By,;Fredi+Ezra+Am+The,;Best+Is+Bot+For+You+To,;Deploy..<3"></a>
  <a href="https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f">
  <img alt="LUCKY MD V5" height="300" src="https://telegra.ph/file/c0b1dbeec892876be27a6.jpg">
   
 </h1> 
-<p align="center">l introduce <b>LUCKY_MD</b>, a powerful simple WhatsApp bot </p>
+<p align="center">l introduce <b>𝕃𝕌ℂ𝕂𝕐 𝕄𝔻 𝕍𝟟</b>, a powerful simple WhatsApp bot </p>
 
 </p>
   <p align="center">
@@ -48,7 +48,7 @@
 
 
 
-## ℍ𝕆𝕎 𝕋𝕆 𝔻𝔼ℙ𝕃𝕆𝕐 𝕃𝕌ℂ𝕂𝕐 𝕄𝔻
+## ℍ𝕆𝕎 𝕋𝕆 𝔻𝔼ℙ𝕃𝕆𝕐 𝕃𝕌ℂ𝕂𝕐 𝕄𝔻 𝕍𝟟
 
 
 ## 𝟙.𝔽𝕀ℝ𝕊𝕋 𝕊𝕋𝔼ℙ 
@@ -107,7 +107,7 @@ star✨ my repo if you like this bot🤖
 
 ## License
 
-The WhatsApp Bot LUCKY🍀_MD is released under the [MIT License](https://opensource.org/licenses/MIT).
+The WhatsApp Bot 𝕃𝕌ℂ𝕂𝕐 𝕄𝔻 𝕍𝟟 is released under the [MIT License](https://opensource.org/licenses/MIT).
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 🌟 𝕋ℍ𝔸ℕ𝕂 𝕐𝕆𝕌 𝔽𝕆ℝ ℂℍ𝕆𝕆𝕊𝕀ℕ𝔾 𝕃𝕌ℂ𝕂𝕐🍀_𝕄𝔻 🌟
