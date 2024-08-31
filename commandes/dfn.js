@@ -1,7 +1,7 @@
 zokou({
   'nomCom': 'define',
   'reaction': '🤔',
-  'categorie': "yts-search"
+  'categorie': "dfn"
 }, async (_0x2d6773, _0x1778cf, _0x5bcf7e) => {
   const {
     repondre: _0x3c6e3b,
