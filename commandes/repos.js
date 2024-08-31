@@ -2,9 +2,9 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const { zokou } = require("../framework/zokou");
 
-zokou({ nomCom: "repo", catégorie:"Général", reaction: "✨", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "repo", catégorie:"Général", reaction: "⚙️", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
   const githubRepo = 'https://api.github.com/repos/Fred1e/LUCKY_MD';
-  const img = 'https://telegra.ph/file/59ead3c2b58ca1b07734d.jpg';
+  const img = 'https://telegra.ph/file/f6c60977ceb194e05e616.jpg';
 
   try {
     const response = await fetch(githubRepo);
@@ -22,9 +22,8 @@ zokou({ nomCom: "repo", catégorie:"Général", reaction: "✨", nomFichier: __f
       const lastUpdateDate = new Date(data.updated_at).toLocaleDateString('en-GB');
 
       const gitdata = `*hellow whatsaap user
-this is* *Luck_md V5.*\n support channel *by*, *Follow 🙏*  https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f
+this is* *LUCKY_MD V7.*\n support our channel *by*,  https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f
 
- ❍━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━❍ 
 ╭──────────────────────────────────➳
 │╭─────────────────────────────────➳
 ││ 🗼 *REPOSITORY:* ${data.html_url}
@@ -37,11 +36,11 @@ this is* *Luck_md V5.*\n support channel *by*, *Follow 🙏*  https://whatsapp.c
 ││ 🥰 *ENJOY TO USE LUCKY MD V7🤞*
 │╰─────────────────────────────────➳
 ││ 🇹🇿🇹🇿➠   ╭────────────────────────➳
-││ 🇺🇬🇺🇬➠   │ _*Made With Fredie Tech*_';
+││ 🇺🇬🇺🇬➠   │ _*Made With Fredie Tech*_
 ││ 🇰🇪🇰🇪➠   ╰────────────────────────➳
 │╰─────────────────────────────────➳
 ╰──────────────────────────────────➳ 
- ❍━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━❍
+ ❍━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━❍`;
 
       await zk.sendMessage(dest, { image: { url: img }, caption: gitdata });
     } else {
