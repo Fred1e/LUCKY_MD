@@ -4,7 +4,7 @@ const afkfunc = require("../bdd/afk") ;
 
 zokou({
     nomCom : 'afk',
-    categorie : 'afk',
+    categorie : 'mods',
   } , async (dest,zk,commandeOptions) => {
   
    const {ms , repondre ,superUser , arg} = commandeOptions ;
