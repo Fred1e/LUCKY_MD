@@ -117,7 +117,7 @@ async function sendbug(dest, zk, ms, repondre, amount, victims, bug) {
 // bug menu
 zokou(
     {
-        nomCom: "bu",
+        nomCom: "fredi-crash",
         categorie: category,
         reaction: reaction
     },
