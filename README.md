@@ -3,7 +3,7 @@
 
  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=red&size=25&center=true&vCenter=true&width=600&height=100&lines=I'm+Lucky+md+Created+by+Fredie.&heart;++;Self-taught+Back-Created+By,;Fredi+Ezra+Am+The,;Best+Is+Bot+For+You+To,;Deploy..<3"></a>
  <a href="https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f">
- <img alt="𝕃𝕌ℂ𝕂𝕐 𝕄𝔻 𝕍𝟟" height="300" src="https://telegra.ph/file/c0b1dbeec892876be27a6.jpg">
+ <img alt="𝕃𝕌ℂ𝕂𝕐 𝕄𝔻 𝕍𝟟" height="300" src="https://telegra.ph/file/926c7a8ad7ff624c144b7.jpg">
   
 </h1> 
 <p align="center">ɪ ɪɴᴛʀᴏᴅᴜᴄᴇ <b>𝕃𝕌ℂ𝕂𝕐 𝕄𝔻 𝕍𝟟</b>, ᴀ ᴘᴏᴡᴇʀғᴜʟ sɪᴍᴘʟᴇ ᴡᴀᴛsᴀᴘᴘ ʙᴏᴛ </p>
