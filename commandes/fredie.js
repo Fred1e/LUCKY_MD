@@ -8,7 +8,7 @@ const s = require(__dirname + "/../set");
 const more = String.fromCharCode(8206)
 const Taphere = more.repeat(4001)
 
-zokou({ nomCom: "bugmenu", categorie: "menu" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "problem", categorie: "My Contact" }, async (dest, zk, commandeOptions) => {
     let { ms, repondre ,prefixe,nomAuteurMessage,mybotpic} = commandeOptions;
     let { cm } = require(__dirname + "/../framework//zokou");
     var coms = {};
@@ -34,29 +34,23 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
 let infoMsg =  `
-━━━━❍ *𝕃𝕌ℂ𝕂𝕐 𝕄𝔻 ℂℝ𝔸𝕊ℍ𝔼ℝ* ❍━━━━
+━━━━❍ *SUPPORT AND FOR HELP* ❍━━━━
 ╭─────────────────────❍ 
-│ bug
-│ crash
-│ loccrash
-│ amountbug <amount>
-│ crashbug 255XXXX
-│ pmbug 255XXXX
-│ delaybug 255XXXX
-│ trollybug 255XXXX
-│ docubug 254XXXX
-│ unlimitedbug 255XXXX
-│ bombug 255XXXX
-│ lagbug 255XXXX
-│ gcbug <grouplink>
-│ delaygcbug <grouplink>
-│ trollygcbug <grouplink>
-│ laggcbug <grouplink>
-│ bomgcbug <grouplink>
-│ unlimitedgcbug <grouplink>
-│ docugcbug <grouplink>
+│  _*Support channel by follow*_ ;https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f
+│  _*Join Our WhatsApp group*_ ;https://chat.whatsapp.com/HdrwMccSFIaB5Zi7s9BzN9
+│  _*WhatsApp Contact As*_ ;Https://wa.me/255752593977 
+│  _*WhatsApp Bot Fork And Star*_ ;https://github.com/Fred1e/LUCKY_MD
+│  _*Telegram Group*_ ;https://t.me/+u3zlb5y6OfxhOTdk
+│  _*Telegram Channel*_ ;https://t.me/FredieTech_BusinessPlace
+│  _*Telegram Bot*_ ;Https://t.me/@fredidurry_bot
+│  _*Telegram Contact As*_ ; t.me/freditech 
+│  _*Instagram*_ ;https://www.instagram.com/fredi.simba.tz
+│  _*Facebook*_ ;https://www.facebook.com/profile.php?id=61553209932337&mibextid=ZbWKwL
+│  _*YouTube Channel Subscribe For Tutorial*_ ;https://www.youtube.com/@freeonlinetvT1
 ╰─────────────────────❍ 
-
+╭──━━━━━━━━━━━━━━━──➳❍ 
+│➳ *THANK YOU FOR CHOOSING LUCKY MD*
+╰──━━━━━━━━━━━━━━━──➳❍ 
 ╭────────────────────➳
 │╭──> ⏲️ *TIME* : ${temps}
 │╭──> 📅 *DATE* : ${date} 
