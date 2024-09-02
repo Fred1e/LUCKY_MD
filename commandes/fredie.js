@@ -47,6 +47,7 @@ let infoMsg =  `
 │  _*Instagram*_ ;https://www.instagram.com/fredi.simba.tz
 │  _*Facebook*_ ;https://www.facebook.com/profile.php?id=61553209932337&mibextid=ZbWKwL
 │  _*YouTube Channel Subscribe For Tutorial*_ ;https://www.youtube.com/@freeonlinetvT1
+│  _*Follow My Github For About Info*_ ;https://github.com/Fred1e
 ╰─────────────────────❍ 
 ╭──━━━━━━━━━━━━━━━──➳❍ 
 │➳ *THANK YOU FOR CHOOSING LUCKY MD*
