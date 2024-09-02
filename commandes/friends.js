@@ -24,19 +24,19 @@ zokou({
     'numero': "254114141192"
   }, {
     'nom': "Ibrahim Adams Kenya 🇰🇪",
-    'numero': "254 710 772666"
+    'numero': "254710772666"
   }, {
     'nom': "Baraka Bega From Tanzania 🇹🇿",
-    'numero': "255 762 190 568"
+    'numero': "255762190568"
   }, {
     'nom': "Boniphace from Tanzania 🇹🇿",
-    'numero': "255 716 661 569"
+    'numero': "255716661569"
   }, {
     'nom': "Joel it🕷️ From Tanzania 🇹🇿",
-    'numero': "255 714 595 078"
+    'numero': "255714595078"
   }, {
     'nom': "Dullah From Tanzania 🇹🇿",
-    'numero': "255 716 945 971"
+    'numero': "255716945971"
   }, {
     'nom': "🤕",
     'numero': "load..."
@@ -51,7 +51,7 @@ zokou({
     'numero': "Load...."
   }, {
 'nom': "Kingfreditech From Tanzania 🇹🇿",
-    'numero': "255 620 814 108"
+    'numero': "255620814108"
   }, {
     'nom': "🤕",
     'numero': "load...."
