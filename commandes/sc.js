@@ -8,7 +8,7 @@ const s = require(__dirname + "/../set");
 const more = String.fromCharCode(8206)
 const readmore = more.repeat(4001)
 
-zokou({ nomCom: "sc", categorie: "My contact" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "sc", categorie: "My Contact" }, async (dest, zk, commandeOptions) => {
     let { ms, repondre ,prefixe,nomAuteurMessage,mybotpic} = commandeOptions;
     let { cm } = require(__dirname + "/../framework//zokou");
     var coms = {};
@@ -46,12 +46,14 @@ const date = moment().format('DD/MM/YYYY');
 > https://github.com/Fred1e/LUCKY_MD
 ╭───────────────────❍ 
 │❒⁠⁠⁠⁠ *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-│❒⁠⁠⁠⁠ *DEV* : *DULLAH BOT*
+│❒⁠⁠⁠⁠ *DEV* : *LUCKY BOT*
 ⁠⁠⁠⁠╰───────────────────❍ 
   `;
     
 let menuMsg = `
-     DULLAH MD 
+     ╭─────────────➳
+     │ LUCKY MD V7 
+     ╰─────────────➳
 
 ❍────────────────────❍`;
 
