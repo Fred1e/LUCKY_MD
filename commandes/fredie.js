@@ -36,7 +36,7 @@ const date = moment().format('DD/MM/YYYY');
 let infoMsg =  `
 ━━━━❍ *FREDIE TECH INFO* ❍━━━━
 ╭──━━━━━━━━━━━━━━━━━━━❍ 
-│╭────────────────────➳ 
+│
 │  _*Support channel by follow*_ ;https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f
 │  _*Join Our WhatsApp group*_ ;https://chat.whatsapp.com/HdrwMccSFIaB5Zi7s9BzN9
 │  _*WhatsApp Contact As*_ ;Https://wa.me/255752593977 
@@ -49,13 +49,14 @@ let infoMsg =  `
 │  _*Facebook*_ ;https://www.facebook.com/profile.php?id=61553209932337
 │  _*YouTube Channel Subscribe For Tutorial*_ ;https://www.youtube.com/@freeonlinetvT1
 │  _*Follow My Github For About Info*_ ;https://github.com/Fred1e
-│╰─────────────────────➳ 
+│
 ╰──━━━━━━━━━━━━━━━━━━━❍ 
 ╭──━━━━━━━━━━━━━━━──➳❍ 
 │ *THANK YOU FOR CHOOSING*
 ╰──━━━━━━━━━━━━━━━──➳❍ 
 ╭────────────────────➳
-│ ⏲️ *TIME* : ${temps} 📅 *DATE* : ${date} 
+│ ⏲️ *TIME* : ${temps} 
+│ 📅 *DATE* : ${date} 
 ╰────────────────────➳`;
     
 let menuMsg = `
