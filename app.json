@@ -2,7 +2,7 @@
   "name":"𝗟𝗨𝗖𝗞𝗬 𝗠𝗗 𝗩𝟳 𝗨𝗣𝗗𝗔𝗧𝗘 𝗕𝗬 𝗠𝗘",
   "description":"Best WhatsApp Bot Developed By Fredie Ezra Contact Us 255686745716,255764182801,255620814108,255752593977 Thank you for choose Lucky🍀 MD V5",
   "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://telegra.ph/file/f6c60977ceb194e05e616.jpg",
+  "logo":"https://telegra.ph/file/187cfa2365d88ffe98fec.jpg",
   "repository":"https://github.com/Fred1e/LUCKY_MD",
   "succes_url":"/",
   "stack":"container",
@@ -42,7 +42,7 @@
      "BOT_MENU_LINKS" : {
     
       "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://telegra.ph/file/f6c60977ceb194e05e616.jpg,https://telegra.ph/file/c0b1dbeec892876be27a6.jpg",
+      "value":"https://telegra.ph/file/187cfa2365d88ffe98fec.jpg,https://telegra.ph/file/9468e35d76585a0d4a0df.jpg,https://telegra.ph/file/74efff424a978be5e3c40.jpg",
       "required":false
        
      },
