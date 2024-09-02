@@ -4,18 +4,19 @@ const {
 const {
   getAllSudoNumbers,
   isSudoTableNotEmpty
-} = require("../data/sudo");
+} = require("../bdd/sudo");
 const conf = require("../set");
 zokou({
   'nomCom': "agents",
   'categorie': 'General',
-  'reaction': "👌 "
+  'reaction': "🤙"
 }, async (_0x1b06c5, _0x54bb8b, _0x2358bf) => {
   const {
     ms: _0x2aecc0,
     mybotpic: _0x43a6e2
   } = _0x2358bf;
   const _0x21b56d = [{
+    'nom': "Belta from Kenya",
     'nom': "FrediTech from Tanzania 🇹🇿",
     'numero': "load..."
   }, {
@@ -55,9 +56,9 @@ zokou({
     'nom': "🤕",
     'numero': "load...."
   }];
-  let _0x2d5c7e = "Hello🤝 ${nomAuteurMessage},,, * Thanks for CHOOSING LUCKY_MD* \nThe following numbers are for  *LUCKY_MD* agents, \nYou can ask them anything regarding Lucky Bot \n*STAY WITH USING LUCKY_MD*:\n\n";
+  let _0x2d5c7e = "Hello👋  *I'm Lucky Md Wa Bot* \nThe Following Numbers Are For  *LUCKY_MD* Agents, \nYou Can Ask Them Anything Regarding Lucky Bot \nFollow Our Channel For More Tech :https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f \n*KEEP USING LUCKY MD*:\n\n";
   for (const _0x14eeec of _0x21b56d) {
-    _0x2d5c7e += "----------------\n• " + _0x14eeec.nom + " : https://wa.me/" + _0x14eeec.numero + "\n";
+    _0x2d5c7e += "----------------\n(●) " + _0x14eeec.nom + " : https://wa.me/" + _0x14eeec.numero + "\n";
   }
   var _0x11d31d = _0x43a6e2();
   if (_0x11d31d.match(/\.(mp4|gif)$/i)) {
