@@ -66,7 +66,7 @@ const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
 
-┏❏ ⌜  𝕃𝕌ℂ𝕂𝕐 𝕄𝔻 𝕍𝟝 ⌟ ❐
+┏❏ ⌜  𝕃𝕌ℂ𝕂𝕐 𝕄𝔻 𝕍7 ⌟ ❐
 ┃ ⿻𝕄𝕠𝕕𝕖: ${mode}
 ┃ ⿻𝕌𝕤𝕖𝕣 : ${s.OWNER_NAME}
 ┃ ⿻𝕃𝕚𝕓𝕣𝕒𝕣𝕪 : Baileys
@@ -113,7 +113,7 @@ let menuMsg = `
 
 
 > ┏━━━━━━━━━━━━━━┓
-> ┣➠Lucky md V5 2024
+> ┣➠Lucky md V7 2024
 > ┣➠Enjoy life  
 > ┗┳━━━━━━━━━━━━┳┛
 > ┏┻━━━━━━━━━━━━┻┓
