@@ -90,13 +90,14 @@ sᴛᴀʀ 🌟 ᴍʏ ʀᴇᴘᴏ ɪғ ʏᴏᴜ ʟɪᴋᴇ ᴛʜɪs ʙᴏᴛ ®�
 
 ℂ𝕆ℕ𝕋𝔸ℂ𝕋 𝔻𝔼𝕍𝔼𝕃𝕆ℙ𝔼ℝ 𝕆ℕ 𝕎ℍ𝔸𝕋𝕊𝔸ℙℙ 
 
-<a href="http://wa.me/255620814108" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/whatsapp.svg" alt="255620814108" height="40" width="50" /></a>
+𝕎𝔸𝕋𝕊𝔸ℙℙ 𝕄𝔼
+<a href="http://wa.me/255620814108" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/whatsapp.svg" alt="255620814108" height="60" width="70" /></a>
 
+𝕎𝔸𝕋𝕊𝔸ℙℙ ℂℍ𝔸ℕℕ𝔼𝕃
+<a href="https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/whatsapp.svg" alt="fredietech" height="60" width="70" /></a>
 
-<a href="https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/whatsapp.svg" alt="fredietech" height="40" width="50" /></a>
-
-
-<a href="https://www.youtube.com/@freeonlinetvT1" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="freditech" height="40" width="50" /></a>
+𝕐𝕆𝕌𝕋𝕌𝔹𝔼 ℂℍ𝔸ℕℕ𝔼𝕃
+<a href="https://www.youtube.com/@freeonlinetvT1" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="freditech" height="60" width="70" /></a>
 
 
 ## License
