@@ -34,7 +34,7 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-────  _*LUCKY MD*_ ─────✣
+────❂ _*LUCKY MD*_ ⦿━━━✣
 │ ╭─────────────✣
 │ │▸ *my owner* : ${s.OWNER_NAME}
 │ │▸ *commander* : ${nomAuteurMessage} 
@@ -51,7 +51,7 @@ const date = moment().format('DD/MM/YYYY');
     
 let menuMsg = `
 
- > *Lucky Md v5 COMMADS* ${readmore}
+ > *Lucky Md v7 COMMADS* ${readmore}
 `;
 
     for (const cat in coms) {
