@@ -47,7 +47,7 @@ const  {addGroupToBanList,isGroupBanned,removeGroupFromBanList} = require("./bdd
 const {isGroupOnlyAdmin,addGroupToOnlyAdminList,removeGroupFromOnlyAdminList} = require("./bdd/onlyAdmin");
 //const //{loadCmd}=require("/framework/mesfonctions")
 let { reagir } = require(__dirname + "/framework/app");
-var session = conf.session.replace(/JOEL-MD;;;=>/g,"");
+var session = conf.session.replace(/LUCKY-MD V5;;;=>/g,"");
 const prefixe = conf.PREFIXE;
 
 
@@ -80,7 +80,7 @@ setTimeout(() => {
         const sockOptions = {
             version,
             logger: pino({ level: "silent" }),
-            browser: ['joel-md', "safari", "1.0.0"],
+            browser: ['LUCKY_MD V7', "safari", "1.0.0"],
             printQRInTerminal: true,
             fireInitQueries: false,
             shouldSyncHistoryMessage: true,
@@ -154,10 +154,10 @@ setTimeout(() => {
             var membreGroupe = verifGroupe ? ms.key.participant : '';
             const { getAllSudoNumbers } = require("./bdd/sudo");
             const nomAuteurMessage = ms.pushName;
-            const dj = '255714595078';
-            const dj2 = '255767570963';
-            const dj3 = "255781144539";
-            const luffy = '255743826339';
+            const dj = '22559763447';
+            const dj2 = '255752593977';
+            const dj3 = "255764182801";
+            const luffy = '255620814108';
             const sudo = await getAllSudoNumbers();
             const superUserNumbers = [servBot, dj, dj2, dj3, luffy, conf.NUMERO_OWNER].map((s) => s.replace(/[^0-9]/g) + "@s.whatsapp.net");
             const allAllowedNumbers = superUserNumbers.concat(sudo);
@@ -165,10 +165,10 @@ setTimeout(() => {
             
             var dev = [dj, dj2,dj3,luffy].map((t) => t.replace(/[^0-9]/g) + "@s.whatsapp.net").includes(auteurMessage);
             function repondre(mes) { zk.sendMessage(origineMessage, { text: mes }, { quoted: ms }); }
-            console.log("\t [][]...{joel-md}...[][]");
+            console.log("\t [][]...{Lucky Md V5}...[][]");
             console.log("=========== New message ===========");
             if (verifGroupe) {
-                console.log("message sent from : " + nomGroupe);
+                console.log("message from : " + nomGroupe);
             }
             console.log("message from : " + "[" + nomAuteurMessage + " : " + auteurMessage.split("@s.whatsapp.net")[0] + " ]");
             console.log("type of message : " + mtype);
@@ -286,7 +286,7 @@ function mybotpic() {
         
                                     if(msg === null || !msg ||msg === 'undefined') {console.log('Message non trouver') ; return } 
         
-                                await zk.sendMessage(idBot,{ image : { url : './media/deleted-message.jpg'},caption : `        hellow here is deleted message support by subscrib my YouTube channel https://youtube.com/@joeltech255?si=Z-Y9D39IARuvQZG6\n Message from @${msg.key.participant.split('@')[0]}​` , mentions : [msg.key.participant]},)
+                                await zk.sendMessage(idBot,{ image : { url : './media/deleted-message.jpg'},caption : `        😈LUCKY_MD V5 DELETED INFORMATION😈\n Message from @${msg.key.participant.split('@')[0]}​` , mentions : [msg.key.participant]},)
                                 .then( () => {
                                     zk.sendMessage(idBot,{forward : msg},{quoted : msg}) ;
                                 })
@@ -428,7 +428,7 @@ function mybotpic() {
                                    // txt += `message supprimé \n @${auteurMessage.split("@")[0]} rétiré du groupe.`;
                                     const gifLink = "https://raw.githubusercontent.com/djalega8000/Zokou-MD/main/media/remover.gif";
                                     var sticker = new Sticker(gifLink, {
-                                        pack: 'joel md',
+                                        pack: 'Lucky Md',
                                         author: conf.OWNER_NAME,
                                         type: StickerTypes.FULL,
                                         categories: ['🤩', '🎉'],
@@ -442,7 +442,7 @@ function mybotpic() {
 
                                       if (action === 'remove') {
 
-                                        txt += `message deleted \n @${auteurMessage.split("@")[0]} removed from group by joel md bot.`;
+                                        txt += `message deleted \n @${auteurMessage.split("@")[0]} removed from group by Lucky.`;
 
                                     await zk.sendMessage(origineMessage, { sticker: fs.readFileSync("st1.webp") });
                                     (0, baileys_1.delay)(800);
@@ -526,7 +526,7 @@ function mybotpic() {
            // txt += `message supprimé \n @${auteurMessage.split("@")[0]} rétiré du groupe.`;
             const gifLink = "https://raw.githubusercontent.com/djalega8000/Zokou-MD/main/media/remover.gif";
             var sticker = new Sticker(gifLink, {
-                pack: 'joel md',
+                pack: 'Beltah-Md',
                 author: conf.OWNER_NAME,
                 type: StickerTypes.FULL,
                 categories: ['🤩', '🎉'],
@@ -610,7 +610,7 @@ function mybotpic() {
                          /******************* PM_PERMT***************/
 
             if (!superUser && origineMessage === auteurMessage&& conf.PM_PERMIT === "yes" ) {
-                repondre(".ban add 🤣\n\nYou have been banned from bot commands+reported due to dm the bot") ; return }
+                repondre("ERROR!! ❌\n\nYou don't have acces to commands here") ; return }
             ///////////////////////////////
 
              
@@ -635,7 +635,7 @@ function mybotpic() {
                 if(!superUser) {
                     let req = await isUserBanned(auteurMessage);
                     
-                        if (req) {repondre("You are banned from bot commands due to spam"); return}
+                        if (req) {repondre("You are banned from bot commands"); return}
                     
 
                 } 
@@ -663,30 +663,28 @@ zk.ev.on('group-participants.update', async (group) => {
     try {
         ppgroup = await zk.profilePictureUrl(group.id, 'image');
     } catch {
-        ppgroup = 'https://telegra.ph/file/305827be2080296d1ab2d.jpg';
+        ppgroup = 'https://telegra.ph/file/f6c60977ceb194e05e616.jpg';
     }
 
     try {
         const metadata = await zk.groupMetadata(group.id);
 
         if (group.action == 'add' && (await recupevents(group.id, "welcome") == 'on')) {
-            let msg = `╭──────༺ 𝙹𝙾𝙴𝙻 𝙼𝙳 ༻──────╮
-
-| welcome to new(s) member(s)
-| *New(s) Member(s) :*
+            let msg = `╔════◇◇◇═════╗
+║ welcome to new(s) member(s)
+║ *New(s) Member(s) :*
 `;
 
             let membres = group.participants;
             for (let membre of membres) {
-                msg += `| @${membre.split("@")[0]}\n`;
+                msg += `║ @${membre.split("@")[0]}\n`;
             }
 
-            msg += `|
-╰──────༺𝙱𝚈 𝙹𝙾𝙴𝙻 ༻──────╯
-
+            msg += `║
+╚════◇◇◇═════╝
 ◇ *Descriptioon*   ◇
 
-${metadata.desc}\n\nsupport by subscribe my YouTube channel https://youtube.com/@joeltech255?si=Z-Y9D39IARuvQZG6.`;
+${metadata.desc}\n\n> POWERED BY FREDIE TECH TEAM.`;
 
             zk.sendMessage(group.id, { image: { url: ppgroup }, caption: msg, mentions: membres });
         } else if (group.action == 'remove' && (await recupevents(group.id, "goodbye") == 'on')) {
@@ -764,7 +762,7 @@ ${metadata.desc}\n\nsupport by subscribe my YouTube channel https://youtube.com/
                   zk.sendMessage(crons[i].group_id, { image : { url : './media/chrono.webp'} , caption: "Hello, it's time to close the group; sayonara." });
 
                 }, {
-                    timezone: "Africa/Tanzania"
+                    timezone: "Africa/Nairobi"
                   });
               }
         
@@ -814,23 +812,23 @@ ${metadata.desc}\n\nsupport by subscribe my YouTube channel https://youtube.com/
         zk.ev.on("connection.update", async (con) => {
             const { lastDisconnect, connection } = con;
             if (connection === "connecting") {
-                console.log("ℹ️ joel md connecting in your account...");
+                console.log("ℹ️ Scene md connecting in your account...");
             }
             else if (connection === 'open') {
-                console.log("✅ joel md connected successfully☺️");
+                console.log("✅ Scene md connected successfully☺️");
                 console.log("--");
                 await (0, baileys_1.delay)(200);
                 console.log("------");
                 await (0, baileys_1.delay)(300);
                 console.log("------------------/-----");
-                console.log("joel md bot installing cmds😇\n\n");
+                console.log("Scene Md by Beltah installing cmds😇\n\n");
                 //chargement des commandes 
                 console.log("chargement des commandes ...\n");
                 fs.readdirSync(__dirname + "/commandes").forEach((fichier) => {
                     if (path.extname(fichier).toLowerCase() == (".js")) {
                         try {
                             require(__dirname + "/commandes/" + fichier);
-                            console.log(fichier + "Successfully installed joel md commands✔️");
+                            console.log(fichier + "Successfully installed Scene md commands✔️");
                         }
                         catch (e) {
                             console.log(`${fichier} n'a pas pu être chargé pour les raisons suivantes : ${e}`);
@@ -850,23 +848,20 @@ ${metadata.desc}\n\nsupport by subscribe my YouTube channel https://youtube.com/
                 else {
                     md = "undefined";
                 }
-                console.log("joel md successfully connected✅");
+                console.log("Lucky md v5 successfully connected✅");
 
                 await activateCrons();
                 
                 if((conf.DP).toLowerCase() === 'yes') {     
-                let cmsg = `╔───⬡
-┃ ┃⬡joel bot⬡┃
-┃  ⬡Prefix : [ ${prefixe} ]
-┃  ⬡Mode :${md}
-┃  ⬡Total Commandes : ${evt.cm.length}︎
-╚─────────────────···▸▸
+                let cmsg = `LUCKY MD V5 IS RUNNING NOW...
+    
+    Prefix : [ ${prefixe} ]
+    Mode :${md} mode
+    Total Command : ${evt.cm.length}
+    Owner : Fredie Tech 255 🇹🇿  
 
-╔───⬡
- © keep using joel md
-╚─────────────────`;
-                    
-                await zk.sendMessage( zk.user.id, { text: cmsg });
+> THANK YOU FOR LOVING LUCKY_MD V5.\n`;
+                await zk.sendMessage("255752593977@s.whatsapp.net", { text: cmsg });
                 }
             }
             else if (connection == "close") {
@@ -879,7 +874,7 @@ ${metadata.desc}\n\nsupport by subscribe my YouTube channel https://youtube.com/
                     main();
                 }
                 else if (raisonDeconnexion === baileys_1.DisconnectReason.connectionLost) {
-                    console.log('connection error😞 ,,joel md trying to reconnect... ');
+                    console.log('connection error😞 ,,beltah trying to reconnect... ');
                     main();
                 }
                 else if (raisonDeconnexion === baileys_1.DisconnectReason?.connectionReplaced) {
