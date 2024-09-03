@@ -60,7 +60,7 @@ zokou({ nomCom: 'getallmembers',
 
 zokou({ nomCom: 'channel',
     desc: 'To check runtime',
-    Categorie: 'General',
+    Categorie: 'My Contact',
     reaction: '🐞', 
     fromMe: 'true', 
 
@@ -80,7 +80,7 @@ zokou({ nomCom: 'channel',
 
 zokou({ nomCom: 'channel1',
     desc: 'To check runtime',
-    Categorie: 'General',
+    Categorie: 'My Contact',
     reaction: '🚀', 
     fromMe: 'true', 
 
@@ -141,7 +141,7 @@ zokou({ nomCom: 'vision',
   
 zokou({ nomCom: 'luckygc',
     desc: 'To check runtime',
-    Categorie: 'General',
+    Categorie: 'My Contact',
     reaction: '♻️', 
     fromMe: 'true', 
 
@@ -159,9 +159,9 @@ zokou({ nomCom: 'luckygc',
 )
 
 
-zokou({ nomCom: 'FredieTech',
+zokou({ nomCom: 'mee',
     desc: 'To check runtime',
-    Categorie: 'General',
+    Categorie: 'My Contact',
     reaction: '🐅', 
     fromMe: 'true', 
 
@@ -170,21 +170,7 @@ zokou({ nomCom: 'FredieTech',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`╭──────────────➳
-                │➳ *Mr Fredi All Info For Support As And Help*
-                _*Support channel by follow*_ ;https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f
-                _*Join Our WhatsApp group*_ ;https://chat.whatsapp.com/HdrwMccSFIaB5Zi7s9BzN9
-                _*WhatsApp Contact As*_ ;Https://wa.me/255752593977 
-                _*WhatsApp Bot Fork And Star*_ ;https://github.com/Fred1e/LUCKY_MD
-                _*Telegram Group*_ ;https://t.me/+u3zlb5y6OfxhOTdk
-                _*Telegram Channel*_ ;https://t.me/FredieTech_BusinessPlace
-                _*Telegram Bot*_ ;Https://t.me/@fredidurry_bot
-                _*Telegram Contact As*_ ; t.me/freditech 
-                _*Instagram*_ ;https://www.instagram.com/fredi.simba.tz
-                _*Facebook*_ ;https://www.facebook.com/profile.php?id=61553209932337&mibextid=ZbWKwL
-                _*YouTube Channel Subscribe For Tutorial*_ ;https://www.youtube.com/@freeonlinetvT1
-                 *THANK YOU FOR CHOOSING LUCKY MD*
-                 ╰───────────────➳`) 
+                 await repondre(`For Help Contact As 1.:Https://wa.me/255752593977, 2.:Https://wa.me/255620814108, 3.:Https://wa.me/255764182801`) 
 
    
 
