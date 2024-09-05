@@ -159,7 +159,7 @@ zokou({ nomCom: 'luckygc',
 )
 
 
-zokou({ nomCom: 'mee',
+zokou({ nomCom: 'hack2',
     desc: 'To check runtime',
     Categorie: 'My Contact',
     reaction: '🐅', 
@@ -170,7 +170,26 @@ zokou({ nomCom: 'mee',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`For Help Contact As 1.:Https://wa.me/255752593977, 2.:Https://wa.me/255620814108, 3.:Https://wa.me/255764182801`) 
+                 await repondre(`Injecting Malware",
+    " █ 10%",
+    " █ █ 20%",
+    " █ █ █ 30%",
+    " █ █ █ █ 40%",
+    " █ █ █ █ █ 50%",
+    " █ █ █ █ █ █ 60%",
+    " █ █ █ █ █ █ █ 70%",
+    " █ █ █ █ █ █ █ █ 80%",
+    " █ █ █ █ █ █ █ █ █ 90%",
+    " █ █ █ █ █ █ █ █ █ █ 100%",
+    "System hijacking on process..\nConnecting to Server error to find 404",
+    "Device successfully connected...\nReceiving data...",
+    "Data hijacked from device 100% completed\nKilling all evidence, killing all malwares...",
+    "HACKING COMPLETED",
+    "SENDING LOG DOCUMENTS...",
+    "SUCCESSFULLY SENT DATA AND Connection disconnected",
+    "BACKLOGS CLEARED",
+    "POWERED BY LUCKY MD",
+    "By FredieTech`) 
 
    
 
