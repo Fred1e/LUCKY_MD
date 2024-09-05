@@ -36,7 +36,7 @@ const runtime = function (seconds) {
 
  zokou(
  {
-  nomCom: "my status?(.*)",
+  nomCom: "status",
   fromMe: true,
   desc: "privacy for my status",
   categorie: "My Contact",
@@ -53,7 +53,7 @@ const runtime = function (seconds) {
 
 zokou(
  {
-  nomCom: "online ?(.*)",
+  nomCom: "online",
   fromMe: true,
   desc: "to change online privacy",
   categorie: "My Contact",
@@ -70,7 +70,7 @@ zokou(
 
  zokou(
  {
-  nomCom: "caption ?(.*)",
+  nomCom: "caption",
   fromMe: true,
   desc: "Change video or image caption",
   type: "My Contact",
@@ -85,7 +85,7 @@ zokou(
 
 zokou(
  {
-  nomCom: "lastseen ?(.*)",
+  nomCom: "lastseen",
   fromMe: true,
   desc: "to change lastseen privacy",
   type: "My Contact",
@@ -102,7 +102,7 @@ zokou(
 
 zokou(
  {
-  nomCom: "online ?(.*)",
+  nomCom: "online",
   fromMe: true,
   desc: "to change online privacy",
   categorie: "My Contact",
@@ -119,7 +119,7 @@ zokou(
 
 zokou(
  {
-  pattern: "mypp ?(.*)",
+  nomCom: "mypp",
   fromMe: true,
   desc: "privacy setting profile picture",
   categorie: "My Contact",
@@ -136,7 +136,7 @@ zokou(
 
 zokou(
  {
-  nomCom: "read ?(.*)",
+  nomCom: "read",
   fromMe: true,
   desc: "privacy for read message",
   categorie: "My Contact",
