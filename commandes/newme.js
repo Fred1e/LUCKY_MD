@@ -10,10 +10,11 @@ const Taphere = more.repeat(4001)
 
 command(
  {
-  pattern: "forward",
-  fromMe: true,
+  nomCom: "forward",
+  categorie: "My Contact",
   desc: "Forwards the replied message",
-  type: "whatsapp",
+  reaction: "💯",
+  fromMe: "true", 
  },
  async (message, match) => {
   if (!message.quoted) return await message.reply("Reply to message");
