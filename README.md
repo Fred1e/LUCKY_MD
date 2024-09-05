@@ -80,7 +80,7 @@ sᴛᴀʀ 🌟 ᴍʏ ʀᴇᴘᴏ ɪғ ʏᴏᴜ ʟɪᴋᴇ ᴛʜɪs ʙᴏᴛ ®�
 
 **2. ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀᴄᴄᴏᴜɴᴛ ᴏɴ ʜᴇʀᴏᴋᴜ**       
 <br>
-<a href="https://dashboard.heroku.com/new?template=https://github.com/Fred1e/Lucky_Md/tree/main">
+<a href="https://dashboard.heroku.com/new?template=https://github.com/kingfredie/Lucky_Md/tree/main">
  <img src="https://img.shields.io/badge/𝔻𝔼ℙ𝕃𝕆𝕐%20𝕋𝕆%20ℍ𝔼ℝ𝕆𝕂𝕌-black?style=for-the-badge&logo=heroku" width="200" height="38.45"/></a></p>
 
 
