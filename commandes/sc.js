@@ -34,10 +34,10 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-⦿──━━══⊷══━━━──⦿
+⦿──━━══⊷══━━━━━──⦿
    *INFORMATION ABOUT ME* 
 ▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒
-⦿──━━══⊷═══━━━───⦿
+⦿──━━══⊷══━━━───⦿
 *GITHUB LINK*
 > https://github.com/Fred1e
 
