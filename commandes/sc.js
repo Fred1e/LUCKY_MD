@@ -34,8 +34,10 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
+⦿──━━══⊷══━━━──⦿
    *INFORMATION ABOUT ME* 
 ▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒
+⦿──━━══⊷═══━━━───⦿
 *GITHUB LINK*
 > https://github.com/Fred1e
 
@@ -43,7 +45,7 @@ const date = moment().format('DD/MM/YYYY');
 > https://t.me/+u3zlb5y6OfxhOTdk
 
 *FOR DEVELOPER T.ME*
->https://t.me/freditech
+> https://t.me/freditech
 
 *WHATSAPP CHANNEL*
 > https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f 
@@ -59,13 +61,14 @@ const date = moment().format('DD/MM/YYYY');
   `;
     
 let menuMsg = `
-     ╭──━━━━═════━━━━⦿
+     ╭──━━━━══⊷══━━━━⦿
      ┃ ❂━━━━━━━━━━━━❂
      ┃▓ LUCKY MD V7 
      ┃ ❂━━━━━━━━━━━━❂
-     ╰──━━━━═════━━━━⦿
-
-▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒`;
+     ╰──━━━━══⊷══━━━━⦿
+❂━━━━═════⊷═════━━━━❂
+▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒
+❂━━━════──➳──════━━━❂`;
 
    var lien = mybotpic();
 
