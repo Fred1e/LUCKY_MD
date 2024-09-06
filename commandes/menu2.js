@@ -34,37 +34,50 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-────❂ _*LUCKY MD*_ ⦿━━━✣
-│ ╭─────────────✣
-│ │▸ *my owner* : ${s.OWNER_NAME}
-│ │▸ *commander* : ${nomAuteurMessage} 
-──────────────⚙️
-    ▸ *date *: ${date}
-    ▸ *prefix* : ${s.PREFIXE}
-    ▸ *worktype* : ${mode} mode
-    ▸ *plugin* : ${cm.length} 
-    ▸ *rom* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-    ▸ *running on* : ${os.platform()}
-    ▸ *theme* : *FREDI*
+❂━━══❖ _*LUCKY MD*_ ❖══━━❂
+❂━━━━════❖═══━━━━❂
+  ╭──━━━━══➻══━━━━✣
+  ┃▸ *my owner* : ${s.OWNER_NAME}
+  ┃▸ *commander* : ${nomAuteurMessage} 
+  ┃▸ *date *: ${date}
+  ┃▸ *prefix* : ${s.PREFIXE}
+  ┃▸ *worktype* : ${mode} mode
+  ┃▸ *plugin* : ${cm.length} 
+  ┃▸ *rom* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+  ┃▸ *running on* : ${os.platform()}
+  ┃▸ *theme* : *FREDI*
+  ╰──━━━━══➻══━━━━✣
 
-> _*LUCKY MD 2024*_ \n${readmore}`;
+ ❂━━━━═════❖════━━━━❂
+  ╭──━━━━══➻══━━━━❂
+  ┃⦿ _*LUCKY MD 2024*_
+  ╰──━━━━══➻══━━━━❂\n${readmore}`;
     
 let menuMsg = `
 
- > *Lucky Md v7 COMMADS* ${readmore}
+❂━━━━═════❖════━━━━❂
+ ╭──━━━━══✣══━━━━➻
+ ┃⦿ *Lucky Md v7 COMMADS*
+ ╰──━━━━══✣══━━━━➻ ${readmore}
 `;
 
     for (const cat in coms) {
-        menuMsg += ` ╭──────✣ _*${cat}*_ ✣─────☹︎`;
+        menuMsg += `╭─━━══❖ _*${cat}*_ ❖══━━━⦿`;
         for (const cmd of coms[cat]) {
             menuMsg += `
-│➠ *${cmd}*`;
+┃➻ *${cmd}*`;
         }
         menuMsg += `
-╰────────────···▸▸ \n`
+╰─━━═════━━⊷⊷➻➳《 \n`
     }
 
-    menuMsg += `> powered by Fredie Tech 
+    menuMsg += `✣━━━━═══⦿❂═══━━━━❖
+    ┃➻ *powered by Fredie Tech*
+    ✣━━━━═══❂⦿═══━━━━❖
+    
+    ⊷════════════════⊷
+    ➻━━━━━━━━━━━━━━━━➻
+    ➳⊷⊷⦿⦿✣❂❂❖⦿⦿⊷⊷➻
 `;
 
    var lien = mybotpic();
