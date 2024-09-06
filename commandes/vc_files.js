@@ -78,10 +78,10 @@ zokou({ nomCom: 'channel',
 );
 
 
-zokou({ nomCom: 'channel1',
+zokou({ nomCom: 'luckytgc',
     desc: 'To check runtime',
     Categorie: 'My Contact',
-    reaction: '🚀', 
+    reaction: '🤭', 
     fromMe: 'true', 
 
 
@@ -89,7 +89,7 @@ zokou({ nomCom: 'channel1',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`top here to join my second channel https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f`) 
+                 await repondre(`*Tap Here To Join LUCKY MD Telegram Chatroom* https://t.me/+u3zlb5y6OfxhOTdk`) 
 
    
 
@@ -139,7 +139,7 @@ zokou({ nomCom: 'vision',
 
 
   
-zokou({ nomCom: 'luckygc',
+zokou({ nomCom: 'luckywagc',
     desc: 'To check runtime',
     Categorie: 'My Contact',
     reaction: '♻️', 
@@ -150,7 +150,7 @@ zokou({ nomCom: 'luckygc',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`top a link to join lucky md group https://chat.whatsapp.com/HdrwMccSFIaB5Zi7s9BzN9`) 
+                 await repondre(`*Tap To Join Lucky Md WhatsApp Chartroom Group* https://chat.whatsapp.com/HdrwMccSFIaB5Zi7s9BzN9`) 
 
    
 
