@@ -34,28 +34,38 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-   *LUCKY MD BOT IMPORTANT INFO* 
-❒───────────────────❒
+   *INFORMATION ABOUT ME* 
+▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒
 *GITHUB LINK*
 > https://github.com/Fred1e
+
+*TELEGRAM GROUP*
+> https://t.me/+u3zlb5y6OfxhOTdk
+
+*FOR DEVELOPER T.ME*
+>https://t.me/freditech
 
 *WHATSAPP CHANNEL*
 > https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f 
 
 *FOR MORE INFO TAP ON THE LINK BELOW*
 > https://github.com/Fred1e/LUCKY_MD
-╭───────────────────❍ 
-│❒⁠⁠⁠⁠ *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-│❒⁠⁠⁠⁠ *DEV* : *LUCKY BOT*
-⁠⁠⁠⁠╰───────────────────❍ 
+╭──━━━━═════════━━━━⦿
+┃ ❂━━━════➳════━━━━❂
+┃▓▒⁠⁠⁠⁠ *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+┃▓▒ *DEV* : *LUCKY BOT*
+┃ ❂━━━════➳════━━━━❂
+⁠⁠⁠⁠╰──━━━━═════════━━━━⦿ 
   `;
     
 let menuMsg = `
-     ╭─────────────➳
-     │ LUCKY MD V7 
-     ╰─────────────➳
+     ╭──━━━━═════━━━━⦿
+     ┃ ❂━━━━━━━━━━━━❂
+     ┃▓ LUCKY MD V7 
+     ┃ ❂━━━━━━━━━━━━❂
+     ╰──━━━━═════━━━━⦿
 
-❍────────────────────❍`;
+▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒`;
 
    var lien = mybotpic();
 
