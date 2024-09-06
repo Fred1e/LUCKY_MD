@@ -37,7 +37,8 @@ const date = moment().format('DD/MM/YYYY');
 ❂━━━════──⊷──════━━━❂
    *INFORMATION ABOUT ME* 
 ▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒
-⦿━━━═════⊷═════━━━━⦿
+❂━━━➳════⊷════➳━━━━❂
+
 *GITHUB LINK*
 > https://github.com/Fred1e
 
