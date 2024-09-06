@@ -4,45 +4,28 @@ const conf = require("../set");
 // Sleep function to delay execution
 const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
-zokou({ nomCom: "hack", categorie: "fun", reaction: "⚙️", filename: __filename }, async (citel) => {
-  const messages = [
-    "Injecting Malware",
-    " █ 10%",
-    " █ █ 20%",
-    " █ █ █ 30%",
-    " █ █ █ █ 40%",
-    " █ █ █ █ █ 50%",
-    " █ █ █ █ █ █ 60%",
-    " █ █ █ █ █ █ █ 70%",
-    " █ █ █ █ █ █ █ █ 80%",
-    " █ █ █ █ █ █ █ █ █ 90%",
-    " █ █ █ █ █ █ █ █ █ █ 100%",
-    "System hijacking on process..\nConnecting to Server error to find 404",
-    "Device successfully connected...\nReceiving data...",
-    "Data hijacked from device 100% completed\nKilling all evidence, killing all malwares...",
-    "HACKING COMPLETED",
-    "SENDING LOG DOCUMENTS...",
-    "SUCCESSFULLY SENT DATA AND Connection disconnected",
-    "BACKLOGS CLEARED",
-    "POWERED BY ALPHA MD",
-    "By keithkeizzah"
-  ];
+command(
+ {
+  pattern: "list2",
+  fromMe: mode,
+  desc: "Show All Commands",
+  dontAddCommandList: true,
+ },
+ async (message, match, { prefix }) => {
+  let menu = "\t\t```Command List```\n";
+  const commands = plugins.commands
+   .filter(command => command.pattern && !command.dontAddCommandList)
+   .map(command => ({ cmd: command.pattern.toString().split(/\W+/)[1], desc: command.desc || "" }))
+   .sort((a, b) => a.cmd.localeCompare(b.cmd));
 
-  let editedMessage;
-  try {
-    for (const message of messages) {
-      if (!editedMessage) {
-        // Send the initial message
-        editedMessage = await citel.send(message);
-        console.log(`Sent initial message: ${message}`);
-      } else {
-        // Edit the existing message
-        await citel.edit(editedMessage, message);
-        console.log(`Edited message to: ${message}`);
-      }
-      await sleep(1000); // Wait for 1 second
-    }
-  } catch (error) {
-    console.error("An error occurred:", error);
-  }
-});
+  commands.forEach(({ cmd, desc }, index) => {
+   menu += `\`\`\`${index + 1} ${cmd.trim()}\`\`\`\n`;
+   if (desc) menu += `Use: \`\`\`${desc}\`\`\`\n\n`;
+  });
+
+  await message.reply(menu);
+ }
+);
+
+module.exports = runtime;
+    
