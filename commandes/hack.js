@@ -4,18 +4,19 @@ const conf = require("../set");
 // Sleep function to delay execution
 const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
-command(
+zokou(
  {
-  pattern: "list2",
-  fromMe: mode,
+  nomCom: "list2",
+  fromMe: "mode",
   desc: "Show All Commands",
   dontAddCommandList: true,
+  categorie: "Menu", 
  },
  async (message, match, { prefix }) => {
   let menu = "\t\t```Command List```\n";
-  const commands = plugins.commands
-   .filter(command => command.pattern && !command.dontAddCommandList)
-   .map(command => ({ cmd: command.pattern.toString().split(/\W+/)[1], desc: command.desc || "" }))
+  const commands = commandes.commands
+   .filter(command => command.nomCom && !command.dontAddCommandList)
+   .map(command => ({ cmd: command.nomCom.toString().split(/\W+/)[1], desc: command.desc || "" }))
    .sort((a, b) => a.cmd.localeCompare(b.cmd));
 
   commands.forEach(({ cmd, desc }, index) => {
