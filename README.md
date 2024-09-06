@@ -130,10 +130,12 @@ The WhatsApp Bot 𝕃𝕌ℂ𝕂𝕐 𝕄𝔻 𝕍𝟟 is released under the [MI
 - [**BELTAH TECH**](https://github.com/BELTAHMD)
 - [**TELEGRAM**](t.me/freditech)
 - [**Developers YT**](https://www.youtube.com/@freeonlinetvT1)
- <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+
+ [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
  
 ★THANK YOU GOD FOR THAT MOMENT🙏. ©
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
      
 
