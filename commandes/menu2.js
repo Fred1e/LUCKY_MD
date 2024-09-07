@@ -8,7 +8,7 @@ const s = require(__dirname + "/../set");
 const more = String.fromCharCode(8206)
 const readmore = more.repeat(4001)
 
-zokou({ nomCom: "menu2", categorie: "Menu" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "menu", categorie: "Menu" }, async (dest, zk, commandeOptions) => {
     let { ms, repondre ,prefixe,nomAuteurMessage,mybotpic} = commandeOptions;
     let { cm } = require(__dirname + "/../framework//zokou");
     var coms = {};
@@ -52,8 +52,8 @@ const date = moment().format('DD/MM/YYYY');
  ▓10%
  ▓▓20%  FREDI
  ▓▓▓30%  TECH
- ▓▓▓▓40%
- ▓▓▓▓▓50%
+ ▓▓▓▓40%  🤷
+ ▓▓▓▓▓50% 😷
  ▓▓▓▓▓▓60%
  ▓▓▓▓▓▓▓70%
  ▓▓▓▓▓▓▓▓80%
