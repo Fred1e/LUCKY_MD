@@ -14,7 +14,7 @@ const s = require(__dirname + "/../set");
 
 
 
-zokou({ nomCom: "menu", categorie: "Menu" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "menu2", categorie: "Menu" }, async (dest, zk, commandeOptions) => {
 
     let { ms, repondre ,prefixe,nomAuteurMessage,mybotpic} = commandeOptions;
 
