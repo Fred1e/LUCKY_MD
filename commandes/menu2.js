@@ -37,7 +37,7 @@ const date = moment().format('DD/MM/YYYY');
 ❂━━══❖ _*LUCKY MD*_ ❖══━━❂
 ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 ❂━━━━════❖═══━━━━❂
-▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
   ╭──━━━━══➻══━━━━✣
   ┃➳ *my owner* : ${s.OWNER_NAME}
   ┃➳ *commander* : ${nomAuteurMessage} 
@@ -50,14 +50,14 @@ const date = moment().format('DD/MM/YYYY');
   ┃➳ *theme* : *FREDI*
   ╰──━━━━══➻══━━━━✣ ${readmore}
  ▒▓10% ${readmore}
- ▒▓▓20%  *FREDI* ${readmore}
- ▒▓▓▓30%  *TECH* ${readmore}
- ▒▓▓▓▓40%  *SIR* ${readmore}
+ ▒▓▓20%    *FREDI*
+ ▒▓▓▓30%   *TECH* 
+ ▒▓▓▓▓40%   *SIR* 
  ▒▓▓▓▓▓50% ${readmore}
- ▒▓▓▓▓▓▓60% ${readmore}
- ▒▓▓▓▓▓▓▓70% ${readmore}
- ▒▓▓▓▓▓▓▓▓80% ${readmore}
- ▒▓▓▓▓▓▓▓▓▓90% ${readmore}
+ ▒▓▓▓▓▓▓60% 
+ ▒▓▓▓▓▓▓▓70% 
+ ▒▓▓▓▓▓▓▓▓80%
+ ▒▓▓▓▓▓▓▓▓▓90% 
  ▒▓▓▓▓▓▓▓▓▓▓100% ${readmore}
  *ALL COMMAND ADDED✔️!* ${readmore}
 
@@ -138,6 +138,8 @@ let menuMsg = `
     ▒▒▒▒▓▓▓▒▒▒▒
     ▒▒▒▒▓▓▓▒▒▒▒
     ▒▒▒▒▒▒▒▒▒▒▒
+
+    > _®FredieTech info_
 `;
 
    var lien = mybotpic();
