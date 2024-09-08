@@ -97,7 +97,7 @@ let menuMsg = `
 
     for (const cat in coms) {
 
-        menuMsg += ` ╔═━━═❍ _*${cat}*_ ❍═━━══➻`;
+        menuMsg += `╔═━━═❍ _*${cat}*_ ❍═━━══➻`;
 
         for (const cmd of coms[cat]) {
             
