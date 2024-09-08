@@ -50,8 +50,7 @@ const flagPairs = [
   { flag: "🇶🇦", country: "Qatar" },
   { flag: "🇷🇴", country: "Romania" },
   { flag: "🇷🇸", country: "Serbia" }' 
-  { flag: "🇹🇿", country: "Tanzania" } 
-];
+ ];
 
 zokou({ nomCom: "guessflag", categorie: "Games" }, async (dest, zk, commandeOptions) => {
   const { ms, repondre } = commandeOptions;
