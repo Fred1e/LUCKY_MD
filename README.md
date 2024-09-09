@@ -75,11 +75,12 @@ sᴛᴀʀ 🌟 ᴍʏ ʀᴇᴘᴏ ɪғ ʏᴏᴜ ʟɪᴋᴇ ᴛʜɪs ʙᴏᴛ ®�
  𝔾𝔼𝕋 𝕊𝔼𝕊𝕊𝕀𝕆ℕ 𝕀𝔻 𝔹𝕐
  
 
-<a href="https://lucky-md-qycm.onrender.com"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/ℚℝ ℂ𝕆𝔻𝔼-h?color=black&style=for-the-badge&logo=msi" width="220" height="38.45"/></a></p>
+<a href="https://fredietech.onrender.com"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/ℚℝ ℂ𝕆𝔻𝔼-h?color=black&style=for-the-badge&logo=msi" width="220" height="38.45"/></a></p>
 
 
  
-<a href="https://lucky-md-qycm.onrender.com"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/𝕊𝕀𝕋𝔼 𝔽𝕆ℝ ℙ𝔸𝕀ℝ-h?color=black&style=for-the-badge&logo=msi" width="220" height="38.45"/></a></p>
+<a href="https://fredietech.onrender.com"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/𝕊𝕀𝕋𝔼 𝔽𝕆ℝ ℙ𝔸𝕀ℝ-h?color=black&style=for-the-badge&logo=msi" width="220" height="38.45"/></a></p>
+[![`pair2`](https://lucky-md-qycm.onrender.com) 
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
