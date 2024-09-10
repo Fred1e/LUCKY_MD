@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const { france } = require("../framework/france");
+const { fredi } = require("../framework/fredi");
 france({ nomCom: "tempmail", reaction: "😏", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
     console.log("Commande saisie !!!s");
     let z = '*LUCKY_MD* Temporary emails,Powered by *FredieTech* \n\n ' + "Click the links below to create unlimited TEMPORARY Emails. Powered by *FredieTech.*\n\n";
