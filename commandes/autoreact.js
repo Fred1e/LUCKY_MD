@@ -7,7 +7,7 @@ const autoreadCommand = async (m, Matrix) => {
 const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).split(' ')[0].toLowerCase() : '';
 const text = m.body.slice(prefix.length + cmd.length).trim();
 
-  if (cmd === 'autoreact') {
+  if (cmd === 'areact') {
     if (!isCreator) return m.reply("*📛 THIS IS AN OWNER COMMAND*");
     let responseMessage;
 
