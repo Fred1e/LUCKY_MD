@@ -1,5 +1,5 @@
 </h1> 
-<p align="center">𝕃𝕌ℂ𝕂𝕐 𝕄𝔻 𝕍𝟟
+<p align="center">Timothy teach 𝕍𝟟
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
@@ -9,7 +9,7 @@
  
   [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
  <a href="https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f">
- <img alt="𝕃𝕌ℂ𝕂𝕐 𝕄𝔻 𝕍𝟟" height="300" src="https://telegra.ph/file/926c7a8ad7ff624c144b7.jpg">
+ <img alt="TIMOTHY TEACH 𝕄𝔻 𝕍𝟟" height="300" src="https://telegra.ph/file/926c7a8ad7ff624c144b7.jpg">
  [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
   
 </h1> 
@@ -33,7 +33,7 @@
 ---
 
 <p align="center">
-  <a href="https://github.com/Fred1e/Lucky_md"><b>𝕃𝕌ℂ𝕂𝕐 𝕄𝔻 𝕍𝟟</b></a> 𝙎𝙪𝙥𝙥𝙤𝙧𝙩 𝘿𝙚𝙥𝙡𝙤𝙮 𝙊𝙣...
+  <a href="https://github.com/Fred1e/Lucky_md"><b>TIMOTH TEACH 𝕄𝔻 𝕍𝟟</b></a> 𝙎𝙪𝙥𝙥𝙤𝙧𝙩 𝘿𝙚𝙥𝙡𝙤𝙮 𝙊𝙣...
 </p>
 
 <p align="center">
@@ -56,7 +56,7 @@
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
-## ℍ𝕆𝕎 𝕋𝕆 𝔻𝔼ℙ𝕃𝕆𝕐 𝕃𝕌ℂ𝕂𝕐 𝕄𝔻 𝕍𝟟
+## ℍ𝕆𝕎 𝕋𝕆 𝔻𝔼ℙ𝕃𝕆𝕐 TIMOTHY TEACH 𝕄𝔻 𝕍𝟟
 
 
 ## 𝟙.𝔽𝕀ℝ𝕊𝕋 𝕊𝕋𝔼ℙ 
@@ -109,7 +109,7 @@ sᴛᴀʀ 🌟 ᴍʏ ʀᴇᴘᴏ ɪғ ʏᴏᴜ ʟɪᴋᴇ ᴛʜɪs ʙᴏᴛ ®�
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
 𝕎𝔸𝕋𝕊𝔸ℙℙ 𝕄𝔼
-<a href="http://wa.me/255620814108" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/whatsapp.svg" alt="255620814108" height="60" width="70" /></a>
+<a href="http://wa.me/255620814108" 
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
@@ -125,17 +125,17 @@ sᴛᴀʀ 🌟 ᴍʏ ʀᴇᴘᴏ ɪғ ʏᴏᴜ ʟɪᴋᴇ ᴛʜɪs ʙᴏᴛ ®�
 
 ## License
 
-The WhatsApp Bot 𝕃𝕌ℂ𝕂𝕐 𝕄𝔻 𝕍𝟟 is released under the [MIT License](https://opensource.org/licenses/MIT).
+The WhatsApp Bot TIMOTHY 𝕄𝔻 𝕍𝟟 is released under the [MIT License](https://opensource.org/licenses/MIT).
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
-🌟 𝕋ℍ𝔸ℕ𝕂 𝕐𝕆𝕌 𝔽𝕆ℝ ℂℍ𝕆𝕆𝕊𝕀ℕ𝔾 𝕃𝕌ℂ𝕂𝕐🍀_𝕄𝔻 🌟
+🌟 𝕋ℍ𝔸ℕ𝕂 𝕐𝕆𝕌 𝔽𝕆ℝ ℂℍ𝕆𝕆𝕊𝕀ℕ𝔾 TIMOTHY 🍀_𝕄𝔻 🌟
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
 ## 𝔻𝔼𝕍𝔼𝕃𝕆ℙ𝔼ℝ𝕊 :
 
-- [**FREDIE TECH**](https://github.com/Fred1e)
+- [**TIMOTHY TECH**](https://github.com/Fred1e)
 - [**ғʀᴇᴄʏʙᴇʀ ᴍᴅ**]()
 - [**BELTAH TECH**](https://github.com/BELTAHMD)
 - [**TELEGRAM**](t.me/freditech)
