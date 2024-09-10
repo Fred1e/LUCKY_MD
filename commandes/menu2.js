@@ -77,7 +77,7 @@ let menuMsg = `
 `;
 
     for (const cat in coms) {
-        menuMsg += `╭─━━══❖ _*${cat}*_ ❖══━━━⦿`;
+        menuMsg += `╭─━━══❖ _*${cat}*_ ❖══━━━➻`;
         for (const cmd of coms[cat]) {
             menuMsg += `
 ┃➻ *${cmd}*`;
@@ -85,8 +85,7 @@ let menuMsg = `
         menuMsg += `
 ╰─━━═════━━⊷⊷➳➻➳
 ✣━━━━═══•∞•═══━━━━✣
- ᴘᴏᴡᴇʀᴇᴅ ʙʏ 
-        ғʀᴇᴅɪᴇ ᴛᴇᴄʜ sɪʀ
+ ᴾᴼᵂᴱᴿᴱᴰ ᴮʸ ᶠᴿᴱᴰᴵᴱ ᵀᴱᶜᴴ ˢᴵᴿ
 ❖━━━━═══•∞•═══━━━━❖ \n`
     }
 
