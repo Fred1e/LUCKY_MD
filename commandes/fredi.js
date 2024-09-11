@@ -51,6 +51,7 @@ const date = moment().format('DD/MM/YYYY');
         menuMsg +=`
 ┌┤
 ┃╰─━━══━━━•∞•  
+┃ᴾᴼᵂᴱᴿᴱᴰ ᴮʸ ᶠᴿᴱᴰᴵᴱ ᵀᴱᶜᴴ
 ╰─━━━━•∞•━━━━─➠`
     }
     menuMsg += `
