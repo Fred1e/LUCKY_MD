@@ -63,7 +63,7 @@
 ғᴏʀᴋ ʟᴜᴄᴋʏ ᴍᴅ ᴠ7 ʀᴇᴘᴏ
 
 
-<a href='https://github.com/Fred1e/LUCKY_MD/fork' target="_blank"><img alt='𝔽𝕆ℝ𝕂 𝕋ℍ𝕀𝕊 ℝ𝔼ℙ𝕆' src='https://img.shields.io/badge/Fork This Repo-black?style=for-the-badge&logo=git&logoColor=red'/></a>
+<a href='https://github.com/Fred1e/LUCKY_MD/fork' target="_blank"><img alt='𝔽𝕆ℝ𝕂 𝕋ℍ𝕀𝕊 ℝ𝔼ℙ𝕆' src='https://img.shields.io/badge/Fork This Repo-black?style=for-the-badge&logo=git&logoColor=blue'/></a>
 
 sᴛᴀʀ 🌟 ᴍʏ ʀᴇᴘᴏ ɪғ ʏᴏᴜ ʟɪᴋᴇ ᴛʜɪs ʙᴏᴛ ®️
 
@@ -85,7 +85,7 @@ sᴛᴀʀ 🌟 ᴍʏ ʀᴇᴘᴏ ɪғ ʏᴏᴜ ʟɪᴋᴇ ᴛʜɪs ʙᴏᴛ ®�
    <a href='https://signup.heroku.com/' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-ℂℝ𝔼𝔸𝕋𝔼 𝔸ℂℂ𝕆𝕌ℕ𝕋 ℕ𝕆𝕎-black?style=for-the-badge&logo=heroku&logoColor=purple'/></a>
 
 **2. ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀᴄᴄᴏᴜɴᴛ ᴏɴ ʜᴇʀᴏᴋᴜ**       
-   <a href='https://heroku.com/deploy' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-𝔻𝔼ℙ𝕃𝕆𝕐 𝕋𝕆 ℍ𝔼ℝ𝕆𝕂𝕌-black?style=for-the-badge&logo=heroku&logoColor=pourple'/></a>
+   <a href='https://heroku.com/deploy' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-𝔻𝔼ℙ𝕃𝕆𝕐 𝕋𝕆 ℍ𝔼ℝ𝕆𝕂𝕌-black?style=for-the-badge&logo=heroku&logoColor=purple'/></a>
 
 ##
 
