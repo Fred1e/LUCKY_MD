@@ -70,7 +70,7 @@ const alea = (ext) => {
     }
 
     sticker = new Sticker(buffer, {
-      pack:"Hacking-Md" ,
+      pack:"Lucky_Md" ,
       author: nomAuteurMessage,
       type:
         arg.includes("crop") || arg.includes("c")
@@ -94,7 +94,100 @@ const alea = (ext) => {
     }
 
     sticker = new Sticker(buffer, {
-      pack:"Hacking-Md", // pack stick
+      pack:"Lucky_Md", // pack stick
+      author:  nomAuteurMessage, // name of the author of the stick
+      type:
+        arg.includes("-r") || arg.includes("-c")
+          ? StickerTypes.CROPPED
+          : StickerTypes.FULL,
+      quality: 40,
+    });
+  } else {
+    repondre("Please mention an image or video!");
+    return;
+  }
+
+  await sticker.toFile(stickerFileName);
+  await zk.sendMessage(
+    origineMessage,
+    {
+      sticker: fs.readFileSync(stickerFileName),
+    },
+    { quoted: ms }
+  );
+
+try{
+  fs.unlinkSync(stickerFileName)
+}catch(e){console.log(e)}
+
+
+
+
+
+  
+});
+
+
+
+zokou({nomCom:"st",categorie: "Conversion", reaction: "🙄"},async(origineMessage,zk,commandeOptions)=>{
+
+let {ms,mtype,arg,repondre,nomAuteurMessage}=commandeOptions
+  var txt=JSON.stringify(ms.message)
+
+  var mime=mtype === "imageMessage" || mtype === "videoMessage";
+  var tagImage = mtype==="extendedTextMessage" && txt.includes("imageMessage")
+  var tagVideo = mtype==="extendedTextMessage" && txt.includes("videoMessage")
+
+const alea = (ext) => {
+  return `${Math.floor(Math.random() * 10000)}${ext}`;};
+
+
+  const stickerFileName = alea(".webp");
+
+
+            // image
+  if (mtype === "imageMessage" ||tagImage) {
+    let downloadFilePath;
+    if (ms.message.imageMessage) {
+      downloadFilePath = ms.message.imageMessage;
+    } else {
+      // picture mentioned
+      downloadFilePath =
+        ms.message.extendedTextMessage.contextInfo.quotedMessage.imageMessage;
+    }
+    // picture
+    const media = await downloadContentFromMessage(downloadFilePath, "image");
+    let buffer = Buffer.from([]);
+    for await (const elm of media) {
+      buffer = Buffer.concat([buffer, elm]);
+    }
+
+    sticker = new Sticker(buffer, {
+      pack:"Lucky_Md" ,
+      author: nomAuteurMessage,
+      type:
+        arg.includes("crop") || arg.includes("c")
+          ? StickerTypes.CROPPED
+          : StickerTypes.FULL,
+      quality: 100,
+    });
+  } else if (mtype === "videoMessage" || tagVideo) {
+    // videos
+    let downloadFilePath;
+    if (ms.message.videoMessage) {
+      downloadFilePath = ms.message.videoMessage;
+    } else {
+      downloadFilePath =
+        ms.message.extendedTextMessage.contextInfo.quotedMessage.videoMessage;
+    }
+    const stream = await downloadContentFromMessage(downloadFilePath, "video");
+    let buffer = Buffer.from([]);
+    for await (const elm of stream) {
+      buffer = Buffer.concat([buffer, elm]);
+    }
+
+    sticker = new Sticker(buffer, {
+      pack:"Lucky_Md", // pack stick
       author:  nomAuteurMessage, // name of the author of the stick
       type:
         arg.includes("-r") || arg.includes("-c")
@@ -252,7 +345,7 @@ zokou({ nomCom: "write", categorie: "Conversion", reaction: "👨🏿‍💻" },
     // Create the sticker
     const stickerMess = new Sticker(meme, {
       pack: nomAuteurMessage,
-      author: 'Hacking-Md',
+      author: 'Lucky_Md',
       type: StickerTypes.FULL,
       categories: ["🤩", "🎉"],
       id: "12345",
@@ -375,4 +468,79 @@ zokou({ nomCom: "url", categorie: "Conversion", reaction: "👨🏿‍💻" }, a
       console.error('Erreur lors de la création du lien Telegraph :', error);
       repondre('Opps error');
   }
+});
+
+
+
+zokou({ nomCom: "translater", categorie: "Conversion", reaction: "👨🏿‍💻" }, async (dest, zk, commandeOptions) => {
+
+  const { msgRepondu, repondre , arg } = commandeOptions;
+
+  
+   if(msgRepondu) {
+     try {
+      
+     
+
+       if(!arg || !arg[0]) { repondre('(eg : trt en)') ; return }
+   
+
+         let texttraduit = await traduire(msgRepondu.conversation , {to : arg[0]}) ;
+
+         repondre(texttraduit)
+
+        } catch (error) {
+          
+          repondre('Mention a texte Message') ;
+      
+        }
+
+   } else {
+     
+     repondre('Mention a texte Message')
+   }
+
+
+
+}) ;
+
+
+
+zokou({nomCom:"pp",categorie: "Conversion", reaction: "📸"},async(dest,zk,commandeOptions)=>{
+   const {ms , msgRepondu,arg,repondre,nomAuteurMessage} = commandeOptions ;
+
+  if(!msgRepondu) { repondre( 'make sure to mention the media' ) ; return } ;
+ 
+   if (!msgRepondu.stickerMessage) {
+      repondre('Um mention a non-animated sticker'); return
+  } ;
+
+ let mediaMess = await zk.downloadAndSaveMediaMessage(msgRepondu.stickerMessage);
+
+  const alea = (ext) => {
+  return `${Math.floor(Math.random() * 10000)}${ext}`;};
+  
+  let ran = await alea(".png");
+
+  
+        exec(`ffmpeg -i ${mediaMess} ${ran}`, (err) => {
+          fs.unlinkSync(mediaMess);
+          if (err) {
+            zk.sendMessage(
+              dest,
+              {
+                text: 'A non-animated sticker please',
+              },
+              { quoted: ms }
+            );
+            return;
+          }
+          let buffer = fs.readFileSync(ran);
+          zk.sendMessage(
+            dest,
+            { image: buffer },
+            { quoted: ms }
+          );
+          fs.unlinkSync(ran);
+        });
 });
