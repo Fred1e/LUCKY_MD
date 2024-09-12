@@ -1,1 +1,0 @@
-MR. FREDIE TECH 💎 
