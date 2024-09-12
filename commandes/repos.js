@@ -25,26 +25,31 @@ zokou({ nomCom: "repo", catégorie:"Général", reaction: "⚙️", nomFichier: 
 this is* *LUCKY_MD V7.*\n support our channel *by*,  https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f
 
 
-      ╔═══━━━⊷•∞•⊷━━━──✣
- ╭─⦿ ━━━══✣══━━➻
- 🗼 *REPOSITORY:* ${data.html_url}
- 🌟 *STARS:* ${repoInfo.stars}
- 🧧 *FORKS:* ${repoInfo.forks}
- 📅 *RELEASE DATE:* ${releaseDate}
- 🕐 *UPDATE ON:* ${repoInfo.lastUpdate}
- 👨‍💻 *OWNER:* *Fredie tech*
- 💞 *THEME:* *FREDI*
- 🥰 *ENJOY TO USE LUCKY MD V7*
- ╰─⦿ ━━━══✣══━━➻
-      ╚══━━━⊷•∞•⊷━━━──✣
+╭──━━━━━━☆•∞•☆━━━━━━⊛
+└│🗼 *REPOSITORY:* ${data.html_url}
+┌┤🕐 *UPDATE ON:* ${repoInfo.lastUpdate}
+╰──━━━━━━☆•∞•☆━━━━━━⊛
+   
+
+        ╔═══━━━⊷•∞•⊷━━━──✣
+  ╭─⦿ ━━━══✣══━━➻
+ ┌┤😶‍🌫️*VISITORS:* ${repoInfo.visitors}
+ │┃🌟 *STARS:* ${repoInfo.stars}
+ │┃🧧 *FORKS:* ${repoInfo.forks}
+ │┃📅 *RELEASE DATE:* ${releaseDate}
+ ┌┤👨‍💻 *OWNER:* *Fredie tech*
+ │┃💞 *THEME:* *FREDI*
+ │┃🥰 *ENJOY TO USE LUCKY MD*
+  ╰─⦿ ━━━══✣══━━➻
+        ╚══━━━⊷•∞•⊷━━━──✣
  
   ▓▒━━━⊷➻•∞•➻➳⊷━━━▒▓
   
-       ╭──═════──❖ 
+        ╭──═════──❖ 
 ╭  ╭❂ ⊷━━━━•∞•━━━━⊷
 ║  ┃ _*Made With Fredie Tech*_
 ╰  ╰❂ ⊷━━━━•∞•━━━━⊷
-       ╰──═════──❖ `;
+        ╰──═════──❖ `;
 
       await zk.sendMessage(dest, { image: { url: img }, caption: gitdata });
     } else {
