@@ -1,4 +1,4 @@
-const { zokou } = require('../framework/areact');
+const { zokou } = require('../framework/zokou');
 const util = require('areact');
 const axios = require('axios');
 
