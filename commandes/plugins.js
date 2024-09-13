@@ -4,9 +4,9 @@ const fs = require('fs-extra')
 const { plugins,plugindb, remove, isUrl,cmd } = require('../framework')
 //---------------------------------------------------------------------------
 zokou({
-        nomCom: "plugins",
+        nomCom: "plugins,listplugins",
         alias :['plist'],
-        category: "new",
+        category: "mods",
         desc: "Shows list of all externally installed modules",
         filename: __filename
     },
@@ -22,9 +22,9 @@ zokou({
 
 //---------------------------------------------------------------------------
 zokou({
-        nomCom: "remove",
+        nomCom: "cancel",
         alias :['uninstall'],
-        category: "new",
+        category: "mods",
         desc: "removes external plugins.",
         filename: __filename
     },
@@ -44,7 +44,7 @@ zokou({
 //---------------------------------------------------------------------------
 zokou({
         nomCom: "install",
-        category: "new",
+        category: "mods",
         desc: "Installs external modules..",
         filename: __filename
     },
