@@ -11,7 +11,7 @@ zokou({
         filename: __filename
     },
     async(Void, citel, text, { isCreator }) => {
-        const { tlang } = require('../lib')
+        const { tlang } = require('../framework')
         if (!isCreator) return citel.reply(tlang().owner)
         let allmodtext = `*All Installed Plugins are:-*\n\n`
         allmodtext += await plugins()
