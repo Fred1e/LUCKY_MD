@@ -2,29 +2,25 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const { zokou } = require("../framework/zokou");
 
-zokou({ nomCom: "repos", catégorie:"Général", reaction: "⚙️", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "reposit", catégorie:"Général", reaction: "⚙️", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
   const githubRepo = 'https://api.github.com/repos/Fred1e/LUCKY_MD';
 
-      await handleRepoCommand(m, Matrix, repoUrl);
-  }
-};
-
-const handleRepoCommand = async (m, Matrix, repoUrl) => {
   try {
-    const response = await axios.get(repoUrl);
-    const repoData = response.data;
+    const response = await fetch(githubRepo);
+    const data = await response.json();
 
-    const {
-      full_name,
-      name,
-      forks_count,
-      stargazers_count,
-      created_at,
-      updated_at,
-      owner,
-    } = repoData;
+    if (data) {
+      const repoInfo = {
+        stars: data.stargazers_count,
+        forks: data.forks_count,
+        lastUpdate: data.updated_at,
+        owner: data.owner.login,
+      };
 
-    const messageText = `*_Repository Information:_*\n
+      const releaseDate = new Date(data.created_at).toLocaleDateString('en-GB');
+      const lastUpdateDate = new Date(data.updated_at).toLocaleDateString('en-GB');
+
+      const gitdata = `*_Repository Information:_*\n
 *_Name:_* ${name}
 *_Stars:_* ${stargazers_count}
 *_Forks:_* ${forks_count}
