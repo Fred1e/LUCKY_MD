@@ -17,7 +17,7 @@ const runtime = function (seconds) {
  } 
 
 
-zokou({ nomCom: 'vcf',
+zokou({ nomCom: 'vcf5',
     desc: 'To check runtime',
     Categorie: 'General',
     reaction: '📄', 
