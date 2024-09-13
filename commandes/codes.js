@@ -29,31 +29,6 @@ zokou({ nomCom: "reposit", catégorie:"Général", reaction: "⚙️", nomFichie
 *_Owner:_* ${owner.login}
     `;
 
-    const repoMessage = generateWAMessageFromContent(m.from, {
-      viewOnceMessage: {
-        message: {
-          messageContextInfo: {
-            deviceListMetadata: {},
-            deviceListMetadataVersion: 2,
-          },
-          interactiveMessage: proto.Message.InteractiveMessage.create({
-            body: proto.Message.InteractiveMessage.Body.create({
-              text: messageText,
-            }),
-            footer: proto.Message.InteractiveMessage.Footer.create({
-              text: '© FredieTech',
-            }),
-            header: proto.Message.InteractiveMessage.Header.create({
-              ...(await prepareWAMessageMedia({
-                image: {
-                  url: '',
-                },
-              }, { upload: Matrix.waUploadToServer })),
-              title: '',
-              gifPlayback: true,
-              subtitle: '',
-              hasMediaAttachment: false,
-            }),
             nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
               buttons: [
                 {
@@ -89,13 +64,11 @@ zokou({ nomCom: "reposit", catégorie:"Général", reaction: "⚙️", nomFichie
       },
     }, {});
 
-    await Matrix.relayMessage(repoMessage.key.remoteJid, repoMessage.message, {
-      messageId: repoMessage.key.id,
-    });
-    await m.React('✅');
+    await zk.sendMessage(dest, { image: { url: img }, caption: gitdata });
+    } else {
+      console.log("Could not fetch data");
+    }
   } catch (error) {
-    console.error('Error processing your request:', error);
-    m.reply('Error processing your request.');
-    await m.React('❌');
+    console.log("Error fetching data:", error);
   }
-};
+});
