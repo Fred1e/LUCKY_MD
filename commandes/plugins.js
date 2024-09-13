@@ -4,7 +4,7 @@ const fs = require('fs-extra')
 const { plugins,plugindb, remove, isUrl,cmd } = require('../framework')
 //---------------------------------------------------------------------------
 zokou({
-        nomCom: "plugins,listplugins",
+        nomCom: "listplugins",
         alias :['plist'],
         category: "mods",
         desc: "Shows list of all externally installed modules",
