@@ -1,5 +1,5 @@
 </h1> 
-<p align="center">𝕃𝕌ℂ𝕂𝕐 𝕄𝔻 𝕍𝟟
+<p align="center">𝕃𝕌ℂ𝕂𝕐 𝕄𝔻 
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
@@ -9,11 +9,11 @@
  
   [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
  <a href="https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f">
- <img alt="𝕃𝕌ℂ𝕂𝕐 𝕄𝔻 𝕍𝟟" height="300" src="https://telegra.ph/file/926c7a8ad7ff624c144b7.jpg">
+ <img alt="𝕃𝕌ℂ𝕂𝕐 𝕄𝔻" height="300" src="https://telegra.ph/file/926c7a8ad7ff624c144b7.jpg">
  [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
   
 </h1> 
-<p align="center">ɪ ɪɴᴛʀᴏᴅᴜᴄᴇ <b>𝕃𝕌ℂ𝕂𝕐 𝕄𝔻 𝕍𝟟</b>, ᴀ ᴘᴏᴡᴇʀғᴜʟ sɪᴍᴘʟᴇ ᴡᴀᴛsᴀᴘᴘ ʙᴏᴛ </p>
+<p align="center">ɪ ɪɴᴛʀᴏᴅᴜᴄᴇ <b>𝕃𝕌ℂ𝕂𝕐 𝕄𝔻</b>, ᴀ ᴘᴏᴡᴇʀғᴜʟ sɪᴍᴘʟᴇ ᴡᴀᴛsᴀᴘᴘ ʙᴏᴛ </p>
 
 </p>
   <p align="center">
@@ -33,7 +33,7 @@
 ---
 
 <p align="center">
-  <a href="https://github.com/Fred1e/Lucky_md"><b>𝕃𝕌ℂ𝕂𝕐 𝕄𝔻 𝕍𝟟</b></a> 𝙎𝙪𝙥𝙥𝙤𝙧𝙩 𝘿𝙚𝙥𝙡𝙤𝙮 𝙊𝙣...
+  <a href="https://github.com/Fred1e/Lucky_md"><b>𝕃𝕌ℂ𝕂𝕐 𝕄𝔻</b></a> 𝙎𝙪𝙥𝙥𝙤𝙧𝙩 𝘿𝙚𝙥𝙡𝙤𝙮 𝙊𝙣...
 </p>
 
 <p align="center">
@@ -55,11 +55,11 @@
 
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
-## ℍ𝕆𝕎 𝕋𝕆 𝔻𝔼ℙ𝕃𝕆𝕐 𝕃𝕌ℂ𝕂𝕐 𝕄𝔻 𝕍𝟟
+## ℍ𝕆𝕎 𝕋𝕆 𝔻𝔼ℙ𝕃𝕆𝕐 𝕃𝕌ℂ𝕂𝕐 𝕄𝔻 
 
 
 ## 𝟙.𝔽𝕀ℝ𝕊𝕋 𝕊𝕋𝔼ℙ 
-ғᴏʀᴋ ʟᴜᴄᴋʏ ᴍᴅ ᴠ7 ʀᴇᴘᴏ
+ғᴏʀᴋ ʟᴜᴄᴋʏ ᴍᴅ ʀᴇᴘᴏ
 
 
 <a href='https://github.com/Fred1e/LUCKY_MD/fork' target="_blank"><img alt='𝔽𝕆ℝ𝕂 𝕋ℍ𝕀𝕊 ℝ𝔼ℙ𝕆' src='https://img.shields.io/badge/Fork This Repo-black?style=for-the-badge&logo=git&logoColor=blue'/></a>
@@ -112,7 +112,7 @@ sᴛᴀʀ 🌟 ᴍʏ ʀᴇᴘᴏ ɪғ ʏᴏᴜ ʟɪᴋᴇ ᴛʜɪs ʙᴏᴛ ®�
 
 ## License
 
-The WhatsApp Bot 𝕃𝕌ℂ𝕂𝕐 𝕄𝔻 𝕍𝟟 is released under the [MIT License](https://opensource.org/licenses/MIT).
+The WhatsApp Bot 𝕃𝕌ℂ𝕂𝕐 𝕄𝔻 is released under the [MIT License](https://opensource.org/licenses/MIT).
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
