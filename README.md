@@ -9,7 +9,7 @@
  
   [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
  <a href="https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f">
- <img alt="𝕃𝕌ℂ𝕂𝕐 𝕄𝔻" height="300" src="https://telegra.ph/file/926c7a8ad7ff624c144b7.jpg">
+ <img alt="𝕃𝕌ℂ𝕂𝕐 𝕄𝔻" height="300" src="https://i.imgur.com/hRP6xPl.jpeg">
  [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
   
 </h1> 
