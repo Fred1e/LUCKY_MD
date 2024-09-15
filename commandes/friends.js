@@ -38,11 +38,11 @@ zokou({
     'nom': "Dullah From Tanzania 🇹🇿",
     'numero': "255716945971"
   }, {
-    'nom': "🤕",
-    'numero': "load..."
+    'nom': "YassinTech From Tanzania 🇹🇿",
+    'numero': "255621995482"
   }, {
-'nom': "🤕",
-    'numero': "load...."
+'nom': "HansTech From Tanzania 🇹🇿",
+    'numero': "255692540143"
   }, {
 'nom': "🤕",
     'numero': "load...."
