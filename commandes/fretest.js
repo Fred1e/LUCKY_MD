@@ -9,7 +9,7 @@ zokou(
         let z =
             "Hello I'm *Lucky Md* \n\n " +
             "I'm a Whatsapp Bot Multi-Device";
-        let d = "Made By *FrediSir*";
+        let d = " Made By *Fredie Sir*";
         let varmess = z + d;
         var img = "https://i.imgur.com/hRP6xPl.jpeg";
         await zk.sendMessage(dest, { image: { url: img }, caption: varmess });
@@ -50,7 +50,7 @@ const sentMsg4  = await zk.sendMessage(
 // send a contact!
 const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
-            + 'FN:lord joel\n' // full name
+            + 'FN:Fredie Sir\n' // full name
             + 'ORG:Ashoka Uni;\n' // the organization of the contact
             + 'TEL;type=CELL;type=VOICE;waid=255764182801:+255764182801\n' // WhatsApp ID + phone number
             + 'END:VCARD'
