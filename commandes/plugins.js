@@ -32,7 +32,7 @@ zokou({
         if (!isCreator) return citel.reply(tlang().owner)
         if(text==='all') {
          await plugindb.collection.drop()
-         return citel.reply('Deleted all plugins from Secktor.')
+         return citel.reply('Deleted all plugins from Lucky Md.')
         }
         let kill = await remove(text.split(" ")[0])
         delete require.cache[require.resolve(__dirname+"/" + text + ".js")];
