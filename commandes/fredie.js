@@ -38,7 +38,7 @@ let infoMsg =  `
 ╭──━━━━━━━━━━━━━━━━━━━❍ 
 │
 │  _*Support channel by follow*_ ;https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f
-│  _*Join Our WhatsApp group*_ ;https://chat.whatsapp.com/HdrwMccSFIaB5Zi7s9BzN9
+│  _*Join Our WhatsApp group*_ ;https://chat.whatsapp.com/BdVxcF4C00J4X4Sa39dpOi
 │  _*WhatsApp Contact As*_ ;Https://wa.me/255752593977 
 │  _*WhatsApp Bot Fork And Star*_ ;https://github.com/Fred1e/LUCKY_MD
 │  _*Telegram Group*_ ;https://t.me/+u3zlb5y6OfxhOTdk
