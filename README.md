@@ -1,12 +1,19 @@
 </h1> 
 <p align="center">𝕃𝕌ℂ𝕂𝕐 𝕄𝔻 𝕍𝟟
 
+ <img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
+ 
  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=red&size=25&center=true&vCenter=true&width=600&height=100&lines=I'm+Lucky+md+Created+by+Fredie.&heart;++;Self-taught+Back-Created+By,;Fredi+Ezra+Am+The,;Best+Is+Bot+For+You+To,;Deploy..<3"></a>
+  <img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
  <a href="https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f">
  <img alt="𝕃𝕌ℂ𝕂𝕐 𝕄𝔻 𝕍𝟟" height="300" src="https://telegra.ph/file/926c7a8ad7ff624c144b7.jpg">
-  
+ <img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
+ 
 </h1> 
 <p align="center">ɪ ɪɴᴛʀᴏᴅᴜᴄᴇ <b>𝕃𝕌ℂ𝕂𝕐 𝕄𝔻 𝕍𝟟</b>, ᴀ ᴘᴏᴡᴇʀғᴜʟ sɪᴍᴘʟᴇ ᴡᴀᴛsᴀᴘᴘ ʙᴏᴛ </p>
+
+[![Fredie Site](https://user-images.githubusercontent.com/20955511/183703055-42ec8754-d84c-414f-8132-a02974224aa1.gif "Fredie Site")](https://readme-typing-svg.fredilab.com/fredi/)
+
 
 </p>
   <p align="center">
