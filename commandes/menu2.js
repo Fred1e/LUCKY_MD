@@ -80,7 +80,7 @@ let menuMsg = `
         menuMsg += `╭─━━══❖ _*${cat}*_ ❖══━━━➻`;
         for (const cmd of coms[cat]) {
             menuMsg += `
-┃➻ *${s.cmd}*`;
+┃➻ *${cmd}*`;
         }
         menuMsg += `
 ╰─━━═════━━⊷⊷➳➻➳
