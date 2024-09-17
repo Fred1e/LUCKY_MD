@@ -34,7 +34,7 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-❂━━══❖ _*LUCKY MD*_ ❖══━━❂
+❂━━══❖ *${s.BOT}* ❖══━━❂
 ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 ❂━━━━════❖═══━━━━❂
 ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
@@ -71,7 +71,7 @@ let menuMsg = `
 ❂━━━━═════❖════━━━━❂
  ▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓
  ╭──━━━━══⊷══━━━━➻
- ┃▓ *Lucky Md v7 COMMADS*
+ ┃▓ *Lucky Md COMMADS*
  ╰──━━━━══⊷══━━━━➻
  ▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒ ${readmore}
 `;
