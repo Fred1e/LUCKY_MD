@@ -84,7 +84,7 @@ sᴛᴀʀ 🌟 ᴍʏ ʀᴇᴘᴏ ɪғ ʏᴏᴜ ʟɪᴋᴇ ᴛʜɪs ʙᴏᴛ ®�
    <a href='https://signup.heroku.com/' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-ℂℝ𝔼𝔸𝕋𝔼 𝔸ℂℂ𝕆𝕌ℕ𝕋 ℕ𝕆𝕎-black?style=for-the-badge&logo=heroku&logoColor=purple'/></a>
 
 **2. ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀᴄᴄᴏᴜɴᴛ ᴏɴ ʜᴇʀᴏᴋᴜ**       
-   <a href='https://dashboard.heroku.com/new?template=https://github.com/Fred1e/LUCKY_MD/tree/main' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-𝔻𝔼ℙ𝕃𝕆𝕐 𝕋𝕆 ℍ𝔼ℝ𝕆𝕂𝕌-black?style=for-the-badge&logo=heroku&logoColor=purple'/></a>
+   <a href='https://dashboard.heroku.com/new?template=https://github.com/Fred1e/Lucky_Mxd/tree/main' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-𝔻𝔼ℙ𝕃𝕆𝕐 𝕋𝕆 ℍ𝔼ℝ𝕆𝕂𝕌-black?style=for-the-badge&logo=heroku&logoColor=purple'/></a>
 
 ##
 
