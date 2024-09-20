@@ -79,6 +79,7 @@ sᴛᴀʀ 🌟 ᴍʏ ʀᴇᴘᴏ ɪғ ʏᴏᴜ ʟɪᴋᴇ ᴛʜɪs ʙᴏᴛ ®�
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
 
+  `FOR DEVELOPER AND HELP JOIN AS HERE`
 
 </details>
 
@@ -99,12 +100,19 @@ sᴛᴀʀ 🌟 ᴍʏ ʀᴇᴘᴏ ɪғ ʏᴏᴜ ʟɪᴋᴇ ᴛʜɪs ʙᴏᴛ ®�
 </details>
 
 
+
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
+
+
+
+
+`SESSION FOR DEPLOYMENT IN HEROKU`
+
 </details>
 
 <details>
 <summary>SESSION FOR HEROKU DEPLOYMENT</summary>
-  
-## 𝟛.𝕋ℍ𝕀ℝ𝔻 𝕊𝕋𝔼ℙ 
+   
 **1. ɪғ ʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴀᴄᴄᴏᴜɴᴛ ᴏɴ ʜᴇʀᴏᴋᴜ**
 
    <a href='https://signup.heroku.com/' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-ℂℝ𝔼𝔸𝕋𝔼 𝔸ℂℂ𝕆𝕌ℕ𝕋 ℕ𝕆𝕎-black?style=for-the-badge&logo=heroku&logoColor=purple'/></a>
@@ -123,24 +131,6 @@ https://dashboard.heroku.com/new?template=https://github.com/Fred1e /Lucky-Mxd
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
-ℂ𝕆ℕ𝕋𝔸ℂ𝕋 𝔻𝔼𝕍𝔼𝕃𝕆ℙ𝔼ℝ 𝕆ℕ 𝕎ℍ𝔸𝕋𝕊𝔸ℙℙ 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
-
-𝕎𝔸𝕋𝕊𝔸ℙℙ 𝕄𝔼
-<a href="http://wa.me/255620814108" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/whatsapp.svg" alt="255620814108" height="60" width="70" /></a>
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
-
-𝕎𝔸𝕋𝕊𝔸ℙℙ ℂℍ𝔸ℕℕ𝔼𝕃
-<a href="https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/whatsapp.svg" alt="fredietech" height="60" width="70" /></a>
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
-
-𝕐𝕆𝕌𝕋𝕌𝔹𝔼 ℂℍ𝔸ℕℕ𝔼𝕃
-<a href="https://www.youtube.com/@freeonlinetvT1" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="freditech" height="60" width="70" /></a>
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
 ## License
 
