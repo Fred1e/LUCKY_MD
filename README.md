@@ -125,7 +125,7 @@ sᴛᴀʀ 🌟 ᴍʏ ʀᴇᴘᴏ ɪғ ʏᴏᴜ ʟɪᴋᴇ ᴛʜɪs ʙᴏᴛ ®�
 
   
 ```
-https://dashboard.heroku.com/new?template=https://github.com/Fred1e /Lucky-Mxd
+https://dashboard.heroku.com/new?template=https://github.com/Fred1e /Lucky_Md
 ```
 
 
