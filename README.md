@@ -82,7 +82,8 @@ sᴛᴀʀ 🌟 ᴍʏ ʀᴇᴘᴏ ɪғ ʏᴏᴜ ʟɪᴋᴇ ᴛʜɪs ʙᴏᴛ ®�
 </details>
 
 <details>
-<summary>WAY FOR DEPLOYMENT IN HEROKU</summary>
+<summary>SESSION FOR HEROKU DEPLOYMENT</summary>
+  
 ## 𝟛.𝕋ℍ𝕀ℝ𝔻 𝕊𝕋𝔼ℙ 
 **1. ɪғ ʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴀᴄᴄᴏᴜɴᴛ ᴏɴ ʜᴇʀᴏᴋᴜ**
 
@@ -98,18 +99,6 @@ sᴛᴀʀ 🌟 ᴍʏ ʀᴇᴘᴏ ɪғ ʏᴏᴜ ʟɪᴋᴇ ᴛʜɪs ʙᴏᴛ ®�
 ```
 https://dashboard.heroku.com/new?template=https://github.com/Fred1e /Lucky-Mxd
 ```
-
-</details>
-
-<details>
-<summary>HEROKU METHOD</summary>
-<a href="https://signup.heroku.com/login"><img src="https://img.shields.io/badge/HEROKU%20SIGNUP-white" alt="Pairing Code" width="150"></a>
-  
-<a href="https://api.giftedtechnexus.co.ke/auth"><img src="https://img.shields.io/badge/DEPLOY%20NOW-red" alt="Pairing Code" width="150"></a>
-</details>
-
-  
-
 
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
