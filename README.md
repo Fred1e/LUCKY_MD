@@ -132,7 +132,7 @@ https://dashboard.heroku.com/new?template=https://github.com/Fred1e /Lucky_Md
 </details>
 
 <details>
-<summary>SESSION FOR HEROKU DEPLOYMENT</summary>
+<summary>HOW TO SET ON REPLIT</summary>
    <a href='https://replit.com/github/Fred1e/Lucky-Mxd' target="_blank"><img alt='replit' src='https://img.shields.io/badge/DEPLOY ON REPLIT-black?style=for-the-badge&logo=replit&logoColor=orange'/></a>
 
    `HOW TO DEPLOY ON REPLIT`
