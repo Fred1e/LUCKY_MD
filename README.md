@@ -128,6 +128,26 @@ sᴛᴀʀ 🌟 ᴍʏ ʀᴇᴘᴏ ɪғ ʏᴏᴜ ʟɪᴋᴇ ᴛʜɪs ʙᴏᴛ ®�
 https://dashboard.heroku.com/new?template=https://github.com/Fred1e /Lucky_Md
 ```
 
+`LUCKY MD REPLIT DEP`
+</details>
+
+<details>
+<summary>SESSION FOR HEROKU DEPLOYMENT</summary>
+   <a href='https://replit.com/github/Fred1e/Lucky-Mxd' target="_blank"><img alt='replit' src='https://img.shields.io/badge/DEPLOY ON REPLIT-black?style=for-the-badge&logo=replit&logoColor=orange'/></a>
+
+   `HOW TO DEPLOY ON REPLIT`
+
+      1.Open account on replit https://replit.com 
+      2.Open bot repo then fork. 
+      3.Tap deploy button to "deploy on replit". 
+      4.Tap import from github 
+      5.After importing tap 👈 button down 👇 of replit dashboard. 
+      6.Choose set.js file then put your session 🆔 and others you need. 
+      7.Tap button written run to run your bot then go test it's work. 
+    THANK YOU FOR CHOOSING LUCKY MD 
+  </details>
+   
+
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
