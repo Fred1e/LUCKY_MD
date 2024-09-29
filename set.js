@@ -20,7 +20,7 @@ module.exports = {
     AUTO_DOWNLOAD_STATUS: process.env.AUTO_SAVE_STATUS || 'off',
     A_REACT: process.env.AUTO_REACTION || 'on',
     AUTO_BLOCK: process.env.BLOCK_ALL || 'off',
-    URL: process.env.BOT_MENU_LINKS || 'https://i.imgur.com/ecRS5BQ.jpeg,https://files.catbox.moe/qh500b.jpg',
+    URL: process.env.BOT_MENU_LINKS || 'https://i.imgur.com/ecRS5BQ.jpeg,https://files.catbox.moe/g73xvl.jpeg,https://files.catbox.moe/qh500b.jpg',
     MODE: process.env.BOT_MODE || "private",
     PM_PERMIT: process.env.PM_PERMIT || 'on',
     HEROKU_APP_NAME: process.env.HEROKU_APP_NAME,
