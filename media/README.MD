@@ -1,1 +1,0 @@
-### FREDIE TECH 💎 MADE
