@@ -151,6 +151,22 @@ Tap to deploy if you know
    
 
 
+##
+
+#### ***This One Is Another Fredie Take Safe Bot In Heroku Called Fredi Md Open 🔓 There To Check ☑ This Have More Than 300 Plugins Enjoy***
+</details>
+
+<details>
+<summary>Tap To Check Fredi Md💯</summary>
+ Fredi Md Info
+    <a href='https://github.com/Fred1e/Fredi_Md' target="_blank"><img alt='Open Fredi Md Repo Here🛰️' src='https://img.shields.io/badge/🛰️Open Fredi Md Repo Here-black?style=for-the-badge&logo=git&logoColor=green'/></a>
+
+
+All Information About Me 
+    <a href='https://fredi-bio.vercel.app/' target="_blank"><img alt='Owner Info Tap Here😎' src='https://img.shields.io/badge/Owner Info Tap Here😎-black?style=for-the-badge&logo=git&logoColor=green'/></a>
+</details>
+   
+
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
 
