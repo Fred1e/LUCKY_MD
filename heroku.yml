@@ -2,4 +2,4 @@ build:
   docker:
       worker: Dockerfile
 run:
-   worker:   npm run lucky
+   worker:   npm run zokou 
