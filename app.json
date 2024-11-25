@@ -2,7 +2,7 @@
   "name":"LUCKY_MD",
   "description":"Best whatsapp bot created by FrediEzra hacker",
   "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://files.catbox.moe/l1i9o4.jpg",
+  "logo":"https://files.catbox.moe/qh500b.jpg",
   "repository":"https://github.com/Fred1e/LUCKY_MD",
   "succes_url":"/",
   "stack":"container",
@@ -54,7 +54,7 @@
      "BOT_MENU_LINKS" : {
     
       "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://files.catbox.moe/l1i9o4.jpg",
+      "value":"https://files.catbox.moe/g73xvl.jpeg,https://i.imgur.com/ecRS5BQ.jpeg",
       "required":false
        
      },
