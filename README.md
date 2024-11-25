@@ -22,9 +22,9 @@
 <a href="https://github.com/Fred1e/lucky_md/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Fred1e/lucky_md?style=social"></a>
 <a href="https://github.com/Fred1e/lucky_md/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Fred1e/lucky_md?label=Watching&style=social"></a>
 
-<a href="https://github.com/Fred1e/lucky_md/visitors"><img title="Watching" src="https://img.shields.io/github/visitors/Fred1e/lucky_md?label=visitors&style=social"></a>
+<a href="https://github.com/Fred1e/lucky_md/branches"><img title="branches" src="https://img.shields.io/github/branches/Fred1e/lucky_md?label=branches&style=social"></a>
 <a
-href="https://github.com/Fred1e/lucky_md/pulls"><img title="Watching" src="https://img.shields.io/github/pulls/Fred1e/lucky_md?label=pulls&style=social"></a>
+href="https://github.com/Fred1e/lucky_md/activity"><img title="activity" src="https://img.shields.io/github/activity/Fred1e/lucky_md?label=pulls&style=social"></a>
 
 </p>
 <p align="center"><img src="https://profile-counter.glitch.me/{Fred1e}/count.svg" alt="Lucky_md :: Visitor's Count"/></p>
@@ -70,7 +70,7 @@ href="https://github.com/Fred1e/lucky_md/pulls"><img title="Watching" src="https
 
 sᴛᴀʀ 🌟 ᴍʏ ʀᴇᴘᴏ ɪғ ʏᴏᴜ ʟɪᴋᴇ ᴛʜɪs ʙᴏᴛ ®️
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
+
 
 ## 𝟚.ᴡᴇʙ sɪᴛᴇ ᴛᴏ ɢᴇᴛ sᴇssɪᴏɴ ᴠɪᴀ ǫʀ & ᴘᴀɪʀ
  
