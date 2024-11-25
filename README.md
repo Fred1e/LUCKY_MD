@@ -118,7 +118,7 @@ HEROKU
    <a href='https://signup.heroku.com/' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-ℂℝ𝔼𝔸𝕋𝔼 𝔸ℂℂ𝕆𝕌ℕ𝕋 ℕ𝕆𝕎-black?style=for-the-badge&logo=heroku&logoColor=purple'/></a>
 
 **2. ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀᴄᴄᴏᴜɴᴛ ᴏɴ ʜᴇʀᴏᴋᴜ**       
-   <a href='https://dashboard.heroku.com/new?template=https://github.com/kingfredie/Lucky_Md/tree/main' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-𝔻𝔼ℙ𝕃𝕆𝕐 𝕋𝕆 ℍ𝔼ℝ𝕆𝕂𝕌-black?style=for-the-badge&logo=heroku&logoColor=purple'/></a>
+   <a href='https://dashboard.heroku.com/new?template=https://github.com/Fred1e/Lucky_Md/tree/main' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-𝔻𝔼ℙ𝕃𝕆𝕐 𝕋𝕆 ℍ𝔼ℝ𝕆𝕂𝕌-black?style=for-the-badge&logo=heroku&logoColor=purple'/></a>
 </details>
 
 
@@ -142,7 +142,7 @@ REPLIT
 <summary>HOW TO SET ON REPLIT</summary>
   
 Tap to deploy if you know
-  <a href='https://replit.com/github/Fred1e/Lucky-Mxd' target="_blank"><img alt='replit' src='https://img.shields.io/badge/DEPLOY ON REPLIT-black?style=for-the-badge&logo=replit&logoColor=orange'/></a>
+  <a href='https://replit.com/github/Fred1e/LUCKY_MD' target="_blank"><img alt='replit' src='https://img.shields.io/badge/DEPLOY ON REPLIT-black?style=for-the-badge&logo=replit&logoColor=orange'/></a>
 
    `HOW TO DEPLOY ON REPLIT`
 
