@@ -80,7 +80,7 @@ sᴛᴀʀ 🌟 ᴍʏ ʀᴇᴘᴏ ɪғ ʏᴏᴜ ʟɪᴋᴇ ᴛʜɪs ʙᴏᴛ ®�
 
 
 
-  `FOR DEVELOPER AND HELP JOIN AS HERE`
+  
 
 </details>
 
@@ -107,7 +107,7 @@ sᴛᴀʀ 🌟 ᴍʏ ʀᴇᴘᴏ ɪғ ʏᴏᴜ ʟɪᴋᴇ ᴛʜɪs ʙᴏᴛ ®�
 
 
 
-`SESSION FOR DEPLOYMENT IN HEROKU`
+HEROKU 
 
 </details>
 
@@ -129,7 +129,7 @@ sᴛᴀʀ 🌟 ᴍʏ ʀᴇᴘᴏ ɪғ ʏᴏᴜ ʟɪᴋᴇ ᴛʜɪs ʙᴏᴛ ®�
 https://dashboard.heroku.com/new?template=https://github.com/Fred1e /Lucky_Md
 ```
 
-`LUCKY MD REPLIT DEP`
+REPLIT
 </details>
 
 <details>
