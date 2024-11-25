@@ -1,117 +1,135 @@
 {
-  "name": "LUCKY_MD",
-  "description": "An easy and simple WhatsApp bot developed by Fredi Ezra",
-  "keywords": ["bot", "node", "baileys", "whatsapp"],
-  "logo": "https://files.catbox.moe/qh500b.jpg",
-  "repository": "https://github.com/Fred1e/Lucky_Md",
-  "success_url": "/",
-  "stack": "container",
-
-  "env": {
-    "PREFIX": {
-      "description": "Set the prefix for bot commands. You can use multiple prefixes by separating them with commas. Example: '.', '#', '!'",
-      "value": ".",
-      "required": false
+  "name":"LUCKY_MD",
+  "description":"Best whatsapp bot created by FrediEzra hacker",
+  "keywords":["bot","node","baileys","whatsapp"],
+  "logo":"https://files.catbox.moe/l1i9o4.jpg",
+  "repository":"https://github.com/Fred1e/LUCKY_MD",
+  "succes_url":"/",
+  "stack":"container",
+  "env":{
+    "PREFIX":
+    {
+      "description":"choose your prefix of bot",
+      "value":".",
+      "required":true
     },
-    "AUTO_READ_MESSAGES": {
-      "description": "Turn this 'on' if you want the bot to automatically read incoming messages. Use 'off' to disable it.",
-      "value": "off",
-      "required": false
+	  "ANTICALL":
+    {
+      "description":"Enter yes for your bot to reject calls",
+      "value":"yes",
+      "required":false
     },
-    "BLOCK_ALL": {
-      "description": "Turn this 'on' if you want the bot to automatically block ANYONE WHO SENDS YOU A MESSAGE. Use 'off' to disable it.",
-      "value": "off",
-      "required": false
+	    "AUTO_REACT_STATUS":
+    {
+      "description":"Enter yes for your bot to auto react status",
+      "value":"yes",
+      "required":false
     },
-    "AUTO_VIEW_STATUS": {
-      "description": "Automatically view your contacts' status updates. Type 'on' to activate or 'off' to deactivate.",
-      "value": "on",
-      "required": false
-    },
-    "AUTO_SAVE_STATUS": {
-      "description": "Automatically download and send status updates from your contacts. Type 'yes' to enable or 'no' to disable.",
-      "value": "off",
-      "required": false
-    },
-    "PM_PERMIT": {
-      "description": "Restrict the bot's use in private messages. Type 'on' to allow or 'no' to block usage in private messages.",
-      "value": "off",
-      "required": false
-    },
-    "AUTO_REACTION": {
-      "description": "Automatically react to received messages. Set to 'on' to enable or 'off' to disable.",
-      "value": "off",
-      "required": false
-    },
-    "ANTI_DELETE": {
-      "description": "Prevent others from deleting their messages in a chat. Set to 'on' to enable or 'off' to disable.",
-      "value": "on",
-      "required": false
-    },
-    "TIME_ZONE": {
-      "description": "Specify your country's time zone (e.g., 'Africa/Nairobi'). This ensures that bot activities follow your local time.",
-      "value": "Africa/Dodoma",
-      "required": false
-    },
-    "ANTICALL": {
-      "description": "Automatically decline incoming calls. Type 'on' to activate or 'off' to deactivate.",
-      "value": "off",
-      "required": false
-    },
-    "BOT_MODE": {
-      "description": "Set the bot to 'private' mode to restrict access to certain users or 'public' mode for general access.",
-      "value": "public",
-      "required": false
-    },
-    "HEROKU_API_KEY": {
-      "description": "Insert your Heroku API key here. This allows you to manage environment variables and other settings more effectively.",
-      "required": false
-    },
-    "HEROKU_APP_NAME": {
-      "description": "Insert your Heroku app name here (should match the app name from the top).",
-      "required": false
-    },
-    "SESSION_ID": {
-      "description": "Place your unique LUCKY MD session ID here. This is required for the bot to function.",
-      "value": "",
-      "required": true
-    },
-    "OWNER_NAME": {
-      "description": "Enter the name of the bot owner. This name will be displayed when required.",
-      "value": "Fredi Ezra",
-      "required": false
-    },
-    "OWNER_NUMBER": {
-      "description": "Enter your phone number without the '+' sign. Use your country code (e.g., '255' for Tanzania).",
-      "value": "255620814108,255764182801,255752593977",
-      "required": false
-    },
-    "WARN_COUNT": {
-      "description": "Set the limit for warnings issued by the bot. Once this limit is reached, action will be taken.",
-      "value": "3",
-      "required": false
-    },
-    "CHAT_BOT": {
-      "description": "Set to 'on' if you want the bot to respond to user messages automatically. Use 'off' to disable auto-chatting.",
-      "value": "off",
-      "required": false
-    },
-    "STARTING_MESSAGE": {
-      "description": "Show a starting message when the bot is activated. Set to 'on' to show or 'off' to hide.",
-      "value": "on",
-      "required": true
-    },
-    "PRESENCE": {
-      "description": "Choose how you want to appear to others: 'online' (always online), 'typing' (currently typing), 'recording' (currently recording audio), or leave blank for real-time presence.",
-      "value": "",
-      "required": false
+    "AUTO_READ_STATUS":
+    {
+      "description":"Your contact status will be read automatically(type yes to active or no to deactive  ; don't write in capital letter)",
+      "value":"yes",
+      "required":false
+    }, "AUTO_DOWNLOAD_STATUS":
+    {
+      "description":"Your contact status will be download automatically and send to you(type yes to active or no to deactive ; don't write in capital letter)",
+      "value":"no",
+      "required":false
     }
+    ,
+     "PM_PERMIT" :
+     {
+      "description":"Other user can't use your bot in pm (type yes to active or no to deactive ; don't write in capital letter)",
+      "value":"no",
+      "required":false
+    }
+    ,
+    "BOT_NAME" : {
+       
+      "description":"put A name for your bot",
+      "value":"LUCKY_MD",
+      "required":false
+
+    } ,
+     "BOT_MENU_LINKS" : {
+    
+      "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
+      "value":"https://files.catbox.moe/l1i9o4.jpg",
+      "required":false
+       
+     },
+    "PUBLIC_MODE":
+    {
+      "description":"type yes to put your bot on public mode or no to put it on private mod",
+      "value":"yes",
+      "required":false
+    }
+	,
+    "HEROKU_API_KEY": {
+    "description": "insert your heroku api-key (this is optionnal)",
+     "required" :false
+    },
+  "HEROKU_APP_NAME": {
+    "description": "insert your heroku APP NAME (this is optionnal)",
+     "required" :false
+    }  
+	  ,
+    "SESSION_ID":
+    {
+      "description":"put your session ID , the code you receive after scanning Qr code",   
+      "value":"",
+      "required":true
+      
+    },
+    "OWNER_NAME":
+    {
+    
+    "desc": "Your Name",
+    "required": false,
+    "value": "frediezra"
+  },
+    "NUMERO_OWNER":
+  {
+    
+    "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
+    "required":false,
+    "value": "255620814108,255764182801,255752593977"
+  },
+    "WARN_COUNT":
+  {
+    "desc": "this is the limit of warn for warning commandes",
+    "required": false,
+    "value": "5"
+  },
+  "STARTING_BOT_MESSAGE":
+  {
+    "description": "if you don't want startting-bot-message put no else put yes",
+    "required": true,
+    "value": "yes"
+  },
+  "PRESENCE":{
+    "description":"Mark your presence: 1 to indicate that you are online even if you are not. 2 to indicate that you are currently typing a message. 3 to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
+    "value":"",
+    "required": false
+	  
+  },
+	    "AUTO_READ":{
+    "description":"Enter yes for auto read messages.",
+    "value":"",
+    "required": false
+    },
+  "ANTI_DELETE_MESSAGE" : {
+    "description": "if you want to enable anti delete message put yes else put no",
+    "value": "yes",
+        "required": false
+  }
   },
 
-  "buildpacks": [
+    "buildpacks": [
     {
       "url": "heroku/nodejs"
     },
+
     {
       "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
     },
@@ -119,17 +137,15 @@
       "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
     }
   ],
-
   "formation": {
     "worker": {
       "quantity": 1,
-      "size": "basic"
+      "size": "standard-2x"
     }
   },
-
   "addons": [
     {
-      "plan": "heroku-postgresql"
+      "plan": "heroku-postgresql:essential-0"
     }
   ]
 }
