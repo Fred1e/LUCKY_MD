@@ -6,19 +6,19 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "s": "node index.js",
+    "s": "node beltah.js",
     "zokou": "pm2 start index.js --attach --max-memory-restart 490M",
     "c": "tsc"
     },
   "keywords": [
     "bot",
     "Baileys",
-    "lucky-Md",
+    "LuckyMd",
     "whatsapp",
     "whatsapp-bot",
     "frediezra"
    ],
-  "author": "frediezra",
+  "author": "frediezra255",
 "license": "ISC",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
