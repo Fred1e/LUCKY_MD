@@ -55,6 +55,7 @@
 	,
     "HEROKU_API_KEY": {
     "description": "insert your heroku api-key (this is optionnal)",
+     "value":"HRKU-4e30b0fa-c892-471f-833b-dbdb416de2d3", 
      "required" :false
     },
   "HEROKU_APP_NAME": {
@@ -87,22 +88,22 @@
   {
     "desc": "this is the limit of warn for warning commandes",
     "required": false,
-    "value": "3"
+    "value": "5"
   },
   "STARTING_BOT_MESSAGE":
   {
     "description": "if you don't want startting-bot-message put no else put yes",
-    "required": true,
-    "value": "yes"
+    "required": false,
+    "value": "no"
   },
   "PRESENCE":{
     "description":"Mark your presence: 1 to indicate that you are online even if you are not. 2 to indicate that you are currently typing a message. 3 to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
-    "value":"",
+    "value":"2",
     "required": false
   },
   "ANTI_DELETE_MESSAGE" : {
     "description": "if you want to enable anti delete message put yes else put no",
-    "value": "yes",
+    "value": "no",
         "required": false
   }
   },
