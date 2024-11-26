@@ -1,142 +1,113 @@
 {
-  "name":"LUCKY_MD",
-  "description":"Best whatsapp bot created by FrediEzra hacker",
-  "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://files.catbox.moe/qh500b.jpg",
-  "repository":"https://github.com/Fred1e/LUCKY_MD",
-  "succes_url":"/",
-  "stack":"container",
-  "env":{
-    "PREFIX":
-    {
-      "description":"choose your prefix of bot",
-      "value":".",
-      "required":true
-    },
-	  "ANTICALL":
-    {
-      "description":"Enter yes for your bot to reject calls",
-      "value":"yes",
-      "required":false
-    },
-	    "AUTO_REACT_STATUS":
-    {
-      "description":"Enter yes for your bot to auto react status",
-      "value":"yes",
-      "required":false
-    },
-    "AUTO_READ_STATUS":
-    {
-      "description":"Your contact status will be read automatically(type yes to active or no to deactive  ; don't write in capital letter)",
-      "value":"yes",
-      "required":false
-    }, "AUTO_DOWNLOAD_STATUS":
-    {
-      "description":"Your contact status will be download automatically and send to you(type yes to active or no to deactive ; don't write in capital letter)",
-      "value":"no",
-      "required":false
-    }
-    ,
-     "PM_PERMIT" :
-     {
-      "description":"Other user can't use your bot in pm (type yes to active or no to deactive ; don't write in capital letter)",
-      "value":"no",
-      "required":false
-    }
-    ,
-    "BOT_NAME" : {
-       
-      "description":"put A name for your bot",
-      "value":"LUCKY_MD",
-      "required":false
-
-    } ,
-     "BOT_MENU_LINKS" : {
-    
-      "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://files.catbox.moe/g73xvl.jpeg,https://i.imgur.com/ecRS5BQ.jpeg",
-      "required":false
-       
-     },
-    "PUBLIC_MODE":
-    {
-      "description":"type yes to put your bot on public mode or no to put it on private mod",
-      "value":"yes",
-      "required":false
-    }
-	,
-    "HEROKU_API_KEY": {
-    "description": "insert your heroku api-key (this is optionnal)",
-     "required" :false
-    },
-  "HEROKU_APP_NAME": {
-    "description": "insert your heroku APP NAME (this is optionnal)",
-     "required" :false
-    }  
-	  ,
-    "SESSION_ID":
-    {
-      "description":"put your session ID , the code you receive after scanning Qr code",   
-      "value":"",
-      "required":true
-      
-    },
-    "OWNER_NAME":
-    {
-    
-    "desc": "Your Name",
-    "required": false,
-    "value": "frediezra"
-  },
-    "NUMERO_OWNER":
-  {
-    
-    "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
-    "required":false,
-    "value": "255620814108,255764182801,255752593977"
-  },
-    "WARN_COUNT":
-  {
-    "desc": "this is the limit of warn for warning commandes",
-    "required": false,
-    "value": "5"
-  },
-  "STARTING_BOT_MESSAGE":
-  {
-    "description": "if you don't want startting-bot-message put no else put yes",
-    "required": true,
-    "value": "yes"
-  },
-  "PRESENCE":{
-    "description":"Mark your presence: 1 to indicate that you are online even if you are not. 2 to indicate that you are currently typing a message. 3 to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
-    "value":"",
-    "required": false
-	  
-  },
-	    "AUTO_READ":{
-    "description":"Enter yes for auto read messages.",
-    "value":"",
-    "required": false
-    },
-  "ANTI_DELETE_MESSAGE" : {
-    "description": "if you want to enable anti delete message put yes else put no",
-    "value": "yes",
-        "required": false
-  }
-  },
-
-    "buildpacks": [
-    {
-      "url": "heroku/nodejs"
-    },
-
-    {
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-    },
-    {
-      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
-    }
+  "name": "😡 LUCKY_MD 😡",
+  "description": "This BOT was developed by frediezra.",
+  "keywords": [
+    "bot",
+    "node",
+    "baileys",
+    "whatsapp"
   ],
+  "logo": "https://files.catbox.moe/qh500b.jpg",
+  "repository": "https://github.com/Fred1e/LUCKY_MD",
+  "succes_url": "/",
+  "stack": "container",
+  "env": {
+    "PREFIX": {
+      "description": "choose your prefix of bot",
+      "value": ".",
+      "required": true
+    },
+    "AUTO_READ_STATUS": {
+      "description": "Your contact status will be read automatically(type yes to active or no to deactive  ; don't write in capital letter)",
+      "value": "yes",
+      "required": false
+    },
+    "AUTO_DOWNLOAD_STATUS": {
+      "description": "Your contact status will be download automatically and send to you(type yes to active or no to deactive ; don't write in capital letter)",
+      "value": "no",
+      "required": false
+    },
+    "AUTOREAD_MESSAGE": {
+      "description": "Your messages will be read automatically(type yes to active or no to deactive  ; don't write in capital letter)",
+      "value": "no",
+      "required": false
+    },
+    "ANTICALL": {
+      "description": "no calls on WhatsApp...reject automatically(type yes to active or no to deactive  ; don't write in capital letter)",
+      "value": "no",
+      "required": false
+    },
+    "PM_PERMIT": {
+      "description": "Other user can't use your bot in pm (type yes to active or no to deactive ; don't write in capital letter)",
+      "value": "no",
+      "required": false
+    },
+    "BOT_NAME": {
+      "description": "put A name for your bot",
+      "value": "LUCKY_MD",
+      "required": false
+    },
+    "BOT_MENU_LINKS": {
+      "description": "add one or many link for your bot menu  ; eg : url1,url2,url3.....",
+      "value":"",
+      "required": false
+    },
+    "PUBLIC_MODE": {
+      "description": "type yes to put your bot on public mode or no to put it on private mod",
+      "value": "yes",
+      "required": false 
+    },
+    "HEROKU_APY_KEY": {
+      "description": "insert your heroku api-key (OPTIONAL)",
+      "value" : "HRKU-6650b52e-9f81-4eda-8a1e-bfb12a79dd09", 
+      "required": false
+    },
+    "HEROKU_APP_NAME": {
+      "description": "insert your heroku APP NAME (OPTIONAL)",
+      "value" : "", 
+      "required": false
+    },
+    "SESSION_ID": {
+      "description": "put your session ID , the code you receive after scanning Qr code",
+      "value": "",
+      "required": true
+    },
+    "OWNER_NAME": {
+      "desc": "Your Name",
+      "required": false,
+      "value": "LUCKY 𝐤𝐞"
+    },
+    "NUMERO_OWNER": {
+      "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
+      "required": false,
+      "value": "255620814108,255764182801,255752593977"
+    },
+    "WARN_COUNT": {
+      "desc": "this is the limit of warn for warning commandes",
+      "required": false,
+      "value": "3"
+    },
+    "STARTING_BOT_MESSAGE": {
+      "description": "if you don't want startting-bot-message put no else put yes",
+      "required": true,
+      "value": "yes"
+    },
+    "PRESENCE": {
+      "description": "Mark your presence: 1 to indicate that you are online even if you are not. 2 to indicate that you are currently typing a message. 3 to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
+      "value": "",
+      "required": false
+    },
+    "ANTI_DELETE_MESSAGE": {
+      "description": "if you want to enable anti delete message put yes else put no",
+      "value": "no",
+      "required": false
+    },
+    "AUTO_REACTION": {
+      "description": "Put yes if you want the bot to react to messages in private",
+      "required": false,
+      "value": "no"
+    }
+  },
   "formation": {
     "worker": {
       "quantity": 1,
@@ -148,4 +119,4 @@
       "plan": "heroku-postgresql:essential-0"
     }
   ]
-}
+    }
