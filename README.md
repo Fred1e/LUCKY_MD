@@ -175,6 +175,16 @@ All Information About Me
    
 
 
+## NEW ADDED PLUGINS 🎊 
+`AUTOREAD_MESSAGE♂️`
+`AUTO_REACTION♂️`
+`AUTO_REACT_STATUS♂️`
+`ANTI_DELETE_MESSAGE♂️`
+`PLAY CMD♂️`
+`VIDEO CMD♂️`
+`AND MANY MORE♂️`
+✔️ KEEP USING LUCKY-MD ✔️
+
 
 
 ## License
