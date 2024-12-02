@@ -33,8 +33,7 @@
 <a href="https://wa.me/255752593977"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/WhatsApp.png" width="15%"> </a>
   <a href="https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/WhatsApp.png" width="15%"> </a>
   <a href="https://www.instagram.com/fredi.simba.tz"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/Instagram2.png" width="16%"> </a>
-  <a href="https://www.facebook.com/profile.php?id=61553209932337"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/Facebook.png" width="17%"> </a><a href="https://github.com/Fred1e"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/devto.png" width="17%"> </a>
-  <a href="https://twitter.com/fredisimba"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/twitter.png" width="15%"> </a>
+  <a href="https://www.facebook.com/profile.php?id=61553209932337"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/Facebook.png" width="17%"> </a><a href="https://github.com/Fred1e"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/devto.png" width="17%"> </a><a href="https://twitter.com/fredisimba"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/twitter.png" width="15%"> </a>
 </p>
 
 
