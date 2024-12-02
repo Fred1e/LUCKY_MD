@@ -66,7 +66,11 @@
 `AND MANY MORE♂️`
 ✔️ KEEP USING LUCKY-MD ✔️
 
+***BOT FEATURES 💌***
 
+| Menu ⁠➜ | Bot | Group | Search | Download | Tools | Ai | Game | Fun | Owner | Bug | Convert | List |
+| --------| --- | ----- | ------ | -------- | ----- | -- | ---- | --- | ----- | ----| --------| -----|
+| Work ➜ |  ✅ |   ✅  |    ✅  |     ✅   |   ✅  | ✅ |   ✅ |  ✅ |  ✅   | ✅  |    ✅   |  ✅  |
 
     
  
