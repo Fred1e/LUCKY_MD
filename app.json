@@ -1,8 +1,8 @@
 {
   "name":"LUCKY-MD",
-  "description":"Best whatsapp bot developed by Fredie Tech",
+  "description":"Best whatsapp bot created by FREDIEZRA",
   "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://files.catbox.moe/qh500b.jpg",
+  "logo":"https://files.catbox.moe/49lqmj.jpeg",
   "repository":"https://github.com/Fred1e/LUCKY_MD",
   "succes_url":"/",
   "stack":"container",
@@ -12,6 +12,18 @@
       "description":"choose your prefix of bot",
       "value":".",
       "required":true
+    },
+	  "ANTICALL":
+    {
+      "description":"Enter yes for your bot to reject calls",
+      "value":"yes",
+      "required":false
+    },
+	    "AUTO_REACT_STATUS":
+    {
+      "description":"Enter yes for your bot to auto react status",
+      "value":"yes",
+      "required":false
     },
     "AUTO_READ_STATUS":
     {
@@ -35,14 +47,14 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"LUCKY-MD",
+      "value":"LUCKY_MD",
       "required":false
 
     } ,
      "BOT_MENU_LINKS" : {
     
       "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://files.catbox.moe/g73xvl.jpeg",
+      "value":"https://files.catbox.moe/7irwqn.jpeg,https://files.catbox.moe/bdjmrd.jpg",
       "required":false
        
      },
@@ -82,7 +94,7 @@
     
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
     "required":false,
-    "value": "255620814108,255764182801,255752593977"
+    "value": "255752593977"
   },
     "WARN_COUNT":
   {
@@ -93,14 +105,20 @@
   "STARTING_BOT_MESSAGE":
   {
     "description": "if you don't want startting-bot-message put no else put yes",
-    "required": false,
+    "required": true,
     "value": "no"
   },
   "PRESENCE":{
     "description":"Mark your presence: 1 to indicate that you are online even if you are not. 2 to indicate that you are currently typing a message. 3 to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
     "value":"2",
     "required": false
+	  
   },
+	    "AUTO_READ":{
+    "description":"Enter yes for auto read messages.",
+    "value":"no",
+    "required": false
+    },
   "ANTI_DELETE_MESSAGE" : {
     "description": "if you want to enable anti delete message put yes else put no",
     "value": "no",
@@ -131,4 +149,4 @@
       "plan": "heroku-postgresql:essential-0"
     }
   ]
-     }
+  }
