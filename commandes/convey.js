@@ -36,7 +36,7 @@ async function uploadToTelegraph(Path) {
 
 
 
-zokou({nomCom:"s2s",categorie: "Conversion", reaction: "❤️"},async(origineMessage,zk,commandeOptions)=>{
+zokou({nomCom:"ss",categorie: "Conversion", reaction: "❤️"},async(origineMessage,zk,commandeOptions)=>{
 
 let {ms,mtype,arg,repondre,nomAuteurMessage}=commandeOptions
   var txt=JSON.stringify(ms.message)
@@ -314,7 +314,7 @@ zokou({nomCom:"picture1",categorie: "Conversion", reaction: "💀"},async(dest,z
         });
 });
 
-zokou({ nomCom: "trt2", categorie: "Conversion", reaction: "⌛" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "trt", categorie: "Conversion", reaction: "⌛" }, async (dest, zk, commandeOptions) => {
 
   const { msgRepondu, repondre , arg } = commandeOptions;
 
