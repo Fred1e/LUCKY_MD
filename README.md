@@ -9,7 +9,7 @@
  
   
  <a href="https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f">
- <img alt="𝕃𝕌ℂ𝕂𝕐 𝕄𝔻" height="300" src="https://files.catbox.moe/g73xvl.jpeg">
+ <img alt="𝕃𝕌ℂ𝕂𝕐 𝕄𝔻" height="300" src="https://files.catbox.moe/98d70v.mp4">
  
   
 </h1> 
