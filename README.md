@@ -56,25 +56,15 @@
 </p>
 
 
-## NEW ADDED PLUGINS 🎊 
-`AUTOREAD_MESSAGE♂️`
-`AUTO_REACTION♂️`
-`AUTO_REACT_STATUS♂️`
-`ANTI_DELETE_MESSAGE♂️`
-`PLAY CMD♂️`
-`VIDEO CMD♂️`
-`AND MANY MORE♂️`
-✔️ KEEP USING LUCKY-MD ✔️
+***BOT UPDATED FUTURES 🎁***
 
-***BOT FEATURES 💌***
-
-| Menu ⁠➜ | Bot | Group | Search | Download | Tools | Ai | Game | Fun | Owner | Bug | Convert | List |
-| --------| --- | ----- | ------ | -------- | ----- | -- | ---- | --- | ----- | ----| --------| -----|
-| Work ➜ |  ✅ |   ✅  |    ✅  |     ✅   |   ✅  | ✅ |   ✅ |  ✅ |  ✅   | ✅  |    ✅   |  ✅  |
-
-    
- 
- 
+| Menu ⁠➜         | Play    | A.Delete  | A.Read Message| A.Reaction | A.React Status| Ai new cmd | New Game | Fun | Owner | Dangerous Bugs | Convert | New Group Cmd |
+| ----------------| ------- | --------- | ------------ | ---------- | ------------- | ----------- | -------- | --- | ----- | -------------- | --------| --------------|
+| Work ➜         |  ✅     |   ✅      |    ✅        |     ✅     |      ✅       |     ✅      |   ✅     |  ✅ |  ✅   |      ✅       |    ✅   |       ✅      |
+| --------------- | ------- | --------- | ------------ | ---------- | ------------- | ----------- | -------- | --- | ----- | ---------------| --------| --------------|
+| Updated Time ➜ | 01/12/24 | 01/12/24 | 01/12/2024.  | 01/12/24.  | 01/12/2024    | 01/12/2024  | 01/12/24 | old | old   | 01/12/2024.    |  Old    | 01/12/2024    |
+| --------------- | ------- | --------- | ------------ | ---------- | ------------- | ----------- | -------- | --- | ----- | ---------------| --------| --------------|
+| Added By ➜     | devfree | devfree.  | devfree.     | devfree    | devfree       | devfree.    | devfree  | dev | Fredi | devfree        | Fredie  | devfree       |
 
 
 
