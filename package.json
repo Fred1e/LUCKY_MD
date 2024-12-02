@@ -1,6 +1,6 @@
 
  {
-  "name": "babyfx",
+  "name": "babyme",
   "version": "2.0.0",
   "description": "",
   "main": "index.js",
@@ -13,12 +13,12 @@
   "keywords": [
     "bot",
     "Baileys",
-    "Alpha-Md",
+    "Lucky_Md",
     "whatsapp",
     "whatsapp-bot",
-    "keithkeizzah"
+    "FrediEzra"
    ],
-  "author": "keithkeizzah",
+  "author": "frediezra",
 "license": "ISC",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
