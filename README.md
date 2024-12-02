@@ -103,7 +103,7 @@ sᴛᴀʀ 🌟 ᴍʏ ʀᴇᴘᴏ ɪғ ʏᴏᴜ ʟɪᴋᴇ ᴛʜɪs ʙᴏᴛ ®�
 <details>
 <summary>For Developer And Support💯</summary>
   For Help And Developer Join As Here ✔️
-<a href='https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f' target="_grey"><img alt='WHATSAPP' src='https://img.shields.io/badge/WhatsApp Channel Support-black?style=for-the-badge&logo=whatsapp&logoColor=green'/></a>
+<a href='https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f' target="_grey"><img alt='WHATSAPP' src='https://img.shields.io/badge/WhatsApp Channel Support-grey?style=for-the-badge&logo=whatsapp&logoColor=green'/></a>
 
 <a href='https://chat.whatsapp.com/BdVxcF4C00J4X4Sa39dpOi' target="_blank"><img alt='WHATSAPP' src='https://img.shields.io/badge/Join WhatsApp Group-black?style=for-the-badge&logo=whatsapp&logoColor=green'/></a>
 
