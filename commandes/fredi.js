@@ -39,8 +39,10 @@ const date = moment().format('DD/MM/YYYY');
 ┃⊛└────••••────➻
 ╰─━━━━══──══━━━❂\n${readmore}
 
-┊🪄🎄ғʀᴇᴅɪᴇᴛᴇᴄʜ ᴛᴇᴀ ᴡɪsʜ ʏᴏᴜ ᴍᴀʀʀʏ ᴄʜʀɪsᴛᴍᴀs🎄 🪄`;
-    
+┊🪄🎄ғʀᴇᴅɪᴇᴛᴇᴄʜ ᴛᴇᴀᴍ ᴡɪsʜ ʏᴏᴜ ᴍᴀʀʀʏ ᴄʜʀɪsᴛᴍᴀs🎄 🪄
+
+
+`;
     let menuMsg = `𝙻𝚞𝚌𝚔𝚢 𝙼𝚍 𝙲𝚖𝚍`;
     for (const cat in coms) {
         menuMsg += `
