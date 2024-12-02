@@ -78,7 +78,7 @@
 
 
 </a></p>
-- <a href="https://github.com/Fred1e/LUCKY_MD/fork"><img title="FORK THIS REPO" src="https://img.shields.io/badge/TAP TO FORK REPO-h?color=silver&style=for-the-badge&logo=ferrari&logocolor=gold" width="240" height="38.45"/></a></p>
+- <a href="https://github.com/Fred1e/LUCKY_MD/fork"><img title="FORK THIS REPO" src="https://img.shields.io/badge/TAP TO FORK REPO-h?color=silver&style=for-the-badge&logo=ferrari&logoColor=gold" width="240" height="38.45"/></a></p>
 
 sᴛᴀʀ 🌟 ᴍʏ ʀᴇᴘᴏ ɪғ ʏᴏᴜ ʟɪᴋᴇ ᴛʜɪs ʙᴏᴛ ®️
 
