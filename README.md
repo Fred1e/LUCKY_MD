@@ -78,7 +78,7 @@
 
 
 </a></p>
-- <a href="https://github.com/Fred1e/LUCKY_MD/fork"><img title="FORK THIS REPO" src="https://img.shields.io/badge/TAP TO FORK REPO-h?color=orange&style=for-the-badge&logo=ferrari" width="220" height="38.45"/></a></p>
+- <a href="https://github.com/Fred1e/LUCKY_MD/fork"><img title="FORK THIS REPO" src="https://img.shields.io/badge/TAP TO FORK REPO-h?color=gold&style=for-the-badge&logo=ferrari" width="230" height="38.45"/></a></p>
 
 sᴛᴀʀ 🌟 ᴍʏ ʀᴇᴘᴏ ɪғ ʏᴏᴜ ʟɪᴋᴇ ᴛʜɪs ʙᴏᴛ ®️
 
@@ -89,7 +89,8 @@ sᴛᴀʀ 🌟 ᴍʏ ʀᴇᴘᴏ ɪғ ʏᴏᴜ ʟɪᴋᴇ ᴛʜɪs ʙᴏᴛ ®�
 
 ## 𝟚.ᴡᴇʙ sɪᴛᴇ ᴛᴏ ɢᴇᴛ sᴇssɪᴏɴ ᴠɪᴀ ǫʀ & ᴘᴀɪʀ
  
-<a href='https://fredietech.onrender.com' target="_blank"><img alt='Get Session ID' src='https://img.shields.io/badge/Click here to get your session id-black?style=for-the-badge&logo=opencv&logoColor=red'/></a>
+</a></p>
+- <a href="https://fredietech.onrender.com"><img title="GET SESSION ID HERE" src="https://img.shields.io/badge/SCAN CODE HERE-h?color=gold&style=for-the-badge&logo=ferrari" width="230" height="38.45"/></a></p>
 
 
 
