@@ -26,10 +26,18 @@
 </p>
 <p align="center"><img src="https://profile-counter.glitch.me/{Fred1e}/count.svg" alt="Lucky_md :: Visitor's Count"/></p>
 
-</a>
-  <div align="center">
-  <img src="https://spogit.vercel.app/api?theme=dark&black=true&scan=true" alt="Widget with the current Spotify song"  />
-</div>
+
+
+<p> <b>Connect With me:</b></p>
+<p>
+<a href="https://wa.me/255752593977"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/WhatsApp.png" width="10%"> </a>
+  <a href="https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/WhatsApp.png" width="10%"> </a>
+  <a href="https://www.instagram.com/fredi.simba.tz"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/Instagram2.png" width="11%"> </a>
+  <a href="https://www.facebook.com/profile.php?id=61553209932337"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/Facebook.png" width="12%"> </a><a href="https://t.me/freditech"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/telegram.png" width="12%"> </a>
+  <a href="https://twitter.com/fredisimba"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/twitter.png" width="10%"> </a>
+</p>
+
+
 
 ---
 
