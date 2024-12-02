@@ -105,15 +105,15 @@ sᴛᴀʀ 🌟 ᴍʏ ʀᴇᴘᴏ ɪғ ʏᴏᴜ ʟɪᴋᴇ ᴛʜɪs ʙᴏᴛ ®�
   For Help And Developer Join As Here ✔️
 <a href='https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f' target="_grey"><img alt='WHATSAPP' src='https://img.shields.io/badge/WhatsApp Channel Support-grey?style=for-the-badge&logo=whatsapp&logoColor=green'/></a>
 
-<a href='https://chat.whatsapp.com/BdVxcF4C00J4X4Sa39dpOi' target="_blank"><img alt='WHATSAPP' src='https://img.shields.io/badge/Join WhatsApp Group-black?style=for-the-badge&logo=whatsapp&logoColor=green'/></a>
+<a href='https://chat.whatsapp.com/BdVxcF4C00J4X4Sa39dpOi' target="_grey"><img alt='WHATSAPP' src='https://img.shields.io/badge/Join WhatsApp Group-grey?style=for-the-badge&logo=whatsapp&logoColor=green'/></a>
 
-<a href='https://wa.me/255752593977' target="_blank"><img alt='WHATSAPP' src='https://img.shields.io/badge/Wa Me Here-black?style=for-the-badge&logo=whatsapp&logoColor=green'/></a>
+<a href='https://wa.me/255752593977' target="_grey"><img alt='WHATSAPP' src='https://img.shields.io/badge/Wa Me Here-grey?style=for-the-badge&logo=whatsapp&logoColor=green'/></a>
 
-<a href='https://www.youtube.com/@freeonlinetvT1' target="_blank"><img alt='YOUTUBE' src='https://img.shields.io/badge/Tutorial Here In Youtube-black?style=for-the-badge&logo=youtube&logoColor=red'/></a>
+<a href='https://www.youtube.com/@freeonlinetvT1' target="_grey"><img alt='YOUTUBE' src='https://img.shields.io/badge/Tutorial Here In Youtube-grey?style=for-the-badge&logo=youtube&logoColor=red'/></a>
 
-<a href='t.me/freditech' target="_blank"><img alt='TELEGRAM' src='https://img.shields.io/badge/Telegram For Dev-black?style=for-the-badge&logo=telegram&logoColor=blue'/></a>
+<a href='t.me/freditech' target="_grey"><img alt='TELEGRAM' src='https://img.shields.io/badge/Telegram For Dev-grey?style=for-the-badge&logo=telegram&logoColor=blue'/></a>
 
-<a href='https://t.me/+u3zlb5y6OfxhOTdk' target="_blank"><img alt='TELEGRAM' src='https://img.shields.io/badge/Telegram Group-black?style=for-the-badge&logo=Telegram&logoColor=blue'/></a>
+<a href='https://t.me/+u3zlb5y6OfxhOTdk' target="_grey"><img alt='TELEGRAM' src='https://img.shields.io/badge/Telegram Group-grey?style=for-the-badge&logo=Telegram&logoColor=blue'/></a>
 </details>
 
 
@@ -122,19 +122,14 @@ sᴛᴀʀ 🌟 ᴍʏ ʀᴇᴘᴏ ɪғ ʏᴏᴜ ʟɪᴋᴇ ᴛʜɪs ʙᴏᴛ ®�
 
 
 HEROKU 
-
-</details>
-
-<details>
-<summary>SESSION FOR HEROKU DEPLOYMENT</summary>
    
 **1. ɪғ ʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴀᴄᴄᴏᴜɴᴛ ᴏɴ ʜᴇʀᴏᴋᴜ**
 
-   <a href='https://signup.heroku.com/' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-ℂℝ𝔼𝔸𝕋𝔼 𝔸ℂℂ𝕆𝕌ℕ𝕋 ℕ𝕆𝕎-black?style=for-the-badge&logo=heroku&logoColor=purple'/></a>
+   <a href='https://signup.heroku.com/' target="_silver"><img alt='Heroku' src='https://img.shields.io/badge/-ℂℝ𝔼𝔸𝕋𝔼 𝔸ℂℂ𝕆𝕌ℕ𝕋 ℕ𝕆𝕎-silver?style=for-the-badge&logo=heroku&logoColor=purple'/></a>
 
 **2. ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀᴄᴄᴏᴜɴᴛ ᴏɴ ʜᴇʀᴏᴋᴜ**       
-   <a href='https://dashboard.heroku.com/new?template=https://github.com/devfreetec/lucky-x' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-𝔻𝔼ℙ𝕃𝕆𝕐 𝕋𝕆 ℍ𝔼ℝ𝕆𝕂𝕌-black?style=for-the-badge&logo=heroku&logoColor=purple'/></a>
-</details>
+   <a href='https://dashboard.heroku.com/new?template=https://github.com/devfreetec/lucky-x' target="_silver"><img alt='DEPLOY' src='https://img.shields.io/badge/-𝔻𝔼ℙ𝕃𝕆𝕐 𝕋𝕆 ℍ𝔼ℝ𝕆𝕂𝕌-silver?style=for-the-badge&logo=Heroku,ferrari&logoColor=purple'/></a>
+
 
 
 
