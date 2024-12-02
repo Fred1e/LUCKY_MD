@@ -23,7 +23,7 @@
 <a href="https://github.com/Fred1e/lucky_md/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Fred1e/lucky_md?style=social"></a>
 <a href="https://github.com/Fred1e/lucky_md/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Fred1e/lucky_md?label=Watching&style=social"></a>
 <!-- Repo Size -->
-  <img src="https://img.shields.io/github/repo-size/Fred1e/LUCKY_MD?color=gold&label=Repo%20Size&style=plastic" alt="Repo Size">
+  <img src="https://img.shields.io/github/repo-size/Fred1e/LUCKY_MD?color=gold&label=ferrari%20Size&style=plastic" alt="Repo Size">
   <!-- Developer -->
   <img src="https://img.shields.io/static/v1?label=Author&message=Fredi%20Ezra&color=pink&style=plastic" alt="Developer Badge">
 </p>
@@ -52,7 +52,7 @@
 </p>
 
 <p align="center">
-  <a href="https://youtu.be/izoxfW3anrU"><img src="https://img.shields.io/badge/CodeSpace-green?colorA=%23ff000&colorB=%23017e40&style=for-the-badge&logo=git&logoColor=white"></a>
+  <a href="https://youtu.be/izoxfW3anrU"><img src="https://img.shields.io/badge/CodeSpace-green?colorA=%23ff000&colorB=%23017e40&style=for-the-badge&logo=ferrari&logoColor=gold"></a>
 </p>
 
 
