@@ -60,7 +60,7 @@ zokou({ nomCom: 'getallmembers',
 
 zokou({ nomCom: 'channel',
     desc: 'To check runtime',
-    Categorie: 'My Contact',
+    Categorie: 'Users',
     reaction: '🐞', 
     fromMe: 'true', 
 
@@ -80,7 +80,7 @@ zokou({ nomCom: 'channel',
 
 zokou({ nomCom: 'luckytgc',
     desc: 'To check runtime',
-    Categorie: 'My Contact',
+    Categorie: 'Users',
     reaction: '🤭', 
     fromMe: 'true', 
 
@@ -141,7 +141,7 @@ zokou({ nomCom: 'vision',
   
 zokou({ nomCom: 'luckywagc',
     desc: 'To check runtime',
-    Categorie: 'My Contact',
+    Categorie: 'Users',
     reaction: '♻️', 
     fromMe: 'true', 
 
@@ -161,7 +161,7 @@ zokou({ nomCom: 'luckywagc',
 
 zokou({ nomCom: 'hack2',
     desc: 'To check runtime',
-    Categorie: 'My Contact',
+    Categorie: 'Users',
     reaction: '🐅', 
     fromMe: 'true', 
 
