@@ -61,7 +61,6 @@
 | Menu ⁠➜         | Play    | A.Delete  | A.Read Message| A.Reaction | A.React Status| Ai new cmd | New Game | Fun | Owner | Dangerous Bugs | Convert | New Group Cmd |
 | ----------------| ------- | --------- | ------------ | ---------- | ------------- | ----------- | -------- | --- | ----- | -------------- | --------| --------------|
 | Work ➜         |  ✅     |   ✅      |    ✅        |     ✅     |      ✅       |     ✅      |   ✅     |  ✅ |  ✅   |      ✅       |    ✅   |       ✅      |
-| --------------- | ------- | --------- | ------------ | ---------- | ------------- | ----------- | -------- | --- | ----- | ---------------| --------| --------------|
 | Updated Time ➜ | 01/12/24 | 01/12/24 | 01/12/2024.  | 01/12/24.  | 01/12/2024    | 01/12/2024  | 01/12/24 | old | old   | 01/12/2024.    |  Old    | 01/12/2024    |
 | Added By ➜     | devfree | devfree.  | devfree.     | devfree    | devfree       | devfree.    | devfree  | dev | Fredi | devfree        | Fredie  | devfree       |
 
