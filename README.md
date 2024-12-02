@@ -16,11 +16,11 @@
 
 </p>
   <p align="center">
- <!-- Docker Pulls -->
-  <img src="https://img.shields.io/docker/pulls?url=https://github.com/Fred1e/LUCKY_MD&style=flat&logo=docker&label=Docker+Pulls" alt="Docker Pulls">
-
-  <!-- Repo Views -->
+   <!-- Repo Views -->
   <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FFred1e%2FLUCKY_MD&count_bg=%2379C83D&title_bg=%23555555&icon=gitpod.svg&icon_color=%23E7E7E7&title=Views&edge_flat=false" alt="Repo Views Badge">
+      <!-- Repo Size -->
+  <img src="https://img.shields.io/github/repo-size/Fred1e/LUCKY_MD?color=gold&label=Repo%20Size&style=plastic" alt="Repo Size">
+
 <a 
   href="https://github.com/fred1e?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/Fred1e?label=Followers&style=social"></a>
 <a href="https://github.com/Fred1e/lucky_md/stargazers/"><img title="STARS" src="https://img.shields.io/github/stars/Fred1e/lucky_md?&style=social"></a>
