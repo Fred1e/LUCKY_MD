@@ -1,53 +1,78 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-const { zokou } = require("../framework/zokou");
-
-zokou({ nomCom: "repo", catégorie:"Général", reaction: "⚙️", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
-  const githubRepo = 'https://api.github.com/repos/Fred1e/LUCKY_MD';
-  const img = 'https://files.catbox.moe/xee8ol.jpg';
-
+const axios = require("axios");
+const moment = require("moment-timezone");
+const {
+  zokou
+} = require(__dirname + "/../framework/zokou");
+let dynamicForks = 5000;
+const fetchGitHubRepoDetails = async () => {
   try {
-    const response = await fetch(githubRepo);
-    const data = await response.json();
-
-    if (data) {
-      const repoInfo = {
-        stars: data.stargazers_count,
-        forks: data.forks_count,
-        lastUpdate: data.updated_at,
-        owner: data.owner.login,
-      };
-
-      const releaseDate = new Date(data.created_at).toLocaleDateString('en-GB');
-      const lastUpdateDate = new Date(data.updated_at).toLocaleDateString('en-GB');
-
-      const gitdata = ` *Hellow User
-This Is* *LUCKY_MD.*\n _Support Our Channel_ *by follow*,  https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f
-
-🗼 *REPOSITORY:* ${data.html_url}
-
-🕐 *UPDATE ON:* ${repoInfo.lastUpdate}
-⊷━━━━━━☆•∞•☆━━━━━━⊷  
-
- ╭━━═✺ *FREDIE* ✺═━━⊷
- ┊│┌═━━⊷•∞•⊷━━─⊛
- ┌┤┊❁*VISITORS:* ${repoInfo.visitors}
- ┊│┊❁ *STARS:* ${repoInfo.stars}
- ┊│┊❁ *FORKS:* ${repoInfo.forks}
- ┊│┊❁ *RELEASE DATE:* ${releaseDate}
- ┌┤┊❁ *OWNER:* *Fredie tech*
- ┊│┊❁ *THEME:* *FREDI*
- ┊│┊❁ *ENJOY TO USE LUCKY MD*
- ┊│└═━━⊷•∞•⊷━━─⊛
- ╰━━━═⊷✺•∞•✺⊷═━━━⊷ 
- 
- 🪄🎄ғʀᴇᴅɪᴇᴛᴇᴄʜ ᴛᴇᴀᴍ ᴡɪsʜ ʏᴏᴜ ᴍᴀʀʀʏ ᴄʜʀɪsᴛᴍᴀs🎄 🪄 `;
-
-      await zk.sendMessage(dest, { image: { url: img }, caption: gitdata });
-    } else {
-      console.log("Could not fetch data");
-    }
-  } catch (error) {
-    console.log("Error fetching data:", error);
+    const _0x1c6838 = await axios.get("https://api.github.com/repos/Fred1e/LUCKY_MD");
+    const {
+      name: _0x4ae93b,
+      stargazers_count: _0x27ef27,
+      watchers_count: _0x2237c0,
+      open_issues_count: _0x5424db,
+      forks_count: _0x4c9398,
+      owner: _0x38cd9a
+    } = _0x1c6838.data;
+    dynamicForks += _0x4c9398;
+    return {
+      'name': _0x4ae93b,
+      'stars': _0x27ef27,
+      'watchers': _0x2237c0,
+      'issues': _0x5424db,
+      'forks': dynamicForks,
+      'owner': _0x38cd9a.login,
+      'url': _0x1c6838.data.html_url
+    };
+  } catch (_0x5d335a) {
+    console.error("Error fetching GitHub repository details:", _0x5d335a);
+    return null;
   }
+};
+const commands = ["git", "repo", "script", 'cs'];
+commands.forEach(_0x30efd7 => {
+  zokou({
+    'nomCom': _0x30efd7,
+    'categorie': "GitHub"
+  }, async (_0x3247d3, _0x23108e, _0x3c706d) => {
+    let {
+      repondre: _0xb6c54d
+    } = _0x3c706d;
+    const _0xec02f3 = await fetchGitHubRepoDetails();
+    if (!_0xec02f3) {
+      _0xb6c54d("âŒ Failed to fetch GitHub repository information.");
+      return;
+    }
+    const {
+      name: _0x2f3ef9,
+      stars: _0x104bd8,
+      watchers: _0x517909,
+      issues: _0x571494,
+      forks: _0x83a01e,
+      owner: _0x1b991d,
+      url: _0x35610a
+    } = _0xec02f3;
+    const _0x203945 = moment().tz("Africa/Dodoma").format("DD/MM/YYYY HH:mm:ss");
+    const _0x1cd310 = "\nðŸŒ *" + _0x2f3ef9 + " REPO INFO* ðŸŒŸ\n\nðŸ’¡ *Name:* " + _0x2f3ef9 + "\nâ­ *Stars:* " + _0x104bd8.toLocaleString() + "\nðŸ´ *Forks:* " + _0x83a01e.toLocaleString() + "\nðŸ‘€ *Watchers:* " + _0x517909.toLocaleString() + "\nâ— *Open Issues:* " + _0x571494.toLocaleString() + "\nðŸ‘¤ *Owner:* " + _0x1b991d + "\n\nðŸ•’ *Fetched on:* " + _0x203945 + "\n\nðŸ”— *Repo Link:* " + _0x35610a + "\n\nðŸ› ï¸ Created By *ғʀᴇᴅɪᴇᴢʀᴀ255*\n\nStay using and follow my updates!";
+    try {
+      await _0x23108e.sendMessage(_0x3247d3, {
+        'text': _0x1cd310,
+        'contextInfo': {
+          'externalAdReply': {
+            'title': "âœ¨ Stay Updated with Fredi Ezra",
+            'body': "Tap here for the latest updates!",
+            'thumbnailUrl': "https://files.catbox.moe/7irwqn.jpeg",
+            'mediaType': 0x1,
+            'renderLargerThumbnail': true,
+            'mediaUrl': "https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f",
+            'sourceUrl': "https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f"
+          }
+        }
+      });
+    } catch (_0x2ec752) {
+      console.error("âŒ Error sending GitHub info:", _0x2ec752);
+      _0xb6c54d("âŒ Error sending GitHub info: " + _0x2ec752.message);
+    }
+  });
 });
