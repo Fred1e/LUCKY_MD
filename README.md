@@ -117,6 +117,7 @@ sᴛᴀʀ 🌟 ᴍʏ ʀᴇᴘᴏ ɪғ ʏᴏᴜ ʟɪᴋᴇ ᴛʜɪs ʙᴏᴛ ®�
 <a href='t.me/freditech' target="_grey"><img alt='TELEGRAM' src='https://img.shields.io/badge/Telegram For Dev-grey?style=for-the-badge&logo=telegram&logoColor=blue'/></a>
 
 <a href='https://t.me/+u3zlb5y6OfxhOTdk' target="_grey"><img alt='TELEGRAM' src='https://img.shields.io/badge/Telegram Group-grey?style=for-the-badge&logo=Telegram&logoColor=blue'/></a>
+<a href='https://www.linkedin.com/in/fredi-ezra-6956352b7' target="_grey"><img alt='LINKEDIN' src='https://img.shields.io/badge/LinkedIn For Dev-grey?style=for-the-badge&logo=linkedIn&logoColor=blue'/></a>
 </details>
 
 
