@@ -93,7 +93,7 @@ sᴛᴀʀ 🌟 ᴍʏ ʀᴇᴘᴏ ɪғ ʏᴏᴜ ʟɪᴋᴇ ᴛʜɪs ʙᴏᴛ ®�
 ## 𝟚.ᴡᴇʙ sɪᴛᴇ ᴛᴏ ɢᴇᴛ sᴇssɪᴏɴ ᴠɪᴀ ǫʀ & ᴘᴀɪʀ
  
 </a></p>
-- <a href="https://fredietech.onrender.com"><img title="GET SESSION ID HERE" src="https://img.shields.io/badge/SCAN CODE HERE-h?color=silver&style=for-the-badge&logo=cadilac&logoColor=gold" width="240" height="38.45"/></a></p>
+- <a href="https://fredietech.onrender.com"><img title="GET SESSION ID HERE" src="https://img.shields.io/badge/SCAN CODE HERE-h?color=silver&style=for-the-badge&logo=pagani&logoColor=dark" width="240" height="38.45"/></a></p>
 
 
 
@@ -129,12 +129,12 @@ HEROKU
 **1. ɪғ ʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴀᴄᴄᴏᴜɴᴛ ᴏɴ ʜᴇʀᴏᴋᴜ**
 
 </a></p>
-- <a href='https://signup.heroku.com/' target="_silver"><img alt='Heroku' src='https://img.shields.io/badge/-ℂℝ𝔼𝔸𝕋𝔼 𝔸ℂℂ𝕆𝕌ℕ𝕋 ℕ𝕆𝕎-silver?style=for-the-badge&logo=koenigsegg&logoColor=gold' width="240" height="38.45"/></a>
+- <a href='https://signup.heroku.com/' target="_silver"><img alt='Heroku' src='https://img.shields.io/badge/-ℂℝ𝔼𝔸𝕋𝔼 𝔸ℂℂ𝕆𝕌ℕ𝕋 ℕ𝕆𝕎-silver?style=for-the-badge&logo=koenigsegg&logoColor=blue' width="240" height="38.45"/></a>
 
 **2. ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀᴄᴄᴏᴜɴᴛ ᴏɴ ʜᴇʀᴏᴋᴜ** 
 
 </a></p>
-- <a href='https://dashboard.heroku.com/new?template=https://github.com/Fred1e/LUCKY_MD' target="_silver"><img alt='DEPLOY' src='https://img.shields.io/badge/-𝔻𝔼ℙ𝕃𝕆𝕐 𝕋𝕆 ℍ𝔼ℝ𝕆𝕂𝕌-silver?style=for-the-badge&logo=lamborghini&logoColor=gold' width="240" height="38.45"/></a>
+- <a href='https://dashboard.heroku.com/new?template=https://github.com/Fred1e/LUCKY_MD' target="_silver"><img alt='DEPLOY' src='https://img.shields.io/badge/-𝔻𝔼ℙ𝕃𝕆𝕐 𝕋𝕆 ℍ𝔼ℝ𝕆𝕂𝕌-silver?style=for-the-badge&logo=lamborghini&logoColor=dark' width="240" height="38.45"/></a>
 
 
 
@@ -148,11 +148,11 @@ HEROKU
 <details>
 <summary>Tap To Check Fredi Md💯</summary>
  Fredi Md Info
-    <a href='https://github.com/Fred1e/Fredi_Md' target="_blank"><img alt='Open Fredi Md Repo Here🛰️' src='https://img.shields.io/badge/🛰️Open Fredi Md Repo Here-black?style=for-the-badge&logo=lotus&logoColor=yellow'/></a>
+    <a href='https://github.com/Fred1e/Fredi_Md' target="_blank"><img alt='Open Fredi Md Repo Here🛰️' src='https://img.shields.io/badge/🛰️Open Fredi Md Repo Here-black?style=for-the-badge&logo=felino&logoColor=yellow'/></a>
 
 
 All Information About Me 
-    <a href='https://fredi-bio.vercel.app/' target="_blank"><img alt='Owner Info Tap Here😎' src='https://img.shields.io/badge/Owner Info Tap Here😎-black?style=for-the-badge&logo=volkswagen&logoColor=green'/></a>
+    <a href='https://fredi-bio.vercel.app/' target="_blank"><img alt='Owner Info Tap Here😎' src='https://img.shields.io/badge/Owner Info Tap Here😎-black?style=for-the-badge&logo=volkswagen&logoColor=blue'/></a>
 </details>
    
 
