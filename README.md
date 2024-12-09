@@ -107,20 +107,15 @@ sᴛᴀʀ 🌟 ᴍʏ ʀᴇᴘᴏ ɪғ ʏᴏᴜ ʟɪᴋᴇ ᴛʜɪs ʙᴏᴛ ®�
 <summary>For Developer And Support💯</summary>
   For Help And Developer Join As Here ✔️
 <a href='https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f' target="_grey"><img alt='WHATSAPP' src='https://img.shields.io/badge/WhatsApp Channel Support-grey?style=for-the-badge&logo=whatsapp&logoColor=green'/></a>
-
 <a href='https://chat.whatsapp.com/BdVxcF4C00J4X4Sa39dpOi' target="_grey"><img alt='WHATSAPP' src='https://img.shields.io/badge/Join WhatsApp Group-grey?style=for-the-badge&logo=whatsapp&logoColor=green'/></a>
-
 <a href='https://wa.me/255752593977' target="_grey"><img alt='WHATSAPP' src='https://img.shields.io/badge/Wa Me Here-grey?style=for-the-badge&logo=whatsapp&logoColor=green'/></a>
-
 <a href='https://www.youtube.com/@freeonlinetvT1' target="_grey"><img alt='YOUTUBE' src='https://img.shields.io/badge/Tutorial Here In Youtube-grey?style=for-the-badge&logo=youtube&logoColor=red'/></a>
-
 <a href='t.me/freditech' target="_grey"><img alt='TELEGRAM' src='https://img.shields.io/badge/Telegram For Dev-grey?style=for-the-badge&logo=telegram&logoColor=blue'/></a>
-
 <a href='https://t.me/+u3zlb5y6OfxhOTdk' target="_grey"><img alt='TELEGRAM' src='https://img.shields.io/badge/Telegram Group-grey?style=for-the-badge&logo=Telegram&logoColor=blue'/></a>
 <a href='https://www.linkedin.com/in/fredi-ezra-6956352b7' target="_grey"><img alt='LINKEDIN' src='https://img.shields.io/badge/LinkedIn For Dev-grey?style=for-the-badge&logo=linkedIn&logoColor=blue'/></a>
-<a href='https://www.tiktok.com/@fredietech' target="_grey"><img alt='TIKTOK' src='https://img.shields.io/badge/TikTok For Dev-grey?style=for-the-badge&logo=tiktok&logoColor=darkbrown'/></a>
+<a href='https://www.tiktok.com/@fredietech' target="_grey"><img alt='TIKTOK' src='https://img.shields.io/badge/TikTok For Dev-grey?style=for-the-badge&logo=tiktok&logoColor=black'/></a>
 <a href='https://www.facebook.com/profile.php?id=61553209932337' target="_grey"><img alt='FACEBOOK' src='https://img.shields.io/badge/Facebook For Dev-grey?style=for-the-badge&logo=facebook&logoColor=blue'/></a>
-<a href='https://www.instagram.com/fredi.simba.tz' target="_grey"><img alt='INSTAGRAM' src='https://img.shields.io/badge/Instagram For Dev-grey?style=for-the-badge&logo=instagram&logoColor=blue'/></a>
+<a href='https://www.instagram.com/fredi.simba.tz' target="_grey"><img alt='INSTAGRAM' src='https://img.shields.io/badge/Instagram For Dev-grey?style=for-the-badge&logo=instagram&logoColor=purple'/></a>
 </details>
 
 
