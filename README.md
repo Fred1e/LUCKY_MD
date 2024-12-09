@@ -148,7 +148,7 @@ HEROKU
 <details>
 <summary>Tap To Check Fredi Md💯</summary>
  Fredi Md Info
-    <a href='https://github.com/Fred1e/Fredi_Md' target="_blank"><img alt='Open Fredi Md Repo Here🛰️' src='https://img.shields.io/badge/🛰️Open Fredi Md Repo Here-black?style=for-the-badge&logo=bugatti&logoColor=red'/></a>
+    <a href='https://github.com/Fred1e/Fredi_Md' target="_blank"><img alt='Open Fredi Md Repo Here🛰️' src='https://img.shields.io/badge/Open Fredi Md Repo Here-black?style=for-the-badge&logo=bugatti&logoColor=red'/></a>
 
 
 All Information About Me 
