@@ -93,7 +93,7 @@ sᴛᴀʀ 🌟 ᴍʏ ʀᴇᴘᴏ ɪғ ʏᴏᴜ ʟɪᴋᴇ ᴛʜɪs ʙᴏᴛ ®�
 ## 𝟚.ᴡᴇʙ sɪᴛᴇ ᴛᴏ ɢᴇᴛ sᴇssɪᴏɴ ᴠɪᴀ ǫʀ & ᴘᴀɪʀ
  
 </a></p>
-- <a href="https://fredietech.onrender.com"><img title="GET SESSION ID HERE" src="https://img.shields.io/badge/SCAN CODE HERE-h?color=silver&style=for-the-badge&logo=pagani zonda&logoColor=dark" width="240" height="38.45"/></a></p>
+- <a href="https://fredietech.onrender.com"><img title="GET SESSION ID HERE" src="https://img.shields.io/badge/SCAN CODE HERE-h?color=silver&style=for-the-badge&logo=jaguar&logoColor=darkgreen" width="240" height="38.45"/></a></p>
 
 
 
@@ -148,7 +148,7 @@ HEROKU
 <details>
 <summary>Tap To Check Fredi Md💯</summary>
  Fredi Md Info
-    <a href='https://github.com/Fred1e/Fredi_Md' target="_blank"><img alt='Open Fredi Md Repo Here🛰️' src='https://img.shields.io/badge/🛰️Open Fredi Md Repo Here-black?style=for-the-badge&logo=felino&logoColor=yellow'/></a>
+    <a href='https://github.com/Fred1e/Fredi_Md' target="_blank"><img alt='Open Fredi Md Repo Here🛰️' src='https://img.shields.io/badge/🛰️Open Fredi Md Repo Here-black?style=for-the-badge&logo=bugatti&logoColor=red'/></a>
 
 
 All Information About Me 
