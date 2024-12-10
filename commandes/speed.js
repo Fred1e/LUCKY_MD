@@ -18,7 +18,7 @@ zokou({
   const _0x5a815c = Array.from({
     'length': 0x3
   }, () => Math.floor(Math.random() * 10000 + 1000));
-  const _0x451c3b = _0x5a815c.map(_0x526b71 => "ðŸŸ¢ PONG: " + _0x526b71 + " ðŸŸ¢").join("\n");
+  const _0x451c3b = _0x5a815c.map(_0x526b71 => "🔴 PONG: " + _0x526b71 + " 🔴").join("\n");
   const _0x41d2b1 = {
     'externalAdReply': {
       'title': "Lucky_Md My Ultra Speed Response",
