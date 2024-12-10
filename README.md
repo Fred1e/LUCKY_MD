@@ -157,7 +157,7 @@ All Information About Me
 
 
 
-***sorry for that soon we fix don't worry about dalay after deployment just wait 30min after deploy on Heroku then your bot start to work in your WhatsApp Enjoy👍🥂*** we think 🤔 that is waiting upload file in Heroku or no something continue enjoy don't skip as🙏
+NOW DELAY AFTER DEPLOY IS FIXED THANKS FOR [! [`IBRAHIM ADAMS](https://github.com/ibrahimaitech) 👍🥂 stay using Lucky Md
    
 
 
