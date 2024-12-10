@@ -135,7 +135,7 @@ let menuMsg = `
 
     try {
 
-        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *TKM-BOT*, déveloper Cod3uchiha" , gifPlayback : true }, { quoted: ms });
+        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *LUCKY-BOT*, déveloper ғʀᴇᴅɪᴇᴢʀᴀ255" , gifPlayback : true }, { quoted: ms });
 
     }
 
@@ -149,16 +149,22 @@ let menuMsg = `
 
 } 
 
-// Vérification pour .jpeg ou .png
+try {
+      await _0x23108e.sendMessage(_0x3247d3, {
+        'text': _0x1cd310,
+        'contextInfo': {
+          'externalAdReply': {
+            'title': "🤝 Stay Updated with Fredi Ezra",
+            'body': "Tap here for the latest updates!",
+            'thumbnailUrl': "https://files.catbox.moe/7irwqn.jpeg",
+            'mediaType': 0x1,
+            'renderLargerThumbnail': true,
+            'mediaUrl': "https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f",
+            'sourceUrl': "https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f"
+         
+        }
 
-else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
-
-    try {
-
-        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *TKM-bot*, déveloper cod3uchiha" }, { quoted: ms });
-
-    }
-
+  } 
     catch (e) {
 
         console.log("🥵🥵 Menu error " + e);
