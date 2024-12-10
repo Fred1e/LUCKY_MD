@@ -164,43 +164,42 @@ const {
   }
 });
 
-zokou({
-  'nomCom': "broadcast",
-  'aliases': ['bc', "cast"],
-  'reaction': '📑',
-  'categorie': 'General'
-}, async (_0x323461, _0x4cdb8c, _0x4c87e6) => {
+_0x291ccf
+
+ zokou({
+  nomCom: 'broadcast',
+  aliase: 'spread',
+  categorie: "Group",
+  reaction: '😳'
+}, async (bot, client, context) => {
   const {
-    ms: _0x54b6b4,
-    repondre: _0xb269b7,
-    arg: _0x17b399,
-    nomAuteurMessage: _0x271224,
-    superUser: _0x291ccf
-  } = _0x4c87e6;
-  let _0x1360fc = _0x17b399.join(" ");
-  if (!_0x17b399[0x0]) {
-    _0xb269b7("After the command *broadcast*, type your message to be sent to all groups you are in🕯️,,,.");
+    ms, repondre, arg, verifGroupe, nomGroupe, infosGroupe, nomAuteurMessage, verifAdmin, superUser
+  } = context;
+
+  let message = arg.join(" ");
+  if (!arg[0]) {
+    repondre("After the command *broadcast*, type your message to be sent to all groups you are in.");
     return;
   }
-  if (!_0x291ccf) {
-    _0xb269b7("hey you!! fuck off i can't broadcast your message");
+
+  if (!superUser) {
+    repondre("You are too weak to do that");
     return;
   }
-  let _0x52c320 = await _0x4cdb8c.groupFetchAllParticipating();
-  let _0x254221 = Object.entries(_0x52c320).slice(0x0).map(_0x35bfa1 => _0x35bfa1[0x1]);
-  let _0x115598 = _0x254221.map(_0x6b0f9 => _0x6b0f9.id);
-  await _0xb269b7("*LUCKY_MD is sending this message to all groups you are in*...");
-  for (let _0x398282 of _0x115598) {
-    let _0x25a35f = "‼️‼️LUCKY_𝐌𝐃 𝐁𝐑𝐎𝐀𝐃𝐂𝐀𝐒𝐓️‼️️‼️\n\n❗*message* : " + _0x1360fc + "\n\n️‼️ *Author*: " + _0x271224;
-    await _0x4cdb8c.sendMessage(_0x398282, {
-      'image': {
-        'url': "https://i.imgur.com/hRP6xPl.jpeg"
-      },
-      'caption': '' + _0x25a35f
+
+  let groups = await client.groupFetchAllParticipating();
+  let groupIds = Object.entries(groups).map(group => group[1].id);
+  await repondre("*LUCKY MD is sending your message to all groups ,,,ðŸ’€*...");
+
+  for (let groupId of groupIds) {
+    let broadcastMessage = `*ðŸŒŸðð–ðŒ ð—ðŒðƒ ðð‘ðŽð€ðƒð‚ð€ð’ð“ðŸŒŸ*\n\nðŸ€„ Message: ${message}\n\nðŸ—£ï¸ Author: ${nomAuteurMessage}`;
+    await client.sendMessage(groupId, {
+      image: { url: 'https://files.catbox.moe/bdjmrd.jpg' },
+      caption: broadcastMessage
     });
   }
-});
-
+}); 
+  
 zokou({
   'nomCom': "disap-off",
   'categorie': "Group",
