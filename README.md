@@ -157,7 +157,9 @@ All Information About Me
 
 
 
-</a></p>
+##
+
+
 ***NOW DELAY AFTER DEPLOY IS FIXED THANKS FOR  [`IBRAHIM ADAMS`](https://github.com/ibrahimaitech) 👍🥂 stay using Lucky Md***
    
 
