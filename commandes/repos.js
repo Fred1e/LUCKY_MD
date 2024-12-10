@@ -54,13 +54,13 @@ commands.forEach(_0x30efd7 => {
       url: _0x35610a
     } = _0xec02f3;
     const _0x203945 = moment().tz("Africa/Dodoma").format("DD/MM/YYYY HH:mm:ss");
-    const _0x1cd310 = "\nðŸŒ *" + _0x2f3ef9 + " REPO INFO* ðŸŒŸ\n\nðŸ’¡ *Name:* " + _0x2f3ef9 + "\nâ­ *Stars:* " + _0x104bd8.toLocaleString() + "\nðŸ´ *Forks:* " + _0x83a01e.toLocaleString() + "\nðŸ‘€ *Watchers:* " + _0x517909.toLocaleString() + "\nâ— *Open Issues:* " + _0x571494.toLocaleString() + "\nðŸ‘¤ *Owner:* " + _0x1b991d + "\n\nðŸ•’ *Fetched on:* " + _0x203945 + "\n\nðŸ”— *Repo Link:* " + _0x35610a + "\n\nðŸ› ï¸ Created By *ғʀᴇᴅɪᴇᴢʀᴀ255*\n\nStay using and follow my updates!";
+    const _0x1cd310 = "\n😉 *" + _0x2f3ef9 + " REPO INFO* 😋\n\n👊 *Name:* " + _0x2f3ef9 + "\n🎖️ *Stars:* " + _0x104bd8.toLocaleString() + "\n🥂 *Forks:* " + _0x83a01e.toLocaleString() + "\n👁️👁️ *Watchers:* " + _0x517909.toLocaleString() + "\n‼️ *Open Issues:* " + _0x571494.toLocaleString() + "\n🧑‍💻 *Owner:* " + _0x1b991d + "\n\n⌚ *Fetched on:* " + _0x203945 + "\n\n🔗 *Repo Link:* " + _0x35610a + "\n\n⚒️ Created By *ғʀᴇᴅɪᴇᴢʀᴀ255*\n\nStay using and follow my updates!";
     try {
       await _0x23108e.sendMessage(_0x3247d3, {
         'text': _0x1cd310,
         'contextInfo': {
           'externalAdReply': {
-            'title': "âœ¨ Stay Updated with Fredi Ezra",
+            'title': "🤝 Stay Updated with Fredi Ezra",
             'body': "Tap here for the latest updates!",
             'thumbnailUrl': "https://files.catbox.moe/7irwqn.jpeg",
             'mediaType': 0x1,
