@@ -30,7 +30,7 @@ const fetchGitHubRepoDetails = async () => {
     return null;
   }
 };
-const commands = ["git", "repo", "mchuga", "frezra", "ezrafre", "last", "Liverpool", "script", 'cs'];
+const commands = ["git", "repo", "mchuga", "frezra", "ezrafre", "last", "liverpool", "anfield", "script", 'cs'];
 commands.forEach(_0x30efd7 => {
   zokou({
     'nomCom': _0x30efd7,
