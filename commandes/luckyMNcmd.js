@@ -36,25 +36,25 @@ const date = moment().format('DD/MM/YYYY');
 let infoMsg =  `
  *ʟᴜᴄᴋʏ ᴍᴅ ᴍᴇɴᴜs ᴄᴍᴅ* 
  ••••••••••••••
-   *BUGMENU*          
-   *MENU*          
-   *AI-MENU*          
-   *MODS-MENU*          
-   *CONVERSION-MENU*          
-   *DOWLOAD-MENU*          
-   *FUN-MENU*          
-   *GENERAL-MENU*          
-   *GROUP-MENU*          
-   *GAMES-MENU*          
-   *HEROKU-MENU*          
-   *IM-EDIT-MENU*          
-   *LOGO-MENU*          
-   *REACTION-MENU*          
-   *SEARCH-MENU*          
-   *MENU1*          
-   *HELPS*          
-   *MENU2*
-   *MENU-LIST*
+ [ ${s.PREFIXE} ]  *BUGMENU*          
+ [ ${s.PREFIXE} ]  *MENU*          
+ [ ${s.PREFIXE} ]  *AI-MENU*          
+ [ ${s.PREFIXE} ]  *MODS-MENU*          
+ [ ${s.PREFIXE} ]  *CONVERSION-MENU*          
+ [ ${s.PREFIXE} ]  *DOWLOAD-MENU*          
+ [ ${s.PREFIXE} ]  *FUN-MENU*          
+ [ ${s.PREFIXE} ]  *GENERAL-MENU*          
+ [ ${s.PREFIXE} ]  *GROUP-MENU*          
+ [ ${s.PREFIXE} ]  *GAMES-MENU*          
+ [ ${s.PREFIXE} ]  *HEROKU-MENU*          
+ [ ${s.PREFIXE} ]  *IM-EDIT-MENU*          
+ [ ${s.PREFIXE} ]  *LOGO-MENU*          
+ [ ${s.PREFIXE} ]  *REACTION-MENU*          
+ [ ${s.PREFIXE} ]  *SEARCH-MENU*          
+ [ ${s.PREFIXE} ]  *MENU1*          
+ [ ${s.PREFIXE} ]  *HELPS*          
+ [ ${s.PREFIXE} ]  *MENU2*
+ [ ${s.PREFIXE} ]  *MENU-LIST*
   ••••••••••••••
 
 ╭────────────────────⊷
