@@ -201,7 +201,7 @@ zokou({
   await _0x2a77ba("That Heroku var is changing,The bot is Rebooting....");
 });
 zokou({
-  'nomCom': "getallvar",
+  'nomCom': "getallvarsh",
   'categorie': "HEROKU"
 }, async (_0x2e8484, _0x1c9c2e, _0x5a7b4e) => {
   const {
