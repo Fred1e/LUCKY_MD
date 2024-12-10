@@ -154,6 +154,10 @@ HEROKU
 All Information About Me 
     <a href='https://fredi-bio.vercel.app/' target="_blank"><img alt='Owner Info Tap Here😎' src='https://img.shields.io/badge/Owner Info Tap Here😎-black?style=for-the-badge&logo=volkswagen&logoColor=blue'/></a>
 </details>
+
+
+
+***sorry for that soon we fix don't worry about dalay after deployment just wait 30min after deploy on Heroku then your bot start to work in your WhatsApp Enjoy👍🥂*** we think 🤔 that is waiting upload file in Heroku or no something continue enjoy don't skip as🙏
    
 
 
