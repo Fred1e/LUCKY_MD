@@ -51,7 +51,7 @@ const date = moment().format('DD/MM/YYYY');
 ║◆┊
 ║◆┊ `;for (const cmd of coms[cat]) {
           menuMsg += `          
-║◆┊  *${cmd}*`    
+║◆┊[${s.numero}] ${s.PREFIXE}  *${cmd}*`    
         } 
         menuMsg +=`
 
