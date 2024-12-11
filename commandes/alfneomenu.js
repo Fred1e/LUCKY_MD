@@ -201,7 +201,7 @@ Introducing the New World Pantheons, the book of memorable and legendary New Wor
 
 zokou(
     {
-        nomCom: 'champions🏆',
+        nomCom: 'champions',
         categorie: 'Other'
     },
     async (dest, zk, commandeOptions) => {
@@ -238,7 +238,7 @@ New Warriors will come to seek the title of "CHAMPION" in order to engrave their
 
 zokou(
     {
-        nomCom: 'mnvp⭐',
+        nomCom: 'mvp',
         categorie: 'Other'
     },
     async (dest, zk, commandeOptions) => {
