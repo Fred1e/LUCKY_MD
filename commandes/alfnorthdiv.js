@@ -1,5 +1,5 @@
 const { zokou } = require('../framework/zokou');
-const { getData } = require('../bdd/northdiv');
+const { getData } = require('../fredie255/northdiv');
 const s = require("../set");
 
 const dbUrl = s.DB;
