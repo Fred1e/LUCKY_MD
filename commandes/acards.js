@@ -61,7 +61,7 @@ function createCard(fileName) {
 
     const category = determineCategory(parts[3]); // Ex: s+, s-, etc.
     const price = determinePrice(parts[4]); // Ex: 50nc, 500k, 1m500k, etc.
-    const image = `./cards_data/${fileName}`; // Chemin de l'image
+    const image = `./Card_data/${fileName}`; // Chemin de l'image
 
     return {
         name,
