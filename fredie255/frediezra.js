@@ -12,13 +12,13 @@ const proConfig = {
 
 const pool = new Pool(proConfig);
 
-async function createElysiumFicheTable() {
+async function createfrediezraTable() {
   const client = await pool.connect();
 
   try {
-    // Créez la table elysiumfiche si elle n'existe pas déjà
+    // Créez la table frediezra si elle n'existe pas déjà
     await client.query(`
-      CREATE TABLE IF NOT EXISTS elysiumfiche(
+      CREATE TABLE IF NOT EXISTS frediezra(
         id SERIAL PRIMARY KEY,
         e1 TEXT DEFAULT 'aucun',
         e2 TEXT DEFAULT 'aucun',
@@ -36,9 +36,9 @@ async function createElysiumFicheTable() {
         e14 TEXT DEFAULT 'aucun'
         );
     `);
-    console.log('Table elysiumfiche créée avec succès');
+    console.log('Table frediezra créée avec succès');
   } catch (error) {
-    console.error('Erreur lors de la création de la table elysiumfiche:', error);
+    console.error('Erreur lors de la création de la table frediezra:', error);
   } finally {
     client.release();
   }
@@ -50,7 +50,7 @@ async function createElysiumFicheTable() {
   try {
     // Modifiez la définition de la table pour ajouter les colonnes
     await client.query(`
-      ALTER TABLE elysiumfiche
+      ALTER TABLE frediezra
      `);
 
     console.log('Colonnes ajoutées avec succès');
@@ -66,7 +66,7 @@ async function insertData() {
   try {
     for (let i = 1; i <= 12; i++) {
       const query = `
-        INSERT INTO elysiumfiche(e1, e2, e3, e4, e5, e6, e7, e8, e9, e10, e11, e12, e13, e14)
+        INSERT INTO frediezra(e1, e2, e3, e4, e5, e6, e7, e8, e9, e10, e11, e12, e13, e14)
         VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14)
       `;
 
@@ -88,7 +88,7 @@ async function getData(ide) {
   const client = await pool.connect();
 
   try {
-   const query = 'SELECT e1, e2, e3, e4, e5, e6, e7, e8, e9, e10, e11, e12, e13, e14 FROM elysiumfiche WHERE id = $1';
+   const query = 'SELECT e1, e2, e3, e4, e5, e6, e7, e8, e9, e10, e11, e12, e13, e14 FROM frediezra WHERE id = $1';
     const result = await client.query(query, [ide]);
 
     return result.rows[0];
@@ -101,11 +101,11 @@ async function getData(ide) {
 
 
 // Appeler la fonction createNorth1FicheTable après la création de la table
-createElysiumFicheTable();
+createFrediezraTable();
 //insertData();
 
 module.exports = {
-  createElysiumFicheTable,
+  createFrediezraTable,
  // insertData1,
  // insertData,
   getData
