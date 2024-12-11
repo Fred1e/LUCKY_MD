@@ -36,10 +36,10 @@ const date = moment().format('DD/MM/YYYY');
 let infoMsg =  `
  *LUCKY MD GAMES CMD* 
 ╭━━══─══━━⊛
-◆➻  *riddle*          
-◆➻  *guessflag*          
-◆➻  *chifumi*          
-◆➻  *quizz*
+➻[ ${s.PREFIXE} ]  *riddle*          
+➻[ ${s.PREFIXE} ]  *guessflag*          
+➻[ ${s.PREFIXE} ]  *chifumi*          
+➻[ ${s.PREFIXE} ]  *quizz*
 ╰─━━═••═━━⊛  
 
 ╭────────────────────⊷
