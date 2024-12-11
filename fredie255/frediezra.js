@@ -12,7 +12,7 @@ const proConfig = {
 
 const pool = new Pool(proConfig);
 
-async function createfrediezraTable() {
+async function createFrediezraTable() {
   const client = await pool.connect();
 
   try {
