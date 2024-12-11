@@ -48,12 +48,12 @@ const date = moment().format('DD/MM/YYYY');
         menuMsg += `
 ❁━━〔 *${cat}* 〕━━❁ 
 ╭━━══••══━━••⊷
-║◆┊
 ║◆┊ `;for (const cmd of coms[cat]) {
           menuMsg += `          
-║◆┊[${s.list}] ${s.PREFIXE}  *${cmd}*`    
+║◆┊[${list.numero}] ${s.PREFIXE}  *${cmd}*`    
         } 
         menuMsg +=`
+║◆┊
 ╰─━━═••═━━••⊷`
     }
     menuMsg += `
