@@ -36,21 +36,21 @@ const date = moment().format('DD/MM/YYYY');
 let infoMsg =  `
 ━━✺ *LUCKY MD MODS CMD* ✺━━
 ⊷⊷⊷••••••••⊷⊷
-◆  *boom*          
-◆  *left*          
-◆  *tgs*          
-◆  *crew*          
-◆  *left*          
-◆  *join*          
-◆  *jid*          
-◆  *block*          
-◆  *unblock*          
-◆  *ban*          
-◆  *bangroup*          
-◆  *sudo*          
-◆  *save*          
-◆  *mention*          
-◆  *reboot*
+◆[ ${s.PREFIXE} ]  *boom*          
+◆[ ${s.PREFIXE} ]  *left*          
+◆[ ${s.PREFIXE} ]  *tgs*          
+◆[ ${s.PREFIXE} ]  *crew*          
+◆[ ${s.PREFIXE} ]  *left*          
+◆[ ${s.PREFIXE} ]  *join*          
+◆[ ${s.PREFIXE} ]  *jid*          
+◆[ ${s.PREFIXE} ]  *block*          
+◆[ ${s.PREFIXE} ]  *unblock*          
+◆[ ${s.PREFIXE} ]  *ban*          
+◆[ ${s.PREFIXE} ]  *bangroup*          
+◆[ ${s.PREFIXE} ]  *sudo*          
+◆[ ${s.PREFIXE} ]  *save*          
+◆[ ${s.PREFIXE} ]  *mention*          
+◆[ ${s.PREFIXE} ]  *reboot*
 ⊷⊷⊷••••••••••⊷⊷
 
 ╭────────────────────⊷
