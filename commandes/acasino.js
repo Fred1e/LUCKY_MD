@@ -21,7 +21,7 @@ zokou(
   {
     nomCom: 'roulette',
     reaction: '🎰',
-    categorie: 'NEO_GAMES🎰'
+    categorie: 'LUCKY_GAMES🎰'
   },
   async (origineMessage, zk, commandeOptions) => {
     const { ms, repondre, auteurMessage, auteurMsgRepondu, msgRepondu, arg } = commandeOptions;
