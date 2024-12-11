@@ -51,12 +51,10 @@ const date = moment().format('DD/MM/YYYY');
 ║◆┊
 ║◆┊ `;for (const cmd of coms[cat]) {
           menuMsg += `          
-║◆┊[${s.numero}] ${s.PREFIXE}  *${cmd}*`    
+║◆┊[${s.list}] ${s.PREFIXE}  *${cmd}*`    
         } 
         menuMsg +=`
-
-╰─━━═••═━━••⊷ 
-⊷••ғʀᴇᴅɪ••⊷`
+╰─━━═••═━━••⊷`
     }
     menuMsg += `
 > Made By ғʀᴇᴅɪᴇ ᴛᴇᴄʜ\n
