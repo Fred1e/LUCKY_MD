@@ -12,11 +12,11 @@ const proConfig = {
 
 const pool = new Pool(proConfig);
 
-async function createElysium2FicheTable() {
+async function createFredi2ezraTable() {
   const client = await pool.connect();
 
   try {
-    // Créez la table elysiumfiche si elle n'existe pas déjà
+    // Créez la table frediezra si elle n'existe pas déjà
     await client.query(`
       CREATE TABLE IF NOT EXISTS fredi2ezra(
         id SERIAL PRIMARY KEY,
@@ -101,11 +101,11 @@ async function getData(ide) {
 
 
 // Appeler la fonction createNorth1FicheTable après la création de la table
-createfredi2ezraTable();
+createFredi2ezraTable();
 //insertData();
 
 module.exports = {
-  createfredi2ezraTable,
+  createFredi2ezraTable,
  // insertData1,
  // insertData,
   getData
