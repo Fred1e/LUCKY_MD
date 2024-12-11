@@ -1,5 +1,5 @@
 const { zokou } = require('../framework/zokou');
-const { getData } = require('../fredi255/elysiumfiche');
+const { getData } = require('../fredie255/frediezra');
 const s = require("../set");
 
 const dbUrl = s.DB;
@@ -90,14 +90,14 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/b1ce60fe6773ead61d
         const solde = `${data[colonneObjet]} ${signe} ${valeur}`;
 
           if (colonneObjet && (signe === '+' || signe === '-')) {
-            const query = `UPDATE elysiumfiche SET ${colonneObjet} = ${data[colonneObjet]} ${signe} ${valeur} WHERE id = 1`;
+            const query = `UPDATE frediezra SET ${colonneObjet} = ${data[colonneObjet]} ${signe} ${valeur} WHERE id = 1`;
             await client.query(query);
 
             console.log(`Données de l'utilisateur ${joueur} mises à jour`);
            await repondre(`Données du joueur mises à jour\n👤 *JOUEUR*: ${joueur}\n⚙ *OBJECT*: ${object}\n💵 *VALEUR*: ${signe}${valeur}\n*NOUVEAU SOLDE*: ${solde}`);
           } else if (colonneObjet && signe === '=') {
             const query = `
-            UPDATE elysiumfiche
+            UPDATE frediezra
             SET ${colonneObjet} = $1
             WHERE id = 1
             `;
@@ -144,7 +144,7 @@ zokou(
         let mesg = `*💠Ξ𝗟𝗬𝗦𝗜𝗨𝗠𝟮𝟭𝟲𝟮*
 ░░░░░░░░░░░░░░░░░░░
 ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-⬕ *🎮Pseudo*: Black SHADOW🥉
+⬕ *🎮Pseudo*: FREDIETECH
 ⬕ *👤User*: ${data.e1}
 ⬕ *🌐Cyber capacité*: ${data.e2}
 ⬕ *💠Ξcoins*: ${data.e3}💠
@@ -210,14 +210,14 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/cb41309bdc49965c72
         const solde = `${data[colonneObjet]} ${signe} ${valeur}`;
 
           if (colonneObjet && (signe === '+' || signe === '-')) {
-            const query = `UPDATE elysiumfiche SET ${colonneObjet} = ${data[colonneObjet]} ${signe} ${valeur} WHERE id = 2`;
+            const query = `UPDATE frediezra SET ${colonneObjet} = ${data[colonneObjet]} ${signe} ${valeur} WHERE id = 2`;
             await client.query(query);
 
             console.log(`Données de l'utilisateur ${joueur} mises à jour`);
            await repondre(`Données du joueur mises à jour\n👤 *JOUEUR*: ${joueur}\n⚙ *OBJECT*: ${object}\n💵 *VALEUR*: ${signe}${valeur}\n*NOUVEAU SOLDE*: ${solde}`);
           } else if (colonneObjet && signe === '=') {
             const query = `
-            UPDATE elysiumfiche
+            UPDATE frediezra
             SET ${colonneObjet} = $1
             WHERE id = 2
             `;
@@ -330,14 +330,14 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/a2d21055fdc74f1886
         const solde = `${data[colonneObjet]} ${signe} ${valeur}`;
 
           if (colonneObjet && (signe === '+' || signe === '-')) {
-            const query = `UPDATE elysiumfiche SET ${colonneObjet} = ${data[colonneObjet]} ${signe} ${valeur} WHERE id = 3`;
+            const query = `UPDATE frediezra SET ${colonneObjet} = ${data[colonneObjet]} ${signe} ${valeur} WHERE id = 3`;
             await client.query(query);
 
             console.log(`Données de l'utilisateur ${joueur} mises à jour`);
            await repondre(`Données du joueur mises à jour\n👤 *JOUEUR*: ${joueur}\n⚙ *OBJECT*: ${object}\n💵 *VALEUR*: ${signe}${valeur}\n*NOUVEAU SOLDE*: ${solde}`);
           } else if (colonneObjet && signe === '=') {
             const query = `
-            UPDATE elysiumfiche
+            UPDATE frediezra
             SET ${colonneObjet} = $1
             WHERE id = 3
             `;
@@ -450,14 +450,14 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/5ce67173e0c6d7eed8
         const solde = `${data[colonneObjet]} ${signe} ${valeur}`;
 
           if (colonneObjet && (signe === '+' || signe === '-')) {
-            const query = `UPDATE elysiumfiche SET ${colonneObjet} = ${data[colonneObjet]} ${signe} ${valeur} WHERE id = 4`;
+            const query = `UPDATE frediezra SET ${colonneObjet} = ${data[colonneObjet]} ${signe} ${valeur} WHERE id = 4`;
             await client.query(query);
 
             console.log(`Données de l'utilisateur ${joueur} mises à jour`);
            await repondre(`Données du joueur mises à jour\n👤 *JOUEUR*: ${joueur}\n⚙ *OBJECT*: ${object}\n💵 *VALEUR*: ${signe}${valeur}\n*NOUVEAU SOLDE*: ${solde}`);
           } else if (colonneObjet && signe === '=') {
             const query = `
-            UPDATE elysiumfiche
+            UPDATE frediezra
             SET ${colonneObjet} = $1
             WHERE id = 4
             `;
@@ -570,14 +570,14 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/7ffebd8d9e828f8363
         const solde = `${data[colonneObjet]} ${signe} ${valeur}`;
 
           if (colonneObjet && (signe === '+' || signe === '-')) {
-            const query = `UPDATE elysiumfiche SET ${colonneObjet} = ${data[colonneObjet]} ${signe} ${valeur} WHERE id = 5`;
+            const query = `UPDATE frediezra SET ${colonneObjet} = ${data[colonneObjet]} ${signe} ${valeur} WHERE id = 5`;
             await client.query(query);
 
             console.log(`Données de l'utilisateur ${joueur} mises à jour`);
            await repondre(`Données du joueur mises à jour\n👤 *JOUEUR*: ${joueur}\n⚙ *OBJECT*: ${object}\n💵 *VALEUR*: ${signe}${valeur}\n*NOUVEAU SOLDE*: ${solde}`);
           } else if (colonneObjet && signe === '=') {
             const query = `
-            UPDATE elysiumfiche
+            UPDATE frediezra
             SET ${colonneObjet} = $1
             WHERE id = 5
             `;
@@ -690,14 +690,14 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/f0b79920568b521b85
         const solde = `${data[colonneObjet]} ${signe} ${valeur}`;
 
           if (colonneObjet && (signe === '+' || signe === '-')) {
-            const query = `UPDATE elysiumfiche SET ${colonneObjet} = ${data[colonneObjet]} ${signe} ${valeur} WHERE id = 6`;
+            const query = `UPDATE frediezra SET ${colonneObjet} = ${data[colonneObjet]} ${signe} ${valeur} WHERE id = 6`;
             await client.query(query);
 
             console.log(`Données de l'utilisateur ${joueur} mises à jour`);
            await repondre(`Données du joueur mises à jour\n👤 *JOUEUR*: ${joueur}\n⚙ *OBJECT*: ${object}\n💵 *VALEUR*: ${signe}${valeur}\n*NOUVEAU SOLDE*: ${solde}`);
           } else if (colonneObjet && signe === '=') {
             const query = `
-            UPDATE elysiumfiche
+            UPDATE frediezra
             SET ${colonneObjet} = $1
             WHERE id = 6
             `;
@@ -810,14 +810,14 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/9e1573e80ee2703848
         const solde = `${data[colonneObjet]} ${signe} ${valeur}`;
 
           if (colonneObjet && (signe === '+' || signe === '-')) {
-            const query = `UPDATE elysiumfiche SET ${colonneObjet} = ${data[colonneObjet]} ${signe} ${valeur} WHERE id = 7`;
+            const query = `UPDATE frediezra SET ${colonneObjet} = ${data[colonneObjet]} ${signe} ${valeur} WHERE id = 7`;
             await client.query(query);
 
             console.log(`Données de l'utilisateur ${joueur} mises à jour`);
            await repondre(`Données du joueur mises à jour\n👤 *JOUEUR*: ${joueur}\n⚙ *OBJECT*: ${object}\n💵 *VALEUR*: ${signe}${valeur}\n*NOUVEAU SOLDE*: ${solde}`);
           } else if (colonneObjet && signe === '=') {
             const query = `
-            UPDATE elysiumfiche
+            UPDATE frediezra
             SET ${colonneObjet} = $1
             WHERE id = 7
             `;
@@ -930,14 +930,14 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/4d50790b0a4bf3ef51
         const solde = `${data[colonneObjet]} ${signe} ${valeur}`;
 
           if (colonneObjet && (signe === '+' || signe === '-')) {
-            const query = `UPDATE elysiumfiche SET ${colonneObjet} = ${data[colonneObjet]} ${signe} ${valeur} WHERE id = 8`;
+            const query = `UPDATE frediezra SET ${colonneObjet} = ${data[colonneObjet]} ${signe} ${valeur} WHERE id = 8`;
             await client.query(query);
 
             console.log(`Données de l'utilisateur ${joueur} mises à jour`);
            await repondre(`Données du joueur mises à jour\n👤 *JOUEUR*: ${joueur}\n⚙ *OBJECT*: ${object}\n💵 *VALEUR*: ${signe}${valeur}\n*NOUVEAU SOLDE*: ${solde}`);
           } else if (colonneObjet && signe === '=') {
             const query = `
-            UPDATE elysiumfiche
+            UPDATE frediezra
             SET ${colonneObjet} = $1
             WHERE id = 8
             `;
@@ -1050,14 +1050,14 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/0b90252030fea1f57e
         const solde = `${data[colonneObjet]} ${signe} ${valeur}`;
 
           if (colonneObjet && (signe === '+' || signe === '-')) {
-            const query = `UPDATE Elysiumfiche SET ${colonneObjet} = ${data[colonneObjet]} ${signe} ${valeur} WHERE id = 9`;
+            const query = `UPDATE frediezra SET ${colonneObjet} = ${data[colonneObjet]} ${signe} ${valeur} WHERE id = 9`;
             await client.query(query);
 
             console.log(`Données de l'utilisateur ${joueur} mises à jour`);
            await repondre(`Données du joueur mises à jour\n👤 *JOUEUR*: ${joueur}\n⚙ *OBJECT*: ${object}\n💵 *VALEUR*: ${signe}${valeur}\n*NOUVEAU SOLDE*: ${solde}`);
           } else if (colonneObjet && signe === '=') {
             const query = `
-            UPDATE Elysiumfiche
+            UPDATE frediezra
             SET ${colonneObjet} = $1
             WHERE id = 9
             `;
@@ -1170,14 +1170,14 @@ zk.sendMessage(dest, { image: { url: 'https://telegra.ph/file/f5061e63f41853f481
         const solde = `${data[colonneObjet]} ${signe} ${valeur}`;
 
           if (colonneObjet && (signe === '+' || signe === '-')) {
-            const query = `UPDATE Elysiumfiche SET ${colonneObjet} = ${data[colonneObjet]} ${signe} ${valeur} WHERE id = 10`;
+            const query = `UPDATE frediezra SET ${colonneObjet} = ${data[colonneObjet]} ${signe} ${valeur} WHERE id = 10`;
             await client.query(query);
 
             console.log(`Données de l'utilisateur ${joueur} mises à jour`);
            await repondre(`Données du joueur mises à jour\n👤 *JOUEUR*: ${joueur}\n⚙ *OBJECT*: ${object}\n💵 *VALEUR*: ${signe}${valeur}\n*NOUVEAU SOLDE*: ${solde}`);
           } else if (colonneObjet && signe === '=') {
             const query = `
-            UPDATE Elysiumfiche
+            UPDATE frediezra
             SET ${colonneObjet} = $1
             WHERE id = 10
             `;
