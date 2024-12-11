@@ -36,61 +36,61 @@ const date = moment().format('DD/MM/YYYY');
 let infoMsg =  `
 ━━✺ *LUCKY MD AI COMMANDS* ✺━━
 ╭━━══─══━━⊛           
-║◆┊➻  *bot*          
-║◆┊➻  *dalle*          
-║◆┊➻  *gpt*          
-║◆┊➻  *chart*          
-║◆┊➻  *calcul*          
-║◆┊➻  *fred*          
-║◆┊➻  *bing4*          
-║◆┊➻  *ai2*          
-║◆┊➻  *gpt-all*          
-║◆┊➻  *news*          
-║◆┊➻  *gpt3*          
-║◆┊➻  *bot*          
-║◆┊➻  *dalle*          
-║◆┊➻  *ai*          
-║◆┊➻  *gpt*          
-║◆┊➻  *lydea*          
-║◆┊➻  *book*
-║◆┊➻  *brainshop*          
-║◆┊➻  *🤔*          
-║◆┊➻  *Lucka*          
-║◆┊➻  *gemini*          
-║◆┊➻  *gpt7*          
-║◆┊➻  *generate*          
-║◆┊➻  *extract*          
-║◆┊➻  *bing*          
-║◆┊➻  *bing2*          
-║◆┊➻  *ilama*          
-║◆┊➻  *beautify*          
-║◆┊➻  *gta*          
-║◆┊➻  *lulcat*          
-║◆┊➻  *sadcat*          
-║◆┊➻  *nokia*          
-║◆┊➻  *unforgivable*          
-║◆┊➻  *1917*          
-║◆┊➻  *cartoon*          
-║◆┊➻  *underwater*          
-║◆┊➻  *watercolor*          
-║◆┊➻  *gfx*          
-║◆┊➻  *gfx2*          
-║◆┊➻  *gfx3*          
-║◆┊➻  *gfx4*          
-║◆┊➻  *gfx5*          
-║◆┊➻  *gfx6*          
-║◆┊➻  *pooh*          
-║◆┊➻  *oogway*          
-║◆┊➻  *drake*          
-║◆┊➻  *biden*          
-║◆┊➻  *drip*          
-║◆┊➻  *clown*          
-║◆┊➻  *ad*          
-║◆┊➻  *blur*          
-║◆┊➻  *meme*          
-║◆┊➻  *pet*          
-║◆┊➻  *alert*          
-║◆┊➻  *caution*
+║◆[ ${s.PREFIXE} ]  *bot*          
+║◆[ ${s.PREFIXE} ]  *dalle*          
+║◆[ ${s.PREFIXE} ]  *gpt*          
+║◆[ ${s.PREFIXE} ]  *chart*          
+║◆[ ${s.PREFIXE} ]  *calcul*          
+║◆[ ${s.PREFIXE} ]  *fred*          
+║◆[ ${s.PREFIXE} ]  *bing4*          
+║◆[ ${s.PREFIXE} ]  *ai2*          
+║◆[ ${s.PREFIXE} ]  *gpt-all*          
+║◆[ ${s.PREFIXE} ]  *news*          
+║◆[ ${s.PREFIXE} ]  *gpt3*          
+║◆[ ${s.PREFIXE} ]  *bot*          
+║◆[ ${s.PREFIXE} ]  *dalle*          
+║◆[ ${s.PREFIXE} ]  *ai*          
+║◆[ ${s.PREFIXE} ]  *gpt*          
+║◆[ ${s.PREFIXE} ]  *lydea*          
+║◆[ ${s.PREFIXE} ]  *book*
+║◆[ ${s.PREFIXE} ]  *brainshop*          
+║◆[ ${s.PREFIXE} ]  *🤔*          
+║◆[ ${s.PREFIXE} ]  *Lucka*          
+║◆[ ${s.PREFIXE} ]  *gemini*          
+║◆[ ${s.PREFIXE} ]  *gpt7*          
+║◆[ ${s.PREFIXE} ]  *generate*          
+║◆[ ${s.PREFIXE} ]  *extract*          
+║◆[ ${s.PREFIXE} ]  *bing*          
+║◆[ ${s.PREFIXE} ]  *bing2*          
+║◆[ ${s.PREFIXE} ]  *ilama*          
+║◆[ ${s.PREFIXE} ]  *beautify*          
+║◆[ ${s.PREFIXE} ]  *gta*          
+║◆[ ${s.PREFIXE} ]  *lulcat*          
+║◆[ ${s.PREFIXE} ]  *sadcat*          
+║◆[ ${s.PREFIXE} ]  *nokia*          
+║◆[ ${s.PREFIXE} ]  *unforgivable*          
+║◆[ ${s.PREFIXE} ]  *1917*          
+║◆[ ${s.PREFIXE} ]  *cartoon*          
+║◆[ ${s.PREFIXE} ]  *underwater*          
+║◆[ ${s.PREFIXE} ]  *watercolor*          
+║◆[ ${s.PREFIXE} ]  *gfx*          
+║◆[ ${s.PREFIXE} ]  *gfx2*          
+║◆[ ${s.PREFIXE} ]  *gfx3*          
+║◆[ ${s.PREFIXE} ]  *gfx4*          
+║◆[ ${s.PREFIXE} ]  *gfx5*          
+║◆[ ${s.PREFIXE} ]  *gfx6*          
+║◆[ ${s.PREFIXE} ]  *pooh*          
+║◆[ ${s.PREFIXE} ]  *oogway*          
+║◆[ ${s.PREFIXE} ]  *drake*          
+║◆[ ${s.PREFIXE} ]  *biden*          
+║◆[ ${s.PREFIXE} ]  *drip*          
+║◆[ ${s.PREFIXE} ]  *clown*          
+║◆[ ${s.PREFIXE} ]  *ad*          
+║◆[ ${s.PREFIXE} ]  *blur*          
+║◆[ ${s.PREFIXE} ]  *meme*          
+║◆[ ${s.PREFIXE} ]  *pet*          
+║◆[ ${s.PREFIXE} ]  *alert*          
+║◆[ ${s.PREFIXE} ]  *caution*
 ╰─━━═••═━━⊛ 
 
 ╭────────────────────⊷
