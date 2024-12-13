@@ -155,7 +155,7 @@ KOYEB
 **1. ɪғ ʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴀᴄᴄᴏᴜɴᴛ ɪɴ ᴋᴏʏᴇʙ ᴄʀᴇᴀᴛᴇ ɴᴏᴡ.**
 
 </a></p>
-- [![SignUp To Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/signup) 
+- [![SignUp To Koyeb](https://www.koyeb.com/static/images/sign/button.svg)](https://app.koyeb.com/signup) 
 
 2. **ɴᴏᴡ ᴛʀʏ ᴅᴇᴘʟᴏʏ ɪᴛ ɪɴ ᴋᴏʏᴇʙ ᴛᴀᴘ ᴛʜᴇ ʙᴜᴛᴏɴ**
 
