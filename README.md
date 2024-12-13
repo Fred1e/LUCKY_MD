@@ -155,8 +155,7 @@ KOYEB
 **1. ɪғ ʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴀᴄᴄᴏᴜɴᴛ ɪɴ ᴋᴏʏᴇʙ ᴄʀᴇᴀᴛᴇ ɴᴏᴡ.**
 
 </a></p>
-- <a href='https://signup.koyeb.com/' target="_silver"><img alt='Koyeb' src='https://img.shields.io/badge/-CREATE ACCOUNT NOW-silver?style=for-the-badge&logo=tesla&logoColor=black' width="240" height="38.45"/></a>
-
+- [![SignUp To Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/signup) 
 
 2. **ɴᴏᴡ ᴛʀʏ ᴅᴇᴘʟᴏʏ ɪᴛ ɪɴ ᴋᴏʏᴇʙ ᴛᴀᴘ ᴛʜᴇ ʙᴜᴛᴏɴ**
 
