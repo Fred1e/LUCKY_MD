@@ -70,6 +70,7 @@
 | FUN CMD HACK ADDED         | ✅  |
 
 
+***Others Future Updated All Success***
 
 | Menu ⁠➜         | Play    | A.Delete  | A.Read Message| A.Reaction | A.React Status| Ai new cmd | New Game | Fun | Owner | Dangerous Bugs | Convert | New Group Cmd |
 | ----------------| ------- | --------- | ------------ | ---------- | ------------- | ----------- | -------- | --- | ----- | -------------- | --------| --------------|
