@@ -40,6 +40,7 @@ let infoMsg =  `
 ➻[ ${s.PREFIXE} ]  *guessflag*          
 ➻[ ${s.PREFIXE} ]  *chifumi*          
 ➻[ ${s.PREFIXE} ]  *quizz*
+➻[ ${s.PREFIXE} ]  *guesscapital*
 ╰─━━═••═━━⊛  
 
 ╭────────────────────⊷
