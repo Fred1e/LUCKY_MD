@@ -60,12 +60,14 @@
 
 ***BOT UPDATED FUTURES 🎁***
 
-AUTO REACT MESSAGE ADDED✅
-AUTO REPLY MESSAGE ADDED✅
-AUTO REACT STATUS ADDED✅
-AUTO READ MESSAGE ADDED✅
-AUTO REJECT CALL ADDED✅
-FUN CMD HACK ADDED✅
+|----------------------------|-----|
+| AUTO REACT MESSAGE ADDED   | ✅  |
+| AUTO REPLY MESSAGE ADDED   | ✅  |
+| AUTO REACT STATUS ADDED    | ✅  |
+| AUTO READ MESSAGE ADDED    | ✅  |
+| AUTO REJECT CALL ADDED     | ✅  |
+| FUN CMD HACK ADDED         | ✅  |
+
 
 
 | Menu ⁠➜         | Play    | A.Delete  | A.Read Message| A.Reaction | A.React Status| Ai new cmd | New Game | Fun | Owner | Dangerous Bugs | Convert | New Group Cmd |
