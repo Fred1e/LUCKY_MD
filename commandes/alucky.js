@@ -9,6 +9,7 @@ const {
 zokou({
   'nomCom': "wagroup",
   'reaction': '🤨',
+  'categorie': "Support-Owner",
   'nomFichier': __filename
 }, async (_0x3258e7, _0x4c4732, _0x13b70c) => {
   console.log("Commande saisie !!!s");
@@ -29,6 +30,7 @@ zokou({
 zokou({
   'nomCom': 'wachannel',
   'reaction': '👀',
+  'categorie': "Support-Owner",
   'nomFichier': __filename
 }, async (_0x14c950, _0x346e6b, _0x31cbea) => {
   console.log("Commande saisie !!!s");
@@ -44,16 +46,38 @@ zokou({
       }
     }
   });
-  console.log("Command executed: channel");
+  console.log("Command executed: wachannel");
 });
 zokou({
-  'nomCom': 'fb-page',
+  'nomCom': 'waowner',
   'reaction': '👀',
+  'categorie': "Support-Owner",
   'nomFichier': __filename
 }, async (_0x14c950, _0x346e6b, _0x31cbea) => {
   console.log("Commande saisie !!!s");
   await _0x346e6b.sendMessage(_0x14c950, {
-    'text': "Hello 👋\n\nClick on the button below to Follow the OFFICIAL *FREDIETECH* Facebook Page",
+    'text': "Hello 👋\n\nClick on the button below to contact the OFFICIAL *LUCKY-MD* Owner",
+    'contextInfo': {
+      'externalAdReply': {
+        'sourceUrl': 'https:// wa.me/255752593977',
+        'mediaType': 0x1,
+        'mediaUrl': "https://files.catbox.moe/7irwqn.jpeg",
+        'title': "Join Our Developer Place",
+        'body': "Click to join the official LUCKY-MD Owner Inbox!"
+      }
+    }
+  });
+  console.log("Command executed: waowner");
+});
+zokou({
+  'nomCom': 'fb-page',
+  'reaction': '👀',
+  'categorie': "Support-Owner",
+  'nomFichier': __filename
+}, async (_0x14c950, _0x346e6b, _0x31cbea) => {
+  console.log("Commande saisie !!!s");
+  await _0x346e6b.sendMessage(_0x14c950, {
+    'text': "Hello 👋\n\nClick on the photo below to Follow the OFFICIAL *FREDIETECH* Facebook Page",
     'contextInfo': {
       'externalAdReply': {
         'sourceUrl': 'https://www.facebook.com/profile.php?id=61553209932337',
@@ -69,11 +93,12 @@ zokou({
 zokou({
   'nomCom': 'insta-page',
   'reaction': '👀',
+  'categorie': "Support-Owner",
   'nomFichier': __filename
 }, async (_0x14c950, _0x346e6b, _0x31cbea) => {
   console.log("Commande saisie !!!s");
   await _0x346e6b.sendMessage(_0x14c950, {
-    'text': "Hello 👋\n\nClick on the button below to Follow the OFFICIAL *FREDIETECH* Instagram Page",
+    'text': "Hello 👋\n\nClick on the photo below to Follow the OFFICIAL *FREDIETECH* Instagram Page",
     'contextInfo': {
       'externalAdReply': {
         'sourceUrl': 'https://www.instagram.com/fredi.simba.tz',
@@ -89,11 +114,12 @@ zokou({
 zokou({
   'nomCom': 'threads-page',
   'reaction': '👀',
+  'categorie': "Support-Owner",
   'nomFichier': __filename
 }, async (_0x14c950, _0x346e6b, _0x31cbea) => {
   console.log("Commande saisie !!!s");
   await _0x346e6b.sendMessage(_0x14c950, {
-    'text': "Hello 👋\n\nClick on the button below to Follow the OFFICIAL *FREDIETECH* Threads Page",
+    'text': "Hello 👋\n\nClick on the photo below to Follow the OFFICIAL *FREDIETECH* Threads Page",
     'contextInfo': {
       'externalAdReply': {
         'sourceUrl': 'https://www.threads.net/@fredi.simba.tz',
@@ -109,11 +135,12 @@ zokou({
 zokou({
   'nomCom': 'tiktok-page',
   'reaction': '👀',
+  'categorie': "Support-Owner",
   'nomFichier': __filename
 }, async (_0x14c950, _0x346e6b, _0x31cbea) => {
   console.log("Commande saisie !!!s");
   await _0x346e6b.sendMessage(_0x14c950, {
-    'text': "Hello 👋\n\nClick on the button below to Follow the OFFICIAL *FREDIETECH* TikTok Page",
+    'text': "Hello 👋\n\nClick on the photo below to Follow the OFFICIAL *FREDIETECH* TikTok Page",
     'contextInfo': {
       'externalAdReply': {
         'sourceUrl': 'https://www.tiktok.com/@fredietech',
@@ -129,11 +156,12 @@ zokou({
 zokou({
   'nomCom': 'tgroup',
   'reaction': '👀',
+  'categorie': "Support-Owner",
   'nomFichier': __filename
 }, async (_0x14c950, _0x346e6b, _0x31cbea) => {
   console.log("Commande saisie !!!s");
   await _0x346e6b.sendMessage(_0x14c950, {
-    'text': "Hello 👋\n\nClick on the button below to Join the OFFICIAL *LUCKY_MD* Telegram Group",
+    'text': "Hello 👋\n\nClick on the photo below to Join the OFFICIAL *LUCKY_MD* Telegram Group",
     'contextInfo': {
       'externalAdReply': {
         'sourceUrl': 'https://t.me/+u3zlb5y6OfxhOTdk',
@@ -149,11 +177,12 @@ zokou({
 zokou({
   'nomCom': 'ytchannel',
   'reaction': '👀',
+  'categorie': "Support-Owner",
   'nomFichier': __filename
 }, async (_0x14c950, _0x346e6b, _0x31cbea) => {
   console.log("Commande saisie !!!s");
   await _0x346e6b.sendMessage(_0x14c950, {
-    'text': "Hello 👋\n\nClick on the button below to Subscribe the OFFICIAL *FREDIETECH* YouTube Channel",
+    'text': "Hello 👋\n\nClick on the photo below to Subscribe the OFFICIAL *FREDIETECH* YouTube Channel",
     'contextInfo': {
       'externalAdReply': {
         'sourceUrl': 'https://www.youtube.com/@freeonlinetvT1',
@@ -169,11 +198,12 @@ zokou({
 zokou({
   'nomCom': 't-help',
   'reaction': '👀',
+  'categorie': "Support-Owner",
   'nomFichier': __filename
 }, async (_0x14c950, _0x346e6b, _0x31cbea) => {
   console.log("Commande saisie !!!s");
   await _0x346e6b.sendMessage(_0x14c950, {
-    'text': "Hello 👋\n\nClick on the button below to connect the OFFICIAL *FREDIETECH* Telegram Inbox",
+    'text': "Hello 👋\n\nClick on the photo below to connect the OFFICIAL *FREDIETECH* Telegram Inbox",
     'contextInfo': {
       'externalAdReply': {
         'sourceUrl': 'https://t.me/freditech',
