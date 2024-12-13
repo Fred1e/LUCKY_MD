@@ -60,12 +60,21 @@
 
 ***BOT UPDATED FUTURES 🎁***
 
+AUTO REACT MESSAGE ADDED✅
+AUTO REPLY MESSAGE ADDED✅
+AUTO REACT STATUS ADDED✅
+AUTO READ MESSAGE ADDED✅
+AUTO REJECT CALL ADDED✅
+FUN CMD HACK ADDED✅
+
+
 | Menu ⁠➜         | Play    | A.Delete  | A.Read Message| A.Reaction | A.React Status| Ai new cmd | New Game | Fun | Owner | Dangerous Bugs | Convert | New Group Cmd |
 | ----------------| ------- | --------- | ------------ | ---------- | ------------- | ----------- | -------- | --- | ----- | -------------- | --------| --------------|
 | Work ➜         |  ✅     |   ✅      |    ✅        |     ✅     |      ✅       |     ✅      |   ✅     |  ✅ |  ✅   |      ✅       |    ✅   |       ✅      |
 | Updated Time ➜ | 01/12/24 | 01/12/24 | 01/12/2024.  | 01/12/24.  | 01/12/2024    | 01/12/2024  | 01/12/24 | old | old   | 01/12/2024.    |  Old    | 01/12/2024    |
 | Added By ➜     | devfree | devfree.  | devfree.     | devfree    | devfree       | devfree.    | devfree  | dev | Fredi | devfree        | Fredie  | devfree       |
 
+***ᴅᴇᴘʟᴏʏ ɴᴏᴡ ɪɴ ʜᴇʀᴏᴋᴜ ɪᴛ's sᴀғᴇ 100% ɴᴏ sᴜsᴘᴇɴᴅ ʏᴏᴜʀ ᴀᴄᴄᴏᴜɴᴛ ᴛᴇsᴛᴇᴅ ʙʏ ғʀᴇᴅɪᴇᴛᴇᴄʜ ᴀɴᴅ ɪʙʀᴀʜɪᴍ***
 
 
 
