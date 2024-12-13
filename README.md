@@ -68,11 +68,11 @@
 
 
 
+
+
+
 ---
 
-
-
-####
 ***Support Owner***
 
 </a></p>
@@ -81,7 +81,7 @@
 
 
 
-####
+---
 
 ## ℍ𝕆𝕎 𝕋𝕆 𝔻𝔼ℙ𝕃𝕆𝕐 𝕃𝕌ℂ𝕂𝕐 𝕄𝔻 
 
@@ -97,8 +97,8 @@ sᴛᴀʀ 🌟 ᴍʏ ʀᴇᴘᴏ ɪғ ʏᴏᴜ ʟɪᴋᴇ ᴛʜɪs ʙᴏᴛ ®�
 
 
 
-####
 
+---
 
 ## 𝟚.ᴡᴇʙ sɪᴛᴇ ᴛᴏ ɢᴇᴛ sᴇssɪᴏɴ ᴠɪᴀ ǫʀ & ᴘᴀɪʀ
  
@@ -108,8 +108,7 @@ sᴛᴀʀ 🌟 ᴍʏ ʀᴇᴘᴏ ɪғ ʏᴏᴜ ʟɪᴋᴇ ᴛʜɪs ʙᴏᴛ ®�
 
 
 
-####
-  
+---  
 
 </details>
 
@@ -131,8 +130,8 @@ sᴛᴀʀ 🌟 ᴍʏ ʀᴇᴘᴏ ɪғ ʏᴏᴜ ʟɪᴋᴇ ᴛʜɪs ʙᴏᴛ ®�
 
 
 
-####
 
+---
 
 HEROKU 
    
@@ -148,8 +147,8 @@ HEROKU
 
 
 
-####
 
+---
 
 KOYEB
 
@@ -167,8 +166,8 @@ KOYEB
 
 
 
-####
 
+---
 
 #### ***This One Is Another Fredie Take Safe Bot In Heroku Called Fredi Md Open 🔓 There To Check ☑ This Have More Than 300 Plugins Enjoy***
 </details>
@@ -185,8 +184,8 @@ All Information About Me
 
 
 
-####
 
+---
 
 ***NOW DELAY AFTER DEPLOY IS FIXED THANKS FOR  [`IBRAHIM ADAMS`](https://github.com/ibrahimaitech) 👍🥂 stay using Lucky Md***
    
