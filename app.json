@@ -28,13 +28,13 @@
 	  "AUTO_REACT":
     {
       "description":"Enter yes for your bot to auto react",
-      "value":"no",
+      "value":"yes",
       "required":false
     },
 	  "AUTO_REPLY":
     {
       "description":"Enter yes for your bot to auto reply message when offline",
-      "value":"no",
+      "value":"yes",
       "required":false
     },
     "AUTO_READ_STATUS":
