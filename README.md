@@ -60,7 +60,8 @@
 
 ***BOT UPDATED FUTURES 🎁***
 
-|----------------------------|-----|
+| Commands Name              |Yes  |
+| ---------------------------| ----|
 | AUTO REACT MESSAGE ADDED   | ✅  |
 | AUTO REPLY MESSAGE ADDED   | ✅  |
 | AUTO REACT STATUS ADDED    | ✅  |
