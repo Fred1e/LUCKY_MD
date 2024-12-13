@@ -72,7 +72,7 @@
 
 
 
-###
+####
 ***Support Owner***
 
 </a></p>
@@ -81,7 +81,7 @@
 
 
 
-###
+####
 
 ## ℍ𝕆𝕎 𝕋𝕆 𝔻𝔼ℙ𝕃𝕆𝕐 𝕃𝕌ℂ𝕂𝕐 𝕄𝔻 
 
@@ -97,7 +97,7 @@ sᴛᴀʀ 🌟 ᴍʏ ʀᴇᴘᴏ ɪғ ʏᴏᴜ ʟɪᴋᴇ ᴛʜɪs ʙᴏᴛ ®�
 
 
 
-##
+####
 
 
 ## 𝟚.ᴡᴇʙ sɪᴛᴇ ᴛᴏ ɢᴇᴛ sᴇssɪᴏɴ ᴠɪᴀ ǫʀ & ᴘᴀɪʀ
@@ -108,7 +108,7 @@ sᴛᴀʀ 🌟 ᴍʏ ʀᴇᴘᴏ ɪғ ʏᴏᴜ ʟɪᴋᴇ ᴛʜɪs ʙᴏᴛ ®�
 
 
 
-##
+####
   
 
 </details>
@@ -131,7 +131,7 @@ sᴛᴀʀ 🌟 ᴍʏ ʀᴇᴘᴏ ɪғ ʏᴏᴜ ʟɪᴋᴇ ᴛʜɪs ʙᴏᴛ ®�
 
 
 
-##
+####
 
 
 HEROKU 
@@ -148,7 +148,7 @@ HEROKU
 
 
 
-###
+####
 
 
 KOYEB
@@ -162,12 +162,12 @@ KOYEB
 2. **ɴᴏᴡ ᴛʀʏ ᴅᴇᴘʟᴏʏ ɪᴛ ɪɴ ᴋᴏʏᴇʙ ᴛᴀᴘ ᴛʜᴇ ʙᴜᴛᴏɴ**
 
 </a></p>
-- <a [![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?name=lucky-md&repository=Fred1e%2FLUCKY_MD&branch=main&instance_type=free&env%5BANTICALL%5D=no&env%5BANTI_DELETE_MESSAGE%5D=no&env%5BAUTO_DOWNLOAD_STATUS%5D=no&env%5BAUTO_REACT_STATUS%5D=yes&env%5BAUTO_READ%5D=no&env%5BAUTO_READ_STATUS%5D=true&env%5BBOT_MENU_LINKS%5D=https%3A%2F%2Ffiles.catbox.moe%2F7irwqn.jpeg&env%5BBOT_NAME%5D=LUCKY_MD+&env%5BNUMERO_OWNER%5D=255620814108+&env%5BOWNER_NAME%5D=%D2%93%CA%80%E1%B4%87%E1%B4%85%C9%AA%E1%B4%87%E1%B4%A2%CA%80%E1%B4%80255&env%5BPM_PERMIT%5D=yes&env%5BPREFIX%5D=.+&env%5BPRESENCE%5D=2&env%5BPUBLIC_MODE%5D=yes&env%5BSESSION_ID%5D=&env%5BSTARTING_BOT_MESSAGE%5D=no&env%5BWARN_COUNT%5D=5)'
+- [![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?name=lucky-md&repository=Fred1e%2FLUCKY_MD&branch=main&instance_type=free&env%5BANTICALL%5D=no&env%5BANTI_DELETE_MESSAGE%5D=no&env%5BAUTO_DOWNLOAD_STATUS%5D=no&env%5BAUTO_REACT_STATUS%5D=yes&env%5BAUTO_READ%5D=no&env%5BAUTO_READ_STATUS%5D=true&env%5BBOT_MENU_LINKS%5D=https%3A%2F%2Ffiles.catbox.moe%2F7irwqn.jpeg&env%5BBOT_NAME%5D=LUCKY_MD+&env%5BNUMERO_OWNER%5D=255620814108+&env%5BOWNER_NAME%5D=%D2%93%CA%80%E1%B4%87%E1%B4%85%C9%AA%E1%B4%87%E1%B4%A2%CA%80%E1%B4%80255&env%5BPM_PERMIT%5D=yes&env%5BPREFIX%5D=.+&env%5BPRESENCE%5D=2&env%5BPUBLIC_MODE%5D=yes&env%5BSESSION_ID%5D=&env%5BSTARTING_BOT_MESSAGE%5D=no&env%5BWARN_COUNT%5D=5)
 
 
 
 
-##
+####
 
 
 #### ***This One Is Another Fredie Take Safe Bot In Heroku Called Fredi Md Open 🔓 There To Check ☑ This Have More Than 300 Plugins Enjoy***
@@ -185,7 +185,7 @@ All Information About Me
 
 
 
-##
+####
 
 
 ***NOW DELAY AFTER DEPLOY IS FIXED THANKS FOR  [`IBRAHIM ADAMS`](https://github.com/ibrahimaitech) 👍🥂 stay using Lucky Md***
