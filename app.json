@@ -19,7 +19,25 @@
       "value":"yes",
       "required":false
     },
+	  "ANTICALL":
+    {
+      "description":"Enter yes for your bot to auto reject calls",
+      "value":"no",
+      "required":false
+    },
+"AUTO_BIO":
+    {
+      "description":"Enter yes for your bot to auto bio",
+      "value":"no",
+      "required":false
+    },
 	    "AUTO_REACT_STATUS":
+    {
+      "description":"Enter yes for your bot to auto save contacts",
+      "value":"yes",
+      "required":false
+    },
+	  "AUTO_SAVE_CONTACTS":
     {
       "description":"Enter yes for your bot to auto react status",
       "value":"yes",
