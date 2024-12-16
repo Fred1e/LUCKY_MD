@@ -30,7 +30,7 @@ zokou({ nomCom: "menu", categorie: "Menu" }, async (dest, zk, commandeOptions) =
     const date = moment().format('DD/MM/YYYY');
 
     let infoMsg = `
-╭━━━━✧LUCKY-MD✧━━━━❖\n┃❁┌────••••────⊷\n┃❁│• *User :*  " + s.OWNER_NAME + "\n┃❁│• *Prefix :* " + s.PREFIXES + " \n┃❁│• *Commands :* " + _0x5663a1.length + "  \n┃❁│• *Time :* " + _0x515c87 + "\n┃❁│• *Date :* " + _0x1fabd7 + " \n┃❁│• *Mode :* " + _0x2443e9 + "\n┃❁│• *Time Zone :* " + s.TZ + "\n┃❁│• *Total Users :* " + _0x1654b0 + "  \n┃❁│• *Ram :* " + format(os.totalmem() - os.freemem()) + "/" + format(os.totalmem()) + " \n┃❁│• *Uptime :* " + runtime(process.uptime()) + " \n┃❁└────••••────⊷\n╰━━━━✧To-GOD✧━━━━◆ \n\n${readmore}
+╭━━━━✧LUCKY-MD✧━━━━❖\n┃❁┌────••••────⊷\n┃❁│• *User :*   ${.OWNER_NAME}\n┃❁│• *Prefix :* ${s.PREFIXES} \n┃❁│• *Commands :* ${_0x5663a1.length}  \n┃❁│• *Time :* ${_0x515c87} \n┃❁│• *Date :* ${_0x1fabd7} \n┃❁│• *Mode :* ${_0x2443e9} \n┃❁│• *Time Zone :* ${s.TZ} \n┃❁│• *Total Users :* ${_0x1654b0}  \n┃❁│• *Ram :* ${os.totalmem} + ${os.freemem} + "/" + ${os.totalmem} \n┃❁│• *Uptime :* ${process.uptime} \n┃❁└────••••────⊷\n╰━━━━✧To-GOD✧━━━━◆ \n\n${readmore}
 
 ┊🪄🎄ғʀᴇᴅɪᴇᴛᴇᴄʜ ᴛᴇᴀᴍ ᴡɪsʜ ʏᴏᴜ ᴍᴀʀʀʏ ᴄʜʀɪsᴛᴍᴀs🎄 🪄
 `;
