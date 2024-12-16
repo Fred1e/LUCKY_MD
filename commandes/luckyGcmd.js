@@ -41,6 +41,7 @@ let infoMsg =  `
 ➻[ ${s.PREFIXE} ]  *chifumi*          
 ➻[ ${s.PREFIXE} ]  *quizz*
 ➻[ ${s.PREFIXE} ]  *guesscapital*
+➻[ ${s.PREFIXE} ]  *tiktac*
 ╰─━━═••═━━⊛  
 
 ╭────────────────────⊷
