@@ -30,7 +30,19 @@ zokou({ nomCom: "menu", categorie: "Menu" }, async (dest, zk, commandeOptions) =
     const date = moment().format('DD/MM/YYYY');
 
     let infoMsg = `
-╭━━━━✧LUCKY-MD✧━━━━❖\n┃❁┌────••••────⊷\n┃❁│• *User :*   ${.OWNER_NAME}\n┃❁│• *Prefix :* ${s.PREFIXES} \n┃❁│• *Commands :* ${_0x5663a1.length}  \n┃❁│• *Time :* ${_0x515c87} \n┃❁│• *Date :* ${_0x1fabd7} \n┃❁│• *Mode :* ${_0x2443e9} \n┃❁│• *Time Zone :* ${s.TZ} \n┃❁│• *Total Users :* ${_0x1654b0}  \n┃❁│• *Ram :* ${os.totalmem} + ${os.freemem} + "/" + ${os.totalmem} \n┃❁│• *Uptime :* ${process.uptime} \n┃❁└────••••────⊷\n╰━━━━✧To-GOD✧━━━━◆ \n\n${readmore}
+╭━═「 *${s.BOT}* 」═━❂
+┃⊛╭────••••────➻
+┃⊛│◆ 𝙾𝚠𝚗𝚎𝚛 : ${s.OWNER_NAME}
+┃⊛│◆ 𝙿𝚛𝚎𝚏𝚒𝚡 : [ ${s.PREFIXE} ]
+┃⊛│◆ 𝙼𝚘𝚍𝚎 : *${mode}*
+┃⊛│◆ 𝚁𝚊𝚖  : 𝟴/𝟭𝟯𝟮 𝗚𝗕
+┃⊛│◆ 𝙳𝚊𝚝𝚎  : *${date}*
+┃⊛│◆ 𝙿𝚕𝚊𝚝𝚏𝚘𝚛𝚖 : ${os.platform()}
+┃⊛│◆ 𝙲𝚛𝚎𝚊𝚝𝚘𝚛 : ғʀᴇᴅɪᴇ ᴛᴇᴄʜ
+┃⊛│◆ 𝙲𝚘𝚖𝚖𝚊𝚗𝚍𝚜 : ${cm.length}
+┃⊛│◆ 𝚃𝚑𝚎𝚖𝚎 : FRED
+┃⊛└────••••────➻
+╰─━━━━══──══━━━❂\n${readmore}
 
 ┊🪄🎄ғʀᴇᴅɪᴇᴛᴇᴄʜ ᴛᴇᴀᴍ ᴡɪsʜ ʏᴏᴜ ᴍᴀʀʀʏ ᴄʜʀɪsᴛᴍᴀs🎄 🪄
 `;
@@ -39,20 +51,20 @@ zokou({ nomCom: "menu", categorie: "Menu" }, async (dest, zk, commandeOptions) =
     
     for (const cat in coms) {
         menuMsg += `
-❁━━〔 *${applyStyle(_0x2dca87.toUpperCase(), 10)}* 〕━━❁
+❁━━〔 *${cat}* 〕━━❁
 ╭━━══••══━━••⊷
 ║◆┊ `;
         for (const cmd of coms[cat]) {
             menuMsg += `          
-║◆┊ ${s.PREFIXE}   ` + _0x181763++ + `. ` + applyStyle(_0x53df00, 10);
-    }
+║◆┊ ${s.PREFIXE}  *${cmd}*`;    
+        }
         menuMsg += `
 ║◆┊
 ╰─━━═••═━━••⊷`;
     }
     
     menuMsg += `
-\n☆ *THE LUCKY MULTI DEVICE* ☆\n\n   *Made In Tanzania*\n   \n _Created By *Fredi Ezra*_\n  \n     *KEEP USING LUCKY-MD*\n`;
+> Made By ғʀᴇᴅɪᴇ ᴛᴇᴄʜ\n`;
 
     try {
         const senderName = nomAuteurMessage || message.from;  // Use correct variable for sender name
