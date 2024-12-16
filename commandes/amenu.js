@@ -1,10 +1,10 @@
 const axios = require("axios");
 const {
-  ezra
-} = require(__dirname + '/../fredi/ezra');
+  zokou
+} = require(__dirname + '/../framework/zokou');
 const {
   format
-} = require(__dirname + '/../fredi/mesfonctions');
+} = require(__dirname + '/../framework/mesfonctions');
 const os = require('os');
 const moment = require("moment-timezone");
 const s = require(__dirname + "/../set");
@@ -112,9 +112,9 @@ const fetchGitHubStats = async () => {
     };
   }
 };
-ezra({
-  'nomCom': "menu",
-  'categorie': "General"
+zokou({
+  'nomCom': "amenu",
+  'categorie': "new"
 }, async (_0x4517d6, _0x339d30, _0x5d76bb) => {
   let {
     ms: _0x1d59bc,
@@ -124,7 +124,7 @@ ezra({
   } = _0x5d76bb;
   let {
     cm: _0x22ad72
-  } = require(__dirname + "/../fredi/ezra");
+  } = require(__dirname + "/../framework/zokou");
   var _0x406c88 = {};
   var _0x3c2244 = "public";
   if (s.MODE.toLocaleLowerCase() != "public") {
@@ -159,28 +159,28 @@ ezra({
     totalUsers: _0x49849e
   } = await fetchGitHubStats();
   const _0x15b49d = _0x49849e.toLocaleString();
-  let _0x5b71b7 = "\n*" + _0x8b5488 + " " + _0x562fad + "*\n\n╭────✧LUCKY_MD✧────◆\n┃❃╭──────────────\n┃❃│ *User :*  " + s.OWNER_NAME + "\n┃❃│ *Prefix :* " + s.PREFIXES + " \n┃❃│ *Time :* " + _0x56e63a + "\n┃❃│ *Date :* " + _0x5a4788 + " \n┃❃│ *Mode :* " + _0x3c2244 + "\n┃❃│ *Time Zone :* " + s.TZ + "\n┃❃│ *Total Users :* " + _0x15b49d + "  \n┃❃│ *Ram :* " + format(os.totalmem() - os.freemem()) + '/' + format(os.totalmem()) + " \n┃❃│ *Uptime :* " + runtime(process.uptime()) + " \n┃❃╰───────────────\n╰─────✧To-GOD✧─────◆ \n\n";
-  let _0xdb265e = "*◇ LUCKY_MD COMMANDS ◇*\n\n" + readmore;
+  let _0x5b71b7 = "\n*" + _0x8b5488 + " " + _0x562fad + "*\n\n╭━━━━✧LUCKY-MD✧━━━━❖\n┃❁┌────••••────⊷\n┃❁│• *User :*  " + s.OWNER_NAME + "\n┃❁│• *Prefix :* " + s.PREFIXES + " \n┃❁│• *Commands :* " + _0x5663a1.length + "  \n┃❁│• *Time :* " + _0x515c87 + "\n┃❁│• *Date :* " + _0x1fabd7 + " \n┃❁│• *Mode :* " + _0x2443e9 + "\n┃❁│• *Time Zone :* " + s.TZ + "\n┃❁│• *Total Users :* " + _0x1654b0 + "  \n┃❁│• *Ram :* " + format(os.totalmem() - os.freemem()) + "/" + format(os.totalmem()) + " \n┃❁│• *Uptime :* " + runtime(process.uptime()) + " \n┃❁└────••••────⊷\n╰━━━━✧To-GOD✧━━━━◆ \n\n";
+  let _0xdb265e = "*☆ 𝕃𝕌ℂ𝕂𝕐-𝕄𝔻 ℂ𝕆𝕄𝕄𝔸ℕ𝔻𝕊 ☆*\n\n" + readmore;
   const _0x43936d = Object.keys(_0x406c88).sort();
   let _0x20e229 = 0x1;
   for (const _0x2d5030 of _0x43936d) {
-    _0xdb265e += "\n*╭──❒⁠⁠⁠⁠ " + applyStyle(_0x2d5030.toUpperCase(), 0xa) + " ❒⁠⁠⁠⁠━━─⊷*\n│╭────────────";
-    const _0x57d200 = _0x406c88[_0x2d5030].sort();
-    for (const _0x43fc7b of _0x57d200) {
-      _0xdb265e += " \n││ " + _0x20e229++ + ". " + applyStyle(_0x43fc7b, 0xa);
+    _0xdb265e += "\n*╭━━━❂ " + applyStyle(_0x2dca87.toUpperCase(), 10) + " ❂⁠⁠⁠⁠━━─••*\n║╭━━══••══━━••⊷";
+    const _0x5721db = _0x15ac30[_0x2dca87].sort();
+    for (const _0x53df00 of _0x5721db) {
+      _0x142c3e += " \n║┊❃ " + _0x181763++ + ". " + applyStyle(_0x53df00, 10);
     }
-    _0xdb265e += "\n│╰───────────\n╰══════════════⊷\n";
+    _0x142c3e += "\n│╰━━══••══━━••⊷\n╰════────════◆◆◆\n";
   }
-  _0xdb265e += readmore + "\n◇ *THE LUCKY MULTI DEVICE* ◇\n\n   *Released: 22.7.2024*\n   \n _Thanks For choosing LUCKY_MD_\n\n  Created by *Fredi Ezra ©²0²⁴* \n  \n     *KEEP USING LUCKY_MD*\n";
+  _0xdb265e += readmore + "\n☆ *THE LUCKY MULTI DEVICE* ☆\n\n   *Made In Tanzania*\n   \n _Created By *Fredi Ezra*_\n  \n     *KEEP USING LUCKY-MD*\n";
   try {
     await _0x339d30.sendMessage(_0x4517d6, {
       'text': _0x5b71b7 + _0xdb265e,
       'contextInfo': {
         'mentionedJid': [_0x562fad],
         'externalAdReply': {
-          'title': "THE FLASH MULTI DEVICE",
+          'title': "THE LUCKY MULTI DEVICE",
           'body': "POWERED BY FREDI EZRA",
-          'thumbnailUrl': "https://i.imgur.com/ecRS5BQ.jpeg",
+          'thumbnailUrl': "https://files.catbox.moe/7irwqn.jpeg",
           'sourceUrl': "https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f",
           'mediaType': 0x1,
           'renderLargerThumbnail': true
