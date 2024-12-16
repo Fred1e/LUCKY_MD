@@ -19,13 +19,7 @@
       "value":"yes",
       "required":false
     },
-	  "ANTICALL":
-    {
-      "description":"Enter yes for your bot to auto reject calls",
-      "value":"no",
-      "required":false
-    },
-"AUTO_BIO":
+         "AUTO_BIO":
     {
       "description":"Enter yes for your bot to auto bio",
       "value":"no",
@@ -33,25 +27,25 @@
     },
 	    "AUTO_REACT_STATUS":
     {
-      "description":"Enter yes for your bot to auto save contacts",
+      "description":"Enter yes for your bot to auto react status",
       "value":"yes",
       "required":false
     },
 	  "AUTO_SAVE_CONTACTS":
     {
-      "description":"Enter yes for your bot to auto react status",
-      "value":"yes",
+      "description":"Enter yes for your bot to auto save contacts",
+      "value":"no",
       "required":false
     },
 	  "AUTO_REACT":
     {
-      "description":"Enter yes for your bot to auto react",
+      "description":"Enter yes for your bot to auto react message in all chats",
       "value":"yes",
       "required":false
     },
 	  "AUTO_REPLY":
     {
-      "description":"Enter yes for your bot to auto reply message when offline",
+      "description":"Enter yes for your bot to auto reply message when you are offline",
       "value":"yes",
       "required":false
     },
@@ -60,32 +54,32 @@
       "description":"Your contact status will be read automatically(type yes to active or no to deactive  ; don't write in capital letter)",
       "value":"yes",
       "required":false
-    }, "AUTO_DOWNLOAD_STATUS":
+    }, 
+	  "AUTO_DOWNLOAD_STATUS":
     {
       "description":"Your contact status will be download automatically and send to you(type yes to active or no to deactive ; don't write in capital letter)",
       "value":"no",
       "required":false
     }
     ,
-     "PM_PERMIT" :
+        "PM_PERMIT" :
      {
       "description":"Other user can't use your bot in pm (type yes to active or no to deactive ; don't write in capital letter)",
       "value":"no",
       "required":false
-    }
-    ,
-    "BOT_NAME" : {
-       
-      "description":"put A name for your bot",
-      "value":"LUCKY_MD",
-      "required":false
+    },
+       "BOT_NAME" : 
+    {
+    "description":"put A name for your bot",
+    "value":"LUCKY_MD",
+    "required":false
 
-    } ,
-     "BOT_MENU_LINKS" : {
-    
-      "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://files.catbox.moe/7irwqn.jpeg",
-      "required":false
+    },
+       "BOT_MENU_LINKS" : 
+   {
+    "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
+    "value":"https://files.catbox.moe/7irwqn.jpeg",
+    "required":false
        
      },
     "PUBLIC_MODE":
