@@ -39,20 +39,20 @@ zokou({ nomCom: "menu", categorie: "Menu" }, async (dest, zk, commandeOptions) =
     
     for (const cat in coms) {
         menuMsg += `
-❁━━〔 *${cat}* 〕━━❁
+❁━━〔 *${applyStyle(_0x2dca87.toUpperCase(), 10)}* 〕━━❁
 ╭━━══••══━━••⊷
 ║◆┊ `;
         for (const cmd of coms[cat]) {
             menuMsg += `          
-║◆┊ ${s.PREFIXE}  *${cmd}*`;    
-        }
+║◆┊ ${s.PREFIXE}   ` + _0x181763++ + `. ` + applyStyle(_0x53df00, 10);
+    }
         menuMsg += `
 ║◆┊
 ╰─━━═••═━━••⊷`;
     }
     
     menuMsg += `
-> Made By ғʀᴇᴅɪᴇ ᴛᴇᴄʜ\n`;
+\n☆ *THE LUCKY MULTI DEVICE* ☆\n\n   *Made In Tanzania*\n   \n _Created By *Fredi Ezra*_\n  \n     *KEEP USING LUCKY-MD*\n`;
 
     try {
         const senderName = nomAuteurMessage || message.from;  // Use correct variable for sender name
