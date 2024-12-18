@@ -30,7 +30,7 @@
 
 
 
-<p align="center"><img src="https://profile-counter.glitch.me/{Fred1e}/count.svg?theme=gelbooru" alt="Lucky_Md_Visits_Counter" /></p>
+<p align="center"><img src="https://profile-counter.glitch.me/{Fred1e}?theme=gelbooru" alt="Lucky_Md_Visits_Counter" /></p>
 
 ##
 
