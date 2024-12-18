@@ -30,7 +30,8 @@
 
 
 
-<p align="center"><img src="https://moe-counter.glitch.me/get/LUCKY_MD?theme=gelbooru" alt="Lucky_Md_Visits_Counter" /></p>
+
+<p align="center"><img src="https://moe-counter.glitch.me/get/@LUCKY_MD?theme=gelbooru" alt="Lucky_Md_Visits_Counter" /></p>
 
 ##
 
