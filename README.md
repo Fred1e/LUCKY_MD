@@ -30,7 +30,7 @@
 
 
 
-<p align="center"><img src="https://moe-counter.glitch.me/get/@Fred1e?theme=gelbooru" alt="Lucky_Md_Visits_Counter" /></p>
+<p align="center"><img src="https://profile-counter.glitch.me/{Fred1e}/count.svg?theme=gelbooru" alt="Lucky_Md_Visits_Counter" /></p>
 
 ##
 
@@ -223,6 +223,10 @@ The WhatsApp Bot 𝕃𝕌ℂ𝕂𝕐 𝕄𝔻 is released under the [MIT License
 - [**Developers YT**](https://www.youtube.com/@freeonlinetvT1)
 
 
+
+
+</p>
+<p align="center"><img src="https://profile-counter.glitch.me/{Fred1e}/count.svg" alt="Lucky_md :: Visitor's Count"/></p>
 
  
 ★THANK YOU GOD FOR THAT MOMENT🙏. ©
