@@ -43,6 +43,12 @@
       "value":"yes",
       "required":false
     },
+	  "AUDIO_REPLY":
+    {
+      "description":"Enter yes for your bot to auto reply audio in all chats",
+      "value":"yes",
+      "required":false
+    },
 	  "AUTO_REPLY":
     {
       "description":"Enter yes for your bot to auto reply message when you are offline",
