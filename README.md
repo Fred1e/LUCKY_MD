@@ -72,13 +72,6 @@
 | FUN CMD HACK ADDED         | ✅  |
 
 
-***Others Future Updated All Success***
-
-| Menu ⁠➜         | Play    | A.Delete  | A.Read Message| A.Reaction | A.React Status| Ai new cmd | New Game | Fun | Owner | Dangerous Bugs | Convert | New Group Cmd |
-| ----------------| ------- | --------- | ------------ | ---------- | ------------- | ----------- | -------- | --- | ----- | -------------- | --------| --------------|
-| Work ➜         |  ✅     |   ✅      |    ✅        |     ✅     |      ✅       |     ✅      |   ✅     |  ✅ |  ✅   |      ✅       |    ✅   |       ✅      |
-| Updated Time ➜ | 01/12/24 | 01/12/24 | 01/12/2024.  | 01/12/24.  | 01/12/2024    | 01/12/2024  | 01/12/24 | old | old   | 01/12/2024.    |  Old    | 01/12/2024    |
-| Added By ➜     | devfree | devfree.  | devfree.     | devfree    | devfree       | devfree.    | devfree  | dev | Fredi | devfree        | Fredie  | devfree       |
 
 ***ᴅᴇᴘʟᴏʏ ɴᴏᴡ ɪɴ ʜᴇʀᴏᴋᴜ ɪᴛ's sᴀғᴇ 100% ɴᴏ sᴜsᴘᴇɴᴅ ʏᴏᴜʀ ᴀᴄᴄᴏᴜɴᴛ ᴛᴇsᴛᴇᴅ ʙʏ ғʀᴇᴅɪᴇᴛᴇᴄʜ ᴀɴᴅ ɪʙʀᴀʜɪᴍ***
 
@@ -106,7 +99,7 @@
 
 
 </a></p>
-- <a href="https://github.com/Fred1e/LUCKY_MD/fork"><img title="FORK THIS REPO" src="https://img.shields.io/badge/TAP TO FORK REPO-h?color=silver&style=for-the-badge&logo=tesla&logoColor=black" width="240" height="38.45"/></a></p>
+- <a href="https://github.com/Fred1e/LUCKY_MD/fork"><img title="FORK THIS REPO" src="https://img.shields.io/badge/TAP TO FORK REPO-h?color=#00FFFF&style=for-the-badge&logo=tesla&logoColor=black" width="240" height="38.45"/></a></p>
 
 sᴛᴀʀ 🌟 ᴍʏ ʀᴇᴘᴏ ɪғ ʏᴏᴜ ʟɪᴋᴇ ᴛʜɪs ʙᴏᴛ ®️
 
@@ -118,7 +111,7 @@ sᴛᴀʀ 🌟 ᴍʏ ʀᴇᴘᴏ ɪғ ʏᴏᴜ ʟɪᴋᴇ ᴛʜɪs ʙᴏᴛ ®�
 ## 𝟚.ᴡᴇʙ sɪᴛᴇ ᴛᴏ ɢᴇᴛ sᴇssɪᴏɴ ᴠɪᴀ ǫʀ & ᴘᴀɪʀ
  
 </a></p>
-- <a href="https://fredietech.onrender.com"><img title="GET SESSION ID HERE" src="https://img.shields.io/badge/SCAN CODE HERE-h?color=silver&style=for-the-badge&logo=tesla&logoColor=black" width="240" height="38.45"/></a></p>
+- <a href="https://fredietech.onrender.com"><img title="GET SESSION ID HERE" src="https://img.shields.io/badge/SCAN CODE HERE-h?color=#00FFFF&style=for-the-badge&logo=tesla&logoColor=black" width="240" height="38.45"/></a></p>
 
 
 
