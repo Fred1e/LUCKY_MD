@@ -17,9 +17,10 @@ zokou({
   } = _0x2358bf;
   const _0x21b56d = [{
     'nom': "Keith from Kenya",
-    'numero': "load" 
+    'numero': "254796299159" 
+  },{
     'nom': "FrediTech from Tanzania 🇹🇿",
-    'numero': "load..."
+    'numero': "255752593977."
   }, {
     'nom': "Belta from Kenya 🇰🇪",
     'numero': "254114141192"
