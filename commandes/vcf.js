@@ -1,6 +1,6 @@
 const {zokou} = require("../framework/zokou");
 const fs = require('fs-extra');
-const conf = require('../config');
+const conf = require('../set');
 const { default: axios } = require("axios");
 const ffmpeg = require("fluent-ffmpeg");
 const gis = require('g-i-s');
