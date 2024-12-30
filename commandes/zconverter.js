@@ -37,7 +37,7 @@ async function convertToMp3(inputPath, outputPath) {
     });
 }
 
-zokou({ nomCom: "url", categorie: "General", reaction: "🖇️" }, async (origineMessage, zk, commandeOptions) => {
+zokou({ nomCom: "url", categorie: "Conversion", reaction: "🖇️" }, async (origineMessage, zk, commandeOptions) => {
     const { msgRepondu, repondre } = commandeOptions;
 
     if (!msgRepondu) {
@@ -105,10 +105,8 @@ zokou({ nomCom: "url", categorie: "General", reaction: "🖇️" }, async (origi
         repondre('Oops, an error occurred.');
     }
 });
-
-
-
-zokou({nomCom:"scrop",categorie: "Conversion", reaction: "✂️"},async(origineMessage,zk,commandeOptions)=>{
+/*
+zokou({nomCom:"crop",categorie: "Conversion", reaction: "✂️"},async(origineMessage,zk,commandeOptions)=>{
    const {ms , msgRepondu,arg,repondre,nomAuteurMessage} = commandeOptions ;
 
   if(!msgRepondu) { repondre( 'make sure to mention the media' ) ; return } ;
@@ -131,10 +129,10 @@ mediamsg = msgRepondu.videoMessage
   var stick = await zk.downloadAndSaveMediaMessage(mediamsg)
 
      let stickerMess = new Sticker(stick, {
-            pack: Lucky-Md,
+            pack: pack,
             
             type: StickerTypes.CROPPED,
-            categories: ["😅", "😶"],
+            categories: ["🤩", "🎉"],
             id: "12345",
             quality: 70,
             background: "transparent",
@@ -167,10 +165,10 @@ mediamsg = msgRepondu.videoMessage
   var stick = await zk.downloadAndSaveMediaMessage(mediamsg)
 
      let stickerMess = new Sticker(stick, {
-            pack: LUCKY-MD,
+            pack: pack,
             
             type: StickerTypes.FULL,
-            categories: ["😅", "😶"],
+            categories: ["🤩", "🎉"],
             id: "12345",
             quality: 70,
             background: "transparent",
@@ -233,9 +231,9 @@ zokou({ nomCom: "write", categorie: "Conversion", reaction: "📝" }, async (ori
     // Create the sticker
     const stickerMess = new Sticker(meme, {
       pack: nomAuteurMessage,
-      author: 'LUCKY-MD',
+      author: 'Lucky-Md',
       type: StickerTypes.FULL,
-      categories: ["😅", "😶"],
+      categories: ["🤩", "🎉"],
       id: "12345",
       quality: 70,
       background: "transparent",
@@ -256,7 +254,7 @@ zokou({ nomCom: "write", categorie: "Conversion", reaction: "📝" }, async (ori
 
 
 
-zokou({nomCom:"photo",categorie: "Conversion", reaction: "🔥"},async(dest,zk,commandeOptions)=>{
+zokou({nomCom:"photo",categorie: "Conversion", reaction: "📸"},async(dest,zk,commandeOptions)=>{
    const {ms , msgRepondu,arg,repondre,nomAuteurMessage} = commandeOptions ;
 
   if(!msgRepondu) { repondre( 'make sure to mention the media' ) ; return } ;
@@ -295,7 +293,7 @@ zokou({nomCom:"photo",categorie: "Conversion", reaction: "🔥"},async(dest,zk,c
         });
 });
 
-zokou({ nomCom: "trt2", categorie: "Conversion", reaction: "💫" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "trts", categorie: "Conversion", reaction: "🉑" }, async (dest, zk, commandeOptions) => {
 
   const { msgRepondu, repondre , arg } = commandeOptions;
 
@@ -326,3 +324,4 @@ zokou({ nomCom: "trt2", categorie: "Conversion", reaction: "💫" }, async (dest
 
 
 }) ;
+**
