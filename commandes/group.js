@@ -702,7 +702,7 @@ zokou({nomCom:"tag",categorie:'Group',reaction:"🎤"},async(dest,zk,commandeOpt
 });
 
 
-zokou({ nomCom: "apk", reaction: "🚜", categorie: "Recherche" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "app", reaction: "🚜", categorie: "Search" }, async (dest, zk, commandeOptions) => {
   const { repondre, arg, ms } = commandeOptions;
 
   try {
