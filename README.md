@@ -69,9 +69,11 @@
 | AUTO REACT STATUS ADDED    | ✅  |
 | AUTO READ MESSAGE ADDED    | ✅  |
 | AUTO REJECT CALL ADDED     | ✅  |
+| AUDIO REPLY ADDED          | ✅  |
+| AUTO SAVE CONTACTS ADDED   | ✅  |
 | FUN CMD HACK ADDED         | ✅  |
 
-
+FORWARD COMMAND ADDED you share a message to all members in the group automatic by use bot😅😅✅✅
 
 ***ᴅᴇᴘʟᴏʏ ɴᴏᴡ ɪɴ ʜᴇʀᴏᴋᴜ ɪᴛ's sᴀғᴇ 100% ɴᴏ sᴜsᴘᴇɴᴅ ʏᴏᴜʀ ᴀᴄᴄᴏᴜɴᴛ ᴛᴇsᴛᴇᴅ ʙʏ ғʀᴇᴅɪᴇᴛᴇᴄʜ ᴀɴᴅ ɪʙʀᴀʜɪᴍ***
 
