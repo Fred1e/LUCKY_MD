@@ -37,7 +37,7 @@ async function convertToMp3(inputPath, outputPath) {
     });
 }
 
-zokou({ nomCom: "url", categorie: "Conversion", reaction: "🖇️" }, async (origineMessage, zk, commandeOptions) => {
+zokou({ nomCom: "url", categorie: "General", reaction: "🖇️" }, async (origineMessage, zk, commandeOptions) => {
     const { msgRepondu, repondre } = commandeOptions;
 
     if (!msgRepondu) {
@@ -88,13 +88,13 @@ zokou({ nomCom: "url", categorie: "Conversion", reaction: "🖇️" }, async (or
         // Respond with the URL based on media type
         switch (mediaType) {
             case 'image':
-                repondre(`Here is your image URL:\n${catboxUrl}`);
+                repondre(`Here is your image URL By Lucky:\n${catboxUrl}`);
                 break;
             case 'video':
-                repondre(`Here is your video URL:\n${catboxUrl}`);
+                repondre(`Here is your video URL by Lucky:\n${catboxUrl}`);
                 break;
             case 'audio':
-                repondre(`Here is your audio URL (MP3):\n${catboxUrl}`);
+                repondre(`Here is your audio URL (MP3) by Lucky:\n${catboxUrl}`);
                 break;
             default:
                 repondre('An unknown error occurred.');
@@ -293,7 +293,7 @@ zokou({nomCom:"photo",categorie: "Conversion", reaction: "📸"},async(dest,zk,c
         });
 });
 
-zokou({ nomCom: "trts", categorie: "Conversion", reaction: "🉑" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "ztrt", categorie: "Conversion", reaction: "💦" }, async (dest, zk, commandeOptions) => {
 
   const { msgRepondu, repondre , arg } = commandeOptions;
 
@@ -324,4 +324,4 @@ zokou({ nomCom: "trts", categorie: "Conversion", reaction: "🉑" }, async (dest
 
 
 }) ;
-**
+**/
