@@ -23,7 +23,7 @@ zokou({
     _0x3088e2 = _0x2aaae8.videos;
     if (_0x3088e2 && _0x3088e2.length > 0) {
       const _0x35cfe6 = _0x3088e2[0].url;
-      const _0xc513c1 = await fetch("https://api.giftedtech.my.id/api/download/ytmp3?url=" + encodeURIComponent(_0x35cfe6) + "&apikey=" + "gifted");
+      const _0xc513c1 = await fetch(BaseUrl + "/api/download/ytmp3?url=" + encodeURIComponent(_0x459a98) + "&apikey=" + giftedapikey);
       const _0x35fc2f = await _0xc513c1.json();
       if (_0x35fc2f.status === 200 && _0x35fc2f.success) {
         const _0x42270d = _0x35fc2f.result.download_url;
@@ -77,7 +77,7 @@ zokou({
     _0x2e073d = _0x336ec9.videos;
     if (_0x2e073d && _0x2e073d.length > 0) {
       const _0x2802ea = _0x2e073d[0].url;
-      const _0x1de769 = await fetch("https://api.giftedtech.my.id/api/download/ytmp3?url=" + encodeURIComponent(_0x2802ea) + "&apikey=" + "gifted");
+      const _0x1de769 = await fetch(BaseUrl + "/api/download/ytmp3?url=" + encodeURIComponent(_0x459a98) + "&apikey=" + giftedapikey);
       const _0x303b32 = await _0x1de769.json();
       if (_0x303b32.status === 200 && _0x303b32.success) {
         const _0x4b00a7 = _0x303b32.result.download_url;
@@ -131,7 +131,7 @@ zokou({
     _0x2e9784 = _0x3fae5f.videos;
     if (_0x2e9784 && _0x2e9784.length > 0) {
       const _0x291265 = _0x2e9784[0].url;
-      const _0x194755 = await fetch("https://api.giftedtech.my.id/api/download/ytmp4?url=" + encodeURIComponent(_0x291265) + "&apikey=" + "gifted");
+      const _0x194755 = await fetch(BaseUrl + "/api/download/ytmp4?url=" + encodeURIComponent(_0x459a98) + "&apikey=" + giftedapikey);
       const _0x3c9bda = await _0x194755.json();
       if (_0x3c9bda.status === 200 && _0x3c9bda.success) {
         const _0x1edad2 = _0x3c9bda.result.download_url;
@@ -186,7 +186,7 @@ zokou({
     _0x215b79 = _0x5e9fc0.videos;
     if (_0x215b79 && _0x215b79.length > 0) {
       const _0x283dca = _0x215b79[0].url;
-      const _0x5a1a2b = await fetch("https://api.giftedtech.my.id/api/download/ytmp4?url=" + encodeURIComponent(_0x283dca) + "&apikey=" + "gifted");
+      const _0x5a1a2b = await fetch(BaseUrl + "/api/download/ytmp4?url=" + encodeURIComponent(_0x459a98) + "&apikey=" + giftedapikey);
       const _0x4b74b7 = await _0x5a1a2b.json();
       if (_0x4b74b7.status === 200 && _0x4b74b7.success) {
         const _0x5db1e5 = _0x4b74b7.result.download_url;
