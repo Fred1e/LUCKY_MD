@@ -24,7 +24,7 @@ zokou({
       'title': "Lucky_Md My Ultra Speed Response",
       'body': "Ping Results : " + _0x451c3b,
       'sourceUrl': "https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f",
-      'thumbnailUrl': "https://files.catbox.moe/7irwqn.jpeg",
+      'thumbnailUrl': "https://files.catbox.moe/rdm4ep.jpeg",
       'mediaType': 0x1,
       'showAdAttribution': true
     }
@@ -62,7 +62,7 @@ zokou({
       'title': "LUCKY MD - System Uptime",
       'body': "Bot has been running for: " + _0x2f3abc,
       'sourceUrl': "https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f",
-      'thumbnailUrl': "https://files.catbox.moe/bdjmrd.jpg",
+      'thumbnailUrl': "https://files.catbox.moe/rdm4ep.jpeg",
       'mediaType': 0x1,
       'showAdAttribution': true
     }
