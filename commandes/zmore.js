@@ -397,7 +397,7 @@ zokou({
 });
 
 // Biden Meme Command
-zokouu({
+zokou({
   'nomCom': "jbiden",
   'reaction': '🔖',
   'categorie': 'Fledi-cmd'
@@ -744,7 +744,7 @@ zokou({
 │
 │   *◇* ${data.fact} 
 │
-│   *◇* Regards *ALPHA MD*
+│   *◇* Regards *LUCKY MD*
 │      
 ╰─────────────────+
 
@@ -770,14 +770,14 @@ zokou({
     const response = await fetch("https://favqs.com/api/qotd");
     const data = await response.json();
     const quoteMessage = `
-  ┏━━━━━QUOTE━━━━━━◆
+  ┏━━━━━QUOTE━━━━━━®
   │   *◇* _${data.quote.body}_
   │  
   │   *◇* *AUTHOR:* ${data.quote.author}
   │      
-  │    *◇*  *regards ALPHA MD*
+  │    *◇*  *regards LUCKY MD*
   │    
-  ╰─────────────────◆
+  ╰─────────────────®
   
   > *_powered by frediezra_*
     `;
@@ -989,7 +989,7 @@ zokou({
 });
 
 // WhatsApp Channel Stalk Command
-keith({
+zokou({
   nomCom: "channelstalk2",
   reaction: '🛸',
   categorie: "Fledi-stalkers"
