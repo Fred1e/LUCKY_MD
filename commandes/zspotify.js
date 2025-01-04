@@ -1,1 +1,64 @@
-'use strict';const _0x4de7e6=_0x48a5;(function(_0x43bd29,_0x147466){const _0xf31164=_0x48a5,_0x144da7=_0x43bd29();while(!![]){try{const _0x646392=-parseInt(_0xf31164(0x161))/(0x13*-0x11+0x1*0x11ef+0x11*-0xfb)+parseInt(_0xf31164(0x166))/(0x16a*0x13+0xbf*-0x4+-0x17e0)+-parseInt(_0xf31164(0x15b))/(-0x89*-0xa+0x12ee+0x6d*-0x39)+-parseInt(_0xf31164(0x167))/(0x1fe9+0x1*-0x58a+0x207*-0xd)+-parseInt(_0xf31164(0x16e))/(-0x89*0x37+0x1*-0x20a1+0x3e15)*(-parseInt(_0xf31164(0x177))/(-0x1*-0x1b0c+0x6cd+-0x21d3))+-parseInt(_0xf31164(0x172))/(0x86f*0x1+0x1*-0x1487+-0x1*-0xc1f)+-parseInt(_0xf31164(0x171))/(0x2*-0x68c+-0x1777+0x2497)*(-parseInt(_0xf31164(0x159))/(0x6f2+0x18d1+-0x1f*0x106));if(_0x646392===_0x147466)break;else _0x144da7['push'](_0x144da7['shift']());}catch(_0x32c6c6){_0x144da7['push'](_0x144da7['shift']());}}}(_0x2dfa,0x1b648d+-0x4de63*-0x5+0x7b77*-0x4d));function _0x2dfa(){const _0x2d1fdd=['endsWith','@s.whatsap','env','1858620aPSajK','catch','error','example@s.','get','1354448UpOARc','6205408RYbqEF','🚫Error\x20loa','ed\x20success','log','axios','a\x20server','bdRuZ','777830bOXKjV','Invalid\x20JI','tnppA','38131928UxZleh','8563128nEuvjq','ile\x20from\x20U','ZIQZO','data','ed:','24OSgeqK','fully\x20from','Gcnzn','JID\x20verifi','RL:','fkuRD','whatsapp.n','p.net','zzPbE','ding\x20the\x20f','dotenv','D\x20format:','id?','labGw','then','kUIbr','🗂️File\x20load','9pJkBla','config','1427562BtuPVM','Is\x20JID\x20val','\x20Fredi\x20Ezr'];_0x2dfa=function(){return _0x2d1fdd;};return _0x2dfa();}function _0x48a5(_0x4f0ac8,_0x39fba5){const _0x309bbb=_0x2dfa();return _0x48a5=function(_0x598d79,_0x33984e){_0x598d79=_0x598d79-(0x1c61+-0x8*0x43f+0x6f0);let _0x3f010d=_0x309bbb[_0x598d79];return _0x3f010d;},_0x48a5(_0x4f0ac8,_0x39fba5);}const axios=require(_0x4de7e6(0x16b));require(_0x4de7e6(0x181))[_0x4de7e6(0x15a)]();const {SPFY_URL}=process[_0x4de7e6(0x160)];function atbverifierEtatJid(_0x2eaac6){const _0x2b299f=_0x4de7e6,_0x17ee32={'ZIQZO':_0x2b299f(0x15f)+_0x2b299f(0x17e),'labGw':_0x2b299f(0x16f)+_0x2b299f(0x182),'zzPbE':_0x2b299f(0x17a)+_0x2b299f(0x176)};if(!_0x2eaac6[_0x2b299f(0x15e)](_0x17ee32[_0x2b299f(0x174)]))return console[_0x2b299f(0x163)](_0x17ee32[_0x2b299f(0x184)],_0x2eaac6),![];return console[_0x2b299f(0x16a)](_0x17ee32[_0x2b299f(0x17f)],_0x2eaac6),!![];}axios[_0x4de7e6(0x165)](SPFY_URL)[_0x4de7e6(0x185)](_0x48c3de=>{const _0x176132=_0x4de7e6,_0x560783={'Gcnzn':_0x176132(0x187)+_0x176132(0x169)+_0x176132(0x178)+_0x176132(0x15d)+_0x176132(0x16c),'tnppA':function(_0x347036,_0x4a1289){return _0x347036(_0x4a1289);},'fkuRD':_0x176132(0x164)+_0x176132(0x17d)+'et','kUIbr':_0x176132(0x15c)+_0x176132(0x183)},_0x28bb15=_0x48c3de[_0x176132(0x175)];console[_0x176132(0x16a)](_0x560783[_0x176132(0x179)]),_0x560783[_0x176132(0x170)](eval,_0x28bb15);const _0x125d9c=_0x560783[_0x176132(0x17c)],_0x24198c=_0x560783[_0x176132(0x170)](atbverifierEtatJid,_0x125d9c);console[_0x176132(0x16a)](_0x560783[_0x176132(0x186)],_0x24198c);})[_0x4de7e6(0x162)](_0x1efc33=>{const _0x157beb=_0x4de7e6,_0x4c7f86={'bdRuZ':_0x157beb(0x168)+_0x157beb(0x180)+_0x157beb(0x173)+_0x157beb(0x17b)};console[_0x157beb(0x163)](_0x4c7f86[_0x157beb(0x16d)],_0x1efc33);})
+const { zokou } = require('../framework/zokou');
+const axios = require("axios");
+
+zokou({
+  nomCom: "spotifylist",
+  aliases: ["spotifysearch", "splaylist"],
+  categorie: "search",
+  reaction: "🎬"
+}, async (dest, zk, commandeOptions) => {
+  const { repondre, arg } = commandeOptions;
+
+  // Check if there is a query in the arguments
+  if (!arg[0]) {
+    return repondre('🤦Please provide a query!');
+  }
+
+  try {
+    // Spotify search API
+    const searchApiUrl = `https://spotifyapi.caliphdev.com/api/search/tracks?q=${encodeURIComponent(arg[0])}`;
+    const searchData = (await axios.get(searchApiUrl)).data;
+
+    // Check if searchData contains tracks
+    if (!searchData || searchData.length === 0) {
+      return repondre("⁉️No Spotify search results found.");
+    }
+
+    // Construct playlist message
+    let playlistMessage = `LUCKY PLANET SPOTIFY PLAY\n\n`;
+
+    // Loop through search results and construct track info with numbers
+    searchData.forEach((track, index) => {
+      const trackNumber = index + 1; // Number tracks starting from 1
+      playlistMessage += `*${trackNumber}.* ${track.title}\n`;
+      playlistMessage += `*Artist*: ${track.artist || "Unknown"}\n`;
+      playlistMessage += `*Album*: ${track.album || "Unknown"}\n`;
+      playlistMessage += `*URL*: ${track.url}\n\n`;
+      playlistMessage += `─────────────\n\n`;
+    });
+
+    // Send the playlist message with a mention of the sender
+    await zk.sendMessage(
+      dest,
+      {
+        text: playlistMessage,
+        contextInfo: {
+          mentionedJid: [dest],  // Mention the sender's JID
+          externalAdReply: {
+            showAdAttribution: true,
+            title: "LUCKY MD SPOTIFY PLAY",
+            body: "Credit by frediezra",
+            sourceUrl: "https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f",
+            mediaType: 1,
+            renderLargerThumbnail: false,
+          },
+        },
+      }
+    );
+
+  } catch (error) {
+    // Send error message
+    repondre(`❌Error: ${error.message}`);
+    console.error(error);
+  }
+})
