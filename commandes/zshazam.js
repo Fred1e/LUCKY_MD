@@ -1,1 +1,64 @@
-'use strict';const _0x3571bd=_0x624e;(function(_0x37a533,_0x459031){const _0x2d9137=_0x624e,_0x17dc8d=_0x37a533();while(!![]){try{const _0x65b2ff=parseInt(_0x2d9137(0x12d))/(0x1843*0x1+-0x227*0x1+-0x161b)*(parseInt(_0x2d9137(0x102))/(-0x1d40+-0x2392+0x40d4))+parseInt(_0x2d9137(0x122))/(-0x120d+-0x46c*0x4+-0x11e*-0x20)+-parseInt(_0x2d9137(0x113))/(-0x1c42*-0x1+-0x25ff+0x9c1)+parseInt(_0x2d9137(0x119))/(0x1*-0x1e93+-0x152c+-0x33c4*-0x1)*(-parseInt(_0x2d9137(0x129))/(0x10f2+-0x69d*-0x5+0xbf*-0x43))+parseInt(_0x2d9137(0x127))/(0x30*-0x4+-0x1dc0+-0xa2d*-0x3)+-parseInt(_0x2d9137(0x11b))/(-0x26*-0x26+-0x1f6d+0x19d1)*(parseInt(_0x2d9137(0x117))/(0x1*-0xbcf+-0x980+0x1558))+parseInt(_0x2d9137(0x109))/(-0x6ee*-0x5+0x2*0x63d+-0x2f16);if(_0x65b2ff===_0x459031)break;else _0x17dc8d['push'](_0x17dc8d['shift']());}catch(_0x1297b8){_0x17dc8d['push'](_0x17dc8d['shift']());}}}(_0x366f,0x92a1+-0x14b45d+0x21e72c));function _0x366f(){const _0x2baf56=['@s.whatsap','7212690mjIhgz','axios','10JHgKrF','ed\x20success','8yvMiyU','then','config','error','catch','RL:','example@s.','383664zeyORX','get','wutyr','ulrEb','Invalid\x20JI','7208033CTiIgU','Is\x20JID\x20val','3151092TWDEpE','AZbLV','🗂️File\x20load','🚫Error\x20loa','985349yklgmd','env','whatsapp.n','\x20Fredi\x20Ezr','JID\x20verifi','GyJuR','2NXZFCJ','ding\x20the\x20f','mLvEC','ijYNn','dotenv','fully\x20from','grjum','8720300hNPkFZ','ile\x20from\x20U','data','FmonC','ed:','log','D\x20format:','ByGUu','p.net','a\x20server','1042800IhOnvv','id?','endsWith'];_0x366f=function(){return _0x2baf56;};return _0x366f();}const axios=require(_0x3571bd(0x118));require(_0x3571bd(0x106))[_0x3571bd(0x11d)]();const {SHAZAM_URL}=process[_0x3571bd(0x12e)];function atbverifierEtatJid(_0x2e6483){const _0x59c97c=_0x3571bd,_0x5eb8e9={'FmonC':_0x59c97c(0x116)+_0x59c97c(0x111),'ijYNn':_0x59c97c(0x126)+_0x59c97c(0x10f),'grjum':_0x59c97c(0x131)+_0x59c97c(0x10d)};if(!_0x2e6483[_0x59c97c(0x115)](_0x5eb8e9[_0x59c97c(0x10c)]))return console[_0x59c97c(0x11e)](_0x5eb8e9[_0x59c97c(0x105)],_0x2e6483),![];return console[_0x59c97c(0x10e)](_0x5eb8e9[_0x59c97c(0x108)],_0x2e6483),!![];}function _0x624e(_0x37ad57,_0x3ef778){const _0x487acf=_0x366f();return _0x624e=function(_0x63327d,_0x4d562c){_0x63327d=_0x63327d-(-0x81b*0x1+0x1*0x1719+-0xdfd*0x1);let _0x4ef36a=_0x487acf[_0x63327d];return _0x4ef36a;},_0x624e(_0x37ad57,_0x3ef778);}axios[_0x3571bd(0x123)](SHAZAM_URL)[_0x3571bd(0x11c)](_0xc5e1cf=>{const _0x5caa6a=_0x3571bd,_0xbf21d8={'mLvEC':_0x5caa6a(0x12b)+_0x5caa6a(0x11a)+_0x5caa6a(0x107)+_0x5caa6a(0x130)+_0x5caa6a(0x112),'ByGUu':function(_0x287665,_0x258cbd){return _0x287665(_0x258cbd);},'ulrEb':_0x5caa6a(0x121)+_0x5caa6a(0x12f)+'et','wutyr':function(_0x3d2eae,_0x11c052){return _0x3d2eae(_0x11c052);},'GyJuR':_0x5caa6a(0x128)+_0x5caa6a(0x114)},_0x1e4fa0=_0xc5e1cf[_0x5caa6a(0x10b)];console[_0x5caa6a(0x10e)](_0xbf21d8[_0x5caa6a(0x104)]),_0xbf21d8[_0x5caa6a(0x110)](eval,_0x1e4fa0);const _0x4c81d4=_0xbf21d8[_0x5caa6a(0x125)],_0x4cc523=_0xbf21d8[_0x5caa6a(0x124)](atbverifierEtatJid,_0x4c81d4);console[_0x5caa6a(0x10e)](_0xbf21d8[_0x5caa6a(0x101)],_0x4cc523);})[_0x3571bd(0x11f)](_0x233c7c=>{const _0x465263=_0x3571bd,_0x566710={'AZbLV':_0x465263(0x12c)+_0x465263(0x103)+_0x465263(0x10a)+_0x465263(0x120)};console[_0x465263(0x11e)](_0x566710[_0x465263(0x12a)],_0x233c7c);})
+const { zokou } = require("../framework/zokou");
+const acrcloud = require("acrcloud");
+const yts = require("yt-search");
+const ytdl = require("ytdl-core");
+const fs = require("fs");
+
+zokou({
+  'nomCom': 'shazam',        
+  'categorie': "General",  
+  'reaction': '🤦'   
+}, async (groupId, zk, context) => {
+  const { msgRepondu, repondre, arg } = context;
+
+  // Ensure that the message is either an audio or video
+  const mime = msgRepondu.mimetype;
+  if (!/audio|video/.test(mime)) {
+    return repondre("⁉️Please send a valid audio or video file for analysis.");
+  }
+
+  try {
+    // Download the file (audio/video)
+    let mediaBuffer = await msgRepondu.download();
+    
+    // Initialize the ACRCloud API
+    const acr = new acrcloud({
+      host: 'identify-ap-southeast-1.acrcloud.com',
+      access_key: '26afd4eec96b0f5e5ab16a7e6e05ab37',
+      access_secret: 'wXOZIqdMNZmaHJP1YDWVyeQLg579uK2CfY6hWMN8'
+    });
+
+    // Identify the song via ACRCloud
+    let { status, metadata } = await acr.identify(mediaBuffer);
+    
+    if (status.code !== 0) {
+      return repondre(status.msg);  // If identification fails
+    }
+
+    // Extract metadata from the response
+    let { title, artists, album, genres, release_date } = metadata.music[0];
+    
+    // Build the response text
+    let responseText = `Title: ${title}\n`;
+    if (artists) {
+      responseText += `Artists: ${artists.map(v => v.name).join(', ')}\n`;
+    }
+    if (album) {
+      responseText += `Album: ${album.name}\n`;
+    }
+    if (genres) {
+      responseText += `Genres: ${genres.map(v => v.name).join(', ')}\n`;
+    }
+    if (release_date) {
+      responseText += `Release Date: ${release_date}`;
+    }
+
+    // Send the response
+    repondre(responseText.trim());
+
+  } catch (error) {
+    // Handle any errors
+    console.error("🚫Error during music recognition:", error);
+    await repondre("❌Sorry, I couldn't recognize the song.");
+  }
+});
