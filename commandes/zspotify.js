@@ -4,7 +4,7 @@ const axios = require("axios");
 zokou({
   nomCom: "spotifylist",
   aliases: ["spotifysearch", "splaylist"],
-  categorie: "search",
+  categorie: "Fledi-search",
   reaction: "🎬"
 }, async (dest, zk, commandeOptions) => {
   const { repondre, arg } = commandeOptions;
