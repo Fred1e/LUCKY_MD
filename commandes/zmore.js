@@ -42,8 +42,8 @@ const gis = require('g-i-s');
 const moment = require("moment-timezone");
 const JavaScriptObfuscator = require("javascript-obfuscator");
 const { c, cpp, node, python, java } = require('compile-run');
-const { dBinary, eBinary } = require("../framework/binary");
-const fancy = require("../framework/style");
+const { dBinary, eBinary } = require("../fledi/binary");
+const fancy = require("../fledi/style");
 
 const { writeFile } = require("fs/promises");
 const { default: axios } = require("axios");
