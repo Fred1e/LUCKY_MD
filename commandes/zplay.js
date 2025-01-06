@@ -47,7 +47,7 @@ zokou({
     };
 
     // Try Gifted API
-    downloadData = await getDownloadData(`https://api.giftedtech.web.id/api/download/dlmp3?url=${encodeURIComponent(videoUrl)}&apikey=gifted`);
+    downloadData = await getDownloadData(`https://api.giftedtech.web.id/api/download/dlmp3?url=${encodeURIComponent(videoUrl)}&apikey=gifted-md`);
     if (downloadData.success) {
       downloadUrl = downloadData.result.download_url;
       videoDetails = downloadData.result;
