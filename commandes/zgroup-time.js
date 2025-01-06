@@ -3,14 +3,14 @@ const { zokou } = require("../framework/zokou");
 const conf = require("../set");
 
 zokou({
-    nomCom: "group-opentime",
-    reaction: "🔖",
+    nomCom: "opentime",
+    reaction: "😌",
     categorie: "group"
 }, async (dest, zk, context) => {
     var { repondre, arg, verifGroupe, verifAdmin } = context;
     try {
-        if (!verifGroupe) return repondre('🤦This command is using for group only.');
-        if (!verifAdmin) return repondre('🤦This command is using by group admins only.');
+        if (!verifGroupe) return repondre('This command is meant for groups.');
+        if (!verifAdmin) return repondre('This command is meant for admins.');
 
         let timer;
         const args = arg.split(' '); // Ensure args are split if input is like '10 second'
@@ -24,13 +24,13 @@ zokou({
         } else if (args[1] === 'day') {
             timer = args[0] * 86400000;
         } else {
-            return repondre('🤦Please select a valid time unit: second, minute, hour, or day.\nExample: 15 second');
+            return repondre('Please select a valid time unit: second, minute, hour, or day.\nExample: 10 second');
         }
 
-        repondre(`⁉️Open time of ${arg} starting from now...`);
+        repondre(`Open time of ${arg} starting from now...`);
 
         setTimeout(() => {
-            const openMessage = `*⏰ Open Time 😻*\nGroup was opened by Lucky Md. Now all members can send messages.`;
+            const openMessage = `*⏰ Open Time 🗿*\nGroup was opened by the bot. Now all members can send messages.`;
             zk.groupSettingUpdate(dest, 'not_announcement');
             repondre(openMessage);
         }, timer);
@@ -39,19 +39,19 @@ zokou({
 
     } catch (e) {
         console.error(e);
-        repondre('❌An error occurred!');
+        repondre('An error occurred!');
     }
 });
 
 zokou({
-    nomCom: "group-closetime",
-    reaction: "🔖",
+    nomCom: "closetime",
+    reaction: "😌",
     categorie: "group"
 }, async (dest, zk, context) => {
     var { repondre, arg, verifGroupe, verifAdmin } = context;
     try {
-        if (!verifGroupe) return repondre('🤦This command is using for group only.');
-        if (!verifAdmin) return repondre('🤦This command is using by group admins only.');
+        if (!verifGroupe) return repondre('This command is meant for groups.');
+        if (!verifAdmin) return repondre('This command is meant for admins.');
 
         let timer;
         const args = arg.split(' '); // Ensure args are split if input is like '10 second'
@@ -65,13 +65,13 @@ zokou({
         } else if (args[1] === 'day') {
             timer = args[0] * 86400000;
         } else {
-            return repondre('🤦Please select a valid time unit: second, minute, hour, or day.\nExample: 15 second');
+            return repondre('Please select a valid time unit: second, minute, hour, or day.\nExample: 10 second');
         }
 
-        repondre(`⁉️Close time of ${arg} starting from now...`);
+        repondre(`Close time of ${arg} starting from now...`);
 
         setTimeout(() => {
-            const closeMessage = `*⏰ Close Time 😌*\nThe group has been successfully closed by Lucky Md.`;
+            const closeMessage = `*⏰ Close Time 🗿*\nThe group has been successfully closed.`;
             zk.groupSettingUpdate(dest, 'announcement');
             repondre(closeMessage);
         }, timer);
@@ -80,6 +80,6 @@ zokou({
 
     } catch (e) {
         console.error(e);
-        repondre('❌An error occurred!');
+        repondre('An error occurred!');
     }
 });
