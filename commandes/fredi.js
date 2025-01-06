@@ -66,24 +66,37 @@ zokou({ nomCom: "menu4", categorie: "Menu" }, async (dest, zk, commandeOptions) 
     menuMsg += `
 > Made By ғʀᴇᴅɪᴇ ᴛᴇᴄʜ\n`;
 
+// URLs and configurations
+    const fullImageUrl = "https://files.catbox.moe/1db19.jpeg"; // Full image URL
+    const smallThumbnailUrl = "https://files.catbox.moe/1db19.jpeg"; // Small thumbnail URL
+    const randomAudio = "https://files.catbox.moe/59aj6y.mp3"; // Voice note URL
+    const sourceUrl = "https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f"; // Channel link
+    const contactName = commandeOptions?.ms?.pushName || "Unknown Contact"; // Sender's name or "Unknown Contact"
+
     try {
-        const senderName = nomAuteurMessage || message.from;  // Use correct variable for sender name
-        await zk.sendMessage(dest, {
-            text: infoMsg + menuMsg,
-            contextInfo: {
-                mentionedJid: [senderName],
-                externalAdReply: {
-                    title: "LUCKY MD",
-                    body: "coded by Freddie",
-                    thumbnailUrl: "https://files.catbox.moe/7irwqn.jpeg",
-                    sourceUrl: "https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f",
-                    mediaType: 1,
-                    renderLargerThumbnail: true
-                }
+      // Send the custom message
+      await zk.sendMessage(dest, {
+        image: { url: fullImageUrl }, // Full image displayed at the top
+        caption: `💫 Always Active 🔥\n\n✨ Contact: ${contactName}\n🙏 [Visit Channel](${sourceUrl})`,
+        audio: { url: randomAudio }, // Voice note URL
+        mimetype: "audio/mpeg", // Correct MIME type for audio
+        ptt: true, // Send as a voice note
+        contextInfo: {
+          externalAdReply: {
+            title: `💦 Message from: ${contactName}\n🔥Lucky Md Menu🔥`, // Your contact in WhatsApp status format
+            body: "Yoh this is my menu read and use your favourite command be happy to use me",
+            thumbnailUrl: smallThumbnailUrl, // Small thumbnail displayed below
+            mediaType: 1, // Indicate this is an image
+            renderLargerThumbnail: true, // Ensure thumbnail is displayed in full
+            sourceUrl: sourceUrl, // Channel link
+            showAdAttribution: true, // Attribution for the channel
+          },
+          forwardingScore: -1, // Prevent message forwarding
+        }
             }
         });
     } catch (error) {
         console.error("Menu error: ", error);
         repondre("🥵🥵 Menu error: " + error);
     }
-});
+})
