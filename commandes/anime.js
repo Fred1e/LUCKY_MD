@@ -122,7 +122,7 @@ zokou({
   const { arg, repondre,ms , nomAuteurMessage } = commandeOptions;
 
   if (!arg[0] || arg.length !== 1) {
-    repondre("🤦Incorrect use. Example: .emojimix 😀;🥰");
+    repondre("Incorrect use. Example: .emojimix 😀;🥰");
     return;
   }
 
@@ -130,7 +130,7 @@ zokou({
   const emojis = arg.join(' ').split(';');
 
   if (emojis.length !== 2) {
-    repondre("🥺Please specify two emojis using a ';' as a separator.");
+    repondre("Please specify two emojis using a ';' as a separator.");
     return;
   }
 
@@ -156,9 +156,9 @@ zokou({
       zk.sendMessage(dest, { sticker: stickerBuffer2 }, { quoted: ms });
 
     } else {
-      repondre("🚫Unable to create emoji mix.");
+      repondre("Unable to create emoji mix.");
     }
   } catch (error) {
-    repondre("❌An error occurred while creating the emoji mix." + error );
+    repondre("An error occurred while creating the emoji mix." + error );
   }
 });
