@@ -5,14 +5,14 @@ const yts = require('yt-search');
 zokou({
     nomCom: 'lyrics',
     aliases: ['lyric', 'mistari'],
-    reaction: '📝',
+    reaction: '📑',
 }, async (zk, dest, context) => {
     const { repondre, arg, ms } = context;
 
     try {
         // Check if the argument (song and artist) is provided
         if (!arg || arg.length === 0) {
-            return repondre('⁉️Please provide a song💿 name and artist👤.');
+            return repondre('Please provide a song name and artist.');
         }
 
         // Create a search query from the arguments
@@ -24,7 +24,7 @@ zokou({
 
         // Check if no results were found
         if (!results || results.length === 0) {
-            return repondre('❌No results found for the given song💿 or artist👤.');
+            return repondre('No results found for the given song or artist.');
         }
 
         // Extract title and artist from the search query
@@ -37,12 +37,12 @@ zokou({
 
         // Check if lyrics are found
         if (!lyrics) {
-            return repondre(`🚫Sorry, I couldn't find any lyrics for "${searchQuery}". Please try another song.`);
+            return repondre(`Sorry, I couldn't find any lyrics for "${searchQuery}". Please try another song.`);
         }
 
         // Format the message to send to the user
         const formattedMessage = `
-*LUCKY PLANET LYRICS*
+*LUCKY MD PLANET LYRICS FINDER*
 *Title:* ${title}
 *Artist:* ${artist}
 
@@ -57,7 +57,7 @@ ${lyrics}
 
     } catch (error) {
         // Handle any errors that occur
-        repondre(`❌Error: I was unable to fetch the lyrics. Please try again later.\n\n${error.message}`);
+        repondre(`Error: I was unable to fetch the lyrics. Please try again later.\n\n${error.message}`);
         console.log(error);
     }
-})
+});
