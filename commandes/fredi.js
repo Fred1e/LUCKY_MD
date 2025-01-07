@@ -66,37 +66,40 @@ zokou({ nomCom: "menu4", categorie: "Menu" }, async (dest, zk, commandeOptions) 
     menuMsg += `
 > Made By ғʀᴇᴅɪᴇ ᴛᴇᴄʜ\n`;
 
-// URLs and configurations
-    const fullImageUrl = "https://files.catbox.moe/1db19.jpeg"; // Full image URL
-    const smallThumbnailUrl = "https://files.catbox.moe/1db19.jpeg"; // Small thumbnail URL
-    const randomAudio = "https://files.catbox.moe/59aj6y.mp3"; // Voice note URL
-    const sourceUrl = "https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f"; // Channel link
-    const contactName = commandeOptions?.ms?.pushName || "Unknown Contact"; // Sender's name or "Unknown Contact"
+// Array of sound file URLs
+  const audioFiles = [
+    'https://files.catbox.moe/59aj6y.mp3'
+  ];
 
-    try {
-      // Send the custom message
-      await zk.sendMessage(dest, {
-        image: { url: fullImageUrl }, // Full image displayed at the top
-        caption: `💫 Always Active 🔥\n\n✨ Contact: ${contactName}\n🙏 [Visit Channel](${sourceUrl})`,
-        audio: { url: randomAudio }, // Voice note URL
-        mimetype: "audio/mpeg", // Correct MIME type for audio
-        ptt: true, // Send as a voice note
-        contextInfo: {
-          externalAdReply: {
-            title: `💦 Message from: ${contactName}\n🔥Lucky Md Menu🔥`, // Your contact in WhatsApp status format
-            body: "Yoh this is my menu read and use your favourite command be happy to use me",
-            thumbnailUrl: smallThumbnailUrl, // Small thumbnail displayed below
-            mediaType: 1, // Indicate this is an image
-            renderLargerThumbnail: true, // Ensure thumbnail is displayed in full
-            sourceUrl: sourceUrl, // Channel link
-            showAdAttribution: true, // Attribution for the channel
-          },
-          forwardingScore: -1, // Prevent message forwarding
-        }
-            }
-        });
+  // Randomly pick an audio file from the list
+  const selectedAudio = audioFiles[Math.floor(Math.random() * audioFiles.length)];
+
+  // External URLs for references
+  const murl = 'https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f';
+  const img = 'https://files.catbox.moe/1db19.jpeg';
+
+  // Audio message object
+  const audioMessage = {
+    audio: {
+      url: selectedAudio,
+    },
+    mimetype: 'audio/mpeg',
+    ptt: true,  // Marking this as a "Push-to-Talk" message
+    waveform: [100, 0, 100, 0, 100, 0, 100],
+    fileName: 'shizo',
+    contextInfo: {
+      externalAdReply: {
+        title: 'My menu is that',
+        body: 'Pambe Kwa Frediezra',
+        thumbnailUrl: img,
+        sourceUrl: murl,
+        mediaType: 1,
+        renderLargerThumbnail: true,
+      },
+    },
+  };
     } catch (error) {
         console.error("Menu error: ", error);
         repondre("🥵🥵 Menu error: " + error);
     }
-})
+});
