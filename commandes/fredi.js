@@ -72,14 +72,12 @@ zokou({ nomCom: "menu4", categorie: "Menu" }, async (dest, zk, commandeOptions) 
         const senderName = nomAuteurMessage || message.from;  // Use correct variable for sender name
       await zk.sendMessage(dest, {
             text: infoMsg + menuMsg,
-            contextInfo: {
-                mentionedJid: [senderName],
         image: "https://files.catbox.moe/1db19j.jpeg", // Full image displayed at the top
-        caption: `💫 Always Active 🔥\n\n✨ Contact: ${contactName}\n🙏 [Visit Channel](${sourceUrl})`,
         audio: "https://files.catbox.moe/59aj6y.mp3", // Voice note URL
         mimetype: "audio/mpeg", // Correct MIME type for audio
         ptt: true, // Send as a voice note
         contextInfo: {
+        mentionedJid: [senderName],
           externalAdReply: {
             title: `💦 Message from: ${contactName}\n🔥Lucky Md Menu🔥`, // Your contact in WhatsApp status format
             body: "Yoh don't disturb am active🥱 Tap here",
