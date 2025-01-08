@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 const util = require('util');
 const fs = require('fs-extra');
 const { zokou } = require(__dirname + "/../framework/zokou");
@@ -68,19 +70,21 @@ zokou({ nomCom: "menu4", categorie: "Menu" }, async (dest, zk, commandeOptions) 
 
     try {
         const senderName = nomAuteurMessage || message.from;  // Use correct variable for sender name
-        await zk.sendMessage(dest, {
-            text: infoMsg + menuMsg,
-            contextInfo: {
-                mentionedJid: [senderName],
-                externalAdReply: {
-                    title: "LUCKY MD",
-                    body: "coded by Freddie",
-                    smallThumbnailUrl: "https://files.catbox.moe/1db19j.jpeg",
-                    fullImageUrl: "https://files.catbox.moe/idb19j.jpeg",
-                    randomAudio: "https://files.catbox.moe/59aj6y.mp3",
-                    sourceUrl: "https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f",
-                    mediaType: 1,
-                    renderLargerThumbnail: true
+      await zk.sendMessage(dest, {
+        image: "https://files.catbox.moe/1db19j.jpeg", // Full image displayed at the top
+        caption: `💫 Always Active 🔥\n\n✨ Contact: ${contactName}\n🙏 [Visit Channel](${sourceUrl})`,
+        audio: "https://files.catbox.moe/59aj6y.mp3", // Voice note URL
+        mimetype: "audio/mpeg", // Correct MIME type for audio
+        ptt: true, // Send as a voice note
+        contextInfo: {
+          externalAdReply: {
+            title: `💦 Message from: ${contactName}\n🔥Lucky Md Menu🔥`, // Your contact in WhatsApp status format
+            body: "Yoh don't disturb am active🥱 Tap here",
+            thumbnailUrl: "https://files.catbox.moe/1db19j.jpeg", // Small thumbnail displayed below
+            mediaType: 1, // Indicate this is an image
+            renderLargerThumbnail: true, // Ensure thumbnail is displayed in full
+            sourceUrl: "https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f", // Channel link
+            showAdAttribution: true, // Attribution for the channel
                 }
             }
         });
@@ -88,4 +92,4 @@ zokou({ nomCom: "menu4", categorie: "Menu" }, async (dest, zk, commandeOptions) 
         console.error("Menu error: ", error);
         repondre("🥵🥵 Menu error: " + error);
     }
-});
+})
