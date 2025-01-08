@@ -47,7 +47,7 @@ zokou({ nomCom: "menu4", categorie: "Menu" }, async (dest, zk, commandeOptions) 
 ┊🪄🎄ғʀᴇᴅɪᴇᴛᴇᴄʜ ᴛᴇᴀᴍ ᴡɪsʜ ʏᴏᴜ ᴍᴀʀʀʏ ᴄʜʀɪsᴛᴍᴀs🎄 🪄
 `;
 
-    let menuMsg = `𝙻𝚞𝚌𝚔𝚢 𝙼𝚍 menu`;
+    let menuMsg = `𝙻𝚞𝚌𝚔𝚢 𝙼𝚍 𝙲𝚖𝚍`;
     
     for (const cat in coms) {
         menuMsg += `
@@ -66,38 +66,24 @@ zokou({ nomCom: "menu4", categorie: "Menu" }, async (dest, zk, commandeOptions) 
     menuMsg += `
 > Made By ғʀᴇᴅɪᴇ ᴛᴇᴄʜ\n`;
 
-// Array of sound file URLs
-  const audioFiles = [
-    'https://files.catbox.moe/59aj6y.mp3'
-  ];
-
-  // Randomly pick an audio file from the list
-  const selectedAudio = audioFiles[Math.floor(Math.random() * audioFiles.length)];
-
-  // External URLs for references
-  const murl = 'https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f';
-  const img = 'https://files.catbox.moe/1db19.jpeg';
-
-  // Audio message object
-  const audioMessage = {
-    audio: {
-      url: selectedAudio,
-    },
-    mimetype: 'audio/mpeg',
-    ptt: true,  // Marking this as a "Push-to-Talk" message
-    waveform: [100, 0, 100, 0, 100, 0, 100],
-    fileName: 'shizo',
-    contextInfo: {
-      externalAdReply: {
-        title: 'My menu is that',
-        body: 'Pambe Kwa Frediezra',
-        thumbnailUrl: img,
-        sourceUrl: murl,
-        mediaType: 1,
-        renderLargerThumbnail: true,
-      },
-    },
-  };
+    try {
+        const senderName = nomAuteurMessage || message.from;  // Use correct variable for sender name
+        await zk.sendMessage(dest, {
+            text: infoMsg + menuMsg,
+            contextInfo: {
+                mentionedJid: [senderName],
+                externalAdReply: {
+                    title: "LUCKY MD",
+                    body: "coded by Freddie",
+                    smallThumbnailUrl: "https://files.catbox.moe/1db19.jpeg",
+                    fullImageUrl: "https://files.catbox.moe/1db19.jpeg",
+                    randomAudio: "https://files.catbox.moe/59aj6y.mp3",
+                    sourceUrl: "https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f",
+                    mediaType: 1,
+                    renderLargerThumbnail: true
+                }
+            }
+        });
     } catch (error) {
         console.error("Menu error: ", error);
         repondre("🥵🥵 Menu error: " + error);
