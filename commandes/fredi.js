@@ -75,8 +75,8 @@ zokou({ nomCom: "menu4", categorie: "Menu" }, async (dest, zk, commandeOptions) 
                 externalAdReply: {
                     title: "LUCKY MD",
                     body: "coded by Freddie",
-                    smallThumbnailUrl: "https://files.catbox.moe/1db19.jpeg",
-                    fullImageUrl: "https://files.catbox.moe/1db19.jpeg",
+                    smallThumbnailUrl: "https://files.catbox.moe/1db19j.jpeg",
+                    fullImageUrl: "https://files.catbox.moe/idb19j.jpeg",
                     randomAudio: "https://files.catbox.moe/59aj6y.mp3",
                     sourceUrl: "https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f",
                     mediaType: 1,
