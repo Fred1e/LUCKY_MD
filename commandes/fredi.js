@@ -71,11 +71,11 @@ zokou({ nomCom: "menu4", categorie: "Menu" }, async (dest, zk, commandeOptions) 
             contextInfo: {
                 mentionedJid: [senderName],
                 externalAdReply: {
-                    title: "YOH ${contactName}\n THIS IS LUCKY MD MENU LIST",
-                    body: "Dont worry bro I have more commands to help you in WhatsApp",
+                    title: `YOH ${contactName}\n THIS IS LUCKY MD MENU LIST`,
+                    body: "Dont worry bro I have more tap to follow",
                     thumbnailUrl: "https://files.catbox.moe/1db19j.jpeg",
                     sourceUrl: "https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f",
-                    mediaType: 1,
+                    mediaType: 1x3,
                     renderLargerThumbnail: true
                 }
             }
