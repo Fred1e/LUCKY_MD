@@ -43,8 +43,6 @@ zokou({ nomCom: "menu4", categorie: "Menu" }, async (dest, zk, commandeOptions) 
 ┃⊛│◆ 𝚃𝚑𝚎𝚖𝚎 : FRED
 ┃⊛└────••••────➻
 ╰─━━━━══──══━━━❂\n${readmore}
-
-┊🪄🎄ғʀᴇᴅɪᴇᴛᴇᴄʜ ᴛᴇᴀᴍ ᴡɪsʜ ʏᴏᴜ ᴍᴀʀʀʏ ᴄʜʀɪsᴛᴍᴀs🎄 🪄
 `;
 
     let menuMsg = `𝙻𝚞𝚌𝚔𝚢 𝙼𝚍 𝙲𝚖𝚍`;
@@ -73,10 +71,8 @@ zokou({ nomCom: "menu4", categorie: "Menu" }, async (dest, zk, commandeOptions) 
             contextInfo: {
                 mentionedJid: [senderName],
                 externalAdReply: {
-                  audio: "https://files.catbox.moe/59aj6y.mp3",
-                    mimetype: "audio/mpeg", 
-                    title: "LUCKY MD",
-                    body: "coded by Freddie",
+                    title: "YOH ${contactName}\n THIS IS LUCKY MD MENU LIST",
+                    body: "Dont worry bro I have more commands to help you in WhatsApp",
                     thumbnailUrl: "https://files.catbox.moe/1db19j.jpeg",
                     sourceUrl: "https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f",
                     mediaType: 1,
