@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 const util = require('util');
 const fs = require('fs-extra');
 const { zokou } = require(__dirname + "/../framework/zokou");
@@ -70,22 +68,19 @@ zokou({ nomCom: "menu4", categorie: "Menu" }, async (dest, zk, commandeOptions) 
 
     try {
         const senderName = nomAuteurMessage || message.from;  // Use correct variable for sender name
-      await zk.sendMessage(dest, {
+        await zk.sendMessage(dest, {
             text: infoMsg + menuMsg,
-        image: "https://files.catbox.moe/1db19j.jpeg", // Full image displayed at the top
-        audio: "https://files.catbox.moe/59aj6y.mp3", // Voice note URL
-        mimetype: "audio/mpeg", // Correct MIME type for audio
-        ptt: true, // Send as a voice note
-        contextInfo: {
-        mentionedJid: [senderName],
-          externalAdReply: {
-            title: `💦 Message from: ${contactName}\n🔥Lucky Md Menu🔥`, // Your contact in WhatsApp status format
-            body: "Yoh don't disturb am active🥱 Tap here",
-            thumbnailUrl: "https://files.catbox.moe/1db19j.jpeg", // Small thumbnail displayed below  
-            renderLargerThumbnail: true, // Ensure thumbnail is displayed in full
-            sourceUrl: "https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f", // Channel link
-            mediaType: 1, // Indicate this is an image
-            showAdAttribution: true, // Attribution for the channel
+            contextInfo: {
+                mentionedJid: [senderName],
+                externalAdReply: {
+                  audio: "https://files.catbox.moe/59aj6y.mp3",
+                    mimetype: "audio/mpeg", 
+                    title: "LUCKY MD",
+                    body: "coded by Freddie",
+                    thumbnailUrl: "https://files.catbox.moe/1db19j.jpeg",
+                    sourceUrl: "https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f",
+                    mediaType: 1,
+                    renderLargerThumbnail: true
                 }
             }
         });
