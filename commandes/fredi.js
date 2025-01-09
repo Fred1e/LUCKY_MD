@@ -75,7 +75,7 @@ zokou({ nomCom: "menu4", categorie: "Menu" }, async (dest, zk, commandeOptions) 
                     body: "Dont worry bro I have more tap to follow",
                     thumbnailUrl: "https://files.catbox.moe/idb19j.jpeg",
                     sourceUrl: "https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f",
-                    mediaType: 2,
+                    mediaType: 1,
                     renderLargerThumbnail: true
                 }
             }
