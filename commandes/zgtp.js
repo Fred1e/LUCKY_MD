@@ -3,7 +3,7 @@ const fs = require('fs');
 const ai = require('unlimited-ai');
 
 zokou({
-  nomCom: "gp",
+  nomCom: "gpt",
   aliases: ["gpt4.1"],
   reaction: '🤦',
   categorie: "search"
