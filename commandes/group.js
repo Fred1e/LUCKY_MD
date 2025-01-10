@@ -701,6 +701,220 @@ zokou({nomCom:"tag",categorie:'Group',reaction:"🎤"},async(dest,zk,commandeOpt
 
 });
 
+/////////////
+zokou({nomCom:"hidetag",categorie:'Group',reaction:"🎤"},async(dest,zk,commandeOptions)=>{
+
+  const {repondre,msgRepondu,verifGroupe,arg ,verifAdmin , superUser}=commandeOptions;
+
+  if(!verifGroupe)  { repondre('This command is only allowed in groups.')} ;
+  if (verifAdmin || superUser) { 
+
+  let metadata = await zk.groupMetadata(dest) ;
+
+  //console.log(metadata.participants)
+ let tag = [] ;
+  for (const participant of metadata.participants ) {
+
+      tag.push(participant.id) ;
+  }
+  //console.log(tag)
+
+    if(msgRepondu) {
+      console.log(msgRepondu)
+      let msg ;
+
+      if (msgRepondu.imageMessage) {
+
+        
+
+     let media  = await zk.downloadAndSaveMediaMessage(msgRepondu.imageMessage) ;
+     // console.log(msgRepondu) ;
+     msg = {
+
+       image : { url : media } ,
+       caption : msgRepondu.imageMessage.caption,
+       mentions :  tag
+       
+     }
+    
+
+      } else if (msgRepondu.videoMessage) {
+
+        let media  = await zk.downloadAndSaveMediaMessage(msgRepondu.videoMessage) ;
+
+        msg = {
+
+          video : { url : media } ,
+          caption : msgRepondu.videoMessage.caption,
+          mentions :  tag
+          
+        }
+
+      } else if (msgRepondu.audioMessage) {
+    
+        let media  = await zk.downloadAndSaveMediaMessage(msgRepondu.audioMessage) ;
+       
+        msg = {
+   
+          audio : { url : media } ,
+          mimetype:'audio/mp4',
+          mentions :  tag
+           }     
+        
+      } else if (msgRepondu.stickerMessage) {
+
+    
+        let media  = await zk.downloadAndSaveMediaMessage(msgRepondu.stickerMessage)
+
+        let stickerMess = new Sticker(media, {
+          pack: 'LUCKY-MD',
+          type: StickerTypes.CROPPED,
+          categories: ["🤩", "🎉"],
+          id: "12345",
+          quality: 70,
+          background: "transparent",
+        });
+        const stickerBuffer2 = await stickerMess.toBuffer();
+       
+        msg = { sticker: stickerBuffer2 , mentions : tag}
+
+
+      }  else {
+          msg = {
+             text : msgRepondu.conversation,
+             mentions : tag
+          }
+      }
+
+    zk.sendMessage(dest,msg)
+
+    } else {
+
+        if(!arg || !arg[0]) { repondre('Enter the text to announce or mention the message to announce');
+        ; return} ;
+
+      zk.sendMessage(
+         dest,
+         {
+          text : arg.join(' ') ,
+          mentions : tag
+         }     
+      )
+    }
+
+} else {
+  repondre('Command reserved for administrators.')
+}
+
+});
+
+/////////////
+zokou({nomCom:"htag",categorie:'Group',reaction:"🎤"},async(dest,zk,commandeOptions)=>{
+
+  const {repondre,msgRepondu,verifGroupe,arg ,verifAdmin , superUser}=commandeOptions;
+
+  if(!verifGroupe)  { repondre('This command is only allowed in groups.')} ;
+  if (verifAdmin || superUser) { 
+
+  let metadata = await zk.groupMetadata(dest) ;
+
+  //console.log(metadata.participants)
+ let tag = [] ;
+  for (const participant of metadata.participants ) {
+
+      tag.push(participant.id) ;
+  }
+  //console.log(tag)
+
+    if(msgRepondu) {
+      console.log(msgRepondu)
+      let msg ;
+
+      if (msgRepondu.imageMessage) {
+
+        
+
+     let media  = await zk.downloadAndSaveMediaMessage(msgRepondu.imageMessage) ;
+     // console.log(msgRepondu) ;
+     msg = {
+
+       image : { url : media } ,
+       caption : msgRepondu.imageMessage.caption,
+       mentions :  tag
+       
+     }
+    
+
+      } else if (msgRepondu.videoMessage) {
+
+        let media  = await zk.downloadAndSaveMediaMessage(msgRepondu.videoMessage) ;
+
+        msg = {
+
+          video : { url : media } ,
+          caption : msgRepondu.videoMessage.caption,
+          mentions :  tag
+          
+        }
+
+      } else if (msgRepondu.audioMessage) {
+    
+        let media  = await zk.downloadAndSaveMediaMessage(msgRepondu.audioMessage) ;
+       
+        msg = {
+   
+          audio : { url : media } ,
+          mimetype:'audio/mp4',
+          mentions :  tag
+           }     
+        
+      } else if (msgRepondu.stickerMessage) {
+
+    
+        let media  = await zk.downloadAndSaveMediaMessage(msgRepondu.stickerMessage)
+
+        let stickerMess = new Sticker(media, {
+          pack: 'LUCKY-MD',
+          type: StickerTypes.CROPPED,
+          categories: ["🤩", "🎉"],
+          id: "12345",
+          quality: 70,
+          background: "transparent",
+        });
+        const stickerBuffer2 = await stickerMess.toBuffer();
+       
+        msg = { sticker: stickerBuffer2 , mentions : tag}
+
+
+      }  else {
+          msg = {
+             text : msgRepondu.conversation,
+             mentions : tag
+          }
+      }
+
+    zk.sendMessage(dest,msg)
+
+    } else {
+
+        if(!arg || !arg[0]) { repondre('Enter the text to announce or mention the message to announce');
+        ; return} ;
+
+      zk.sendMessage(
+         dest,
+         {
+          text : arg.join(' ') ,
+          mentions : tag
+         }     
+      )
+    }
+
+} else {
+  repondre('Command reserved for administrators.')
+}
+
+});
+
 
 zokou({ nomCom: "app", reaction: "🚜", categorie: "Search" }, async (dest, zk, commandeOptions) => {
   const { repondre, arg, ms } = commandeOptions;
