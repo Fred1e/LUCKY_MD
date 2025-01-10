@@ -1,9 +1,9 @@
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=100&pause=1000&color=1BAFBAFF&center=true&width=1000&height=200&lines=LUCKY-+MD+BOT" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=100&pause=1000&color=1BAFBAFF&center=true&width=1000&height=200&lines=LUCKY-+MD+BOT;PAMBE+KWA+FREDIE🤦" alt="Typing SVG" /></a>
   </p>
 
 
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=DAA520&center=true&width=910&height=100&lines=LUCKY+MD+TEAM+WISH+YOU;🎄MERRY+CHRISTMAS🎄;🎊AND+HAPPY+NEW+YEAR🎊;KEEP+USING+LUCKY+MD" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=DAA520&center=true&width=910&height=100&lines=hello👋+friend+welcome✊;here+is+my+repo🫦;fork+and+star;🫂KEEP+USING+LUCKY+MD" alt="Typing SVG" /></a>
   </p>
  
   
