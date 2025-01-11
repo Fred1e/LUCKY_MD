@@ -9,8 +9,8 @@ RUN apt-get update && \
   npm i pm2 -g && \
   rm -rf /var/lib/apt/lists/*
   
-RUN  git clone https://github.com/Luffy2ndAccount/Zokou-english-v  /root/Zokou_BOt
-WORKDIR /root/Zokou_Bot/
+RUN  git clone https://github.com/Fred1e/LUCKY_MD  /root/Lucky_BOt
+WORKDIR /root/Lucky_Bot/
 
 
 
