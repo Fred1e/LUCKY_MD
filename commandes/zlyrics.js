@@ -1,19 +1,19 @@
-const { zokou } = require('../framework/zokou');
-const lyricsFinder = require('lyrics-finder');
-const axios = require("axios");
-const yts = require('yt-search');
 
+const { zokou } = require("../framework/zokou");
+const axios = require("axios");
+
+// Define the command with aliases
 zokou({
-    nomCom: 'lyrics',
-    aliases: ['lyric', 'mistari'],
-    reaction: '📑',
-    categorie: "search"
+  nomCom: "lyrics",
+  aliases: ["lyric", "mistari"],
+  reaction: '🤦',
+  categorie: "Music"
 }, async (dest, zk, params) => {
   const { repondre: sendResponse, arg: commandArgs, ms } = params;
   const text = commandArgs.join(" ").trim();
 
   if (!text) {
-    return sendResponse("Yoh if you want a lyrics give me your song name and artist 👊 unyama sana.");
+    return sendResponse("Please provide a song name.");
   }
 
   // Function to get lyrics data from APIs
@@ -42,21 +42,15 @@ zokou({
 
   // Check if lyrics data was found
   if (!lyricsData || !lyricsData.result || !lyricsData.result.lyrics) {
-    return sendResponse(`Failed to dowload this song lyrics please try another song⁉️.`);
+    return sendResponse(`Failed to retrieve lyrics. Please try again.`);
   }
 
-    const { title, artist, thumb, lyrics } = lyricsData.result;
-  const imageUrl = thumb || "https://files.catbox.moe/b2vql7.jpg";
-    
-        // Format the message to send to the user
-        const caption = `
-*LUCKY MD PLANET LYRICS FINDER*
-*Title:* ${title}
-*Artist:* ${artist}
+  const { title, artist, thumb, lyrics } = lyricsData.result;
+  const imageUrl = thumb || "";
 
-${lyrics}`;
+  const caption = `**Title**: ${title}\n**Artist**: ${artist}\n\n${lyrics}`;
 
-try {
+  try {
     // Fetch the image
     const imageResponse = await axios.get(imageUrl, { responseType: 'arraybuffer' });
     const imageBuffer = Buffer.from(imageResponse.data, 'binary');
@@ -77,3 +71,4 @@ try {
     await sendResponse(caption);
   }
 });
+ 
