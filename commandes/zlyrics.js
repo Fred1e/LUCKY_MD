@@ -44,6 +44,10 @@ zokou({
   if (!lyricsData || !lyricsData.result || !lyricsData.result.lyrics) {
     return sendResponse(`Failed to dowload this song lyrics please try another song⁉️.`);
   }
+
+    const { title, artist, thumb, lyrics } = lyricsData.result;
+  const imageUrl = thumb || "https://files.catbox.moe/b2vql7.jpg";
+    
         // Format the message to send to the user
         const caption = `
 *LUCKY MD PLANET LYRICS FINDER*
