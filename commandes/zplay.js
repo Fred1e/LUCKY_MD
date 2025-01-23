@@ -12,7 +12,7 @@ zokou({
 
   // Check if a query is provided
   if (!arg[0]) {
-    return repondre("Please provide a audio name.");
+    return repondre("Give me media name to download.");
   }
 
   const query = arg.join(" ");
@@ -23,18 +23,13 @@ zokou({
 
     // Check if any videos were found
     if (!searchResults || !searchResults.videos.length) {
-      return repondre('No audio found for the specified query.');
+      return repondre('Give me a specific media name i help you.');
     }
 
     const firstVideo = searchResults.videos[0];
     const videoUrl = firstVideo.url;
 
-    // Attempt to download from different APIs
-    let downloadData;
-    let downloadUrl;
-    let videoDetails;
-
-    // Function to get download data
+    // Function to get download data from APIs
     const getDownloadData = async (url) => {
       try {
         const response = await axios.get(url);
@@ -45,31 +40,29 @@ zokou({
       }
     };
 
-    // Try Gifted API
-    downloadData = await getDownloadData(`https://api.giftedtech.web.id/api/download/dlmp3?url=${encodeURIComponent(videoUrl)}&apikey=gifted-md`);
-    if (downloadData.success) {
-      downloadUrl = downloadData.result.download_url;
-      videoDetails = downloadData.result;
-    } else {
-      // Try Yasiya API if Gifted fails
-      downloadData = await getDownloadData(`https://www.dark-yasiya-api.site/download/ytmp3?url=${encodeURIComponent(videoUrl)}`);
-      if (downloadData.success) {
-        downloadUrl = downloadData.result.download_url;
-        videoDetails = downloadData.result;
-      } else {
-        // Try Dreaded API if both fail
-        downloadData = await getDownloadData(`https://api.dreaded.site/api/ytdl/video?query=${encodeURIComponent(videoUrl)}`);
-        if (downloadData.success) {
-          downloadUrl = downloadData.result.download_url;
-          videoDetails = downloadData.result;
-        }
-      }
+    // List of APIs to try
+    const apis = [
+      `https://api-rin-tohsaka.vercel.app/download/ytmp4?url=${encodeURIComponent(videoUrl)}`,
+      `https://api.davidcyriltech.my.id/download/ytmp3?url=${encodeURIComponent(videoUrl)}`,
+      `https://www.dark-yasiya-api.site/download/ytmp3?url=${encodeURIComponent(videoUrl)}`,
+      `https://api.giftedtech.web.id/api/download/dlmp3?url=${encodeURIComponent(videoUrl)}&apikey=gifted-md`,
+      `https://api.dreaded.site/api/ytdl/audio?url=${encodeURIComponent(videoUrl)}`
+    ];
+
+    let downloadData;
+    for (const api of apis) {
+      downloadData = await getDownloadData(api);
+      if (downloadData && downloadData.success) break;
     }
 
     // Check if a valid download URL was found
-    if (!downloadUrl || !videoDetails) {
-      return repondre('Failed to retrieve download URL from all sources. Please try again later.');
+    if (!downloadData || !downloadData.success) {
+      return repondre('uhh we failed to get your media in all saver please try again later.');
     }
+
+    const downloadUrl = downloadData.result.download_url;
+    const videoDetails = downloadData.result;
+
 
     // Prepare the message payload with external ad details
     const messagePayload = {
@@ -107,7 +100,7 @@ zokou({
 
   // Check if a query is provided
   if (!arg[0]) {
-    return repondre("Please provide a audio name.");
+    return repondre("Give me media name to download.");
   }
 
   const query = arg.join(" ");
@@ -118,18 +111,13 @@ zokou({
 
     // Check if any videos were found
     if (!searchResults || !searchResults.videos.length) {
-      return repondre('No audio found for the specified query.');
+      return repondre('Give me a specific media name i help you.');
     }
 
     const firstVideo = searchResults.videos[0];
     const videoUrl = firstVideo.url;
 
-    // Attempt to download from different APIs
-    let downloadData;
-    let downloadUrl;
-    let videoDetails;
-
-    // Function to get download data
+    // Function to get download data from APIs
     const getDownloadData = async (url) => {
       try {
         const response = await axios.get(url);
@@ -140,31 +128,28 @@ zokou({
       }
     };
 
-    // Try Gifted API
-    downloadData = await getDownloadData(`https://api.giftedtech.web.id/api/download/dlmp3?url=${encodeURIComponent(videoUrl)}&apikey=gifted-md`);
-    if (downloadData.success) {
-      downloadUrl = downloadData.result.download_url;
-      videoDetails = downloadData.result;
-    } else {
-      // Try Yasiya API if Gifted fails
-      downloadData = await getDownloadData(`https://www.dark-yasiya-api.site/download/ytmp3?url=${encodeURIComponent(videoUrl)}`);
-      if (downloadData.success) {
-        downloadUrl = downloadData.result.download_url;
-        videoDetails = downloadData.result;
-      } else {
-        // Try Dreaded API if both fail
-        downloadData = await getDownloadData(`https://api.dreaded.site/api/ytdl/video?query=${encodeURIComponent(videoUrl)}`);
-        if (downloadData.success) {
-          downloadUrl = downloadData.result.download_url;
-          videoDetails = downloadData.result;
-        }
-      }
+    // List of APIs to try
+    const apis = [
+      `https://api-rin-tohsaka.vercel.app/download/ytmp4?url=${encodeURIComponent(videoUrl)}`,
+      `https://api.davidcyriltech.my.id/download/ytmp3?url=${encodeURIComponent(videoUrl)}`,
+      `https://www.dark-yasiya-api.site/download/ytmp3?url=${encodeURIComponent(videoUrl)}`,
+      `https://api.giftedtech.web.id/api/download/dlmp3?url=${encodeURIComponent(videoUrl)}&apikey=gifted-md`,
+      `https://api.dreaded.site/api/ytdl/audio?url=${encodeURIComponent(videoUrl)}`
+    ];
+
+    let downloadData;
+    for (const api of apis) {
+      downloadData = await getDownloadData(api);
+      if (downloadData && downloadData.success) break;
     }
 
     // Check if a valid download URL was found
-    if (!downloadUrl || !videoDetails) {
-      return repondre('Failed to retrieve download URL from all sources. Please try again later.');
+    if (!downloadData || !downloadData.success) {
+      return repondre('uhh we failed to get your media in all saver please try again later.');
     }
+
+    const downloadUrl = downloadData.result.download_url;
+    const videoDetails = downloadData.result;
 
     // Prepare the message payload with external ad details
     const messagePayload = {
@@ -202,7 +187,7 @@ zokou({
 
   // Check if a query is provided
   if (!arg[0]) {
-    return repondre("Please provide a audio name.");
+    return repondre("Give me media name to download.");
   }
 
   const query = arg.join(" ");
@@ -213,18 +198,13 @@ zokou({
 
     // Check if any videos were found
     if (!searchResults || !searchResults.videos.length) {
-      return repondre('No audio found for the specified query.');
+      return repondre('Give me a specific media name i help you.');
     }
 
     const firstVideo = searchResults.videos[0];
     const videoUrl = firstVideo.url;
 
-    // Attempt to download from different APIs
-    let downloadData;
-    let downloadUrl;
-    let videoDetails;
-
-    // Function to get download data
+    // Function to get download data from APIs
     const getDownloadData = async (url) => {
       try {
         const response = await axios.get(url);
@@ -235,31 +215,28 @@ zokou({
       }
     };
 
-    // Try Gifted API
-    downloadData = await getDownloadData(`https://api.giftedtech.web.id/api/download/dlmp3?url=${encodeURIComponent(videoUrl)}&apikey=gifted-md`);
-    if (downloadData.success) {
-      downloadUrl = downloadData.result.download_url;
-      videoDetails = downloadData.result;
-    } else {
-      // Try Yasiya API if Gifted fails
-      downloadData = await getDownloadData(`https://www.dark-yasiya-api.site/download/ytmp3?url=${encodeURIComponent(videoUrl)}`);
-      if (downloadData.success) {
-        downloadUrl = downloadData.result.download_url;
-        videoDetails = downloadData.result;
-      } else {
-        // Try Dreaded API if both fail
-        downloadData = await getDownloadData(`https://api.dreaded.site/api/ytdl/video?query=${encodeURIComponent(videoUrl)}`);
-        if (downloadData.success) {
-          downloadUrl = downloadData.result.download_url;
-          videoDetails = downloadData.result;
-        }
-      }
+    // List of APIs to try
+    const apis = [
+      `https://api-rin-tohsaka.vercel.app/download/ytmp4?url=${encodeURIComponent(videoUrl)}`,
+      `https://api.davidcyriltech.my.id/download/ytmp3?url=${encodeURIComponent(videoUrl)}`,
+      `https://www.dark-yasiya-api.site/download/ytmp3?url=${encodeURIComponent(videoUrl)}`,
+      `https://api.giftedtech.web.id/api/download/dlmp3?url=${encodeURIComponent(videoUrl)}&apikey=gifted-md`,
+      `https://api.dreaded.site/api/ytdl/audio?url=${encodeURIComponent(videoUrl)}`
+    ];
+
+    let downloadData;
+    for (const api of apis) {
+      downloadData = await getDownloadData(api);
+      if (downloadData && downloadData.success) break;
     }
 
     // Check if a valid download URL was found
-    if (!downloadUrl || !videoDetails) {
-      return repondre('Failed to retrieve download URL from all sources. Please try again later.');
+    if (!downloadData || !downloadData.success) {
+      return repondre('uhh we failed to get your media in all saver please try again later.');
     }
+
+    const downloadUrl = downloadData.result.download_url;
+    const videoDetails = downloadData.result;
 
     // Prepare the message payload with external ad details
     const messagePayload = {
@@ -297,7 +274,7 @@ zokou({
 
   // Check if a query is provided
   if (!arg[0]) {
-    return repondre("Please provide a audio name.");
+    return repondre("Give me media name to download.");
   }
 
   const query = arg.join(" ");
@@ -308,18 +285,13 @@ zokou({
 
     // Check if any videos were found
     if (!searchResults || !searchResults.videos.length) {
-      return repondre('No audio found for the specified query.');
+      return repondre('Give me a specific media name i help you.');
     }
 
     const firstVideo = searchResults.videos[0];
     const videoUrl = firstVideo.url;
 
-    // Attempt to download from different APIs
-    let downloadData;
-    let downloadUrl;
-    let videoDetails;
-
-    // Function to get download data
+    // Function to get download data from APIs
     const getDownloadData = async (url) => {
       try {
         const response = await axios.get(url);
@@ -330,31 +302,28 @@ zokou({
       }
     };
 
-    // Try Gifted API
-    downloadData = await getDownloadData(`https://api.giftedtech.web.id/api/download/dlmp3?url=${encodeURIComponent(videoUrl)}&apikey=gifted-md`);
-    if (downloadData.success) {
-      downloadUrl = downloadData.result.download_url;
-      videoDetails = downloadData.result;
-    } else {
-      // Try Yasiya API if Gifted fails
-      downloadData = await getDownloadData(`https://www.dark-yasiya-api.site/download/ytmp3?url=${encodeURIComponent(videoUrl)}`);
-      if (downloadData.success) {
-        downloadUrl = downloadData.result.download_url;
-        videoDetails = downloadData.result;
-      } else {
-        // Try Dreaded API if both fail
-        downloadData = await getDownloadData(`https://api.dreaded.site/api/ytdl/video?query=${encodeURIComponent(videoUrl)}`);
-        if (downloadData.success) {
-          downloadUrl = downloadData.result.download_url;
-          videoDetails = downloadData.result;
-        }
-      }
+    // List of APIs to try
+    const apis = [
+      `https://api-rin-tohsaka.vercel.app/download/ytmp4?url=${encodeURIComponent(videoUrl)}`,
+      `https://api.davidcyriltech.my.id/download/ytmp3?url=${encodeURIComponent(videoUrl)}`,
+      `https://www.dark-yasiya-api.site/download/ytmp3?url=${encodeURIComponent(videoUrl)}`,
+      `https://api.giftedtech.web.id/api/download/dlmp3?url=${encodeURIComponent(videoUrl)}&apikey=gifted-md`,
+      `https://api.dreaded.site/api/ytdl/audio?url=${encodeURIComponent(videoUrl)}`
+    ];
+
+    let downloadData;
+    for (const api of apis) {
+      downloadData = await getDownloadData(api);
+      if (downloadData && downloadData.success) break;
     }
 
     // Check if a valid download URL was found
-    if (!downloadUrl || !videoDetails) {
-      return repondre('Failed to retrieve download URL from all sources. Please try again later.');
+    if (!downloadData || !downloadData.success) {
+      return repondre('uhh we failed to get your media in all saver please try again later.');
     }
+
+    const downloadUrl = downloadData.result.download_url;
+    const videoDetails = downloadData.result;
 
     // Prepare the message payload with external ad details
     const messagePayload = {
@@ -392,7 +361,7 @@ zokou({
 
   // Check if a query is provided
   if (!arg[0]) {
-    return repondre("Please provide a audio name.");
+    return repondre("Give me media name to download.");
   }
 
   const query = arg.join(" ");
@@ -403,18 +372,13 @@ zokou({
 
     // Check if any videos were found
     if (!searchResults || !searchResults.videos.length) {
-      return repondre('No audio found for the specified query.');
+      return repondre('Give me a specific media name i help you.');
     }
 
     const firstVideo = searchResults.videos[0];
     const videoUrl = firstVideo.url;
 
-    // Attempt to download from different APIs
-    let downloadData;
-    let downloadUrl;
-    let videoDetails;
-
-    // Function to get download data
+    // Function to get download data from APIs
     const getDownloadData = async (url) => {
       try {
         const response = await axios.get(url);
@@ -425,31 +389,28 @@ zokou({
       }
     };
 
-    // Try Gifted API
-    downloadData = await getDownloadData(`https://api.giftedtech.web.id/api/download/dlmp3?url=${encodeURIComponent(videoUrl)}&apikey=gifted-md`);
-    if (downloadData.success) {
-      downloadUrl = downloadData.result.download_url;
-      videoDetails = downloadData.result;
-    } else {
-      // Try Yasiya API if Gifted fails
-      downloadData = await getDownloadData(`https://www.dark-yasiya-api.site/download/ytmp3?url=${encodeURIComponent(videoUrl)}`);
-      if (downloadData.success) {
-        downloadUrl = downloadData.result.download_url;
-        videoDetails = downloadData.result;
-      } else {
-        // Try Dreaded API if both fail
-        downloadData = await getDownloadData(`https://api.dreaded.site/api/ytdl/video?query=${encodeURIComponent(videoUrl)}`);
-        if (downloadData.success) {
-          downloadUrl = downloadData.result.download_url;
-          videoDetails = downloadData.result;
-        }
-      }
+    // List of APIs to try
+    const apis = [
+      `https://api-rin-tohsaka.vercel.app/download/ytmp4?url=${encodeURIComponent(videoUrl)}`,
+      `https://api.davidcyriltech.my.id/download/ytmp3?url=${encodeURIComponent(videoUrl)}`,
+      `https://www.dark-yasiya-api.site/download/ytmp3?url=${encodeURIComponent(videoUrl)}`,
+      `https://api.giftedtech.web.id/api/download/dlmp3?url=${encodeURIComponent(videoUrl)}&apikey=gifted-md`,
+      `https://api.dreaded.site/api/ytdl/audio?url=${encodeURIComponent(videoUrl)}`
+    ];
+
+    let downloadData;
+    for (const api of apis) {
+      downloadData = await getDownloadData(api);
+      if (downloadData && downloadData.success) break;
     }
 
     // Check if a valid download URL was found
-    if (!downloadUrl || !videoDetails) {
-      return repondre('Failed to retrieve download URL from all sources. Please try again later.');
+    if (!downloadData || !downloadData.success) {
+      return repondre('uhh we failed to get your media in all saver please try again later.');
     }
+
+    const downloadUrl = downloadData.result.download_url;
+    const videoDetails = downloadData.result;
 
     // Prepare the message payload with external ad details
     const messagePayload = {
@@ -487,7 +448,7 @@ zokou({
 
   // Check if a query is provided
   if (!arg[0]) {
-    return repondre("Please provide a audio name.");
+    return repondre("Give me media name to download.");
   }
 
   const query = arg.join(" ");
@@ -498,18 +459,13 @@ zokou({
 
     // Check if any videos were found
     if (!searchResults || !searchResults.videos.length) {
-      return repondre('No audio found for the specified query.');
+      return repondre('Give me a specific media name i help you.');
     }
 
     const firstVideo = searchResults.videos[0];
     const videoUrl = firstVideo.url;
 
-    // Attempt to download from different APIs
-    let downloadData;
-    let downloadUrl;
-    let videoDetails;
-
-    // Function to get download data
+    // Function to get download data from APIs
     const getDownloadData = async (url) => {
       try {
         const response = await axios.get(url);
@@ -520,31 +476,28 @@ zokou({
       }
     };
 
-    // Try Gifted API
-    downloadData = await getDownloadData(`https://api.giftedtech.web.id/api/download/dlmp3?url=${encodeURIComponent(videoUrl)}&apikey=gifted-md`);
-    if (downloadData.success) {
-      downloadUrl = downloadData.result.download_url;
-      videoDetails = downloadData.result;
-    } else {
-      // Try Yasiya API if Gifted fails
-      downloadData = await getDownloadData(`https://www.dark-yasiya-api.site/download/ytmp3?url=${encodeURIComponent(videoUrl)}`);
-      if (downloadData.success) {
-        downloadUrl = downloadData.result.download_url;
-        videoDetails = downloadData.result;
-      } else {
-        // Try Dreaded API if both fail
-        downloadData = await getDownloadData(`https://api.dreaded.site/api/ytdl/video?query=${encodeURIComponent(videoUrl)}`);
-        if (downloadData.success) {
-          downloadUrl = downloadData.result.download_url;
-          videoDetails = downloadData.result;
-        }
-      }
+    // List of APIs to try
+    const apis = [
+      `https://api-rin-tohsaka.vercel.app/download/ytmp4?url=${encodeURIComponent(videoUrl)}`,
+      `https://api.davidcyriltech.my.id/download/ytmp3?url=${encodeURIComponent(videoUrl)}`,
+      `https://www.dark-yasiya-api.site/download/ytmp3?url=${encodeURIComponent(videoUrl)}`,
+      `https://api.giftedtech.web.id/api/download/dlmp3?url=${encodeURIComponent(videoUrl)}&apikey=gifted-md`,
+      `https://api.dreaded.site/api/ytdl/audio?url=${encodeURIComponent(videoUrl)}`
+    ];
+
+    let downloadData;
+    for (const api of apis) {
+      downloadData = await getDownloadData(api);
+      if (downloadData && downloadData.success) break;
     }
 
     // Check if a valid download URL was found
-    if (!downloadUrl || !videoDetails) {
-      return repondre('Failed to retrieve download URL from all sources. Please try again later.');
+    if (!downloadData || !downloadData.success) {
+      return repondre('uhh we failed to get your media in all saver please try again later.');
     }
+
+    const downloadUrl = downloadData.result.download_url;
+    const videoDetails = downloadData.result;
 
     // Prepare the message payload with external ad details
     const messagePayload = {
@@ -582,7 +535,7 @@ zokou({
 
   // Check if a query is provided
   if (!arg[0]) {
-    return repondre("Please provide a audio name.");
+    return repondre("Give me media name to download.");
   }
 
   const query = arg.join(" ");
@@ -593,18 +546,13 @@ zokou({
 
     // Check if any videos were found
     if (!searchResults || !searchResults.videos.length) {
-      return repondre('No audio found for the specified query.');
+      return repondre('Give me a specific media name i help you.');
     }
 
     const firstVideo = searchResults.videos[0];
     const videoUrl = firstVideo.url;
 
-    // Attempt to download from different APIs
-    let downloadData;
-    let downloadUrl;
-    let videoDetails;
-
-    // Function to get download data
+    // Function to get download data from APIs
     const getDownloadData = async (url) => {
       try {
         const response = await axios.get(url);
@@ -615,31 +563,28 @@ zokou({
       }
     };
 
-    // Try Gifted API
-    downloadData = await getDownloadData(`https://api.giftedtech.web.id/api/download/dlmp3?url=${encodeURIComponent(videoUrl)}&apikey=gifted-md`);
-    if (downloadData.success) {
-      downloadUrl = downloadData.result.download_url;
-      videoDetails = downloadData.result;
-    } else {
-      // Try Yasiya API if Gifted fails
-      downloadData = await getDownloadData(`https://www.dark-yasiya-api.site/download/ytmp3?url=${encodeURIComponent(videoUrl)}`);
-      if (downloadData.success) {
-        downloadUrl = downloadData.result.download_url;
-        videoDetails = downloadData.result;
-      } else {
-        // Try Dreaded API if both fail
-        downloadData = await getDownloadData(`https://api.dreaded.site/api/ytdl/video?query=${encodeURIComponent(videoUrl)}`);
-        if (downloadData.success) {
-          downloadUrl = downloadData.result.download_url;
-          videoDetails = downloadData.result;
-        }
-      }
+    // List of APIs to try
+    const apis = [
+      `https://api-rin-tohsaka.vercel.app/download/ytmp4?url=${encodeURIComponent(videoUrl)}`,
+      `https://api.davidcyriltech.my.id/download/ytmp3?url=${encodeURIComponent(videoUrl)}`,
+      `https://www.dark-yasiya-api.site/download/ytmp3?url=${encodeURIComponent(videoUrl)}`,
+      `https://api.giftedtech.web.id/api/download/dlmp3?url=${encodeURIComponent(videoUrl)}&apikey=gifted-md`,
+      `https://api.dreaded.site/api/ytdl/audio?url=${encodeURIComponent(videoUrl)}`
+    ];
+
+    let downloadData;
+    for (const api of apis) {
+      downloadData = await getDownloadData(api);
+      if (downloadData && downloadData.success) break;
     }
 
     // Check if a valid download URL was found
-    if (!downloadUrl || !videoDetails) {
-      return repondre('Failed to retrieve download URL from all sources. Please try again later.');
+    if (!downloadData || !downloadData.success) {
+      return repondre('uhh we failed to get your media in all saver please try again later.');
     }
+
+    const downloadUrl = downloadData.result.download_url;
+    const videoDetails = downloadData.result;
 
     // Prepare the message payload with external ad details
     const messagePayload = {
@@ -677,7 +622,7 @@ zokou({
 
   // Check if a query is provided
   if (!arg[0]) {
-    return repondre("Please provide a audio name.");
+    return repondre("Give me media name to download.");
   }
 
   const query = arg.join(" ");
@@ -688,18 +633,13 @@ zokou({
 
     // Check if any videos were found
     if (!searchResults || !searchResults.videos.length) {
-      return repondre('No audio found for the specified query.');
+      return repondre('Give me a specific media name i help you.');
     }
 
     const firstVideo = searchResults.videos[0];
     const videoUrl = firstVideo.url;
 
-    // Attempt to download from different APIs
-    let downloadData;
-    let downloadUrl;
-    let videoDetails;
-
-    // Function to get download data
+    // Function to get download data from APIs
     const getDownloadData = async (url) => {
       try {
         const response = await axios.get(url);
@@ -710,31 +650,28 @@ zokou({
       }
     };
 
-    // Try Gifted API
-    downloadData = await getDownloadData(`https://api.giftedtech.web.id/api/download/dlmp3?url=${encodeURIComponent(videoUrl)}&apikey=gifted-md`);
-    if (downloadData.success) {
-      downloadUrl = downloadData.result.download_url;
-      videoDetails = downloadData.result;
-    } else {
-      // Try Yasiya API if Gifted fails
-      downloadData = await getDownloadData(`https://www.dark-yasiya-api.site/download/ytmp3?url=${encodeURIComponent(videoUrl)}`);
-      if (downloadData.success) {
-        downloadUrl = downloadData.result.download_url;
-        videoDetails = downloadData.result;
-      } else {
-        // Try Dreaded API if both fail
-        downloadData = await getDownloadData(`https://api.dreaded.site/api/ytdl/video?query=${encodeURIComponent(videoUrl)}`);
-        if (downloadData.success) {
-          downloadUrl = downloadData.result.download_url;
-          videoDetails = downloadData.result;
-        }
-      }
+    // List of APIs to try
+    const apis = [
+      `https://api-rin-tohsaka.vercel.app/download/ytmp4?url=${encodeURIComponent(videoUrl)}`,
+      `https://api.davidcyriltech.my.id/download/ytmp3?url=${encodeURIComponent(videoUrl)}`,
+      `https://www.dark-yasiya-api.site/download/ytmp3?url=${encodeURIComponent(videoUrl)}`,
+      `https://api.giftedtech.web.id/api/download/dlmp3?url=${encodeURIComponent(videoUrl)}&apikey=gifted-md`,
+      `https://api.dreaded.site/api/ytdl/audio?url=${encodeURIComponent(videoUrl)}`
+    ];
+
+    let downloadData;
+    for (const api of apis) {
+      downloadData = await getDownloadData(api);
+      if (downloadData && downloadData.success) break;
     }
 
     // Check if a valid download URL was found
-    if (!downloadUrl || !videoDetails) {
-      return repondre('Failed to retrieve download URL from all sources. Please try again later.');
+    if (!downloadData || !downloadData.success) {
+      return repondre('uhh we failed to get your media in all saver please try again later.');
     }
+
+    const downloadUrl = downloadData.result.download_url;
+    const videoDetails = downloadData.result;
 
     // Prepare the message payload with external ad details
     const messagePayload = {
@@ -772,7 +709,7 @@ zokou({
 
   // Check if a query is provided
   if (!arg[0]) {
-    return repondre("Please provide a audio name.");
+    return repondre("Give me media name to download.");
   }
 
   const query = arg.join(" ");
@@ -783,18 +720,13 @@ zokou({
 
     // Check if any videos were found
     if (!searchResults || !searchResults.videos.length) {
-      return repondre('No audio found for the specified query.');
+      return repondre('Give me a specific media name i help you.');
     }
 
     const firstVideo = searchResults.videos[0];
     const videoUrl = firstVideo.url;
 
-    // Attempt to download from different APIs
-    let downloadData;
-    let downloadUrl;
-    let videoDetails;
-
-    // Function to get download data
+    // Function to get download data from APIs
     const getDownloadData = async (url) => {
       try {
         const response = await axios.get(url);
@@ -805,31 +737,28 @@ zokou({
       }
     };
 
-    // Try Gifted API
-    downloadData = await getDownloadData(`https://api.giftedtech.web.id/api/download/dlmp3?url=${encodeURIComponent(videoUrl)}&apikey=gifted-md`);
-    if (downloadData.success) {
-      downloadUrl = downloadData.result.download_url;
-      videoDetails = downloadData.result;
-    } else {
-      // Try Yasiya API if Gifted fails
-      downloadData = await getDownloadData(`https://www.dark-yasiya-api.site/download/ytmp3?url=${encodeURIComponent(videoUrl)}`);
-      if (downloadData.success) {
-        downloadUrl = downloadData.result.download_url;
-        videoDetails = downloadData.result;
-      } else {
-        // Try Dreaded API if both fail
-        downloadData = await getDownloadData(`https://api.dreaded.site/api/ytdl/video?query=${encodeURIComponent(videoUrl)}`);
-        if (downloadData.success) {
-          downloadUrl = downloadData.result.download_url;
-          videoDetails = downloadData.result;
-        }
-      }
+    // List of APIs to try
+    const apis = [
+      `https://api-rin-tohsaka.vercel.app/download/ytmp4?url=${encodeURIComponent(videoUrl)}`,
+      `https://api.davidcyriltech.my.id/download/ytmp3?url=${encodeURIComponent(videoUrl)}`,
+      `https://www.dark-yasiya-api.site/download/ytmp3?url=${encodeURIComponent(videoUrl)}`,
+      `https://api.giftedtech.web.id/api/download/dlmp3?url=${encodeURIComponent(videoUrl)}&apikey=gifted-md`,
+      `https://api.dreaded.site/api/ytdl/audio?url=${encodeURIComponent(videoUrl)}`
+    ];
+
+    let downloadData;
+    for (const api of apis) {
+      downloadData = await getDownloadData(api);
+      if (downloadData && downloadData.success) break;
     }
 
     // Check if a valid download URL was found
-    if (!downloadUrl || !videoDetails) {
-      return repondre('Failed to retrieve download URL from all sources. Please try again later.');
+    if (!downloadData || !downloadData.success) {
+      return repondre('uhh we failed to get your media in all saver please try again later.');
     }
+
+    const downloadUrl = downloadData.result.download_url;
+    const videoDetails = downloadData.result;
 
     // Prepare the message payload with external ad details
     const messagePayload = {
@@ -867,7 +796,7 @@ zokou({
 
   // Check if a query is provided
   if (!arg[0]) {
-    return repondre("Please provide a audio name.");
+    return repondre("Give me media name to download.");
   }
 
   const query = arg.join(" ");
@@ -878,18 +807,13 @@ zokou({
 
     // Check if any videos were found
     if (!searchResults || !searchResults.videos.length) {
-      return repondre('No audio found for the specified query.');
+      return repondre('Give me a specific media name i help you.');
     }
 
     const firstVideo = searchResults.videos[0];
     const videoUrl = firstVideo.url;
 
-    // Attempt to download from different APIs
-    let downloadData;
-    let downloadUrl;
-    let videoDetails;
-
-    // Function to get download data
+    // Function to get download data from APIs
     const getDownloadData = async (url) => {
       try {
         const response = await axios.get(url);
@@ -900,31 +824,28 @@ zokou({
       }
     };
 
-    // Try Gifted API
-    downloadData = await getDownloadData(`https://api.giftedtech.web.id/api/download/dlmp3?url=${encodeURIComponent(videoUrl)}&apikey=gifted-md`);
-    if (downloadData.success) {
-      downloadUrl = downloadData.result.download_url;
-      videoDetails = downloadData.result;
-    } else {
-      // Try Yasiya API if Gifted fails
-      downloadData = await getDownloadData(`https://www.dark-yasiya-api.site/download/ytmp3?url=${encodeURIComponent(videoUrl)}`);
-      if (downloadData.success) {
-        downloadUrl = downloadData.result.download_url;
-        videoDetails = downloadData.result;
-      } else {
-        // Try Dreaded API if both fail
-        downloadData = await getDownloadData(`https://api.dreaded.site/api/ytdl/video?query=${encodeURIComponent(videoUrl)}`);
-        if (downloadData.success) {
-          downloadUrl = downloadData.result.download_url;
-          videoDetails = downloadData.result;
-        }
-      }
+    // List of APIs to try
+    const apis = [
+      `https://api-rin-tohsaka.vercel.app/download/ytmp4?url=${encodeURIComponent(videoUrl)}`,
+      `https://api.davidcyriltech.my.id/download/ytmp3?url=${encodeURIComponent(videoUrl)}`,
+      `https://www.dark-yasiya-api.site/download/ytmp3?url=${encodeURIComponent(videoUrl)}`,
+      `https://api.giftedtech.web.id/api/download/dlmp3?url=${encodeURIComponent(videoUrl)}&apikey=gifted-md`,
+      `https://api.dreaded.site/api/ytdl/audio?url=${encodeURIComponent(videoUrl)}`
+    ];
+
+    let downloadData;
+    for (const api of apis) {
+      downloadData = await getDownloadData(api);
+      if (downloadData && downloadData.success) break;
     }
 
     // Check if a valid download URL was found
-    if (!downloadUrl || !videoDetails) {
-      return repondre('Failed to retrieve download URL from all sources. Please try again later.');
+    if (!downloadData || !downloadData.success) {
+      return repondre('uhh we failed to get your media in all saver please try again later.');
     }
+
+    const downloadUrl = downloadData.result.download_url;
+    const videoDetails = downloadData.result;
 
     // Prepare the message payload with external ad details
     const messagePayload = {
@@ -962,7 +883,7 @@ zokou({
 
   // Check if a query is provided
   if (!arg[0]) {
-    return repondre("Please provide a audio name.");
+    return repondre("Give me media name to download.");
   }
 
   const query = arg.join(" ");
@@ -973,18 +894,13 @@ zokou({
 
     // Check if any videos were found
     if (!searchResults || !searchResults.videos.length) {
-      return repondre('No audio found for the specified query.');
+      return repondre('Give me a specific media name i help you.');
     }
 
     const firstVideo = searchResults.videos[0];
     const videoUrl = firstVideo.url;
 
-    // Attempt to download from different APIs
-    let downloadData;
-    let downloadUrl;
-    let videoDetails;
-
-    // Function to get download data
+    // Function to get download data from APIs
     const getDownloadData = async (url) => {
       try {
         const response = await axios.get(url);
@@ -995,31 +911,28 @@ zokou({
       }
     };
 
-    // Try Gifted API
-    downloadData = await getDownloadData(`https://api.giftedtech.web.id/api/download/dlmp3?url=${encodeURIComponent(videoUrl)}&apikey=gifted-md`);
-    if (downloadData.success) {
-      downloadUrl = downloadData.result.download_url;
-      videoDetails = downloadData.result;
-    } else {
-      // Try Yasiya API if Gifted fails
-      downloadData = await getDownloadData(`https://www.dark-yasiya-api.site/download/ytmp3?url=${encodeURIComponent(videoUrl)}`);
-      if (downloadData.success) {
-        downloadUrl = downloadData.result.download_url;
-        videoDetails = downloadData.result;
-      } else {
-        // Try Dreaded API if both fail
-        downloadData = await getDownloadData(`https://api.dreaded.site/api/ytdl/video?query=${encodeURIComponent(videoUrl)}`);
-        if (downloadData.success) {
-          downloadUrl = downloadData.result.download_url;
-          videoDetails = downloadData.result;
-        }
-      }
+    // List of APIs to try
+    const apis = [
+      `https://api-rin-tohsaka.vercel.app/download/ytmp4?url=${encodeURIComponent(videoUrl)}`,
+      `https://api.davidcyriltech.my.id/download/ytmp3?url=${encodeURIComponent(videoUrl)}`,
+      `https://www.dark-yasiya-api.site/download/ytmp3?url=${encodeURIComponent(videoUrl)}`,
+      `https://api.giftedtech.web.id/api/download/dlmp3?url=${encodeURIComponent(videoUrl)}&apikey=gifted-md`,
+      `https://api.dreaded.site/api/ytdl/audio?url=${encodeURIComponent(videoUrl)}`
+    ];
+
+    let downloadData;
+    for (const api of apis) {
+      downloadData = await getDownloadData(api);
+      if (downloadData && downloadData.success) break;
     }
 
     // Check if a valid download URL was found
-    if (!downloadUrl || !videoDetails) {
-      return repondre('Failed to retrieve download URL from all sources. Please try again later.');
+    if (!downloadData || !downloadData.success) {
+      return repondre('uhh we failed to get your media in all saver please try again later.');
     }
+
+    const downloadUrl = downloadData.result.download_url;
+    const videoDetails = downloadData.result;
 
     // Prepare the message payload with external ad details
     const messagePayload = {
@@ -1046,4 +959,3 @@ zokou({
     return repondre(`Download failed due to an error: ${error.message || error}`);
   }
 });
-
