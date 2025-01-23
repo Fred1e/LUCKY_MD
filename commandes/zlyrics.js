@@ -1,63 +1,75 @@
 const { zokou } = require('../framework/zokou');
 const lyricsFinder = require('lyrics-finder');
+const axios = require("axios");
 const yts = require('yt-search');
 
 zokou({
     nomCom: 'lyrics',
     aliases: ['lyric', 'mistari'],
     reaction: '📑',
-}, async (zk, dest, context) => {
-    const { repondre, arg, ms } = context;
+    categorie: "search"
+}, async (dest, zk, params) => {
+  const { repondre: sendResponse, arg: commandArgs, ms } = params;
+  const text = commandArgs.join(" ").trim();
 
+  if (!text) {
+    return sendResponse("Yoh if you want a lyrics give me your song name and artist 👊 unyama sana.");
+  }
+
+  // Function to get lyrics data from APIs
+  const getLyricsData = async (url) => {
     try {
-        // Check if the argument (song and artist) is provided
-        if (!arg || arg.length === 0) {
-            return repondre('Please provide a song name and artist.');
-        }
+      const response = await axios.get(url);
+      return response.data;
+    } catch (error) {
+      console.error('Error fetching data from API:', error);
+      return null;
+    }
+  };
 
-        // Create a search query from the arguments
-        const searchQuery = arg.join(' ');
+  // List of APIs to try
+  const apis = [
+    `https://api.dreaded.site/api/lyrics?title=${encodeURIComponent(text)}`,
+    `https://some-random-api.com/others/lyrics?title=${encodeURIComponent(text)}`,
+    `https://api.davidcyriltech.my.id/lyrics?title=${encodeURIComponent(text)}`
+  ];
 
-        // Search for the song using yt-search
-        const info = await yts(searchQuery);
-        const results = info.videos;
+  let lyricsData;
+  for (const api of apis) {
+    lyricsData = await getLyricsData(api);
+    if (lyricsData && lyricsData.result && lyricsData.result.lyrics) break;
+  }
 
-        // Check if no results were found
-        if (!results || results.length === 0) {
-            return repondre('No results found for the given song or artist.');
-        }
-
-        // Extract title and artist from the search query
-        const songDetails = searchQuery.split(' ').reverse();
-        const title = songDetails.slice(0, songDetails.length - 1).join(' ');
-        const artist = songDetails[songDetails.length - 1];
-
-        // Fetch the lyrics using lyrics-finder
-        const lyrics = await lyricsFinder(artist, title);
-
-        // Check if lyrics are found
-        if (!lyrics) {
-            return repondre(`Sorry, I couldn't find any lyrics for "${searchQuery}". Please try another song.`);
-        }
-
+  // Check if lyrics data was found
+  if (!lyricsData || !lyricsData.result || !lyricsData.result.lyrics) {
+    return sendResponse(`Failed to dowload this song lyrics please try another song⁉️.`);
+  }
         // Format the message to send to the user
-        const formattedMessage = `
+        const caption = `
 *LUCKY MD PLANET LYRICS FINDER*
 *Title:* ${title}
 *Artist:* ${artist}
 
-${lyrics}
-        `;
+${lyrics}`;
 
-        // Send the response with the song's thumbnail and lyrics
-        await zk.sendMessage(dest, {
-            image: { url: results[0].thumbnail },
-            caption: formattedMessage,
-        }, { quoted: ms });
+try {
+    // Fetch the image
+    const imageResponse = await axios.get(imageUrl, { responseType: 'arraybuffer' });
+    const imageBuffer = Buffer.from(imageResponse.data, 'binary');
 
-    } catch (error) {
-        // Handle any errors that occur
-        repondre(`Error: I was unable to fetch the lyrics. Please try again later.\n\n${error.message}`);
-        console.log(error);
-    }
+    // Send the message with the image and lyrics
+    await zk.sendMessage(
+      dest,
+      {
+        image: imageBuffer,
+        caption: caption
+      },
+      { quoted: ms }
+    );
+
+  } catch (error) {
+    console.error('Error fetching or sending image:', error);
+    // Fallback to sending just the text if image fetch fails
+    await sendResponse(caption);
+  }
 });
