@@ -46,7 +46,7 @@ zokou({
   }
 
   const { title, artist, thumb, lyrics } = lyricsData.result;
-  const imageUrl = thumb || "";
+  const imageUrl = thumb || "https://files.catbox.moe/b2vql7.jpg";
 
   const caption = `**Title**: ${title}\n**Artist**: ${artist}\n\n${lyrics}`;
 
