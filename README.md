@@ -179,17 +179,8 @@ HEROKU
 
 
 
-KOYEB
 
-**1. ɪғ ʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴀᴄᴄᴏᴜɴᴛ ɪɴ ᴋᴏʏᴇʙ ᴄʀᴇᴀᴛᴇ ɴᴏᴡ.**
 
-</a></p>
-- <a href='https://signup.koyeb.com/' target="_black"><img alt='Koyeb' src='https://img.shields.io/badge/-ℂℝ𝔼𝔸𝕋𝔼 𝔸ℂℂ𝕆𝕌ℕ𝕋 ℕ𝕆𝕎-darkgreen?style=for-the-badge&logo=koyeb&logoColor=black' width="240" height="38.45"/></a>
-
-2. **ɴᴏᴡ ᴛʀʏ ᴅᴇᴘʟᴏʏ ɪᴛ ɪɴ ᴋᴏʏᴇʙ ᴛᴀᴘ ᴛʜᴇ ʙᴜᴛᴏɴ**
-
-</a></p>
-- [![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?name=lucky-md&repository=Fred1e%2FLUCKY_MD&branch=main&instance_type=free&env%5BANTICALL%5D=no&env%5BANTI_DELETE_MESSAGE%5D=no&env%5BAUTO_DOWNLOAD_STATUS%5D=no&env%5BAUTO_REACT_STATUS%5D=yes&env%5BAUTO_READ%5D=no&env%5BAUTO_READ_STATUS%5D=true&env%5BBOT_MENU_LINKS%5D=https%3A%2F%2Ffiles.catbox.moe%2F7irwqn.jpeg&env%5BBOT_NAME%5D=LUCKY_MD+&env%5BNUMERO_OWNER%5D=255620814108+&env%5BOWNER_NAME%5D=%D2%93%CA%80%E1%B4%87%E1%B4%85%C9%AA%E1%B4%87%E1%B4%A2%CA%80%E1%B4%80255&env%5BPM_PERMIT%5D=yes&env%5BPREFIX%5D=.+&env%5BPRESENCE%5D=2&env%5BPUBLIC_MODE%5D=yes&env%5BSESSION_ID%5D=&env%5BSTARTING_BOT_MESSAGE%5D=no&env%5BWARN_COUNT%5D=5)
 
 
 
@@ -197,25 +188,8 @@ KOYEB
 
 ---
 
-#### ***This One Is Another Fredie Take Safe Bot In Heroku Called Fredi Md Open 🔓 There To Check ☑ This Have More Than 300 Plugins Enjoy***
-</details>
-
-<details>
-<summary>Tap To Check Fredi Md💯</summary>
- Fredi Md Info
-    <a href='https://github.com/Fred1e/Fredi_Md' target="_blank"><img alt='Open Fredi Md Repo Here🛰️' src='https://img.shields.io/badge/Open Fredi Md Repo Here-rgb(224, 255, 255)?style=for-the-badge&logo=tesla&logoColor=blue'/></a>
-
-
-All Information About Me 
-    <a href='https://fredi-bio.vercel.app/' target="_blank"><img alt='Owner Info Tap Here😎' src='https://img.shields.io/badge/Owner Info Tap Here😎-rgb(224, 255, 255)?style=for-the-badge&logo=tesla&logoColor=blue'/></a>
-</details>
-
-
-
-
----
-
-***NOW DELAY AFTER DEPLOY IS FIXED THANKS FOR  [`IBRAHIM ADAMS`](https://github.com/ibrahimaitech) 👍🥂 stay using Lucky Md***
+***THANKS TO MY FRIENDS FOR BASE SUPPORT FRIENDS [`IBRAHIM`](https://github.com/ibrahimaitech)
+[`KEITH`](https://github.com/keithkezzah)👍🥂 stay using Lucky Md***
    
 
 
@@ -233,9 +207,7 @@ The WhatsApp Bot 𝕃𝕌ℂ𝕂𝕐 𝕄𝔻 is released under the [MIT License
 ## 𝔻𝔼𝕍𝔼𝕃𝕆ℙ𝔼ℝ𝕊 :
 
 - [**FREDIE TECH**](https://github.com/Fred1e)
-- [**BELTAH TECH**](https://github.com/BELTAHMD)
-- [**TELEGRAM**](t.me/freditech)
-- [**Developers YT**](https://www.youtube.com/@freeonlinetvT1)
+- [YOUTUBE](https://www.youtube.com/@freeonlinetvT1)
 
 
 
