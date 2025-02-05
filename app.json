@@ -71,18 +71,13 @@
     },
     "ANTI_CALL_TEXT": {
       "description": "Type your anticall message to always send when calls are declined.You can as well leave it blank",
-      "value": "",
+      "value": "My owner don't receive any call now because it's busy",
       "required": false
     },
     "BOT_NAME": {
       "description": "you must give a name for you bot uhh??!!",
       "value": "✧⁠LUCKY_MD✧",
       "required": false 
-    },
-    "GROUP_HANDLE": {
-      "description": "urs if you want bot yo control group features such as antilink,antispam,antibad",
-      "value": "yes",
-      "required": false
     },
     "PUBLIC_MODE": {
       "description": "Set 'yes' to make your bot public or 'no' to keep it private",
@@ -116,7 +111,7 @@
     },
     "AUTO_READ_MESSAGES": {
       "description": "yes toactivate no to deactivate",
-      "value": "yes",
+      "value": "no",
       "required": false  
     },
     "NUMERO_OWNER": {
@@ -131,7 +126,7 @@
     },
     "STARTING_BOT_MESSAGE": {
       "description": "Set 'yes' to display a starting bot message or 'no' to disable it",
-      "value": "yes",
+      "value": "no",
       "required": true
     },
     "PRESENCE": {
