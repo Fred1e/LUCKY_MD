@@ -1,4 +1,4 @@
-const { fredi } = require('../fredi/ezra');
+const { ezra } = require('../fredi/ezra');
 const { isUserBanned, addUserToBanList, removeUserFromBanList } = require("../luckydatabase/banUser");
 const { isGroupBanned, addGroupToBanList, removeGroupFromBanList } = require("../luckydatabase/banGroup");
 const { isGroupOnlyAdmin, addGroupToOnlyAdminList, removeGroupFromOnlyAdminList } = require("../luckydatabase/onlyAdmin");
