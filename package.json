@@ -31,7 +31,7 @@
     "@xct007/tiktok-scraper": "^1.0.2",  
     "@hapi/boom": "^10.0.1",
     "@types/node": "^18.0.6",
-    "@whiskeysockets/baileys": "github:Luffy2ndAccount/Baileys",
+    "@whiskeysockets/baileys": "github:Fred1e/Baileys",
     "ytdl-core": "npm:@distube/ytdl-core",
     "@bochilteam/scraper": "^4.2.4",
     "@google/generative-ai":"^0.1.3",
