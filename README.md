@@ -60,7 +60,10 @@
 </p>
 
 
-***BOT UPDATED FUTURES 🎁***
+</details>
+
+<details>
+<summary>VIEW BOT UPDARTED AND NEW FUTURES🍂</summary>
 
 | Commands Name               |Yes  |
 | ----------------------------| ----|
@@ -77,6 +80,8 @@
 | •ANTI DELETE FIXED.        | ✅ |
 
 FORWARD COMMAND ADDED you share a message to all members in the group automatic by use bot😅😅✅✅
+
+</details>
 
 ***ᴅᴇᴘʟᴏʏ ɴᴏᴡ ɪɴ ʜᴇʀᴏᴋᴜ ɪᴛ's sᴀғᴇ 100% ɴᴏ sᴜsᴘᴇɴᴅ ʏᴏᴜʀ ᴀᴄᴄᴏᴜɴᴛ ᴛᴇsᴛᴇᴅ ʙʏ ғʀᴇᴅɪᴇᴛᴇᴄʜ ᴀɴᴅ ɪʙʀᴀʜɪᴍ***
 
