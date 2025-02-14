@@ -51,7 +51,7 @@ module.exports = { session: process.env.SESSION_ID || 'ezra',
      storage: DATABASE_URL,
      logging: false,
 })
-: new Sequelize(DATABASE_URL, {
+: new Sequelize(DATABASE_URL, 
      dialect: 'postgres',
      ssl: true,
      protocol: 'postgres',
