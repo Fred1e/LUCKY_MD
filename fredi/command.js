@@ -1,4 +1,4 @@
-// Define an array to hold commands
+// Define an array to hold command
 var commands = [];
 
 // Command registration function
