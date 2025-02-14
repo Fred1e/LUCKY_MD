@@ -1,5 +1,5 @@
 
-FROM node:lts-buster
+FROM node:lts-buste
 
 RUN apt-get update && \
   apt-get install -y \
