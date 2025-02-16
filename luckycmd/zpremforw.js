@@ -6,7 +6,7 @@ const conf = require("../set");
 const { default: axios } = require('axios');
 
 ezra({ nomCom: "forward", categorie: 'Group', reaction: "📤" }, async (dest, zk, commandeOptions) => {
-  const { ms, repondre, arg, verifGroupe, nomGroupe, infosGroupe, nomAuteurMessage, verifAdmin, superUser  } = commandeOptions;
+  const { ms, repondre, arg, verifGroupe, nomGroupe, infosGroupe, nomAuteurMessage, superUser  } = commandeOptions;
 
   if (!verifGroupe) {
     repondre("*😮‍💨  😮‍💨 Uuuuhh!! this command is reserved for groups Only❌*");
