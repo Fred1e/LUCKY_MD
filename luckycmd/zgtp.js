@@ -2,7 +2,7 @@
 const { ezra } = require("../fredi/ezra");
 const ai = require('unlimited-ai');
 
-eezra({
+ezra({
   nomCom: "gpt",
   aliases: ["gpt4a", "ai4"],
   reaction: '🍂',
@@ -47,7 +47,7 @@ eezra({
   }
 });
 
-eezra({
+ezra({
   nomCom: "gemine",
   aliases: ["gpto4", "gemni", "gpta2", "gpta3"],
   reaction: '🤷',
