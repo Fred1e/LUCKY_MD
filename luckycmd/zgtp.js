@@ -1,50 +1,93 @@
+
 const { ezra } = require("../fredi/ezra");
-const fs = require('fs');
 const ai = require('unlimited-ai');
 
-ezra({
+eezra({
   nomCom: "gpt",
-  aliases: ["gpt4.1"],
-  reaction: '🤦',
+  aliases: ["gpt4a", "ai4"],
+  reaction: '🍂',
   categorie: "search"
-}, async (context, message, params) => {
+}, async (dest, zk, params) => {
   const { repondre, arg } = params;  // Use args for the command arguments
   const lucky = arg.join(" ").trim(); // Assuming args is an array of command parts
 
-  if (!lucky) return repondre("Please provide text.");
-
-  // Load previous conversation from store.json, if exists
-  let conversationData = [];
-  try {
-      const rawData = fs.readFileSync('fredi.json', 'utf8');
-      conversationData = JSON.parse(rawData);
-  } catch (err) {
-      console.log('No previous conversation found, starting new one.');
+  if (!lucky) {
+    return repondre("Please provide something to help you friend.");
   }
 
-  // Define the model and the user/system message
-  const model = 'gpt-4-turbo-2024-04-09';
-  const userMessage = { role: 'user', content: lucky };  // Change 'text' to 'lucky' as it's the user input
-  const systemMessage = { role: 'system', content: 'You are an assistant in WhatsApp. You are called Fredie. You respond to user commands.' };
-
-  // Add user input to the conversation data
-  conversationData.push(userMessage);
-  conversationData.push(systemMessage);
+  // Assuming 'lucky' is the text we want to use in the AI prompt
+  const text = lucky;  // Set the text that will be passed to the AI
 
   try {
-      // Get AI response from the model
-      const aiResponse = await ai.generate(model, conversationData);
+    const model = 'gpt-4-turbo-2024-04-09'; 
 
-      // Add AI response to the conversation data
-      conversationData.push({ role: 'assistant', content: aiResponse });
+    const messages = [
+      { role: 'user', content: text },
+      { role: 'system', content: 'You are an assistant in WhatsApp. You are called Fredi. You respond to user commands.' }
+    ];
 
-      // Write the updated conversation data to store.json
-      fs.writeFileSync('fredi.json', JSON.stringify(conversationData, null, 2));
+    const response = await ai.generate(model, messages);
+    await zk.sendMessage(dest, {
+      text: response,
+      contextInfo: {
+        externalAdReply: {
+          title: "𝐋𝐔𝐂𝐊𝐘-𝚳𝐃 𝐆𝚸𝚻",
+          body: "keep learning", // Format the uptime before sending
+          thumbnailUrl: "https://files.catbox.moe/t0z3w1.jpg", // Replace with your bot profile photo URL
+          sourceUrl: "https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f", // Your channel URL
+          mediaType: 1,
+          showAdAttribution: true, // Verified badge
+        },
+      },
+    });
 
-      // Reply to the user with AI's response
-      await repondre(aiResponse);
   } catch (error) {
-      console.error("Error with AI generation: ", error);
-      await repondre("Sorry, there was an error generating the response.");
+    console.error("Error generating AI response:", error);
+    await repondre("Sorry, I couldn't process your request.");
   }
 });
+
+eezra({
+  nomCom: "gemine",
+  aliases: ["gpto4", "gemni", "gpta2", "gpta3"],
+  reaction: '🤷',
+  categorie: "search"
+}, async (context, zk, params) => {
+  const { repondre, arg } = params;
+  const elementQuery = arg.join(" ").trim(); // Use 'arg' to capture the user query
+
+  // Check if elementQuery is empty
+  if (!elementQuery) {
+    return repondre("Please provide something.");
+  }
+
+  try {
+    // Dynamically import Gemini AI
+    const { default: Gemini } = await import('gemini-ai');
+    const gemini = new Gemini("AIzaSyC3sNClbdraGrS2ubb5PTdnm_RbUANtdzc");
+
+    const chat = gemini.createChat();
+
+    // Ask Gemini AI for a response
+    const res = await chat.ask(elementQuery);
+
+    await zk.sendMessage(context, {
+      text: res,
+      contextInfo: {
+        externalAdReply: {
+          title: "𝐋𝐔𝐂𝐊𝐘-𝚳𝐃 𝐆𝚵𝚳𝚰𝚴𝚰",
+          body: "keep learning", // Format the uptime before sending
+          thumbnailUrl: "https://files.catbox.moe/mse1bd.jpg", // Replace with your bot profile photo URL
+          sourceUrl: "https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f", // Your channel URL
+          mediaType: 1,
+          showAdAttribution: true, // Verified badge
+        },
+      },
+    });
+
+  } catch (e) {
+    // Handle errors by sending a message to the user
+    await repondre("I am unable to generate responses\n\n" + e.message);
+  }
+});
+ 
