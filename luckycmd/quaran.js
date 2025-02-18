@@ -1,8 +1,6 @@
 const { ezra } = require('../fredi/ezra');
 const axios = require('axios');
-const wiki = require('wikipedia');
 const conf = require(__dirname + "/../set");
-
 ezra({
   nomCom: "quran",
   reaction: '🤲',
@@ -12,7 +10,7 @@ ezra({
   const reference = arg.join(" ");
   
   if (!reference) {
-    return repondre("Please specify the surah number or name", {
+    return repondre("Please specify the surah number or name.", {
       contextInfo: {
         externalAdReply: {
           title: "Surah Reference Required",
@@ -27,14 +25,14 @@ ezra({
   }
   
   try {
-    const response = await axios.get(`https://quran-endpoint.vercel.app/quran/${surahData.number}`);
+    const response = await axios.get(`https://quran-endpoint.vercel.app/quran/${reference}`);
     
     if (!response.data) {
-      return repondre("Please specify the surah number or name", {
+      return repondre("Invalid surah reference. Please specify a valid surah number or name.", {
         contextInfo: {
           externalAdReply: {
             title: "Invalid Surah Reference",
-            body: "Please specify the surah number or name.",
+            body: "Please specify a valid surah number or name.",
             thumbnailUrl: "https://files.catbox.moe/zt9ie6.jpg", // Replace with a suitable thumbnail URL
             sourceUrl: conf.GURL,
             mediaType: 1,
@@ -48,12 +46,12 @@ ezra({
     const messageText = `
 ᬑ *LUCKY QURAN SURAH* ᬒ
 
-*🕌 *Quran: The Holy Book*
-📜 *Surah ${json.data.number}: ${json.data.asma.ar.long} (${json.data.asma.en.long})*
-Type: ${json.data.type.en}
-Number of verses: ${json.data.ayahCount}
-🔮 *Explanation (Urdu):* ${translatedTafsirUrdu.text}
-🔮 *Explanation (English):*\n${translatedTafsirEnglish.text}
+*🕌 Quran: The Holy Book*
+📜 Surah ${data.number}: ${data.asma.ar.long} (${data.asma.en.long})
+Type: ${data.type.en}
+Number of verses: ${data.ayahCount}
+🔮 *Explanation (Urdu):* ${data.translatedTafsirUrdu.text}
+🔮 *Explanation (English):* ${data.translatedTafsirEnglish.text}
 ╭────────────────◆
 │ *_Powered by ${conf.OWNER_NAME}*
 ╰─────────────────◆ `;
@@ -63,7 +61,7 @@ Number of verses: ${json.data.ayahCount}
       contextInfo: {
         externalAdReply: {
           title: "LUCKY MD QURAN SURAH",
-          body: `We're reading: ${data.reference}`,
+          body: `We're reading: ${data.asma.en.long}`,
           mediaType: 1,
           thumbnailUrl: "https://files.catbox.moe/zt9ie6.jpg", 
           sourceUrl: conf.GURL,
@@ -74,7 +72,7 @@ Number of verses: ${json.data.ayahCount}
     
   } catch (error) {
     console.error("Error fetching Quran passage:", error);
-    await repondre(`API request failed with status ${res.status} and message ${error.message}`, {
+    await repondre("API request failed. Please try again later.", {
       contextInfo: {
         externalAdReply: {
           title: "Error Fetching Quran Passage",
@@ -88,4 +86,3 @@ Number of verses: ${json.data.ayahCount}
     });
   }
 });
-
