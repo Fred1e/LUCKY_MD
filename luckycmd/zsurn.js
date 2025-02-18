@@ -53,8 +53,8 @@ ezra({
 📜 *Surah:* 🕌❤️${data.number}: ${data.asma.ar.long} (${data.asma.en.long})❤️🕌
 📝 *Type:* ${data.type.en}
 🏮 *Number of verses:* ${data.ayahCount}
-🔮 *Explanation (Urdu):* ${data.tafsir.urdu}
-🔮 *Explanation (English):* ${data.tafsir.en}
+🔮 *Explanation (Urdu):* ${data.tafsirurdu.id}
+🔮 *Explanation (English):* ${data.tafsirenglish.id}
 ╭────────────────◆
 │ *_Powered by ${conf.OWNER_NAME}*
 ╰─────────────────◆ `;
