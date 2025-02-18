@@ -28,7 +28,7 @@ ezra({
   }
   
   try {
-    const response = await axios.get(`https://quran-endpoint.vercel.app/quran/${reference}`);
+    const response = await axios.get(`https://quran-endpoint.vercel.app/quran/${surahData.number}`);
     
     if (response.data.status !== 200) {
       return repondre("Invalid surah reference. Please specify a valid surah number or name.", {
