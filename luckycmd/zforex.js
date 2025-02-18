@@ -47,7 +47,7 @@ ezra({
 
 ezra({
   nomCom: "forex",
-  category: "trade-place",
+  categorie: "trade-place",
   desc: "Fetches the latest forex news",
   reaction: "💲",
 }, async (dest, zk, commandeOptions) => {
@@ -84,7 +84,7 @@ ezra({
 });
 ezra({
   nomCom: "fxstatus",
-  category: "trade-place",
+  categorie: "trade-place",
   desc: "Fetches the current status of the forex market",
   reaction: "💲",
 }, async (dest, zk, commandeOptions) => {
@@ -139,7 +139,7 @@ ezra({
 ezra({
   nomCom: "fxpairs",
 aliases: ["forexpairs", "pairforex"],
-  category: "trade-place",
+  categorie: "trade-place",
   desc: "Fetches a list of active forex currency pairs",
   reaction: "💲",
 }, async (dest, zk, commandeOptions) => {
@@ -169,7 +169,7 @@ aliases: ["forexpairs", "pairforex"],
 ezra({
   nomCom: "stocktickers",
   aliases: ["stockticks", "tickets"],
-  category: "trade-place",
+  categorie: "trade-place",
   desc: "Fetches a list of active stock tickers",
   reaction: "💲",
 }, async (dest, zk, commandeOptions) => {
@@ -200,7 +200,7 @@ ezra({
 ezra({
   nomCom: "fxexchange",
   aliases: ["forexexchange", "exchangerate"],
-  category: "trade-place",
+  categorie: "trade-place",
   desc: "Fetches the latest foreign exchange rates against the US Dollar",
   reaction: "💲",
 }, async (dest, zk, commandeOptions) => {
