@@ -1,7 +1,6 @@
 const { ezra } = require('../fredi/ezra');
 const axios = require('axios');
 const conf = require(__dirname + "/../set");
-const { translate } = require('@vitalets/google-translate-api');
 
 ezra({
   nomCom: "surah",
