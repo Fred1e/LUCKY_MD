@@ -35,7 +35,7 @@ const date = moment().format('DD/MM/YYYY');
 
 let infoMsg =  `
 
-🤲🕌  ┈─• *QURAN KAREEM* •─┈  🕌🤲
+🤲🕌  ┈• *QURAN KAREEM* •┈  🕌🤲
 
  💫 𝘈𝘭𝘭 𝘴𝘶𝘳𝘢𝘩 𝘢𝘯𝘥 𝘵𝘩𝘦𝘪𝘳 𝘯𝘶𝘮𝘣𝘦𝘳𝘴 𝘭𝘪𝘴𝘵
 𝘧𝘰𝘳 𝘨𝘦𝘵𝘵𝘪𝘯𝘨 𝘴𝘶𝘳𝘢𝘩 𝘵𝘺𝘱𝘦 ${s.PREFIXE}quran 57 OR ${s.PREFIXE}surah 57 💫🌸 
