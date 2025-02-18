@@ -1,7 +1,6 @@
 const { ezra } = require('../fredi/ezra');
 const axios = require('axios');
 const conf = require(__dirname + "/../set");
-const fetch = require('node-fetch'); 
 const { translate } = require('@vitalets/google-translate-api');
 
 ezra({
@@ -51,11 +50,11 @@ ezra({
 ᬑ *LUCKY QURAN SURAH* ᬒ
 
 *🕌 Quran: The Holy Book*
-📜 Surah ${data.number}: ${data.asma.ar.long} (${data.asma.en.long})
-Type: ${data.type.en}
-Number of verses: ${data.ayahCount}
-🔮 *Explanation (Urdu):* ${data.translatedTafsirUrdu.text}
-🔮 *Explanation (English):* ${data.translatedTafsirEnglish.text}
+📜 *Surah:* 🕌❤️${data.number}: ${data.asma.ar.long} (${data.asma.en.long})❤️🕌
+📝 *Type:* ${data.type.en}
+🏮 *Number of verses:* ${data.ayahCount}
+🔮 *Explanation (Urdu):* ${data.tafsir.urdu}
+🔮 *Explanation (English):* ${data.tafsir.en}
 ╭────────────────◆
 │ *_Powered by ${conf.OWNER_NAME}*
 ╰─────────────────◆ `;
@@ -64,7 +63,7 @@ Number of verses: ${data.ayahCount}
       text: messageText,
       contextInfo: {
         externalAdReply: {
-          title: "LUCKY MD QURAN SURAH",
+          title: "LUCKY QURAN SURAH",
           body: `We're reading: ${data.asma.en.long}`,
           mediaType: 1,
           thumbnailUrl: conf.URL, 
@@ -81,7 +80,7 @@ Number of verses: ${data.ayahCount}
         externalAdReply: {
           title: "Error Fetching Quran Passage",
           body: "Please try again later.",
-          thumbnailUrl: conf.URL, // Replace with a suitable thumbnail URL
+          thumbnailUrl: "https://files.catbox.moe/058ggv.jpg", // Replace with a suitable thumbnail URL
           sourceUrl: conf.GURL,
           mediaType: 1,
           showAdAttribution: true,
