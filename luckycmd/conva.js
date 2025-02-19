@@ -54,4 +54,4 @@ createCanvacordCommand("affect", canvacord.Canvacord.affect);
    createCanvacordCommand("circle", canvacord.Canvacord.circle);
         createCanvacordCommand("facepalm", canvacord.Canvacord.facepalm);
         createCanvacordCommand("greyscale", canvacord.Canvacord.greyscale);
-        createCanvacordCommand("joke", canvacord.Canvacord.jokeOverHead);
+        createCanvacordCommand("jokes", canvacord.Canvacord.jokeOverHead);
