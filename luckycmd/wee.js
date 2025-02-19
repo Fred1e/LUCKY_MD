@@ -137,7 +137,75 @@ ezra({nomCom:"couplepp",categorie: "Weeb",reaction : "💞"},async(dest,zk,comma
     zk.sendMessage(dest, { image: { url: result.data.male }, caption: `For Man` }, { quoted: ms })
         zk.sendMessage(dest, { image: { url: result.data.female }, caption: `_For woman_` }, { quoted: ms })
     
-  } catch (e) { repondre(e)}                                                                                        
+  } catch (e) { repondre(e)}                                                                         
+  })
   
-}
-      )
+  
+  // command mizuhara character 
+ezra({
+  nomCom: "mizuhara",
+  categorie: "Weeb",
+  reaction: "🦋"
+},
+async (origineMessage, zk, commandeOptions) => {
+  const { repondre, ms } = commandeOptions;
+
+  const url = 'https://weeb-api.vercel.app/character'; // Remplacez avec le lien réel de l'API weeb.pics ou une autre API avec des images de Shinobu
+
+  try {
+    for (let i = 0; i < 5; i++) {
+      const response = await axios.get(url);
+      const imageUrl = response.data.url;
+
+      zk.sendMessage(origineMessage, { image: { url: imageUrl } }, { quoted: ms });
+    }
+  } catch (error) {
+    repondre('Error occurred while retrieving the data. :', error);
+  }
+});
+
+ // command for loli
+ ezra({
+  nomCom: "loli",
+  categorie: "Weeb",
+  reaction: "🦋"
+},
+async (origineMessage, zk, commandeOptions) => {
+  const { repondre, ms } = commandeOptions;
+
+  const url = 'https://weeb-api.vercel.app/loli'; // Remplacez avec le lien réel de l'API weeb.pics ou une autre API avec des images de Shinobu
+
+  try {
+    for (let i = 0; i < 5; i++) {
+      const response = await axios.get(url);
+      const imageUrl = response.data.url;
+
+      zk.sendMessage(origineMessage, { image: { url: imageUrl } }, { quoted: ms });
+    }
+  } catch (error) {
+    repondre('Error occurred while retrieving the data. :', error);
+  }
+});
+
+ // command for manga
+ ezra({
+  nomCom: "manga",
+  categorie: "Weeb",
+  reaction: "🦋"
+},
+async (origineMessage, zk, commandeOptions) => {
+  const { repondre, ms } = commandeOptions;
+
+  const url = 'https://weeb-api.vercel.app/manga'; // Remplacez avec le lien réel de l'API weeb.pics ou une autre API avec des images de Shinobu
+
+  try {
+    for (let i = 0; i < 5; i++) {
+      const response = await axios.get(url);
+      const imageUrl = response.data.url;
+
+      zk.sendMessage(origineMessage, { image: { url: imageUrl } }, { quoted: ms });
+    }
+  } catch (error) {
+    repondre('Error occurred while retrieving the data. :', error);
+  }
+});
