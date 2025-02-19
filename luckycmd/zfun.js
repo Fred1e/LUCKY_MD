@@ -42,7 +42,7 @@ ezra({
   const { repondre } = context;
 
   try {
-    const apiUrl = "https://official-joke-api.appspot.com/random_joke";
+    const apiUrl = "https://v2.jokeapi.dev/joke/Any?type=single";
     const response = await axios.get(apiUrl);
     const data = response.data;
 
