@@ -28,7 +28,21 @@ ezra({
       text += `*Match Started:* ${data.data[i].matchStarted}\n`;
       text += `*Match Ended:* ${data.data[i].matchEnded}\n\n`;
     }
-
+    // Send the playlist message
+    await zk.sendMessage(dest, {
+      text: messageText,
+      contextInfo: {
+        externalAdReply: {
+          title: "LUCKY CRICKET 🏏 UPDATE",
+          body: `Enjoy sports update in lucky md`,
+          mediaType: 1,
+          thumbnailUrl: conf.URL, 
+          sourceUrl: conf.GURL,
+          showAdAttribution: true, 
+        },
+      },
+    }, { quoted: ms });
+      
     return repondre(text, { quoted: ms });
   } catch (error) {
     console.error("*_Uhh dear, Did not get any results!_*", error);
