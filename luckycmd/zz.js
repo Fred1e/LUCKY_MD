@@ -74,7 +74,7 @@ ezra({
       {
        caption: `\n*LUCKY MD AUDIOS*\n
 ╭┈┈┈⊷
-┊ *Title:* ${songTitle} 
+┊ *Title:* ${videoDetails.title} 
 ┊ *Quality:* High
 ┊ *Duration:* ${firstVideo.timestamp}
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
@@ -98,7 +98,7 @@ ezra({
       {
        caption: `\n*LUCKY MD AUDIOS*\n
 ╭┈┈┈⊷
-┊ *Title:* ${songTitle} 
+┊ *Title:* ${videoDetails.title} 
 ┊ *Quality:* High
 ┊ *Duration:* ${firstVideo.timestamp}
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
@@ -122,7 +122,7 @@ ezra({
       {
        caption: `\n*LUCKY MD AUDIOS*\n
 ╭┈┈┈⊷
-┊ *Title:* ${songTitle} 
+┊ *Title:* ${videoDetails.title} 
 ┊ *Quality:* High
 ┊ *Duration:* ${firstVideo.timestamp}
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
@@ -204,7 +204,7 @@ ezra({
       {
        caption: `\n*LUCKY MD VIDEOS*\n
 ╭┈┈┈⊷
-┊ *Title:* ${songTitle} 
+┊ *Title:* ${videoDetails.title} 
 ┊ *Quality:* High
 ┊ *Duration:* ${firstVideo.timestamp}
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
@@ -228,7 +228,7 @@ ezra({
       {
        caption: `\n*LUCKY MD VIDEOS*\n
 ╭┈┈┈⊷
-┊ *Title:* ${songTitle} 
+┊ *Title:* ${videoDetails.title} 
 ┊ *Quality:* High
 ┊ *Duration:* ${firstVideo.timestamp}
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
