@@ -1,7 +1,7 @@
 const { ezra } = require("../fredi/ezra");
 const axios = require("axios");
 
-ezra({ nomCom: "logo", categorie: "Search", reaction: "🍂" }, async (dest, zk, commandeOptions) => {
+ezra({ nomCom: "logo", categorie: "Search", reaction: "🤭" }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, arg } = commandeOptions;
   const text = arg.join(" ");
 
