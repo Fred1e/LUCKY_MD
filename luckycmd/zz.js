@@ -3,7 +3,7 @@ const axios = require('axios');
 const ytSearch = require('yt-search');
 const conf = require(__dirname + '/../set');const { Catbox } = require("node-catbox");
 const fs = require('fs-extra');
-const { toAudio } = require("../fredi/converter");
+const { toAudio } = require("../fredi/converting");
 const { downloadAndSaveMediaMessage } = require('@whiskeysockets/baileys');
 
 // Initialize Catbox
