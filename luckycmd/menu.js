@@ -139,7 +139,8 @@ ezra({ nomCom: "menu", aliases: ["liste", "helplist", "commandlist"], categorie:
 *${randomQuote}*
 
 ╭═ 〔 *${settings.BOT}* 〕═┈⊷
-┣◆ *ʙᴏᴛ ᴏᴡɴᴇʀ:* ${settings.OWNER_NAME} ┣ *ᴘʀᴇғɪx:* *[ ${settings.PREFIXE} ]*
+┣◆ *ʙᴏᴛ ᴏᴡɴᴇʀ:* ${settings.OWNER_NAME} 
+┣◆ *ᴘʀᴇғɪx:* *[ ${settings.PREFIXE} ]*
 ┣◆ *ᴛɪᴍᴇ:* ${formattedTime}
 ┣◆ *ᴄᴏᴍᴍᴀɴᴅꜱ:* ${commands.length} 
 ┣◆ *ᴅᴀᴛᴇ:* ${formattedDate}
