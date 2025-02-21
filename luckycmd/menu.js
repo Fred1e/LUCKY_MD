@@ -162,12 +162,12 @@ ezra({ nomCom: "menu", aliases: ["liste", "helplist", "commandlist"], categorie:
     let commandIndex = 1;
 
     for (const category of sortedCategories) {
-        commandsList += `\n*╭═「 ${toFancyUppercaseFont(category)} 」═┈⊷*\n│▸╭───────────────`;
+        commandsList += `\n*╭┈「 ${toFancyUppercaseFont(category)} 」┈⊷*\n│⊷╭┈┈┈┈┈┈┈┈┈┈┈⊷`;
         const sortedCommands = categorizedCommands[category].sort();
         for (const command of sortedCommands) {
-            commandsList += `\n│✧ ${commandIndex++}. ${toFancyLowercaseFont(command)}`;
+            commandsList += `\n┊▸ ${commandIndex++}. ${toFancyLowercaseFont(command)}`;
         }
-        commandsList += "\n│▸╰─────────────\n╰══════════════┈⊷\n";
+        commandsList += "\n│⊷╰┈┈┈┈┈┈┈┈┈┈┈⊷\n╰┈\n";
     }
 
     commandsList += readMore + "\nworld of fredi we are happy\n";
