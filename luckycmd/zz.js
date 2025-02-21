@@ -74,11 +74,10 @@ ezra({
       {
        caption: `\n*LUCKY MD AUDIOS*\n
 ╭┈┈┈⊷
-┊ *Title:* ${videoDetails.title} 
+┊ *LUCKY MD*
 ┊ *Quality:* High
-┊ *Duration:* ${firstVideo.timestamp}
+┊ *stay using lucky*
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
-⦿ *Direct YtLink:* ${videoUrl}
 
 > regards frediezra`,
         audio: { url: downloadUrl },
@@ -98,11 +97,10 @@ ezra({
       {
        caption: `\n*LUCKY MD AUDIOS*\n
 ╭┈┈┈⊷
-┊ *Title:* ${videoDetails.title} 
+┊ *LUCKY MD*
 ┊ *Quality:* High
-┊ *Duration:* ${firstVideo.timestamp}
+┊ *stay using lucky*
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
-⦿ *Direct YtLink:* ${videoUrl}
 
 > regards frediezra`,
         document: { url: downloadUrl },
@@ -122,11 +120,10 @@ ezra({
       {
        caption: `\n*LUCKY MD AUDIOS*\n
 ╭┈┈┈⊷
-┊ *Title:* ${videoDetails.title} 
+┊ *LUCKY MD*
 ┊ *Quality:* High
-┊ *Duration:* ${firstVideo.timestamp}
+┊ *stay using lucky*
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
-⦿ *Direct YtLink:* ${videoUrl}
 
 > regards frediezra`,
         document: { url: downloadUrl },
@@ -204,11 +201,10 @@ ezra({
       {
        caption: `\n*LUCKY MD VIDEOS*\n
 ╭┈┈┈⊷
-┊ *Title:* ${videoDetails.title} 
+┊ *LUCKY MD*
 ┊ *Quality:* High
-┊ *Duration:* ${firstVideo.timestamp}
+┊ *stay using lucky*
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
-⦿ *Direct YtLink:* ${videoUrl}
 
 > regards frediezra`,
         video: { url: downloadUrl },
@@ -228,11 +224,10 @@ ezra({
       {
        caption: `\n*LUCKY MD VIDEOS*\n
 ╭┈┈┈⊷
-┊ *Title:* ${videoDetails.title} 
+┊ *LUCKY MD*
 ┊ *Quality:* High
-┊ *Duration:* ${firstVideo.timestamp}
+┊ *stay using lucky*
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
-⦿ *Direct YtLink:* ${videoUrl}
 
 > regards frediezra`,
         document: { url: downloadUrl },
