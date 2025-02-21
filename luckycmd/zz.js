@@ -72,14 +72,6 @@ ezra({
     // Prepare the message payload with external ad details
     const messagePayloads = [
       {
-       caption: `\n*LUCKY MD AUDIOS*\n
-╭┈┈┈⊷
-┊ *LUCKY MD*
-┊ *Quality:* High
-┊ *stay using lucky*
-╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
-
-> regards frediezra`,
         audio: { url: downloadUrl },
         mimetype: 'audio/mp4',
         contextInfo: {
@@ -95,14 +87,6 @@ ezra({
         },
       },
       {
-       caption: `\n*LUCKY MD AUDIOS*\n
-╭┈┈┈⊷
-┊ *LUCKY MD*
-┊ *Quality:* High
-┊ *stay using lucky*
-╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
-
-> regards frediezra`,
         document: { url: downloadUrl },
         mimetype: 'audio/mpeg',
         contextInfo: {
@@ -118,14 +102,6 @@ ezra({
         },
       },
       {
-       caption: `\n*LUCKY MD AUDIOS*\n
-╭┈┈┈⊷
-┊ *LUCKY MD*
-┊ *Quality:* High
-┊ *stay using lucky*
-╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
-
-> regards frediezra`,
         document: { url: downloadUrl },
         mimetype: 'audio/mp4',
         contextInfo: {
@@ -199,14 +175,6 @@ ezra({
     // Prepare the message payload with external ad details
     const messagePayloads = [
       {
-       caption: `\n*LUCKY MD VIDEOS*\n
-╭┈┈┈⊷
-┊ *LUCKY MD*
-┊ *Quality:* High
-┊ *stay using lucky*
-╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
-
-> regards frediezra`,
         video: { url: downloadUrl },
         mimetype: 'video/mp4',
         contextInfo: {
@@ -222,14 +190,6 @@ ezra({
         },
       },
       {
-       caption: `\n*LUCKY MD VIDEOS*\n
-╭┈┈┈⊷
-┊ *LUCKY MD*
-┊ *Quality:* High
-┊ *stay using lucky*
-╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
-
-> regards frediezra`,
         document: { url: downloadUrl },
         mimetype: 'video/mp4',
         contextInfo: {
