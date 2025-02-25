@@ -1,9 +1,9 @@
 const { ezra } = require("../fredi/ezra");
 const axios = require('axios');
 const ytSearch = require('yt-search');
-const conf = require(__dirname + '/../set');const { Catbox } = require("node-catbox");
+const conf = require(__dirname + '/../set');
+const { Catbox } = require("node-catbox");
 const fs = require('fs-extra');
-const { toAudio } = require("../fredi/converting");
 const { downloadAndSaveMediaMessage } = require('@whiskeysockets/baileys');
 
 // Initialize Catbox
@@ -25,10 +25,7 @@ async function uploadToCatbox(filePath) {
     throw new Error(String(error));
   }
 }
-
 // Define the command with aliases for play
-
-
 ezra({
   nomCom: "play",
   aliases: ["song", "playdoc", "audio", "mp3"],
@@ -39,7 +36,7 @@ ezra({
 
   // Check if a query is provided
   if (!arg[0]) {
-    return repondre("Please provide a audio name.");
+    return repondre("Please provide a song name.");
   }
 
   const query = arg.join(" ");
@@ -50,33 +47,63 @@ ezra({
 
     // Check if any videos were found
     if (!searchResults || !searchResults.videos.length) {
-      return repondre('No video found for the specified query.');
+      return repondre('No song found for the specified query.');
     }
 
     const firstVideo = searchResults.videos[0];
     const videoUrl = firstVideo.url;
 
-    // Fetch download data from the provided API
-    const apiUrl = `https://bk9.fun/download/youtube?url=${encodeURIComponent(videoUrl)}`;
-    const response = await axios.get(apiUrl);
-    const downloadData = response.data;
+    // Function to get download data from APIs
+    const getDownloadData = async (url) => {
+      try {
+        const response = await axios.get(url);
+        return response.data;
+      } catch (error) {
+        console.error('Error fetching data from API:', error);
+        return { success: false };
+      }
+    };
 
-    // Check if a valid download URL was found
-    if (!downloadData || !downloadData.BK9 || !downloadData.BK9.BK8 || !downloadData.BK9.BK8.length) {
-      return repondre('Failed to retrieve download URL from the source. Please try again later.');
+    // List of APIs to try
+    const apis = [
+      `https://api-rin-tohsaka.vercel.app/download/ytmp4?url=${encodeURIComponent(videoUrl)}`,
+      `https://apis.davidcyriltech.my.id/download/ytmp3?url=${encodeURIComponent(videoUrl)}`,
+      `https://www.dark-yasiya-api.site/download/ytmp3?url=${encodeURIComponent(videoUrl)}`,
+      `https://api.giftedtech.web.id/api/download/dlmp3?url=${encodeURIComponent(videoUrl)}&apikey=gifted-md`,
+      `https://api.dreaded.site/api/ytdl/audio?url=${encodeURIComponent(videoUrl)}`
+    ];
+
+    let downloadData;
+    for (const api of apis) {
+      downloadData = await getDownloadData(api);
+      if (downloadData && downloadData.success) break;
     }
 
-    const downloadUrl = downloadData.BK9.BK8[0].link;
-    const videoDetails = downloadData.BK9;
+    // Check if a valid download URL was found
+    if (!downloadData || !downloadData.success) {
+      return repondre('Failed to retrieve download URL from all sources. Please try again later.');
+    }
+
+    const downloadUrl = downloadData.result.download_url;
+    const videoDetails = downloadData.result;
 
     // Prepare the message payload with external ad details
     const messagePayloads = [
       {
+      caption: `\n*LUCKY MD AUDIOS*\n
+╭┈┈┈⊷
+┊ *Title:* ${songTitle} 
+┊ *Quality:* High
+┊ *Duration:* ${firstVideo.timestamp}
+╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
+🌐 *Direct YtLink:* ${videoUrl}
+
+> regards frediezra`,
         audio: { url: downloadUrl },
         mimetype: 'audio/mp4',
         contextInfo: {
           externalAdReply: {
-            title: videoDetails.title,
+            title: conf.BOT,
             body: videoDetails.title,
             mediaType: 1,
             sourceUrl: conf.GURL,
@@ -87,11 +114,20 @@ ezra({
         },
       },
       {
+      caption: `\n*LUCKY MD AUDIOS*\n
+╭┈┈┈⊷
+┊ *Title:* ${songTitle} 
+┊ *Quality:* High
+┊ *Duration:* ${firstVideo.timestamp}
+╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
+🌐 *Direct YtLink:* ${videoUrl}
+
+> regards frediezra`,
         document: { url: downloadUrl },
         mimetype: 'audio/mpeg',
         contextInfo: {
           externalAdReply: {
-            title: videoDetails.title,
+            title: conf.BOT,
             body: videoDetails.title,
             mediaType: 1,
             sourceUrl: conf.GURL,
@@ -102,11 +138,20 @@ ezra({
         },
       },
       {
+      caption: `\n*LUCKY MD AUDIOS*\n
+╭┈┈┈⊷
+┊ *Title:* ${songTitle} 
+┊ *Quality:* High
+┊ *Duration:* ${firstVideo.timestamp}
+╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
+🌐 *Direct YtLink:* ${videoUrl}
+
+> regards frediezra`,
         document: { url: downloadUrl },
         mimetype: 'audio/mp4',
         contextInfo: {
           externalAdReply: {
-            title: videoDetails.title,
+            title: conf.BOT,
             body: videoDetails.title,
             mediaType: 1,
             sourceUrl: conf.GURL,
@@ -129,9 +174,7 @@ ezra({
   }
 });
 
-
-
-
+// Define the command with aliases for video
 ezra({
   nomCom: "video",
   aliases: ["videodoc", "film", "mp4"],
@@ -159,27 +202,57 @@ ezra({
     const firstVideo = searchResults.videos[0];
     const videoUrl = firstVideo.url;
 
-    // Fetch download data from the provided API
-    const apiUrl = `https://bk9.fun/download/youtube?url=${encodeURIComponent(videoUrl)}`;
-    const response = await axios.get(apiUrl);
-    const downloadData = response.data;
+    // Function to get download data from APIs
+    const getDownloadData = async (url) => {
+      try {
+        const response = await axios.get(url);
+        return response.data;
+      } catch (error) {
+        console.error('Error fetching data from API:', error);
+        return { success: false };
+      }
+    };
 
-    // Check if a valid download URL was found
-    if (!downloadData || !downloadData.BK9 || !downloadData.BK9.BK8 || !downloadData.BK9.BK8.length) {
-      return repondre('Failed to retrieve download URL from the source. Please try again later.');
+    // List of APIs to try
+    const apis = [
+      `https://api-rin-tohsaka.vercel.app/download/ytmp4?url=${encodeURIComponent(videoUrl)}`,
+      `https://apis.davidcyriltech.my.id/download/ytmp4?url=${encodeURIComponent(videoUrl)}`,
+      `https://www.dark-yasiya-api.site/download/ytmp4?url=${encodeURIComponent(videoUrl)}`,
+      `https://api.giftedtech.web.id/api/download/dlmp4?url=${encodeURIComponent(videoUrl)}&apikey=gifted-md`,
+      `https://api.dreaded.site/api/ytdl/video?url=${encodeURIComponent(videoUrl)}`
+    ];
+
+    let downloadData;
+    for (const api of apis) {
+      downloadData = await getDownloadData(api);
+      if (downloadData && downloadData.success) break;
     }
 
-    const downloadUrl = downloadData.BK9.BK8[0].link;
-    const videoDetails = downloadData.BK9;
+    // Check if a valid download URL was found
+    if (!downloadData || !downloadData.success) {
+      return repondre('Failed to retrieve download URL from all sources. Please try again later.');
+    }
+
+    const downloadUrl = downloadData.result.download_url;
+    const videoDetails = downloadData.result;
 
     // Prepare the message payload with external ad details
     const messagePayloads = [
       {
+      caption: `\n*LUCKY MD VIDEOS*\n
+╭┈┈┈⊷
+┊ *Title:* ${songTitle} 
+┊ *Quality:* High
+┊ *Duration:* ${firstVideo.timestamp}
+╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
+🌐 *Direct YtLink:* ${videoUrl}
+
+> regards frediezra`,
         video: { url: downloadUrl },
         mimetype: 'video/mp4',
         contextInfo: {
           externalAdReply: {
-            title: videoDetails.title,
+            title: conf.BOT,
             body: videoDetails.title,
             mediaType: 1,
             sourceUrl: conf.GURL,
@@ -190,11 +263,20 @@ ezra({
         },
       },
       {
+      caption: `\n*LUCKY MD VIDEOS*\n
+╭┈┈┈⊷
+┊ *Title:* ${songTitle} 
+┊ *Quality:* High
+┊ *Duration:* ${firstVideo.timestamp}
+╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
+🌐 *Direct YtLink:* ${videoUrl}
+
+> regards frediezra`,
         document: { url: downloadUrl },
         mimetype: 'video/mp4',
         contextInfo: {
           externalAdReply: {
-            title: videoDetails.title,
+            title: conf.BOT,
             body: videoDetails.title,
             mediaType: 1,
             sourceUrl: conf.GURL,
@@ -217,9 +299,10 @@ ezra({
   }
 });
 
+
 // Command to upload image, video, or audio file
 ezra({
-  'nomCom': 'url2025',       // Command to trigger the function
+  'nomCom': 'tourl',       // Command to trigger the function
   'categorie': "download", // Command category
   'reaction': '👨🏿‍💻'    // Reaction to use on command
 }, async (groupId, client, context) => {
@@ -269,42 +352,5 @@ else if (msgRepondu.documentMessage) {
   } catch (error) {
     console.error("Error while creating your URL:", error);
     repondre("Oops, there was an error.");
-  }
-});
-
-
-ezra({
-  nomCom: "toaudio",
-  aliases: ["convertaudio", "audioconvert"],
-  reaction: '🤦',
-  categorie: "download"
-}, async (dest, zk, commandeOptions) => {
-  const { repondre, msgRepondu, auteurMessage, arg } = commandeOptions;
-  
-  if (msgRepondu) {
-    
-    if (msgRepondu.videoMessage) {
-      try {
-        // Download and save the video
-        let media = await zk.downloadAndSaveMediaMessage(msgRepondu.videoMessage);
-
-        let audioBuffer = await toAudio(media, 'mp4');
-
-    
-        await zk.sendMessage(dest, {
-          audio: audioBuffer,
-          mimetype: 'audio/mp3'
-        }, { quoted: msgRepondu });
-
-        await repondre("Video has been successfully converted to audio.");
-      } catch (error) {
-        console.error("Error converting video to audio:", error);
-        await repondre("Failed to convert video to audio. Please try again." + error );
-      }
-    } else {
-      await repondre("Please reply to a video message to convert it to audio.");
-    }
-  } else {
-    await repondre("Please reply to a video message to convert it to audio.");
   }
 });
