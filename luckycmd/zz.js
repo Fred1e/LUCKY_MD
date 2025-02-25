@@ -92,11 +92,11 @@ ezra({
       {
       caption: `\n*LUCKY MD AUDIOS*\n
 ╭┈┈┈⊷
-┊ *Title:* ${songTitle} 
+┊ *Made:* in Arusha Tanzania 
 ┊ *Quality:* High
-┊ *Duration:* ${firstVideo.timestamp}
+┊ *Powered:* by FrediEtech 
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
-🌐 *Direct YtLink:* ${videoUrl}
+🌐 *Bot Repo:* https://github.com/Fred1e/LUCKY_MD
 
 > regards frediezra`,
         audio: { url: downloadUrl },
@@ -116,11 +116,11 @@ ezra({
       {
       caption: `\n*LUCKY MD AUDIOS*\n
 ╭┈┈┈⊷
-┊ *Title:* ${songTitle} 
+┊ *Made:* in Arusha Tanzania 
 ┊ *Quality:* High
-┊ *Duration:* ${firstVideo.timestamp}
+┊ *Powered:* by FrediEtech 
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
-🌐 *Direct YtLink:* ${videoUrl}
+🌐 *Bot Repo:* https://github.com/Fred1e/LUCKY_MD
 
 > regards frediezra`,
         document: { url: downloadUrl },
@@ -140,11 +140,11 @@ ezra({
       {
       caption: `\n*LUCKY MD AUDIOS*\n
 ╭┈┈┈⊷
-┊ *Title:* ${songTitle} 
+┊ *Made:* in Arusha Tanzania 
 ┊ *Quality:* High
-┊ *Duration:* ${firstVideo.timestamp}
+┊ *Powered:* by FrediEtech 
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
-🌐 *Direct YtLink:* ${videoUrl}
+🌐 *Bot Repo:* https://github.com/Fred1e/LUCKY_MD
 
 > regards frediezra`,
         document: { url: downloadUrl },
@@ -239,13 +239,13 @@ ezra({
     // Prepare the message payload with external ad details
     const messagePayloads = [
       {
-      caption: `\n*LUCKY MD VIDEOS*\n
+      caption: `\n*LUCKY MD AUDIOS*\n
 ╭┈┈┈⊷
-┊ *Title:* ${songTitle} 
+┊ *Made:* in Arusha Tanzania 
 ┊ *Quality:* High
-┊ *Duration:* ${firstVideo.timestamp}
+┊ *Powered:* by FrediEtech 
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
-🌐 *Direct YtLink:* ${videoUrl}
+🌐 *Bot Repo:* https://github.com/Fred1e/LUCKY_MD
 
 > regards frediezra`,
         video: { url: downloadUrl },
@@ -263,13 +263,13 @@ ezra({
         },
       },
       {
-      caption: `\n*LUCKY MD VIDEOS*\n
+      caption: `\n*LUCKY MD AUDIOS*\n
 ╭┈┈┈⊷
-┊ *Title:* ${songTitle} 
+┊ *Made:* in Arusha Tanzania 
 ┊ *Quality:* High
-┊ *Duration:* ${firstVideo.timestamp}
+┊ *Powered:* by FrediEtech 
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
-🌐 *Direct YtLink:* ${videoUrl}
+🌐 *Bot Repo:* https://github.com/Fred1e/LUCKY_MD
 
 > regards frediezra`,
         document: { url: downloadUrl },
