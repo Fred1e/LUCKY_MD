@@ -1,4 +1,7 @@
 const { ezra } = require("fredi/ezra");
+const moment = require("moment-timezone");
+const { getBuffer } = require("../fredi/dl/Function");
+const { default: axios } = require('axios');
 
 ezra(
  {
@@ -9,13 +12,13 @@ ezra(
   fromMe: true,
  },
  async (dest, zk, commandeOptions) => {
-  console.log("Forward command triggered!");
+  console.log("Forward command received!"); // Debugging command execution
 
   const { ms, repondre, arg } = commandeOptions;
 
   if (!ms) {
     console.error("No message object received.");
-    return;
+    return await repondre("Error: No message detected.");
   }
 
   if (!ms.quoted) {
@@ -33,7 +36,7 @@ ezra(
 
   for (let jid of jids) {
    try {
-    await zk.sendMessage(jid, { forward: message.quoted });
+    await zk.sendMessage(jid, { forward: ms.quoted }); // Fixed reference
     console.log(`Message forwarded to: ${jid}`);
    } catch (err) {
     console.error(`Error forwarding to ${jid}:`, err);
