@@ -1,11 +1,4 @@
-const { ezra } = require("fredi/ezra");
-const moment = require("moment-timezone");
-const { getBuffer } = require("../fredi/dl/Function");
-const { default: axios } = require('axios');
-
-const parsedJid = (jidString) => {
-    return jidString.split(",").map(jid => jid.trim());
-};
+const { ezra } = require ("fredi/ezra");
 
 ezra(
  {
@@ -13,17 +6,27 @@ ezra(
   categorie: "mod",
   desc: "Forwards the replied message",
   reaction: "🔎",
-  fromMe: true, // Changed to boolean
+  fromMe: true,
  },
- async (message, match) => {
-  if (!message.quoted) return await message.reply("Reply to a message first!");
-  if (!match) return await message.reply("*Provide a JID; use 'getallmembers' command to get JID*");
+ async (dest, zk, commandeOptions) => {
+  const { ms: message, repondre, arg: match } = commandeOptions;
 
-  let jids = parsedJid(match);
+  console.log("Command received:", match);
+  
+  if (!message.quoted) return await repondre("Reply to a message first!");
+  if (!match) return await repondre("*Provide a JID; use 'getallmembers' command to get JID*");
+
+  let jids = match.split(",").map(jid => jid.trim()); // Parse JIDs
+  console.log("Forwarding to:", jids);
+
   for (let jid of jids) {
-   await message.client.forwardMessage(jid, message.quoted.message); // Fixed message reference
+   try {
+    await zk.sendMessage(jid, { forward: message.quoted });
+   } catch (err) {
+    console.error("Error forwarding message to", jid, err);
+   }
   }
 
-  await message.reply("_Message forwarded_");
+  await repondre("_Message forwarded_");
  }
 );
