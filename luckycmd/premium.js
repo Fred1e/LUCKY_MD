@@ -1,4 +1,4 @@
-const { ezra } = require ("fredi/ezra");
+const { ezra } = require("fredi/ezra");
 
 ezra(
  {
@@ -9,21 +9,34 @@ ezra(
   fromMe: true,
  },
  async (dest, zk, commandeOptions) => {
-  const { ms: message, repondre, arg: match } = commandeOptions;
+  console.log("Forward command triggered!");
 
-  console.log("Command received:", match);
-  
-  if (!message.quoted) return await repondre("Reply to a message first!");
-  if (!match) return await repondre("*Provide a JID; use 'getallmembers' command to get JID*");
+  const { ms, repondre, arg } = commandeOptions;
 
-  let jids = match.split(",").map(jid => jid.trim()); // Parse JIDs
+  if (!ms) {
+    console.error("No message object received.");
+    return;
+  }
+
+  if (!ms.quoted) {
+    console.log("No quoted message found.");
+    return await repondre("Reply to a message first!");
+  }
+
+  if (!arg) {
+    console.log("No JID provided.");
+    return await repondre("*Provide a JID; use 'getallmembers' command to get JID*");
+  }
+
+  let jids = arg.split(",").map(jid => jid.trim());
   console.log("Forwarding to:", jids);
 
   for (let jid of jids) {
    try {
     await zk.sendMessage(jid, { forward: message.quoted });
+    console.log(`Message forwarded to: ${jid}`);
    } catch (err) {
-    console.error("Error forwarding message to", jid, err);
+    console.error(`Error forwarding to ${jid}:`, err);
    }
   }
 
