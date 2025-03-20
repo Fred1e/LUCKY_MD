@@ -1,41 +1,29 @@
-const { ezra } = require("../fredi/ezra");
+const { ezra } = require("fredi/ezra");
+const moment = require("moment-timezone");
+const { getBuffer } = require("../fredi/dl/Function");
+const { default: axios } = require('axios');
+
+const parsedJid = (jidString) => {
+    return jidString.split(",").map(jid => jid.trim());
+};
 
 ezra(
-  {
-    nomCom: "forward",
-    categorie: "mod",
-    desc: "Forwards the replied message to a given JID",
-    reaction: "🔎",
-    fromMe: true, 
-  },
-  async (dest, zk, commandeOptions) => {
-    const { ms, repondre, arg } = commandeOptions;
+ {
+  nomCom: "forward",
+  categorie: "mod",
+  desc: "Forwards the replied message",
+  reaction: "🔎",
+  fromMe: true, // Changed to boolean
+ },
+ async (message, match) => {
+  if (!message.quoted) return await message.reply("Reply to a message first!");
+  if (!match) return await message.reply("*Provide a JID; use 'getallmembers' command to get JID*");
 
-    // Debugging
-    console.log("DEBUG: ms.quoted", ms.quoted);
-    console.log("DEBUG: commandeOptions", commandeOptions);
-
-    // Get quoted message safely
-    const quotedMessage = ms.quoted || ms.message?.extendedTextMessage?.contextInfo?.quotedMessage;
-
-    if (!quotedMessage) return repondre("❌ Reply to a message to forward it.");
-
-    if (!arg || (Array.isArray(arg) && arg.length === 0) || (typeof arg === "string" && arg.trim() === "")) { 
-      return repondre("❌ Provide a valid JID.");
-    }
-
-    let jids = (Array.isArray(arg) ? arg : [arg]).map(jid => 
-      jid.includes("@s.whatsapp.net") || jid.includes("@g.us") ? jid : `${jid}@s.whatsapp.net`
-    );
-
-    try {
-      for (let jid of jids) {
-        await zk.sendMessage(jid, { forward: quotedMessage, forwardingScore: 1, isForwarded: true });
-      }
-      repondre("_✅ Message forwarded successfully._");
-    } catch (error) {
-      console.error("❌ Error forwarding message:", error);
-      repondre("❌ Failed to forward the message.");
-    }
+  let jids = parsedJid(match);
+  for (let jid of jids) {
+   await message.client.forwardMessage(jid, message.quoted.message); // Fixed message reference
   }
+
+  await message.reply("_Message forwarded_");
+ }
 );
