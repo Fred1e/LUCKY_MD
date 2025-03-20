@@ -30,17 +30,6 @@ ezra({
   fromMe: true,
 }, async (dest, zk, commandOptions) => {
   const { repondre, ms } = commandOptions;
-
-  // Send the main menu to the user
-  const buttonMessage = {
-    text: "🏀 *NBA Updates*\nChoose an option by typing the corresponding number:\n\n1. Live Matches\n2. NBA Standings\n3. Top Scorers\n4. Upcoming Games",
-    footer: "LUCKY MD",
-    headerType: 1
-  };
-
-  await zk.sendMessage(ms.chat, buttonMessage);
-
-  // Wait for user's response (number selection)
   const userSelection = ms.body;  // User input, number to choose the option
 
   if (!userSelection) return await repondre("Please choose an option by typing a number!");
