@@ -1,1 +1,103 @@
-const _0x4a6e62=_0xfd8f;(function(_0x158891,_0x34b160){const _0x8638ff=_0xfd8f,_0x169fb1=_0x158891();while(!![]){try{const _0x47e20e=-parseInt(_0x8638ff(0x1c3))/0x1*(parseInt(_0x8638ff(0x1c4))/0x2)+parseInt(_0x8638ff(0x1ab))/0x3*(parseInt(_0x8638ff(0x1b8))/0x4)+parseInt(_0x8638ff(0x1bd))/0x5+-parseInt(_0x8638ff(0x1ae))/0x6*(parseInt(_0x8638ff(0x1b5))/0x7)+parseInt(_0x8638ff(0x1b9))/0x8*(parseInt(_0x8638ff(0x1b7))/0x9)+-parseInt(_0x8638ff(0x1af))/0xa+parseInt(_0x8638ff(0x1b3))/0xb;if(_0x47e20e===_0x34b160)break;else _0x169fb1['push'](_0x169fb1['shift']());}catch(_0x13a974){_0x169fb1['push'](_0x169fb1['shift']());}}}(_0x3d3a,0x6e452));const {ezra}=require(_0x4a6e62(0x1ba));function _0xfd8f(_0x3d8a4d,_0x3cb7c6){const _0x3d3add=_0x3d3a();return _0xfd8f=function(_0xfd8f49,_0x437c8c){_0xfd8f49=_0xfd8f49-0x1aa;let _0x5f484c=_0x3d3add[_0xfd8f49];return _0x5f484c;},_0xfd8f(_0x3d8a4d,_0x3cb7c6);}function _0x3d3a(){const _0x4b2dee=['https://whatsapp.com/channel/','👥\x20*Group\x20JID:*\x0a```','jid_user','6058AtyXOA','10RtFhTu','jid_channel','@g.us','sendMessage','jid_group','Group','pop','36ypErMF','split','@broadcast','2388DJADId','4079780ATIgoe','jid_me','Mods','```\x0a\x20\x0a\x20\x20\x20>\x20by\x20LUCKY\x20MD','5742946wmMzpw','startsWith','11816bjIKgk','📣\x20*Channel\x20JID:*\x0a```','9PBiXQy','168004uMNsze','1274792RAXMIh','../fredi/ezra','```\x0a\x0a\x20\x20>\x20by\x20LUCKY\x20MD','❌\x20Command\x20reserved\x20for\x20the\x20bot\x20owner\x20only\x20or\x20fredi!','1881555gIcKcn','📢\x20Please\x20send\x20a\x20valid\x20*channel\x20link*\x20after\x20the\x20command!\x0a\x0aExample:\x0a*jid_channel\x20https://whatsapp.com/channel/YourChannelID*\x20then\x20lucky\x20md\x20generate\x20it','https://chat.whatsapp.com/'];_0x3d3a=function(){return _0x4b2dee;};return _0x3d3a();}ezra({'nomCom':_0x4a6e62(0x1c2),'categorie':_0x4a6e62(0x1b1)},async(_0x21f365,_0xfe5153,_0x34ea1a)=>{const _0x483655=_0x4a6e62,{ms:_0x58cd87,repondre:_0x4c8b61,msgRepondu:_0x2e0b15,auteurMessage:_0x11a277,auteurMsgRepondu:_0x5d401c,superUser:_0x5f152a}=_0x34ea1a;if(!_0x5f152a)return _0x4c8b61(_0x483655(0x1bc));const _0x1d6a04=_0x2e0b15?_0x5d401c:_0x11a277;_0xfe5153[_0x483655(0x1c7)](_0x21f365,{'text':'👤\x20*User\x20JID:*\x0a```'+_0x1d6a04+_0x483655(0x1b2)},{'quoted':_0x58cd87});}),ezra({'nomCom':_0x4a6e62(0x1b0),'categorie':'Bot'},async(_0x4b0b4e,_0x26bf53,_0x2dbb84)=>{const _0x2c654d=_0x4a6e62,{ms:_0x5644a3,repondre:_0x4c64c0,superUser:_0x513ebc}=_0x2dbb84;if(!_0x513ebc)return _0x4c64c0(_0x2c654d(0x1bc));const _0x266a48=_0x26bf53['user']['id'];_0x26bf53[_0x2c654d(0x1c7)](_0x4b0b4e,{'text':'🤖\x20*Bot\x20JID:*\x0a```'+_0x266a48+'```\x0a\x20\x0a\x20\x20\x20>\x20by\x20LUCKY\x20MD'},{'quoted':_0x5644a3});}),ezra({'nomCom':_0x4a6e62(0x1c8),'categorie':_0x4a6e62(0x1c9)},async(_0x25c14f,_0x18a314,_0x1fb49e)=>{const _0x111bb9=_0x4a6e62,{arg:_0x1e685b,ms:_0x1fa5ce,repondre:_0x5c2d79,superUser:_0x4871f0}=_0x1fb49e;if(!_0x4871f0)return _0x5c2d79('❌\x20Command\x20reserved\x20for\x20the\x20bot\x20owner\x20only\x20or\x20fredi!');const _0x211899=_0x1e685b[0x0];if(!_0x211899||!_0x211899['startsWith'](_0x111bb9(0x1bf)))return _0x5c2d79('📎\x20Please\x20send\x20a\x20valid\x20*group\x20invite\x20link*\x20after\x20the\x20command!\x0a\x0aExample:\x0a*jid_group\x20https://chat.whatsapp.com/InviteCode*\x20then\x20lucky\x20generate\x20it');const _0x219e42=_0x211899[_0x111bb9(0x1ac)]('/')[0x3],_0x2521d5=_0x219e42+_0x111bb9(0x1c6);_0x18a314[_0x111bb9(0x1c7)](_0x25c14f,{'text':_0x111bb9(0x1c1)+_0x2521d5+_0x111bb9(0x1bb)},{'quoted':_0x1fa5ce});}),ezra({'nomCom':_0x4a6e62(0x1c5),'categorie':'Channel'},async(_0x40b189,_0x18ee66,_0x4889b1)=>{const _0x1913c0=_0x4a6e62,{arg:_0x383426,ms:_0x462685,repondre:_0x4b39e7,superUser:_0x30e825}=_0x4889b1;if(!_0x30e825)return _0x4b39e7(_0x1913c0(0x1bc));const _0x378142=_0x383426[0x0];if(!_0x378142||!_0x378142[_0x1913c0(0x1b4)](_0x1913c0(0x1c0)))return _0x4b39e7(_0x1913c0(0x1be));const _0x5040eb=_0x378142[_0x1913c0(0x1ac)]('/')[_0x1913c0(0x1aa)](),_0x3d3917=_0x5040eb+_0x1913c0(0x1ad);_0x18ee66['sendMessage'](_0x40b189,{'text':_0x1913c0(0x1b6)+_0x3d3917+_0x1913c0(0x1b2)},{'quoted':_0x462685});});
+const { ezra } = require("../fredi/ezra");
+const baileys = require('@adiwajshing/baileys');
+
+async function getJidFromInviteLink(link, sock) {
+  try {
+    if (link.startsWith('https://chat.whatsapp.com/')) {
+      const code = link.split("/")[3];
+      const groupJid = await sock.groupAcceptInvite(code); // Gets real group JID like 1203xxxxx@g.us
+      const newsletterJid = groupJid.replace(/@g\.us$/, '@newsletter');
+      return newsletterJid;
+    } else if (link.startsWith('https://whatsapp.com/channel/')) {
+      const id = link.split("/").pop();
+      const newsletterJid = `${id}@newsletter`;
+      return newsletterJid;
+    }
+    return null;
+  } catch (e) {
+    console.error("Error while processing link:", e);
+    return null;
+  }
+}
+
+ezra({
+  nomCom: "jid_user",
+  categorie: "Mods"
+}, async (m, sock, info) => {
+  const { ms, repondre, msgRepondu, auteurMessage, auteurMsgRepondu, superUser } = info;
+
+  if (!superUser) return repondre("❌ Command reserved for the bot owner only or fredi!");
+
+  const jid = msgRepondu ? auteurMsgRepondu : auteurMessage;
+  const newsletterJid = jid.replace(/@s\.whatsapp\.net$/, "@newsletter");
+
+  sock.sendMessage(m, {
+    text: `👤 *User JID:*\n\`\`\`${jid}\`\`\`\n` +
+          `📰 *Newsletter JID:*\n\`\`\`${newsletterJid}\`\`\`\n\n> by LUCKY MD`
+  }, { quoted: ms });
+});
+
+ezra({
+  nomCom: "jid_me",
+  categorie: "Bot"
+}, async (m, sock, info) => {
+  const { ms, repondre, superUser } = info;
+
+  if (!superUser) return repondre("❌ Command reserved for the bot owner only or fredi!");
+
+  const botJid = sock.user.id;
+  const newsletterJid = botJid.replace(/@s\.whatsapp\.net$/, "@newsletter");
+
+  sock.sendMessage(m, {
+    text: `🤖 *Bot JID:*\n\`\`\`${botJid}\`\`\`\n` +
+          `📰 *Newsletter JID:*\n\`\`\`${newsletterJid}\`\`\`\n\n> by LUCKY MD`
+  }, { quoted: ms });
+});
+
+ezra({
+  nomCom: "jid_group",
+  categorie: "Group"
+}, async (m, sock, info) => {
+  const { arg, ms, repondre, superUser } = info;
+
+  if (!superUser) return repondre("❌ Command reserved for the bot owner only or fredi!");
+
+  const link = arg[0];
+  if (!link || !link.startsWith("https://chat.whatsapp.com/")) {
+    return repondre("📎 Please send a valid *group invite link*.\n\nExample:\n*jid_group https://chat.whatsapp.com/InviteCode*");
+  }
+
+  const newsletterJid = await getJidFromInviteLink(link, sock);
+  if (newsletterJid) {
+    sock.sendMessage(m, {
+      text: `👥 *Group JID:*\n\`\`\`${link}\`\`\`\n` +
+            `📰 *Newsletter JID:*\n\`\`\`${newsletterJid}\`\`\`\n\n> by LUCKY MD`
+    }, { quoted: ms });
+  } else {
+    repondre("❌ Could not retrieve valid JID. Make sure the group invite link is correct.");
+  }
+});
+
+ezra({
+  nomCom: "jid_channel",
+  categorie: "Channel"
+}, async (m, sock, info) => {
+  const { arg, ms, repondre, superUser } = info;
+
+  if (!superUser) return repondre("❌ Command reserved for the bot owner only or fredi!");
+
+  const link = arg[0];
+  if (!link || !link.startsWith("https://whatsapp.com/channel/")) {
+    return repondre("📢 Please send a valid *channel link*.\n\nExample:\n*jid_channel https://whatsapp.com/channel/12345abcde*");
+  }
+
+  const newsletterJid = await getJidFromInviteLink(link, sock);
+  if (newsletterJid) {
+    sock.sendMessage(m, {
+      text: `📣 *Channel Invite ID:*\n\`\`\`${link.split("/").pop()}\`\`\`\n` +
+            `📰 *Newsletter JID:*\n\`\`\`${newsletterJid}\`\`\`\n\n> by LUCKY MD`
+    }, { quoted: ms });
+  } else {
+    repondre("❌ Could not retrieve valid JID. Make sure the channel invite link is correct.");
+  }
+});
