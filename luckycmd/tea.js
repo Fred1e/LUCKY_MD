@@ -1,4 +1,4 @@
-frconst util = require('util');
+const util = require('util');
 const fs = require('fs-extra');
 const { ezra } = require(__dirname + "/../fredi/ezra");
 const { format } = require(__dirname + "/../fredi/mesfonctions");
@@ -67,7 +67,6 @@ ezra({ nomCom: "fetal", categorie: "Menu" }, async (dest, zk, commandeOptions) =
     try {
         const senderName = nomAuteurMessage || message.from;  // Use correct variable for sender name
         await zk.sendMessage(dest, {
-    await conn.sendMessage(from, {
             image: { url: `https://files.catbox.moe/idb19j.jpeg` },
             caption: formattedInfo,
             contextInfo: { 
