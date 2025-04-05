@@ -1,4 +1,4 @@
-const util = require('util');
+frconst util = require('util');
 const fs = require('fs-extra');
 const { ezra } = require(__dirname + "/../fredi/ezra");
 const { format } = require(__dirname + "/../fredi/mesfonctions");
@@ -67,19 +67,21 @@ ezra({ nomCom: "fetal", categorie: "Menu" }, async (dest, zk, commandeOptions) =
     try {
         const senderName = nomAuteurMessage || message.from;  // Use correct variable for sender name
         await zk.sendMessage(dest, {
-    text: infoMsg + menuMsg,
-    contextInfo: {
-        mentionedJid: [senderName],
-        externalAdReply: {
-            title: "LUCKY MD MENU LIST",
-            body: "Stay updated with daily scores & tech from FrediEzra",
-            thumbnailUrl: "https://files.catbox.moe/idb19j.jpeg",
-            sourceUrl: "mailto:120363313124070136@newsletter",
-            mediaType: 1,
-            renderLargerThumbnail: true
-        }
-    }
-});
+    await conn.sendMessage(from, {
+            image: { url: `https://files.catbox.moe/idb19j.jpeg` },
+            caption: formattedInfo,
+            contextInfo: { 
+                mentionedJid: [m.sender],
+                forwardingScore: 999,
+                isForwarded: true,
+                forwardedNewsletterMessageInfo: {
+                    newsletterJid: '120363313124070136@newsletter',
+                    newsletterName: '@IT-frediezra',
+                    serverMessageId: 143
+                }
+            }
+        }, { quoted: mek });
+
     } catch (error) {
         console.error("Menu error: ", error);
         repondre("🥵🥵 Menu error: " + error);
