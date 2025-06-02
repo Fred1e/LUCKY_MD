@@ -121,7 +121,7 @@ sᴛᴀʀ 🌟 ᴍʏ ʀᴇᴘᴏ ɪғ ʏᴏᴜ ʟɪᴋᴇ ᴛʜɪs ʙᴏᴛ ®�
 ## 𝟚.ᴡᴇʙ sɪᴛᴇ ᴛᴏ ɢᴇᴛ sᴇssɪᴏɴ ᴠɪᴀ ǫ
  
 </a></p>
-- <a href="(https://lucky-xforce-session-site.onrender.com/)"><img title="GET SESSION ID HERE" src="https://img.shields.io/badge/✧SCAN✧CODE✧2✧-h?color=rgb(184, 134, 11)&style=for-the-badge&logo=toyota&logoColor=white" width="240" height="38.45"/></a></p>
+- <a href="(https://lucky-xforce-session-site.onrender.com)"><img title="GET SESSION ID HERE" src="https://img.shields.io/badge/✧SCAN✧CODE✧2✧-h?color=rgb(184, 134, 11)&style=for-the-badge&logo=toyota&logoColor=white" width="240" height="38.45"/></a></p>
 
 
 
